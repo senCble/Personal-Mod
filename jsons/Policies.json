@@ -162,7 +162,7 @@
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "[+15]% Production when constructing [Military] units [in all cities]",
+                    "[+10]% Production when constructing [Military] units [in all cities]",
 		    "[+100]% Production when constructing [Barracks] buildings [in all cities]",
 		    "Free [Great General] appears",
                 ],
@@ -277,7 +277,7 @@
                 "name": "Reformation",
                 "uniques": [
 		    "[+2 Production] from every [Armory]",
-		    "[+3 Science] from every [Castle]"
+		    "[+2 Science] from every [Castle]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -463,7 +463,7 @@
                 "name": "Entrepreneurship",
                 "uniques": [
                     "[+100]% Gold from Great Merchant trade missions",
-                    "Free [Great Merchant] appears"
+                    "[Great Merchant] is earned [25]% faster"
                 ],
                 "requires": ["Mercenary Army"],
                 "row": 2,
@@ -473,10 +473,7 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
-                    "[+2 Science] from every [Mint]",
-                    "[+2 Science] from every [Market]",
-                    "[+2 Science] from every [Bank]",
-                    "[+2 Science] from every [Stock Exchange]"
+                    "[+1 Science] from all [Gold] buildings"
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
@@ -597,8 +594,7 @@
                 "name": "Humanism",
                 "uniques": [
                     "[+1 Happiness] from every [University]",
-                    "[+1 Happiness] from every [Public School]",
-		    "[Great Scientist] is earned [25]% faster"
+		    "[Great Scientist] is earned [25]% faster",
                 ],
                 "row": 1,
                 "column": 2
@@ -615,7 +611,9 @@
             },
             {
                 "name": "Sovereignty",
-                "uniques": ["[+1 Gold] from all [Science] buildings"],
+                "uniques": [
+		    "[+1 Gold] from all [Science] buildings",
+		],
                 "requires": ["Secularism"],
                 "row": 2,
                 "column": 5
@@ -654,13 +652,16 @@
         "policies": [
             {
                 "name": "Constitution",
-                "uniques": ["[-50]% Unhappiness from [Specialists] [in all cities]"],
+                "uniques": ["[+1 Culture] from every [Specialist]"],
                 "row": 1,
                 "column": 1
             },
             {
                 "name": "Universal Suffrage",
-                "uniques": ["[+33]% Strength for cities"],
+                "uniques": [
+		    "[+25]% Strength for cities",
+		    "[6] units cost no maintenance"  
+		],  
                 "row": 1,
                 "column": 3
             },
@@ -674,14 +675,21 @@
             },
             {
                 "name": "Free Speech",
-                "uniques": ["[+1 Culture] from every [Wonder]"],
+                "uniques": [
+		    "[-50]% Unhappiness from [Specialists] [in all cities]",
+		    "[+25]% Golden Age length",
+	    	],
                 "requires": ["Constitution"],
                 "row": 2,
                 "column": 1
             },
             {
                 "name": "Democracy",
-                "uniques": ["[+1 Production] from every [Specialist]"],
+                "uniques": [
+		    "[+1 Happiness] from every [Mint]",
+		    "[+1 Happiness] from every [Bank]",
+		    "[+1 Happiness] from every [Stock Exchange]"
+		],
                 "requires": ["Civil Society"],
                 "row": 2,
                 "column": 5
@@ -719,10 +727,7 @@
             },
             {
                 "name": "Militarism",
-                "uniques": [
-                    "[Gold] cost of purchasing [Military] units [-33]%",
-		    "Quantity of strategic resources produced by the empire +[50]%",
-		],
+                "uniques": ["[Gold] cost of purchasing [Military] units [-33]%"],
                 "row": 1,
                 "column": 4
             },
@@ -731,7 +736,7 @@
                 "uniques": [
 		    "[+3] Movement <for [Great General] units>",
                     "[+1] Movement <for [Armored] units>",
-		    "[+15]% Strength <for [Armored] units> <when adjacent to a [Great General] unit>"
+		    "Quantity of strategic resources produced by the empire +[100]%"
                 ],
                 "requires": ["Populism", "Militarism"],
                 "row": 2,
@@ -778,7 +783,8 @@
             "Scientific": 50
         },
         "uniques": [
-            "[+2 Happiness] from every [Monument]",
+            "[+1 Happiness, +1 Culture] from every [Monument]",
+	    "[+100]% Production when constructing [Monument] buildings [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
         ],
@@ -786,9 +792,9 @@
             {
                 "name": "United Front",
                 "uniques": [
-                    "Influence of all other civilizations with all city-states degrades [33]% faster",
-                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
-                ],
+		    "[Gold] cost of purchasing [All] buildings [-25]%",
+		    "[-15]% maintenance cost for buildings [in all cities]"
+		],
                 "row": 1,
                 "column": 1
             },
@@ -813,7 +819,9 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[-25]% maintenance cost for buildings [in all cities]"
+                    "[+1 Happiness] from every [Workshop]",
+		    "[+1 Happiness] from every [Windmill]",
+		    "[+1 Happiness] from every [Factory]",
                 ],
                 "row": 2,
                 "column": 3
