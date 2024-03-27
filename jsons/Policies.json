@@ -266,7 +266,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [  
-		    "[+1 Food] from every [Pasture]",
+		    "[+1 Food, +1 Gold] from every [Pasture]",
 		    "[+3 Culture] from every [Holy site]"
                 ],
                 "requires": ["Mandate Of Heaven", "Reformation"],
@@ -277,7 +277,7 @@
                 "name": "Reformation",
                 "uniques": [
 		    "[+2 Production] from every [Armory]",
-		    "[+2 Science] from every [Castle]"
+		    "[+3 Science] from every [Castle]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -288,7 +288,7 @@
                 "uniques": [
                     "Free [Great Prophet] appears",
 		    "[+15]% [Production] from every [Armory] <during We Love The King Day>",
-		    "[+15]% [Science]  from every [Castle] <during We Love The King Day>",
+		    "[+15]% [Science] from every [Castle] <during We Love The King Day>",
 		    "[+15]% [Faith] from every [Temple] <during We Love The King Day>",
                 ]
             }
