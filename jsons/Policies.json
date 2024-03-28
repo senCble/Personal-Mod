@@ -250,7 +250,6 @@
 		    "[+1 Faith] from every [Temple]",
 		    "[Faith] cost of purchasing items in cities [-20]%",
                 ],
-		"requires": ["Organized Religion"],
                 "row": 1,
                 "column": 5
             },
@@ -280,7 +279,7 @@
 		    "[+2 Production] from every [Armory]",
 		    "[+2 Science] from every [Castle]"
                 ],
-                "requires": ["Mandate Of Heaven", "Reformation"],
+                "requires": ["Mandate Of Heaven", "Free Religion"],
                 "row": 3,
                 "column": 4
             },
