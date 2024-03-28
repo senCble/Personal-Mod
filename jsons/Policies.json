@@ -78,7 +78,7 @@
             "Neutral": 10,
             "Cultural": 10,
             "Diplomatic": 10,
-            "Domination": 10,
+            "Domination": 0,
             "Scientific": 10
         },
         "uniques": [
@@ -149,7 +149,7 @@
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
-            "Diplomatic": 10,
+            "Diplomatic": 0,
             "Domination": 10,
             "Scientific": 0
         },
@@ -163,7 +163,7 @@
                 "name": "Warrior Code",
                 "uniques": [
                     "[+10]% Production when constructing [Military] units [in all cities]",
-		    "[+50]% Production when constructing [Barracks] buildings [in all cities]",
+		    "[+100]% Production when constructing [Barracks] buildings [in all cities]",
 		    "Free [Great General] appears",
                 ],
                 "row": 1,
@@ -223,15 +223,15 @@
         "era": "Classical era",
         "priorities": {
             "Neutral": 0,
-            "Cultural": 10,
+            "Cultural": 0,
             "Diplomatic": 0,
             "Domination": 10,
             "Scientific": 10
         },
         "uniques": [
-		"[+100]% Production when constructing [Temple] wonders [in all cities]",
 		"[+50]% Production when constructing [Armory] buildings [in all cities]",
 		"[+50]% Production when constructing [Castle] buildings [in all cities]",
+		"[+100]% Production when constructing [Temple] wonders [in all cities]",
         ],
         "policies": [
             {
@@ -287,9 +287,9 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-		    "[+15]% [Production] from every [Armory] <during We Love The King Day>",
-		    "[+15]% [Science] from every [Castle] <during We Love The King Day>",
-		    "[+15]% [Faith] from every [Temple] <during We Love The King Day>",
+		    "[+10]% [Production] from every [Armory] <during We Love The King Day>",
+		    "[+10]% [Science] from every [Castle] <during We Love The King Day>",
+		    "[+10]% [Faith] from every [Temple] <during We Love The King Day>",
                 ]
             }
         ]
@@ -668,7 +668,9 @@
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "[-50]% Food consumption by specialists [in all cities]"
+		    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
+		    "[-100]% maintenance costs <for [Hospital]>",
+		    "[+1 Happiness] from every [Hospital]",    
                 ],
                 "row": 1,
                 "column": 5
@@ -686,9 +688,7 @@
             {
                 "name": "Democracy",
                 "uniques": [
-		    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
-		    "[-100]% maintenance costs <for [Hospital]>",
-		    "[+1 Happiness] from every [Hospital]",    
+		    "[-50]% Food consumption by specialists [in all cities]"
 		],
                 "requires": ["Civil Society"],
                 "row": 2,
@@ -707,10 +707,10 @@
         "era": "Industrial era",
         "priorities": {
             "Neutral": 50,
-            "Cultural": 40,
+            "Cultural": 50,
             "Diplomatic": 40,
-            "Domination": 80,
-            "Scientific": 40
+            "Domination": 60,
+            "Scientific": 50
         },
         "uniques": [
             "[-33]% maintenance costs <for [All] units>",
@@ -722,7 +722,6 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-		    "Quantity of strategic resources produced by the empire +[100]%",
 		    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
 		    "[+1 Happiness] from every [Military Academy]"
 	        ],
@@ -731,7 +730,10 @@
             },
             {
                 "name": "Militarism",
-                "uniques": ["[Gold] cost of purchasing [Military] units [-33]%"],
+                "uniques": [
+		    "[Gold] cost of purchasing [Military] units [-25]%",
+		    "Quantity of strategic resources produced by the empire +[100]%",
+		],
                 "row": 1,
                 "column": 4
             },
