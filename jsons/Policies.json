@@ -502,8 +502,8 @@
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
-            "Diplomatic": 10,
-            "Domination": 20,
+            "Diplomatic": 0,
+            "Domination": 10,
             "Scientific": 0
         },
         "uniques": [
@@ -574,8 +574,8 @@
         "priorities": {
             "Neutral": 10,
             "Cultural": 20,
-            "Diplomatic": 20,
-            "Domination": 20,
+            "Diplomatic": 10,
+            "Domination": 10,
             "Scientific": 60
         },
         "uniques": [
