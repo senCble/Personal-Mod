@@ -83,8 +83,8 @@
         "type": "Pantheon",
         "uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
             "[+15]% Production when constructing [Classical era] wonders [in cities following this religion]",
-            "[+1 Faith] from every [Ancient Era] [Wonder]",
-            "[+1 Faith] from every [Classical Era] [Wonder]"]
+            "[+1 Faith] from every [{Ancient Era} {Wonder}]",
+            "[+1 Faith] from every [{Classical Era} {Wonder}]"]
     },
     {
         "name": "One with Nature",
