@@ -723,7 +723,8 @@
                 "name": "Populism",
                 "uniques": [		    
 		    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
-		    "[+1 Happiness] from every [Military Academy]"
+		    "[+1 Happiness] from every [Military Academy]",
+		    "Quantity of strategic resources produced by the empire +[100]%"
 	        ],
                 "row": 1,
                 "column": 2
@@ -731,8 +732,7 @@
             {
                 "name": "Militarism",
                 "uniques": [
-		    "[Gold] cost of purchasing [Military] units [-25]%",
-		    "Quantity of strategic resources produced by the empire +[100]%",
+		    "[Gold] cost of purchasing [Military] units [-33]%",
 		],
                 "row": 1,
                 "column": 4
