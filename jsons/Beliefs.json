@@ -13,7 +13,7 @@
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Desert] without [Flood plains]"]
+        "uniques": ["[+1 Faith] from [Desert] tiles without [Flood plains] [in this city]"]
     },
     {
         "name": "Faith Healers",
@@ -48,7 +48,7 @@
     {
         "name": "God of War",
         "type": "Pantheon",
-        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 5 tiles of a city following this religion",
+        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion",
             "[+1 Faith] from every [Barracks]"]
     },
     {
