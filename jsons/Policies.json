@@ -646,7 +646,7 @@
             "Scientific": 50
         },
         "uniques": [
-            "[+25]% Great Person generation [in all cities]",
+            "[+33]% Great Person generation [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Order]>"
         ],
@@ -723,7 +723,7 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-		    "Quantity of strategic resources produced by the empire +[50]%",
+		    "Quantity of strategic resources produced by the empire +[100]%",
 		    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
 		    "[+1 Happiness] from every [Military Academy]"
 	        ],
