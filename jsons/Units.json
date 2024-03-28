@@ -133,13 +133,14 @@
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
-		"cost": 35,
+		"cost": 36,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Construction",
 		"replaces": "Archer",
 		"uniqueTo": "The Maya",
 		"upgradesTo": "Composite Bowman",
-		"attackSound": "arrow"
+		"attackSound": "arrow",
+		"hurryCostModifier": -10,
 	},
 	{
 		"name": "Skirmisher",
