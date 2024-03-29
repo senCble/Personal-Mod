@@ -1322,7 +1322,7 @@
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 65,
-		"cost": 400,
+		"cost": 375,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
 		"uniques": [
@@ -1330,6 +1330,7 @@
 			"Defense bonus when embarked",
 			"Never appears as a Barbarian unit",
 		],
+		"upgradesTo": "XCOM Squard",
 		"promotions": ["Ignore terrain cost","[Sipahi] ability"],
 		"attackSound": "shot"
   	},
@@ -1401,12 +1402,13 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
+		"upgradesTo": "XCOM Squard",
+		"obsoleteTech": "Nanotechnology",
 		"uniques": [
-			"May Paradrop up to [9] tiles from inside friendly territory",
-			"[+50]% Strength <vs [Siege] units>",
+			"May Paradrop up to [10] tiles from inside friendly territory",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Sipahi] ability"],
+		"promotions": ["[Sipahi] ability","Ignore terrain cost"],
 		"attackSound": "shot"
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
@@ -1489,7 +1491,7 @@
 		"movement": 3,
 		"interceptRange": 2,
 		"strength": 65,
-		"cost": 425,
+		"cost": 375,
 		"requiredTech": "Rocketry",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
@@ -1617,11 +1619,25 @@
 		"attackSound": "jetgun"
 	},
 	{
+		"name": "XCOM Squad",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Nanotechnology",
+		"uniques": [
+			"May Paradrop up to [40] tiles from inside friendly territory",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["[Sipahi] ability","Ignore terrain cost"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Giant Death Robot",
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 150,
-		"cost": 425,
+		"cost": 450,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
