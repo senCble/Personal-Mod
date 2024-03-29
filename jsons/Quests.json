@@ -52,9 +52,9 @@
     "influence": 80,
     "duration": 30
       "weightForCityStateType": {
-          "Hostile": 2,
-          "Friendly": 0.2,
-          "Militaristic": 2
+          "Hostile": 1,
+          "Friendly": 0.1,
+          "Militaristic": 1
       }
   },
   {
@@ -155,9 +155,9 @@
     "description": "We are tired of the pretensions of [cityState]. If someone were to put them in their place by Demanding Tribute from them, they would be rewarded.",
     "duration": 30,
       "weightForCityStateType": {
-          "Hostile": 2,
-          "Irrational": 1.5,
-          "Friendly": 0.3
+          "Hostile": 1,
+          "Irrational": 0.5,
+          "Friendly": 0.1
       }
   },
   {
@@ -165,11 +165,11 @@
     "description": "We have been forced to pay tribute to [civName]! We need you to tell the world of their ill deeds.",
     "duration": 30,
       "weightForCityStateType": {
-          "Cultured": 1.5,
-          "Maritime": 2,
-          "Mercantile": 1.5,
-          "Militaristic": 1.5,
-          "Religious": 2.5
+          "Cultured": 1,
+          "Maritime": 1.5,
+          "Mercantile": 1,
+          "Militaristic": 1,
+          "Religious": 2
       }
   },
   {
