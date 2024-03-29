@@ -128,7 +128,7 @@
     {
         "name": "Asceticism",
         "type": "Follower",
-        "uniques": ["[+1 Culture, +1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"]
+        "uniques": ["[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"]
     },
     {
         "name": "Cathedrals",
@@ -138,22 +138,23 @@
     {
         "name": "Choral Music",
         "type": "Follower",
-        "uniques": ["[+3 Culture] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+        "uniques": ["[+3 Culture, +1 Faith] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
     },
     {
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+2 Faith] from every [World Wonder]"]
+        "uniques": ["[+1 Faith] from every [Wonder]",
+            "[+2 Faith] [in all cities with a world wonder]"]
     },
     {
         "name": "Feed the World",
         "type": "Follower",
-        "uniques": ["[+1 Food] from every [Shrine]", "[+2 Food] from every [Temple]"]
+        "uniques": ["[+1 Food] from every [Shrine]", "[+1 Food] from every [Temple]"]
     },
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+3 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+        "uniques": ["[+3 Production, +1 Faith] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
     },
     {
         "name": "Holy Warriors",
@@ -183,17 +184,17 @@
     {
         "name": "Peace Gardens",
         "type": "Follower",
-        "uniques": ["[+1 Culture, +1 Faith, +2 Happiness] from every [Garden]"]
+        "uniques": ["[+2 Culture, +2 Happiness] from every [Garden]"]
     },
     {
         "name": "Religious Art",
         "type": "Follower",
-        "uniques": ["[+8 Culture, +4 Happiness] from every [Hermitage]"]
+        "uniques": ["[+8 Culture, +4 Happiness] from every [Grand Temple]"]
     },
     {
         "name": "Religious Center",
         "type": "Follower",
-        "uniques": ["[+1 Faith, +2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+        "uniques": ["[+2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
     },
     {
         "name": "Religious Community",
