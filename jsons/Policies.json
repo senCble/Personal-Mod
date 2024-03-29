@@ -741,8 +741,8 @@
                 "name": "Fascism",
                 "uniques": [
 		    "[+3] Movement <for [Great General] units>",
-                    "[+1] Movement <for [Armored] units>",
-		    "[+15]% Strength <for [Armored] units>"
+                    "[Armored] units gain the [Lightning Warfare] promotion",
+		    "[+15]% Strength <for [Armored] units> <when adjacent to a [Great General] unit>"
                 ],
                 "requires": ["Populism", "Militarism"],
                 "row": 2,
