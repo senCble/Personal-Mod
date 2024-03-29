@@ -1074,7 +1074,7 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": " Infantry",
+		"upgradesTo": "Infantry",
 		"promotions": ["March"],
 		"attackSound": "shot"
 	},
@@ -1088,7 +1088,7 @@
 		"cost": 200,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": " Infantry",
+		"upgradesTo": "Infantry",
 		"promotions": ["Drill I","Home Sweet Home"],
 		"attackSound": "shot"
 	},
