@@ -1074,7 +1074,7 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
+		"upgradesTo": " Infantry",
 		"promotions": ["March"],
 		"attackSound": "shot"
 	},
@@ -1088,7 +1088,7 @@
 		"cost": 200,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
+		"upgradesTo": " Infantry",
 		"promotions": ["Drill I","Home Sweet Home"],
 		"attackSound": "shot"
 	},
@@ -1179,7 +1179,7 @@
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
+		"obsoleteTech": "Combined Arms",
 		"attackSound": "shot"
 	},
 	{
@@ -1192,7 +1192,7 @@
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
+		"obsoleteTech": "Combined Arms",
 		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
 		"attackSound": "shot"
 	},
@@ -1396,7 +1396,7 @@
 	},
 	{
 		"name": "Paratrooper",
-		"unitType": "Scout*",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 65,
 		"cost": 375,
