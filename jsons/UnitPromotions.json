@@ -12,7 +12,7 @@
 	{
 		"name": "Accuracy I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 1,
         "row": 1
     },
@@ -20,7 +20,7 @@
 		"name": "Accuracy II",
 		"prerequisites": ["Accuracy I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 1,
         "row": 2
     },
@@ -28,7 +28,7 @@
 		"name": "Accuracy III",
 		"prerequisites": ["Accuracy II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 1,
         "row": 3
     },
@@ -36,7 +36,7 @@
 	{
 		"name": "Barrage I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 2,
         "row": 1
 	},
@@ -44,7 +44,7 @@
 		"name": "Barrage II",
 		"prerequisites": ["Barrage I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 2,
         "row": 2
 	},
@@ -52,7 +52,7 @@
 		"name": "Barrage III",
 		"prerequisites": ["Barrage II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 2,
         "row": 3
 	},
@@ -139,6 +139,14 @@
         "row": 2
 	},
 	{
+		"name": "Skirmish",
+		"prerequisites": ["Accuracy II","Barrage II"],
+		"uniques": ["[+33]% Strength <vs [non-[Wounded]] units>"],
+		"unitTypes": ["Ranged Mounted","Helicopter"],
+        "column": 6,
+        "row": 2
+	},
+	{
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
@@ -189,9 +197,9 @@
 	},
 	{
 		"name": "Medic",
-		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
+		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II","Accuracy I","Barrage I"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Ranged Mounted","Helicopter"],
         "column": 10, // after scout base
         "row": 1
 	},
@@ -199,7 +207,7 @@
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Ranged Mounted","Ranged Mounted","Helicopter"],
         "column": 10,
         "row": 2
 	},
@@ -246,7 +254,7 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)"], // This number is not based on any source
+		"uniques": ["Unit will heal every turn, even if it performs an action", "No movement cost to pillage""], // This number is not based on any source
 		"unitTypes": ["Scout"],
         "column": 9,
         "row": 3
@@ -533,9 +541,9 @@
 	},
 	{
 		"name": "Air Repair",
-		"prerequisites": ["Interception II", "Dogfighting II", "Siege II", "Bombardment II", "Mobility II", "Anti-Armor II"],
+		"prerequisites": ["Interception II", "Dogfighting II", "Siege II", "Bombardment II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
+		"unitTypes": ["Fighter", "Bomber"],
         "column": 21,
         "row": 3
 	},
@@ -591,9 +599,9 @@
 
 	{
 		"name": "March",
-		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
+		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted","Ranged Mounted","Helicopter"],
         "column": 10,
         "row": 3
 	},
@@ -602,7 +610,7 @@
 		"prerequisites": ["Shock II","Drill II","Targeting I",
 			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine"],
+		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Ranged Mounted","Helicopter"],
         "column": 24,
         "row": 3
 	},
@@ -610,7 +618,7 @@
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water","Ranged Mounted","Helicopter"],
         "column": 24,
         "row": 4
 	},
@@ -693,7 +701,7 @@
 	},
 	{
 		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"uniques": ["May withdraw before melee ([80]%)"]
+		"uniques": ["May withdraw before melee ([75]%)"]
 	},
 	{
 		"name": "Ignore terrain cost",
@@ -769,8 +777,12 @@
 		"uniques": ["[+3] Movement <when [Embarked]>"]
 	},
 	{
-		"name": "Ignore Zone of Control",
-		"uniques": ["Ignores Zone of Control"]
+		"name": "Lightning Warfare",
+		"prerequisites": ["Accuracy III","Barrage III"],
+		"uniques": ["[+1] Movement","Ignores Zone of Control"],
+		"unitTypes": ["Ranged Mounted","Helicopter"],
+		"column": 6,
+        	"row": 4
 	},
 	{
 		"name": "Knightly Order",
