@@ -665,7 +665,7 @@
 		"uniqueTo": "Mongolia",
 		"movement": 5,
 		"strength": 13,
-		"rangedStrength": 14,
+		"rangedStrength": 15,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
