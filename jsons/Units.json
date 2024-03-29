@@ -317,7 +317,7 @@
 		"strength": 10,
 		"cost": 75,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Physics",
+		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <vs [Military] units>",
 		"[-1] Sight"]
@@ -351,8 +351,8 @@
 		"uniques": ["[+1] Sight <when [Embarked]>",
 			"Defense bonus when embarked",
 			"[+33]% Strength <vs [Barbarian] units>",
-			"Never appears as a Barbarian unit",
-			"Ignore terrain cost"],
+			"Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "metalhit"
 	},
 
@@ -1325,12 +1325,12 @@
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>",
+		"uniques": [
+			"[+1] Sight <when [Embarked]>",
 			"Defense bonus when embarked",
-			"No Movement Cost to Pillage",
-			"Ignore terrain cost",
 			"Never appears as a Barbarian unit",
 		],
+		"promotions": ["Ignore terrain cost","[Sipahi] ability"],
 		"attackSound": "shot"
   	},
 	{
@@ -1396,7 +1396,7 @@
 	},
 	{
 		"name": "Paratrooper",
-		"unitType": "Gunpowder",
+		"unitType": "Scout*",
 		"movement": 2,
 		"strength": 65,
 		"cost": 375,
@@ -1404,9 +1404,9 @@
 		"uniques": [
 			"May Paradrop up to [9] tiles from inside friendly territory",
 			"[+50]% Strength <vs [Siege] units>",
-			"No Movement Cost to Pillage",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": ["[Sipahi] ability"],
 		"attackSound": "shot"
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
@@ -1566,8 +1566,8 @@
 		"name": "Missile Cruiser",
 		"unitType": "Ranged Water",
 		"movement": 5,
-		"strength": 60,
-		"rangedStrength": 75,
+		"strength": 65,
+		"rangedStrength": 80,
 		"range": 3,
 		"interceptRange": 2,
 		"cost": 425,
