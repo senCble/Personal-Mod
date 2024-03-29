@@ -260,7 +260,7 @@
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built <in [Annexed] cities>"],
+			"Can only be built <in annexed cities>"],
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -336,7 +336,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-		"uniques": ["Gain [250] [Culture]"],
+		"uniques": ["Gain [300] [Culture]"],
 		"requiredTech": "Philosophy",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
@@ -469,7 +469,7 @@
 		"culture": 1,
 		"faith": 8,
 		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built <in [Holy] cities>"],
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built <in holy cities>"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
 	},
