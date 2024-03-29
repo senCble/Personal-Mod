@@ -590,7 +590,7 @@
 		"cost": 135,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
-		"requiredTech": "Lancer",
+		"upgradesTo": "Lancer",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight"],
 		"promotions": ["[Conquistador] ability"],
@@ -957,7 +957,7 @@
 		"requiredResource": "Horses",
 		"uniques": ["[+10]% Strength <when attacking>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
 		"upgradesTo": "Landship",
-		"obsoleteTech": "Railroad",
+		"obsoleteTech": "Railroads",
 		"attackSound": "horse"
 	},
 	{
@@ -974,7 +974,7 @@
 			"[+1] Sight"],
 		"promotions": ["[Sipahi] ability"],
 		"upgradesTo": "Landship",
-		"obsoleteTech": "Railroad",
+		"obsoleteTech": "Railroads",
 		"attackSound": "horse"
 	},
 	{
@@ -986,7 +986,7 @@
 		"strength": 25,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Railroads",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["[+10]% Strength <when attacking>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
@@ -1007,7 +1007,7 @@
 		"uniques": ["[+10]% Strength <when attacking>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Hakkapeliitta] ability"],
 		"upgradesTo": "Landship",
-		"obsoleteTech": "Railroad",
+		"obsoleteTech": "Railroads",
 		"attackSound": "horse"
 	},
 	{
@@ -1294,7 +1294,7 @@
 		"movement": 4,
 		"strength": 55,
 		"cost": 350,
-		"requiredTech": "Railroad",
+		"requiredTech": "Railroads",
 		"requiredResource": "Oil",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
