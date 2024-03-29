@@ -8,7 +8,7 @@
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
+        "uniques": ["[+1 Faith] from every [Tundra]"]
     },
     {
         "name": "Desert Folklore",
@@ -76,7 +76,7 @@
     {
         "name": "Messenger of the Gods",
         "type": "Pantheon",
-        "uniques": ["[+2 Science, +2 Faith] from each Trade Route"]
+        "uniques": ["[+2 Science, +1 Faith] from each Trade Route"]
     },
     {
         "name": "Monument to the Gods",
@@ -221,27 +221,27 @@
     {
         "name": "Initiation Rites",
         "type": "Founder",
-        "uniques": ["[+100 Gold] when a city adopts this religion for the first time (modified by game speed)"]
+        "uniques": ["[+150 Gold] when a city adopts this religion for the first time (modified by game speed)"]
     },
     {
         "name": "Interfaith Dialogue",
         "type": "Founder",
-        "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"]
+        "uniques": ["When spreading religion to a city, gain [20] times the amount of followers of other religions as [Science]"]
     }
     {
         "name": "Papal Primacy",
         "type": "Founder",
-        "uniques": ["Resting point for Influence with City-States following this religion [+20]"]
+        "uniques": ["Resting point for Influence with City-States following this religion [+30]"]
     },
     {
         "name": "Peace Loving",
         "type": "Founder",
-        "uniques": ["[+1 Happiness] from every [8] global followers [in foreign cities]"]
+        "uniques": ["[+1 Happiness] from every [5] global followers [in foreign cities]"]
     },
     {
         "name": "Pilgrimage",
         "type": "Founder",
-        "uniques": ["[+2 Faith] for each global city following this religion"]
+        "uniques": ["[+3 Faith] for each global city following this religion"]
     },
     {
         "name": "Tithe",
