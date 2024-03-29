@@ -234,7 +234,7 @@ PolicyIcons/New Deal
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Patriotism
+UnitIcons/Bazooka
   rotate: false
   xy: 1364, 514
   size: 50, 50
