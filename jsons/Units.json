@@ -27,8 +27,8 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-    		"upgradesTo": "Marine"
-		"obsoleteTech": "Pharmaceuticals",
+    		"upgradesTo": "Marauder"
+		"obsoleteTech": "Compass",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects",
             		"Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
@@ -355,16 +355,18 @@
 	},
 	{
 		"name": "Marauder",
-		"unitType": "Sword",
-		"replaces": "Spearman",
-		"uniqueTo": "Barbarians",
+		"unitType": "Scout",
 		"movement": 2,
-		"strength": 10,
-		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"strength": 16,
+		"cost": 120,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Pharmaceuticals",
+		"upgradesTo": "Marine",
+		"uniques": ["[+1] Sight <when [Embarked]>",
+			"Defense bonus when embarked",
+			"[+33]% Strength <vs [Barbarian] units>",
+			"Never appears as a Barbarian unit",
+			"Ignore terrain cost"],
 		"attackSound": "metalhit"
 	},
 
@@ -892,7 +894,7 @@
 	{
 		"name": "Privateer",
 		"unitType": "Melee Water",
-		"movement": 5,
+		"movement": 6,
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
@@ -906,7 +908,7 @@
 		"unitType": "Melee Water",
 		"replaces": "Privateer",
 		"uniqueTo": "The Netherlands",
-		"movement": 5,
+		"movement": 6,
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
@@ -1317,8 +1319,11 @@
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
 		"uniques": ["[+1] Sight <when [Embarked]>",
-			"[1] Movement point cost to embark",
-			"Defense bonus when embarked"],
+			"Defense bonus when embarked",
+			"No Movement Cost to Pillage",
+			"Ignore terrain cost",
+			"Never appears as a Barbarian unit",
+		],
 		"attackSound": "shot"
   	},
 	{
@@ -1389,7 +1394,12 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"May Paradrop up to [9] tiles from inside friendly territory",
+			"[+50]% Strength <vs [Siege] units>",
+			"No Movement Cost to Pillage",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot"
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
@@ -1687,8 +1697,8 @@
 		"name": "Missionary",
 		"unitType": "Civilian",
 		"uniques": [
-            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
-            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+            		"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            		"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
 		"movement": 4,
