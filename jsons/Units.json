@@ -1536,7 +1536,7 @@
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+50]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+			"All tiles cost 1 movement", "Ignores Zone of Control", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 
