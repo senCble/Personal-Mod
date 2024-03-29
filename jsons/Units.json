@@ -1553,6 +1553,18 @@
 		"attackSound": "torpedo"
 	},
 	{
+		"name": "Bazooka",
+		"unitType": "Ranged Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 85,
+		"rangedStrength": 85,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"attackSound": "machinegun"
+		// Upgrades to Bazooka in BNW
+	},
+	{
 		"name": "Mechanized Infantry",
 		"unitType": "Gunpowder",
 		"movement": 3,
