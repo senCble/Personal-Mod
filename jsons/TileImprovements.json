@@ -43,14 +43,14 @@
 	// Resource-specific
 	{
 		"name": "Camp",
-		"turnsToBuild": 7,
+		"turnsToBuild": 8,
 		"techRequired": "Trapping",
 		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "C"
 	},
 	{
 		"name": "Oil well",
-		"turnsToBuild": 9,
+		"turnsToBuild": 8,
 		"techRequired": "Biology",
 		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "W"
@@ -85,7 +85,7 @@
 	},
 	{
 		"name": "Fishing Boats",
-    		"turnsToBuild": 6,
+    		"turnsToBuild": 8,
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "Sailing",
@@ -97,7 +97,7 @@
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
-		"turnsToBuild": 6,
+		"turnsToBuild": 4,
 		"techRequired": "Engineering",
 		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
 		"shortcutKey": "O"
@@ -143,7 +143,7 @@
 	},
 	{
 		"name": "Remove Jungle",
-		"turnsToBuild": 7,
+		"turnsToBuild": 4,
 		"techRequired": "Bronze Working",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
@@ -157,7 +157,7 @@
 	},
 	{
 		"name": "Remove Marsh",
-		"turnsToBuild": 6,
+		"turnsToBuild": 4,
 		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
