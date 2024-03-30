@@ -1273,7 +1273,6 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mechanized Infantry",
 		"attackSound": "machinegun"
-		// Upgrades to Bazooka in BNW
 	},
 	{
 		"name": "Anti-Aircraft Gun",
@@ -1563,8 +1562,8 @@
 		"rangedStrength": 85,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
-		"attackSound": "machinegun"
-		// Upgrades to Bazooka in BNW
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Mechanized Infantry",
