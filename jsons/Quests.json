@@ -52,9 +52,8 @@
     "influence": 80,
     "duration": 30
       "weightForCityStateType": {
-          "Hostile": 1,
-          "Friendly": 0.1,
-          "Militaristic": 1
+          "Hostile": 0.5,
+          "Militaristic": 0.5
       }
   },
   {
@@ -70,7 +69,7 @@
     "name": "Find Natural Wonder",
     "description": "Send your best explorers on a quest to discover Natural Wonders. Nobody knows the location of [naturalWonder] yet.",
       "weightForCityStateType": {
-          "Hostile": 0.3,
+          "Hostile": 0.4,
           "Militaristic": 0.5
       }
   },
@@ -83,7 +82,7 @@
       "weightForCityStateType": {
           "Cultured": 3,
           "Maritime": 3,
-          "Mercantile": 3.5,
+          "Mercantile": 4,
           "Militaristic": 2,
           "Religious": 3
       }
@@ -94,7 +93,7 @@
     "influence": 20,
     "duration": 30,
       "weightForCityStateType": {
-          "Cultured": 3.5,
+          "Cultured": 4,
           "Maritime": 3,
           "Mercantile": 3,
           "Militaristic": 2,
@@ -155,9 +154,8 @@
     "description": "We are tired of the pretensions of [cityState]. If someone were to put them in their place by Demanding Tribute from them, they would be rewarded.",
     "duration": 30,
       "weightForCityStateType": {
-          "Hostile": 1,
-          "Irrational": 0.5,
-          "Friendly": 0.1
+          "Hostile": 0.5,
+          "Irrational": 0.4,
       }
   },
   {
