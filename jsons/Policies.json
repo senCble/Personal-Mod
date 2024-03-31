@@ -239,7 +239,7 @@
                 "uniques": [
 		    "[+1 Happiness] from every [Armory]",
                     "[+1 Happiness] from every [Castle]",
-		    "[+1 Temple] from every [Castle]",
+		    "[+1 Culture] from every [Temple]"
                 ],
                 "row": 1,
                 "column": 2
