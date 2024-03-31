@@ -190,7 +190,7 @@
             {
                 "name": "Military Caste",
                 "uniques": [
-                    "[+1 Happiness, +1 Culture] from every [Walls]",
+                    "[+1 Happiness, +2 Culture] from every [Walls]",
 		    "Gain a free [Walls] [in puppeted cities]",
 		    "Gain a free [Walls] [in annexed cities]",
                 ],
@@ -201,7 +201,7 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-		    "[+1 Happiness, +1 Culture] from every [Barracks]", 
+		    "[+1 Happiness] from every [Barracks]", 
                     "[-33]% Gold cost of upgrading <for [Military] units>",
 		    "[Great General] is earned [50]% faster"
 		],
