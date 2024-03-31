@@ -802,7 +802,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
+		"uniques": ["[+1 Food, +1 Production] from [Lakes] tiles [in this city]","Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -814,7 +814,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["[+25]% Great Person generation [in this city]"],
+		"uniques": ["[+1 Food, +1 Production] from [Lakes] tiles [in this city]","[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -915,7 +915,7 @@
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-    "uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing"],
+		"uniques": ["[All] Units adjacent to this city heal [+10] HP per turn when healing"],
 		"requiredTech": "Biology"
 	},
 	{
