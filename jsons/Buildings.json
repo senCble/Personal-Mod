@@ -798,7 +798,7 @@
 	},
 	{
 		"name": "Windmill",
-		"production": 2,
+		"production": 3,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
@@ -1023,7 +1023,7 @@
 		"requiredBuilding": "Hospital",
 		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[25]% Food is carried over after population increases [in this city]", "[+1 Science] from every specialist [in all cities]"]
+		"uniques": ["[30]% Food is carried over after population increases [in this city]", "[+1 Science] from every specialist [in all cities]"]
 	},
 	{
 		"name": "Manhattan Project",
