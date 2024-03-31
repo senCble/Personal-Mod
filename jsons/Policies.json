@@ -6,7 +6,7 @@
         "era": "Ancient era",
         "priorities": {
             "Neutral": 0,
-            "Cultural": 10,
+            "Cultural": 20,
             "Diplomatic": 10,
             "Domination": 0,
             "Scientific": 10
@@ -76,9 +76,9 @@
         "era": "Ancient era",
         "priorities": {
             "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 0,
+            "Cultural": 20,
+            "Diplomatic": 0,
+            "Domination": 10,
             "Scientific": 10
         },
         "uniques": [
