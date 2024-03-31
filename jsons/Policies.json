@@ -192,6 +192,7 @@
                 "uniques": [
                     "[+1 Happiness, +2 Culture] from every [Walls]",
 		    "Gain a free [Walls] [in puppeted cities]",
+		    "Gain a free [Walls] [in annexed cities]",
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
