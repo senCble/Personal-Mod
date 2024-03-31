@@ -237,8 +237,9 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-		    "[+1 Happiness, +1 Culture] from every [Armory]",
-                    "[+1 Happiness, +1 Culture] from every [Castle]",
+		    "[+1 Happiness] from every [Armory]",
+                    "[+1 Happiness] from every [Castle]",
+		    "[+1 Temple] from every [Castle]",
                 ],
                 "row": 1,
                 "column": 2
@@ -265,7 +266,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [  
-		    "[+1 Food, +1 Gold] from every [Pasture]",
+		    "[+1 Food, +1 Culture] from every [Pasture]",
 		    "[+3 Culture] from every [Holy site]"
                 ],
                 "requires": ["Organized Religion"],
@@ -286,9 +287,9 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-		    "[+10]% [Production] from every [Armory] <during We Love The King Day>",
-		    "[+10]% [Science] from every [Castle] <during We Love The King Day>",
-		    "[+10]% [Faith] from every [Temple] <during We Love The King Day>",
+		    "[+15]% [Production] from every [Armory] <during We Love The King Day>",
+		    "[+15]% [Science] from every [Castle] <during We Love The King Day>",
+		    "[+15]% [Faith] from every [Temple] <during We Love The King Day>",
                 ]
             }
         ]
@@ -517,7 +518,7 @@
 		    "[+1 Production, +1 Science] from every [Ocean]"
                 ],
                 "row": 1,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Naval Tradition",
@@ -527,7 +528,7 @@
 		    "[+3 Culture, +3 Science] from every [Citadel]",
                 ],
                 "row": 1,
-                "column": 3
+                "column": 4
             },
             {
                 "name": "Merchant Navy",
@@ -539,7 +540,7 @@
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 2,
-                "column": 3
+                "column": 4
             },
             {
                 "name": "Navigation School",
@@ -550,7 +551,7 @@
                 ],
                 "requires": ["Maritime Infrastructure","Naval Tradition"],
                 "row": 2,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Colonialism",
@@ -561,7 +562,7 @@
                 ],
                 "requires": ["Merchant Navy"],
                 "row": 3,
-                "column": 3
+                "column": 4
             },
             {
                 "name": "Exploration Complete",
