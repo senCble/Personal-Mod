@@ -191,8 +191,7 @@
                 "name": "Military Caste",
                 "uniques": [
                     "[+1 Happiness, +2 Culture] from every [Walls]",
-		    "Gain a free [Walls] [in puppeted cities]",
-		    "Gain a free [Walls] [in annexed cities]",
+		    "Gain a free [Walls] [in puppeted cities]"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -238,8 +237,7 @@
                 "name": "Organized Religion",
                 "uniques": [
 		    "[+1 Happiness] from every [Armory]",
-                    "[+1 Happiness] from every [Castle]",
-		    "[+1 Culture] from every [Temple]"
+                    "[+1 Happiness] from every [Castle]"
                 ],
                 "row": 1,
                 "column": 2
@@ -247,7 +245,7 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-		    "[+2 Faith] from every [Temple]",
+		    "[+1 Faith] from every [Temple]",
 		    "[Faith] cost of purchasing items in cities [-20]%",
                 ],
                 "row": 1,
