@@ -8,12 +8,21 @@
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Tundra]"]
+        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
     },
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
         "uniques": ["[+1 Faith] from [Desert] tiles without [Flood plains] [in this city]"]
+    },
+    {
+        "name": "Earth Mother",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Salt]",
+            "[+1 Faith] from every [Copper]",
+            "[+1 Faith] from every [Iron]",
+        ]
     },
     {
         "name": "Faith Healers",
@@ -27,6 +36,11 @@
         "uniques": ["[+10]% growth [in this city]",
             "[+1 Faith] from every [Granary]"]
         // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
+    },
+    {
+        "name": "God King",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture, +1 Faith, +1 Gold, +1 Production, +1 Science] from every [Palace]>"]
     },
     {
         "name": "God of Craftsman",
@@ -59,7 +73,7 @@
     {
         "name": "Goddess of Love",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness, +2 Faith] [in cities following this religion] <in cities with at least [5] [Population]>"]
+        "uniques": ["[+1 Happiness, +1 Faith] [in cities following this religion] <in cities with at least [6] [Population]>"]
     },
     {
         "name": "Goddess of Protection",
@@ -76,7 +90,7 @@
     {
         "name": "Messenger of the Gods",
         "type": "Pantheon",
-        "uniques": ["[+2 Science, +1 Faith] from each Trade Route"]
+        "uniques": ["[+2 Science, +2 Faith] from each Trade Route"]
     },
     {
         "name": "Monument to the Gods",
@@ -95,7 +109,7 @@
         "name": "Oral Tradition",
         "type": "Pantheon",
         "uniques": ["[+1 Culture] from every [Plantation]",
-            "[+1 Faith] [in cities following this religion] <within [2] tiles of a [Plantation]>"]
+            "[+1 Faith] [in cities following this religion] <within [3] tiles of a [Plantation]>"]
     },
     {
         "name": "Religious Idols",
@@ -124,6 +138,23 @@
         "type": "Pantheon",
         "uniques": ["[+2 Faith] from every [Quarry]"]
     },
+    {
+        "name": "Sun God",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Bananas]",
+            "[+1 Faith] from every [Citrus]",
+            "[+1 Faith] from every [Wheat]",
+        ]
+    },
+    {
+        "name": "Tears of the Gods",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Culture, +1 Faith] from every [Pearls]",
+            "[+1 Culture, +1 Faith] from every [Gems]",
+        ]
+    },
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
         "name": "Asceticism",
@@ -143,7 +174,7 @@
     {
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+1 Faith] from every [Wonder]",
+        "uniques": ["[+1 Faith] from every [Wonder]", 
             "[+2 Faith] [in all cities with a world wonder]"]
     },
     {
@@ -154,7 +185,8 @@
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+3 Production, +1 Faith] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+        "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
+            "[+1 Faith] from every [Specialist]"]
     },
     {
         "name": "Holy Warriors",
@@ -204,7 +236,7 @@
     {
         "name": "Swords into Ploughshares",
         "type": "Follower",
-        "uniques": ["[+15]% growth [in this city] <when not at war>"]
+        "uniques": ["[+20]% growth [in this city] <when not at war>"]
     },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
 
