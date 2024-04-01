@@ -28,7 +28,7 @@
         "name": "Faith Healers",
         "type": "Pantheon",
         "uniques": ["[All] Units adjacent to this city heal [+25] HP per turn when healing",
-            "[+1 Faith] from every [Library]"]
+            "[+2 Faith] from every [Library]"]
     },
     {
         "name": "Fertility Rites",
@@ -221,7 +221,7 @@
     {
         "name": "Religious Art",
         "type": "Follower",
-        "uniques": ["[+6 Culture, +3 Faith, +3 Happiness] from every [Grand Temple]"]
+        "uniques": ["[+8 Culture, +3 Faith, +3 Happiness] from every [Grand Temple]"]
     },
     {
         "name": "Religious Center",
