@@ -174,8 +174,7 @@
     {
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+1 Faith] from every [Wonder]", 
-            "[+3 Faith] [in all cities with a world wonder]"]
+        "uniques": ["[+2 Faith] from every [Wonder]"]
     },
     {
         "name": "Feed the World",
@@ -195,7 +194,7 @@
     {
         "name": "Liturgical Drama",
         "type": "Follower",
-        "uniques": ["[+1 Faith, +1 Happiness] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
+        "uniques": ["[+2 Faith, +1 Happiness] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
     },
     {
         "name": "Monasteries",
@@ -220,7 +219,7 @@
     {
         "name": "Religious Art",
         "type": "Follower",
-        "uniques": ["[+8 Culture, +3 Happiness] from every [Grand Temple]"]
+        "uniques": ["[+8 Culture, +4 Happiness] from every [Grand Temple]"]
     },
     {
         "name": "Religious Center",
@@ -235,7 +234,7 @@
     {
         "name": "Swords into Ploughshares",
         "type": "Follower",
-        "uniques": ["[+20]% growth [in this city]"]
+        "uniques": ["[+25]% growth [in this city] <when not at war>"]
     },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
 
