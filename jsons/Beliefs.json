@@ -40,7 +40,7 @@
     {
         "name": "God King",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith, +1 Gold, +1 Production, +1 Science] from every [Palace]>"]
+        "uniques": ["[+1 Culture, +1 Faith, +1 Gold, +1 Production, +1 Science] from every [Palace]"]
     },
     {
         "name": "God of Craftsman",
