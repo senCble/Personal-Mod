@@ -245,7 +245,7 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-		    "[+1 Faith] from every [Temple]",
+		    "[+2 Faith] from every [Temple]",
 		    "[Faith] cost of purchasing items in cities [-20]%",
                 ],
                 "row": 1,
@@ -285,9 +285,9 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-		    "[+15]% [Production] from every [Armory] <during We Love The King Day>",
-		    "[+15]% [Science] from every [Castle] <during We Love The King Day>",
-		    "[+15]% [Faith] from every [Temple] <during We Love The King Day>",
+		    "[+15]% [Production] [in all cities] <during We Love The King Day>",
+		    "[+15]% [Science] [in all cities] <during We Love The King Day>",
+		    "[+15]% [Faith] [in all cities] <during We Love The King Day>",
                 ]
             }
         ]
@@ -394,6 +394,7 @@
             {
                 "name": "Monumentality",
                 "uniques": [
+		    "[+1 Culture] from every [National Wonder]",
 		    "[+33]% [Culture] [in all cities with a world wonder]",  
                 ],
 		"requires": ["Cultural Centers"],
@@ -422,7 +423,7 @@
             {
                 "name": "Aesthetics Complete",
                 "uniques": [
-                    "[-10]% Culture cost of adopting new Policies",
+                    "[-8]% Culture cost of adopting new Policies",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -521,9 +522,8 @@
             {
                 "name": "Naval Tradition",
                 "uniques": [
-		    "[+2 Happiness] [in all cities] <with a garrison>",
-		    "[+1 Culture, +1 Science] from every [Fort]",
-		    "[+3 Culture, +3 Science] from every [Citadel]",
+		    "[+2 Culture, +2 Happiness] [in all cities] <within [2] tiles of a [Fort]>",
+		    "[+3 Culture] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
@@ -543,8 +543,8 @@
             {
                 "name": "Navigation School",
                 "uniques": [
-		    "[+10]% Production when constructing [{Military} {Water}] units [in all cities]",
-                    "[Great General] units gain the [Great Admiral] promotion",
+		    "[Great General] units gain the [Great Admiral] promotion",
+		    "[+15]% Strength <for [Melee Water] units> <when adjacent to a [Great General] unit>",
                     "Free [Great General] appears"
                 ],
                 "requires": ["Maritime Infrastructure","Naval Tradition"],
