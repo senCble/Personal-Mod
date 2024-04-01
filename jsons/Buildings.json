@@ -1151,8 +1151,8 @@
 	{
 		"name": "Cathedral",
 		"cost": 0,
-		"faith": 1,
 		"culture": 3,
+		"faith": 1,
 		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
@@ -1160,9 +1160,9 @@
 	{
 		"name": "Monastery",
 		"cost": 0,
-		"culture": 2,
+		"culture": 1,
 		"faith": 2,
-    "happiness": 1,
+    		"happiness": 1,
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
 			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
