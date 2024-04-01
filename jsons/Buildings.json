@@ -1161,7 +1161,7 @@
 		"name": "Monastery",
 		"cost": 0,
 		"culture": 1,
-		"faith": 2,
+		"faith": 1,
     		"happiness": 1,
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
