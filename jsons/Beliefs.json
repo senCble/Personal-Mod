@@ -221,7 +221,7 @@
     {
         "name": "Religious Art",
         "type": "Follower",
-        "uniques": ["[+8 Culture, +4 Happiness] from every [Grand Temple]"]
+        "uniques": ["[+6 Culture, +3 Faith, +3 Happiness] from every [Grand Temple]"]
     },
     {
         "name": "Religious Center",
