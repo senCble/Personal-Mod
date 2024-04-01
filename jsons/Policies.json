@@ -414,7 +414,7 @@
                 "name": "Cultural Exchange",
                 "uniques": [
                     "[Great Artist] is earned [25]% faster",
-		    "Empire enters golden age",
+		    "[+25]% Golden Age length",
                 ],
                 "requires": ["Monumentality"],
                 "row": 3,
@@ -423,7 +423,8 @@
             {
                 "name": "Aesthetics Complete",
                 "uniques": [
-                    "[-8]% Culture cost of adopting new Policies",
+                    "[-5]% Culture cost of adopting new Policies",
+		    "Empire enters golden age",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -663,7 +664,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
 		    "[+25]% Strength for cities",
-		    "[6] units cost no maintenance"  
+		    "[8] units cost no maintenance"  
 		],  
                 "row": 1,
                 "column": 3
@@ -681,8 +682,7 @@
             {
                 "name": "Free Speech",
                 "uniques": [
-		    "[-50]% Unhappiness from [Specialists] [in all cities]",
-		    "[+25]% Golden Age length"
+		    "[-50]% Unhappiness from [Specialists] [in all cities]",   
 	    	],
                 "requires": ["Constitution"],
                 "row": 2,
