@@ -337,7 +337,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-		"uniques": ["Gain [300] [Culture]"],
+		"uniques": ["Gain [400] Culture"],
 		"requiredTech": "Philosophy",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
@@ -392,7 +392,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must have an owned [Desert] within [2] tiles", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Market] [in this city]", "[+3 Culture] [in this city] <after discovering [Archaeology]>"],
+		"uniques": ["Must have an owned [Desert] within [2] tiles", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Market] [in this city]", "[+2 Culture] [in this city] <after discovering [Archaeology]>"],
 		"requiredTech": "Currency",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
 	},
@@ -765,8 +765,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"requiredBuilding": "Harbor",
-		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
-			"[+1 Gold] from [Coast] tiles [in this city]",
+		"uniques": ["[+1 Production +1 Gold] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "Navigation"
 	},
