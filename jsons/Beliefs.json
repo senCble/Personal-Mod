@@ -33,7 +33,7 @@
     {
         "name": "Fertility Rites",
         "type": "Pantheon",
-        "uniques": ["[+10]% growth [in this city]",
+        "uniques": ["[+15]% growth [in this city]",
             "[+1 Faith] from every [Granary]"]
         // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
     },
@@ -235,7 +235,7 @@
     {
         "name": "Swords into Ploughshares",
         "type": "Follower",
-        "uniques": ["[+20]% growth [in this city] <when not at war>"]
+        "uniques": ["[+20]% growth [in this city]"]
     },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
 
@@ -332,6 +332,6 @@
     {
         "name": "Reliquary",
         "type": "Enhancer",
-        "uniques": ["[+50 Faith] whenever a Great Person is expended"]
+        "uniques": ["[+100 Faith] whenever a Great Person is expended"]
     }
 ]
