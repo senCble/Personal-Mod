@@ -275,7 +275,7 @@
                 "name": "Reformation",
                 "uniques": [
 		    "[+2 Production] from every [Armory]",
-		    "[+2 Science] from every [Castle]"
+		    "[+3 Science] from every [Castle]"
                 ],
                 "requires": ["Mandate Of Heaven", "Free Religion"],
                 "row": 3,
@@ -461,8 +461,8 @@
             {
                 "name": "Entrepreneurship",
                 "uniques": [
-		    "[Great Merchant] is earned [25]% faster",
 		    "[+100]% Gold from Great Merchant trade missions",
+		    "[Great Merchant] is earned [25]% faster",
                 ],
                 "requires": ["Mercenary Army"],
                 "row": 2,
@@ -472,7 +472,8 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
-		    "[+1 Science] from all [Gold] buildings",
+		    "[+2 Science] from every [Market]",
+		    "[+2 Science] from every [Bank]",
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
@@ -589,7 +590,8 @@
             {
                 "name": "Secularism",
                 "uniques": [
-                    "[+1 Science] from every specialist [in all cities]"
+		    "[+1 Science] from every specialist [in all cities]",
+		    "[Great Scientist] is earned [25]% faster",
                 ],
 		"requires": ["Sovereignity"],
                 "row": 2,
@@ -617,7 +619,6 @@
             {
                 "name": "Sovereignty",
                 "uniques": [
-		    "[Great Scientist] is earned [25]% faster",
 		    "[+1 Gold] from all [Science] buildings",
 		],
                 "row": 1,
@@ -657,7 +658,10 @@
         "policies": [
             {
                 "name": "Constitution",
-                "uniques": ["[+1 Culture] from every [Specialist]"],
+                "uniques": [		
+		    "[+1 Culture] from every [Specialist]",
+		    "[+25]% Golden Age length",
+		],
                 "row": 1,
                 "column": 1
             },
@@ -684,7 +688,6 @@
                 "name": "Free Speech",
                 "uniques": [
 		    "[-50]% Unhappiness from [Specialists] [in all cities]", 
-		    "[+25]% Golden Age length"
 	    	],
                 "requires": ["Constitution"],
                 "row": 2,
