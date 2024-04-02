@@ -461,8 +461,8 @@
             {
                 "name": "Entrepreneurship",
                 "uniques": [
-                    "[+1 Gold] from every [Specialist]",
-                    "[Great Merchant] is earned [25]% faster"
+		    "[Great Merchant] is earned [25]% faster",
+		    "[+100]% Gold from Great Merchant trade missions",
                 ],
                 "requires": ["Mercenary Army"],
                 "row": 2,
@@ -472,7 +472,7 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
-                    "[+1 Science] from all [Gold] buildings"
+		    "[+1 Science] from all [Gold] buildings",
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
@@ -489,7 +489,7 @@
                 "name": "Commerce Complete",
                 "uniques": [
                     	"[+1 Gold] from every [Trading post]",
-			"[+100]% Gold from Great Merchant trade missions",
+			"[+1 Gold] from every [Specialist]",
                     	"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -515,6 +515,7 @@
                 "uniques": [
                     "[+1 Production, +1 Science] from every [Coast]",
 		    "[+1 Production, +1 Science] from every [Ocean]",
+		    "[+3 Science] from every [Citadel]"
                 ],
                 "row": 1,
                 "column": 2
@@ -523,7 +524,7 @@
                 "name": "Naval Tradition",
                 "uniques": [
 		    "[+2 Happiness] [in all cities] <within [2] tiles of a [Fort]>",
-		    "[+2 Culture] from every [Citadel]",
+		    "[+3 Culture] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
@@ -535,7 +536,6 @@
 		    "[+1 Gold] from every [Walls]",
 		    "[+1 Gold] from every [Armory]",
 		    "[+1 Gold] from every [Castle]",
-		    "[+2 Gold] from every [Citadel]"
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 2,
@@ -591,7 +591,8 @@
                 "uniques": [
                     "[+1 Science] from every specialist [in all cities]"
                 ],
-                "row": 1,
+		"requires": ["Sovereignity"],
+                "row": 2,
                 "column": 5
             },
             {
@@ -611,16 +612,15 @@
                 ],
                 "requires": ["Humanism"],
                 "row": 2,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Sovereignty",
                 "uniques": [
-		    "[+1 Gold] from all [Science] buildings",
 		    "[Great Scientist] is earned [25]% faster",
+		    "[+1 Gold] from all [Science] buildings",
 		],
-                "requires": ["Secularism"],
-                "row": 2,
+                "row": 1,
                 "column": 5
             },
             {
@@ -628,7 +628,7 @@
                 "uniques": ["Science gained from research agreements [+50]%"],
                 "requires": ["Free Thought"],
                 "row": 3,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Rationalism Complete",
