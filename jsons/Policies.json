@@ -395,7 +395,7 @@
                 "name": "Monumentality",
                 "uniques": [
 		    "[+1 Culture] from every [National Wonder]",
-		    "[+17]% [Culture] [in all cities with a world wonder]",  
+		    "[+20]% [Culture] [in all cities with a world wonder]",  
                 ],
 		"requires": ["Cultural Centers"],
                 "row": 2,
@@ -447,7 +447,8 @@
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
 		    "[+1 Science] from all [Gold] buildings",
                 ],
-                "row": 1,
+		"requires": ["Mercenary Army"],
+                "row": 2,
                 "column": 4
             },
             {
@@ -465,8 +466,7 @@
 		    "[+100]% Gold from Great Merchant trade missions",
 		    "[Great Merchant] is earned [25]% faster",
                 ],
-                "requires": ["Mercenary Army"],
-                "row": 2,
+                "row": 1,
                 "column": 4
             },
             {
