@@ -444,10 +444,11 @@
             {
                 "name": "Mercenary Army",
                 "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+		    "[+1 Science] from all [Gold] buildings",
                 ],
                 "row": 1,
-                "column": 2
+                "column": 4
             },
             {
                 "name": "Trade Unions",
@@ -456,7 +457,7 @@
                     "[-50]% maintenance on road & railroads"
                 ],
                 "row": 1,
-                "column": 4
+                "column": 2
             },
             {
                 "name": "Entrepreneurship",
@@ -466,25 +467,23 @@
                 ],
                 "requires": ["Mercenary Army"],
                 "row": 2,
-                "column": 2
+                "column": 4
             },
             {
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
-		    "[+2 Science] from every [Market]",
-		    "[+2 Science] from every [Bank]",
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
-                "column": 4
+                "column": 2
             },
             {
                 "name": "Protectionism",
                 "uniques": ["[+2] Happiness from each type of luxury resource"],
                 "requires": ["Mercantilism"],
                 "row": 3,
-                "column": 4
+                "column": 2
             },
             {
                 "name": "Commerce Complete",
