@@ -592,9 +592,8 @@
 		    "[+1 Science] from every specialist [in all cities]",
 		    "[Great Scientist] is earned [25]% faster",
                 ],
-		"requires": ["Sovereignity"],
-                "row": 2,
-                "column": 5
+                "row": 1,
+                "column": 4
             },
             {
                 "name": "Humanism",
@@ -620,8 +619,9 @@
                 "uniques": [
 		    "[+1 Gold] from all [Science] buildings",
 		],
-                "row": 1,
-                "column": 5
+		"requires": ["Secularism"],
+                "row": 2,
+                "column": 4
             },
             {
                 "name": "Scientific Revolution",
