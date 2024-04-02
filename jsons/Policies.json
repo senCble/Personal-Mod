@@ -395,7 +395,7 @@
                 "name": "Monumentality",
                 "uniques": [
 		    "[+1 Culture] from every [National Wonder]",
-		    "[+20]% [Culture] [in all cities with a world wonder]",  
+		    "[+17]% [Culture] [in all cities with a world wonder]",  
                 ],
 		"requires": ["Cultural Centers"],
                 "row": 2,
