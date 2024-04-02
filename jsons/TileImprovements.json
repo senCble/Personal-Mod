@@ -195,7 +195,7 @@
 	{
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"science": 8,
+		"science": 6,
 		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
