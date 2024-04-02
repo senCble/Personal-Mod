@@ -323,7 +323,7 @@
             {
                 "name": "Scholasticism",
                 "uniques": [
-                    "Allied City-States provide [Science] equal to [50]% of what they produce for themselves"
+                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
                 ],
                 "requires": ["Philantropy"],
                 "row": 2,
@@ -423,7 +423,7 @@
             {
                 "name": "Aesthetics Complete",
                 "uniques": [
-                    "[-8]% Culture cost of adopting new Policies",
+                    "[-10]% Culture cost of adopting new Policies",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -461,7 +461,7 @@
             {
                 "name": "Entrepreneurship",
                 "uniques": [
-                    "[+100]% Gold from Great Merchant trade missions",
+                    "[+1 Gold] from every [Specialist]",
                     "[Great Merchant] is earned [25]% faster"
                 ],
                 "requires": ["Mercenary Army"],
@@ -489,7 +489,7 @@
                 "name": "Commerce Complete",
                 "uniques": [
                     	"[+1 Gold] from every [Trading post]",
-			"[+1 Gold] from every [Specialist]",
+			"[+100]% Gold from Great Merchant trade missions",
                     	"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -522,8 +522,8 @@
             {
                 "name": "Naval Tradition",
                 "uniques": [
-		    "[+2 Culture, +2 Happiness] [in all cities] <within [2] tiles of a [Fort]>",
-		    "[+3 Culture] from every [Citadel]",
+		    "[+2 Happiness] [in all cities] <within [2] tiles of a [Fort]>",
+		    "[+2 Culture] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
@@ -535,6 +535,7 @@
 		    "[+1 Gold] from every [Walls]",
 		    "[+1 Gold] from every [Armory]",
 		    "[+1 Gold] from every [Castle]",
+		    "[+2 Gold] from every [Citadel]"
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 2,
@@ -588,7 +589,7 @@
             {
                 "name": "Secularism",
                 "uniques": [
-                    "[+2 Science] from every specialist [in all cities]"
+                    "[+1 Science] from every specialist [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
@@ -597,7 +598,7 @@
                 "name": "Humanism",
                 "uniques": [
                     "[+1 Happiness] from every [University]",
-		    "[Great Scientist] is earned [25]% faster",
+		    "[+1 Happiness] from every [Public School]",
                 ],
                 "row": 1,
                 "column": 2
@@ -616,6 +617,7 @@
                 "name": "Sovereignty",
                 "uniques": [
 		    "[+1 Gold] from all [Science] buildings",
+		    "[Great Scientist] is earned [25]% faster",
 		],
                 "requires": ["Secularism"],
                 "row": 2,
