@@ -458,10 +458,12 @@
                 "column": 2
             },
 	    {
-                "name": "Entrepreneurship",
+                "name": "Mercantilism",
                 "uniques": [
-		    "[+1 Gold] from every [Specialist]",
-		    "[Great Merchant] is earned [25]% faster",
+		    "[+1 Science] from every [Trading post]",
+                    "[+5]% [Science] from every [Market]",
+		    "[+6]% [Science] from every [Bank]",
+		    "[+6]% [Science] from every [Stock Exchange]",
                 ],
                 "row": 1,
                 "column": 4
@@ -472,19 +474,17 @@
 		    "[Gold] cost of purchasing items in cities [-25]%",
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
                 ],
-		"requires": ["Trade Unions","Entrepreneurship"],
+		"requires": ["Trade Unions","Mercantilism"],
                 "row": 2,
                 "column": 2
             },
-            {
-                "name": "Mercantilism",
+	    {
+                "name": "Entrepreneurship",
                 "uniques": [
-		    "[+1 Science] from every [Trading post]",
-                    "[+5]% [Science] from every [Market]",
-		    "[+6]% [Science] from every [Bank]",
-		    "[+6]% [Science] from every [Stock Exchange]",
+		    "[+1 Gold] from every [Specialist]",
+		    "[Great Merchant] is earned [25]% faster",
                 ],
-                "requires": ["Entrepreneurship"],
+		"requires": ["Mercantilism"],
                 "row": 2,
                 "column": 4
             },
