@@ -893,7 +893,7 @@
 	{
 		"name": "Privateer",
 		"unitType": "Melee Water",
-		"movement": 5,
+		"movement": 6,
 		"strength": 26,
 		"cost": 150,
 		"requiredTech": "Navigation",
@@ -907,7 +907,7 @@
 		"unitType": "Melee Water",
 		"replaces": "Privateer",
 		"uniqueTo": "The Netherlands",
-		"movement": 5,
+		"movement": 6,
 		"strength": 26,
 		"cost": 150,
 		"requiredTech": "Navigation",
@@ -919,7 +919,7 @@
 	{
 		"name": "Frigate",
 		"unitType": "Ranged Water",
-		"movement": 4,
+		"movement": 5,
 		"strength": 24,
 		"rangedStrength": 28,
 		"cost": 185,
@@ -1128,7 +1128,7 @@
 	{
 		"name": "Ironclad",
 		"unitType": "Melee Water",
-		"movement": 4,
+		"movement": 5,
 		"strength": 45,
 		"cost": 250,
 		"requiredTech": "Steam Power",
