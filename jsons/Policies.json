@@ -6,14 +6,15 @@
         "era": "Ancient era",
         "priorities": {
             "Neutral": 0,
-            "Cultural": 10,
-            "Diplomatic": 10,
+            "Cultural": 20,
+            "Diplomatic": 20,
             "Domination": 0,
             "Scientific": 10
         },
         "uniques": [
             "[+3 Culture] [in capital]",
-            "[-25]% Culture cost of natural border growth [in all cities]"
+            "[-25]% Culture cost of natural border growth [in all cities]",
+	    "Only available <before adopting [Liberty]>"
         ],
         "policies": [
             {
@@ -76,14 +77,15 @@
         "era": "Ancient era",
         "priorities": {
             "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 0,
+            "Cultural": 20,
+            "Diplomatic": 20,
             "Domination": 10,
             "Scientific": 10
         },
         "uniques": [
 		"[+1 Culture] [in all cities]",
 		"[+1 Happiness] [in capital]",
+		"Only available <before adopting [Tradition]>"
 	],
         "policies": [
             {
@@ -222,7 +224,7 @@
         "era": "Classical era",
         "priorities": {
             "Neutral": 0,
-            "Cultural": 5,
+            "Cultural": 10,
             "Diplomatic": 0,
             "Domination": 10,
             "Scientific": 10
@@ -297,8 +299,8 @@
         "era": "Classical era",
         "priorities": {
             "Neutral": 0,
-            "Cultural": 5,
-            "Diplomatic": 10,
+            "Cultural": 10,
+            "Diplomatic": 20,
             "Domination": 0,
             "Scientific": 10
         },
@@ -365,7 +367,7 @@
         "era": "Classical era",
         "priorities": {
             "Neutral": 0,
-            "Cultural": 10,
+            "Cultural": 20,
             "Diplomatic": 0,
             "Domination": 0,
             "Scientific": 0
@@ -438,8 +440,8 @@
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
+            "Diplomatic": 20,
+            "Domination": 20,
             "Scientific": 10
         },
         "uniques": [
@@ -461,7 +463,7 @@
 		    "[+1 Gold] from every [Specialist]",
 		    "[Great Merchant] is earned [25]% faster",
                 ],
-                "row": 1,
+                "row": 2,
                 "column": 4
             },
             {
@@ -479,11 +481,11 @@
                 "uniques": [
 		    "[+1 Science] from every [Trading post]",
                     "[+5]% [Science] from every [Market]",
-		    "[+5]% [Science] from every [Bank]",
-		    "[+5]% [Science] from every [Stock Exchange]",
+		    "[+6]% [Science] from every [Bank]",
+		    "[+6]% [Science] from every [Stock Exchange]",
                 ],
                 "requires": ["Entrepreneurship"],
-                "row": 2,
+                "row": 1,
                 "column": 4
             },
             {
@@ -496,7 +498,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+2 Gold] from every [Trading post]",
+                    "[+1 Gold] from every [Trading post]",
 		    "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -510,7 +512,7 @@
             "Neutral": 0,
             "Cultural": 0,
             "Diplomatic": 0,
-            "Domination": 10,
+            "Domination": 20,
             "Scientific": 0
         },
         "uniques": [
@@ -614,8 +616,8 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-		    "[+1 Science] from every [Lumber Mill]",
-		    "[+1 Science] from every [Mine]",
+		    "[+1 Science] from every [Lumber mill]",
+		    "[+1 Science] from every [Mine] <in tiles without [resource]>",
                     "[+17]% [Science] from every [University]"
                 ],
                 "requires": ["Humanism"],
@@ -666,7 +668,7 @@
             {
                 "name": "Constitution",
                 "uniques": [		
-		    "[+1 Culture, +1 Gold] from every [Specialist]",
+		    "[+2 Culture] from every [Specialist]",
 		],
                 "row": 1,
                 "column": 1
@@ -674,8 +676,8 @@
             {
                 "name": "Universal Suffrage",
                 "uniques": [
-		    "[+33]% Strength for cities",
-		    "[6] units cost no maintenance"  
+		    "[+25]% Strength for cities",
+		    "[8] units cost no maintenance"  
 		],  
                 "row": 1,
                 "column": 3
@@ -704,6 +706,7 @@
                 "name": "Democracy",
                 "uniques": [
 		    "[-50]% Food consumption by specialists [in all cities]",
+		    "[+1 Gold] from every [Specialist]"
 		],
                 "requires": ["Civil Society"],
                 "row": 2,
@@ -832,7 +835,7 @@
                 "name": "Nationalism",
                 "uniques": [
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-		    "Earn [25]% of killed [Military] unit's [Strength] as [Culture]",
+		    "Earn [25]% of killed [Military] unit's [Strength] as [Science]",
                 ],
                 "row": 1,
                 "column": 5
