@@ -832,7 +832,8 @@
             {
                 "name": "Nationalism",
                 "uniques": [
-                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+		    "Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
                 ],
                 "row": 1,
                 "column": 5
