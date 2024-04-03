@@ -163,7 +163,7 @@
                 "name": "Warrior Code",
                 "uniques": [
                     "[+15]% Production when constructing [{Military} {Land}] units [in all cities]",
-		    "[+100]% Production when constructing [Barracks] buildings [in all cities]",
+		    "[+50]% Production when constructing [Barracks] buildings [in all cities]",
 		    "Free [Great General] appears",
                 ],
                 "row": 1,
@@ -172,7 +172,7 @@
             {
                 "name": "Discipline",
                 "uniques": [
-                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
+                    "[+15]% Strength <for [Sword] units> <when adjacent to a [Military] unit>",
 		    "[+15]% Strength <for [Gunpowder] units> <when adjacent to a [Military] unit>",
                 ],
                 "row": 1,
@@ -190,8 +190,8 @@
             {
                 "name": "Military Caste",
                 "uniques": [
-                    "[+1 Happiness, +2 Culture] from every [Walls]",
-		    "Gain a free [Walls] [in puppeted cities]"
+                    "[+1 Happiness, +3 Culture] from every [Barracks]",
+		    "Gain a free [Barracks] [in puppeted cities]"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -200,9 +200,9 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-		    "[+1 Happiness] from every [Barracks]", 
+		    "[+100]% Production when constructing [Walls] buildings [in all cities]",
+		    "[+1 Happiness] from every [Walls]",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
-		    "[Great General] is earned [50]% faster"
 		],
                 "requires": ["Military Caste"],
                 "row": 3,
@@ -212,6 +212,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+		    "[Great General] is earned [50]% faster",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
@@ -323,7 +324,7 @@
             {
                 "name": "Scholasticism",
                 "uniques": [
-                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
+                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
                 ],
                 "requires": ["Philantropy"],
                 "row": 2,
@@ -441,6 +442,15 @@
         },
         "uniques": ["[+25]% [Gold] [in capital]"],
         "policies": [
+	    {
+                "name": "Entrepreneurship",
+                "uniques": [
+		    "[+100]% Gold from Great Merchant trade missions",
+		    "[Great Merchant] is earned [25]% faster",
+                ],
+                "row": 1,
+                "column": 4
+            },
             {
                 "name": "Mercenary Army",
                 "uniques": [
@@ -461,20 +471,11 @@
                 "column": 2
             },
             {
-                "name": "Entrepreneurship",
-                "uniques": [
-		    "[+100]% Gold from Great Merchant trade missions",
-		    "[Great Merchant] is earned [25]% faster",
-                ],
-                "row": 1,
-                "column": 4
-            },
-            {
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
                 ],
-                "requires": ["Trade Unions"],
+                "requires": ["Trade Unions","Entrepreneurship"],
                 "row": 2,
                 "column": 2
             },
@@ -515,7 +516,6 @@
                 "uniques": [
                     "[+1 Production, +1 Science] from every [Coast]",
 		    "[+1 Production, +1 Science] from every [Ocean]",
-		    "[+3 Science] from every [Citadel]"
                 ],
                 "row": 1,
                 "column": 2
