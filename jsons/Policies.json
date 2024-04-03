@@ -674,8 +674,8 @@
             {
                 "name": "Universal Suffrage",
                 "uniques": [
-		    "[+25]% Strength for cities",
-		    "[8] units cost no maintenance"  
+		    "[+33]% Strength for cities",
+		    "[6] units cost no maintenance"  
 		],  
                 "row": 1,
                 "column": 3
@@ -833,7 +833,7 @@
                 "name": "Nationalism",
                 "uniques": [
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-		    "Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+		    "Earn [25]% of killed [Military] unit's [Strength] as [Culture]",
                 ],
                 "row": 1,
                 "column": 5
