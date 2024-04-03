@@ -850,8 +850,7 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredTech": "Archaeology",
-		"uniques": ["[+1 Culture] from [Forest] tiles [in this city]"],
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["[+1 Culture] from [Forest] tiles [in this city]","Destroyed when the city is captured"]
 	},
 	{
 		"name": "The Louvre",
