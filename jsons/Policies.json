@@ -463,7 +463,7 @@
 		    "[+1 Gold] from every [Specialist]",
 		    "[Great Merchant] is earned [25]% faster",
                 ],
-                "row": 2,
+                "row": 1,
                 "column": 4
             },
             {
@@ -485,7 +485,7 @@
 		    "[+6]% [Science] from every [Stock Exchange]",
                 ],
                 "requires": ["Entrepreneurship"],
-                "row": 1,
+                "row": 2,
                 "column": 4
             },
             {
