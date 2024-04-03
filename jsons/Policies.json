@@ -461,7 +461,7 @@
 		    "[+1 Gold] from every [Specialist]",
 		    "[Great Merchant] is earned [25]% faster",
                 ],
-                "row": 2,
+                "row": 1,
                 "column": 4
             },
             {
@@ -483,13 +483,13 @@
 		    "[+5]% [Science] from every [Stock Exchange]",
                 ],
                 "requires": ["Entrepreneurship"],
-                "row": 1,
+                "row": 2,
                 "column": 4
             },
             {
                 "name": "Protectionism",
                 "uniques": ["[+2] Happiness from each type of luxury resource"],
-                "requires": ["Mercantilism"],
+                "requires": ["Mercenary Army"],
                 "row": 3,
                 "column": 2
             },
