@@ -200,7 +200,7 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-		    "[+100]% Production when constructing [Walls] buildings [in all cities]",
+		    "[+50]% Production when constructing [Walls] buildings [in all cities]",
 		    "[+1 Happiness] from every [Walls]",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
 		],
