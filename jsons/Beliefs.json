@@ -184,7 +184,8 @@
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+2 Production, +1 Faith] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+        "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
+            "[+1 Faith] from every [Specialist]"]
     },
     {
         "name": "Holy Warriors",
@@ -256,7 +257,7 @@
     {
         "name": "Interfaith Dialogue",
         "type": "Founder",
-        "uniques": ["When spreading religion to a city, gain [20] times the amount of followers of other religions as [Science]"]
+        "uniques": ["When spreading religion to a city, gain [15] times the amount of followers of other religions as [Science]"]
     }
     {
         "name": "Papal Primacy",
