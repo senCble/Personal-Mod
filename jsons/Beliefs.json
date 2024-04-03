@@ -109,7 +109,7 @@
         "name": "Oral Tradition",
         "type": "Pantheon",
         "uniques": ["[+1 Culture] from every [Plantation]",
-            "[+1 Faith] [in cities following this religion] <within [3] tiles of a [Plantation]>"]
+            "[+1 Faith] [in cities following this religion] <within [2] tiles of a [Plantation]>"]
     },
     {
         "name": "Religious Idols",
