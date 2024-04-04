@@ -156,8 +156,9 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+33]% Strength <vs [Barbarian] units>",
+            "[+25]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+	    "Earn [25]% of killed [non-[Barbarian]] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments"
         ],
         "policies": [
@@ -192,7 +193,7 @@
             {
                 "name": "Military Caste",
                 "uniques": [
-                    "[+1 Happiness, +3 Culture] from every [Barracks]",
+                    "[+1 Happiness, +2 Culture] from every [Barracks]",
 		    "Gain a free [Barracks] [in puppeted cities]"
                 ],
                 "requires": ["Warrior Code"],
