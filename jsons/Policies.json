@@ -744,6 +744,7 @@
                 "uniques": [		    
 		    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
 		    "[+1 Happiness, +2 Science] from every [Military Academy]",
+		    "Quantity of strategic resources produced by the empire +[50]%"
 	        ],
                 "row": 1,
                 "column": 2
@@ -752,7 +753,6 @@
                 "name": "Militarism",
                 "uniques": [
 		    "[Gold] cost of purchasing [Military] units [-33]%",
-		    "Quantity of strategic resources produced by the empire +[50]%"
 		],
                 "row": 1,
                 "column": 4
