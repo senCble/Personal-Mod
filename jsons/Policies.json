@@ -176,7 +176,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
-		    "[Great General] is earned [50]% faster"
+		    "[Great General] is earned [25]% faster"
                 ],
                 "row": 1,
                 "column": 2
@@ -463,8 +463,8 @@
                 "uniques": [
 		    "[+1 Science] from every [Trading post]",
                     "[+5]% [Science] from every [Market]",
-		    "[+6]% [Science] from every [Bank]",
-		    "[+6]% [Science] from every [Stock Exchange]",
+		    "[+5]% [Science] from every [Bank]",
+		    "[+7]% [Science] from every [Stock Exchange]",
                 ],
                 "row": 1,
                 "column": 4
@@ -499,7 +499,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+2 Gold] from every [Trading post]",
+                    "[+1 Gold] from every [Trading post]",
 		    "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -543,8 +543,8 @@
                 "name": "Merchant Navy",
                 "uniques": [
 		    "[+1 Culture] from every [Barracks]",
-                    "[+2 Gold] from every [Walls]",
 		    "[+1 Culture] from every [Armory]",
+		    "[+2 Gold] from every [Walls]",
 		    "[+2 Gold] from every [Castle]",
                 ],
                 "requires": ["Naval Tradition"],
@@ -555,8 +555,8 @@
                 "name": "Navigation School",
                 "uniques": [
 		    "[Great General] units gain the [Great Admiral] promotion",
-		    "[+15]% Strength <for [Melee Water] units> <when adjacent to a [Great General] unit>",
-                    "Free [Great General] appears"
+		    "Free [Great General] appears",
+		    "[Great General] is earned [25]% faster",
                 ],
                 "requires": ["Maritime Infrastructure","Naval Tradition"],
                 "row": 2,
@@ -576,8 +576,9 @@
             {
                 "name": "Exploration Complete",
                 "uniques": [
+		    "[+15]% Strength <for [Melee Water] units> <when adjacent to a [Great General] unit>",
                     "Empire enters golden age",
-		    "May buy [{Military} {Water} {non-[Mercenary]}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
+		    "May buy [{Military} {Water} {non-[Mercenary]}] units with [Faith] for [2] times their normal Production cost",
                 ]
             }
         ]
