@@ -220,7 +220,7 @@
     {
         "name": "Religious Art",
         "type": "Follower",
-        "uniques": ["[+8 Culture, +4 Happiness] from every [Grand Temple]"]
+        "uniques": ["[+8 Culture, +8 Faith] from every [Grand Temple]"]
     },
     {
         "name": "Religious Center",
@@ -257,7 +257,7 @@
     {
         "name": "Interfaith Dialogue",
         "type": "Founder",
-        "uniques": ["When spreading religion to a city, gain [15] times the amount of followers of other religions as [Science]"]
+        "uniques": ["When spreading religion to a city, gain [20] times the amount of followers of other religions as [Science]"]
     }
     {
         "name": "Papal Primacy",
@@ -267,12 +267,12 @@
     {
         "name": "Peace Loving",
         "type": "Founder",
-        "uniques": ["[+1 Happiness] from every [5] global followers [in foreign cities]"]
+        "uniques": ["[+1 Happiness] from every [8] global followers [in foreign cities]"]
     },
     {
         "name": "Pilgrimage",
         "type": "Founder",
-        "uniques": ["[+3 Faith] for each global city following this religion"]
+        "uniques": ["[+4 Faith] for each global city following this religion"]
     },
     {
         "name": "Tithe",
