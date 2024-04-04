@@ -638,7 +638,7 @@
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+50]%"],
+                "uniques": ["Science gained from research agreements [+33]%"],
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
@@ -668,14 +668,14 @@
             "Only available <before adopting [Order]>"
         ],
         "policies": [
-	   {
+	    {
                 "name": "Constitution",
                 "uniques": [		
 		    "[+2 Culture] from every specialist [in all cities]",
 		],
                 "row": 1,
                 "column": 1
-           },
+            },
             {
                 "name": "Universal Suffrage",
                 "uniques": [
@@ -700,19 +700,19 @@
 		    "[-50]% Unhappiness from [Specialists] [in all cities]",
 		    "[+25]% Golden Age length"
 	    	],
-                "requires": ["Constitution"],
+		"requires": ["Civil Society"],
                 "row": 2,
-                "column": 1
+                "column": 5
             },
 	    {
                 "name": "Free Speech",
                 "uniques": [
 		    "[+33]% Strength for cities",
 		    "[8] units cost no maintenance"  
-		],  
-		"requires": ["Civil Society"],
+		],
+		"requires": ["Constitution"],
                 "row": 2,
-                "column": 5
+                "column": 1
             },
             {
                 "name": "Freedom Complete",
@@ -743,8 +743,7 @@
                 "name": "Populism",
                 "uniques": [		    
 		    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
-		    "[+1 Happiness] from every [Military Academy]",
-		    "Quantity of strategic resources produced by the empire +[100]%"
+		    "[+1 Happiness, +2 Science] from every [Military Academy]",
 	        ],
                 "row": 1,
                 "column": 2
@@ -753,6 +752,7 @@
                 "name": "Militarism",
                 "uniques": [
 		    "[Gold] cost of purchasing [Military] units [-33]%",
+		    "Quantity of strategic resources produced by the empire +[50]%"
 		],
                 "row": 1,
                 "column": 4
@@ -809,7 +809,7 @@
             "Scientific": 60
         },
         "uniques": [
-            "[+1 Happiness] from every [Monument]",
+            "[+1 Happiness, +1 Culture] from every [Monument]",
 	    "Gain a free [Monument] [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
@@ -838,8 +838,6 @@
                 "name": "Nationalism",
                 "uniques": [
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-		    "Earn [25]% of killed [non-[Barbarian]] unit's [Strength] as [Science] <when fighting in [Friendly Land] tiles>,"
-                ],
                 "row": 1,
                 "column": 5
             },
