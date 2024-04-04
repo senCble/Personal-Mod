@@ -185,7 +185,7 @@
         "name": "Guruship",
         "type": "Follower",
         "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
-            "[+1 Faith] from every [Specialist]"]
+            "[+1 Faith] from every specialist [in all citied]"]
     },
     {
         "name": "Holy Warriors",
@@ -267,7 +267,7 @@
     {
         "name": "Peace Loving",
         "type": "Founder",
-        "uniques": ["[+1 Happiness] from every [8] global followers [in foreign cities]"]
+        "uniques": ["[+1 Happiness] from every [10] global followers [in foreign cities]"]
     },
     {
         "name": "Pilgrimage",
@@ -277,12 +277,12 @@
     {
         "name": "Tithe",
         "type": "Founder",
-        "uniques": ["[+1 Gold] from every [5] global followers [in all cities]"]
+        "uniques": ["[+1 Gold] from every [6] global followers [in all cities]"]
     },
     {
         "name": "World Church",
         "type": "Founder",
-        "uniques": ["[+1 Culture] from every [5] global followers [in all cities]"]
+        "uniques": ["[+1 Culture] from every [6] global followers [in all cities]"]
     },
 
     ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
