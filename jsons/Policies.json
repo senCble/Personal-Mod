@@ -533,7 +533,7 @@
                 "name": "Naval Tradition",
                 "uniques": [
 		    "[+2 Happiness] [in all cities] <within [2] tiles of a [Fort]>",
-		    "[+4 Science] from every [Citadel]",
+		    "[+3 Science] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
@@ -541,10 +541,10 @@
 	    {
                 "name": "Merchant Navy",
                 "uniques": [
-		    "[+1 Gold] from every [Barracks]",
-                    "[+1 Gold] from every [Walls]",
-		    "[+1 Culture, +1 Gold] from every [Armory]",
-		    "[+1 Culture, +1 Gold] from every [Castle]",
+		    "[+1 Culture] from every [Barracks]",
+                    "[+2 Gold] from every [Walls]",
+		    "[+1 Culture] from every [Armory]",
+		    "[+2 Gold] from every [Castle]",
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 2,
@@ -695,7 +695,8 @@
 	    {
                 "name": "Constitution",
                 "uniques": [		
-		    "[+1 Culture, +1 Gold] from every specialist [in all cities]",
+		    "[+1 Culture] from every specialist [in all cities]",
+		    "[+1 Culture] from every [World Wonder]"
 		],
 		"requires": ["Civil Society"],
                 "row": 2,
