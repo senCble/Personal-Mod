@@ -420,7 +420,7 @@
                 "name": "Cultural Exchange",
                 "uniques": [
                     "[Great Artist] is earned [25]% faster",
-		    "Empire enters golden age",
+		    "[+25]% Golden Age length"
                 ],
                 "requires": ["Monumentality"],
                 "row": 3,
@@ -430,6 +430,7 @@
                 "name": "Aesthetics Complete",
                 "uniques": [
                     "[-10]% Culture cost of adopting new Policies",
+		    "Empire enters golden age",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -534,7 +535,7 @@
                 "name": "Naval Tradition",
                 "uniques": [
 		    "[+2 Happiness] [in all cities] <within [2] tiles of a [Fort]>",
-		    "[+3 Science] from every [Citadel]",
+		    "[+4 Science] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
@@ -670,7 +671,7 @@
 	   {
                 "name": "Constitution",
                 "uniques": [		
-		    "[+1 Culture] from every specialist [in all cities]",
+		    "[+2 Culture] from every specialist [in all cities]",
 		],
                 "row": 1,
                 "column": 1
@@ -706,7 +707,7 @@
 	    {
                 "name": "Free Speech",
                 "uniques": [
-		    "[+25]% Strength for cities",
+		    "[+33]% Strength for cities",
 		    "[8] units cost no maintenance"  
 		],  
 		"requires": ["Civil Society"],
@@ -837,6 +838,7 @@
                 "name": "Nationalism",
                 "uniques": [
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+		    "Earn [25]% of killed [non-[Barbarian]] unit's [Strength] as [Science] <when fighting in [Friendly Land] tiles>,"
                 ],
                 "row": 1,
                 "column": 5
