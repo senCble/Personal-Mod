@@ -1057,7 +1057,7 @@
 		"name": "Recycling Center",
 		"maintenance": 3,
 		"requiredTech": "Ecology",
-		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization"]
+		"uniques": ["Provides [2] [Aluminum]","Limited to [4] per Civilization"]
 	},
 	{
 		"name": "Sydney Opera House",
@@ -1093,9 +1093,8 @@
 	{
 		"name": "CN Tower",
 		"isWonder": true,
-		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "[-1] population [in foreign cities]","[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in this city]"],
+		"uniques": ["[+1] population [in all cities]", "[+1 Culture, +1 Happiness] [in all cities]", "[-1] population [in foreign cities]", "Gain a free [Broadcast Tower] [in this city]"],
 		"requiredTech": "Telecommunications",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
