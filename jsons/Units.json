@@ -1558,11 +1558,11 @@
 		"unitType": "Ranged Gunpowder",
 		"range": 1,
 		"movement": 2,
-		"strength": 85,
-		"rangedStrength": 85,
+		"strength": 80,
+		"rangedStrength": 80,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit","[+25]% Strength <vs [Armored] units>"],
 		"attackSound": "tankshot"
 	},
 	{
