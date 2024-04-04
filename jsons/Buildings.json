@@ -734,7 +734,7 @@
 	},
 	{
 		"name": "Theatre",
-		"happiness": 3,
+		"happiness": 2,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
 		"requiredBuilding": "Colosseum",
@@ -943,7 +943,7 @@
 	// Column 11
 	{
 		"name": "Stadium",
-		"happiness": 4,
+		"happiness": 2,
 		"requiredBuilding": "Theatre",
 		"maintenance": 2,
 		"requiredTech": "Refrigeration"
