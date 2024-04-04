@@ -535,7 +535,7 @@
                 "name": "Naval Tradition",
                 "uniques": [
 		    "[+2 Happiness] [in all cities] <within [2] tiles of a [Fort]>",
-		    "[+4 Science] from every [Citadel]",
+		    "[+3 Science] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
@@ -760,7 +760,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-		    "[+3] Movement <for [Great General] units>",
+		    "[+3] Movement <for [Great General] units> <when [non-[Embarked]]>",
                     "[Armored] units gain the [Lightning Warfare] promotion",
 		    "[+15]% Strength <for [Armored] units> <when adjacent to a [Great General] unit>"
                 ],
@@ -809,7 +809,7 @@
             "Scientific": 60
         },
         "uniques": [
-            "[+1 Happiness, +1 Culture] from every [Monument]",
+            "[+1 Culture, +1 Happiness] from every [Monument]",
 	    "Gain a free [Monument] [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
