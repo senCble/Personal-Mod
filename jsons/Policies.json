@@ -481,7 +481,7 @@
 	    {
                 "name": "Entrepreneurship",
                 "uniques": [
-		    "[+1 Gold] from every [Specialist]",
+		    "[+1 Gold] from every specialist [in all cities]",
 		    "[Great Merchant] is earned [25]% faster",
                 ],
 		"requires": ["Mercantilism"],
@@ -498,7 +498,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+1 Gold] from every [Trading post]",
+                    "[+2 Gold] from every [Trading post]",
 		    "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -665,13 +665,13 @@
             "Only available <before adopting [Order]>"
         ],
         "policies": [
-            {
-                "name": "Constitution",
-                "uniques": [		
-		    "[+2 Culture] from every [Specialist]",
+	   {
+                "name": "Democracy",
+                "uniques": [
+		    "[-50]% Food consumption by specialists [in all cities]",
 		],
                 "row": 1,
-                "column": 1
+                "column": 5
             },
             {
                 "name": "Universal Suffrage",
@@ -690,7 +690,16 @@
 		    "[+1 Happiness] from every [Hospital]",    
                 ],
                 "row": 1,
-                "column": 5
+                "column": 1
+            },
+	    {
+                "name": "Constitution",
+                "uniques": [		
+		    "[+1 Culture, +1 Gold] from every specialist [in all cities]",
+		],
+		"requires": ["Civil Society"],
+                "row": 2,
+                "column": 1
             },
             {
                 "name": "Free Speech",
@@ -698,17 +707,7 @@
 		    "[-50]% Unhappiness from [Specialists] [in all cities]",
 		    "[+25]% Golden Age length"
 	    	],
-                "requires": ["Constitution"],
-                "row": 2,
-                "column": 1
-            },
-            {
-                "name": "Democracy",
-                "uniques": [
-		    "[-50]% Food consumption by specialists [in all cities]",
-		    "[+1 Gold] from every [Specialist]"
-		],
-                "requires": ["Civil Society"],
+                "requires": ["Democracy"],
                 "row": 2,
                 "column": 5
             },
@@ -816,8 +815,9 @@
             {
                 "name": "United Front",
                 "uniques": [
-		    "[Gold] cost of purchasing [All] buildings [-25]%",
-		    "[-10]% maintenance cost for buildings [in all cities]"
+		    "[+1 Happiness] from every [Workshop]",
+		    "[+1 Happiness] from every [Windmill]",
+		    "[+1 Happiness] from every [Factory]",
 		],
                 "row": 1,
                 "column": 1
@@ -844,9 +844,8 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[+1 Happiness] from every [Workshop]",
-		    "[+1 Happiness] from every [Windmill]",
-		    "[+1 Happiness] from every [Factory]",
+		    "[Gold] cost of purchasing [All] buildings [-25]%",
+		    "[-10]% maintenance cost for buildings [in all cities]"
                 ],
                 "row": 2,
                 "column": 3
@@ -866,7 +865,7 @@
             {
                 "name": "Order Complete",
                 "uniques": [
-                    "[+2 Food, +2 Production, +3 Science, +3 Gold, +3 Culture] [in all cities]"
+                    "[+2 Food, +2 Production, +2 Culture, +3 Science, +3 Gold] [in all cities]"
 		]
             }
         ]
