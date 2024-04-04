@@ -667,25 +667,15 @@
         ],
         "policies": [
 	   {
-                "name": "Democracy",
-                "uniques": [
-		    "[-50]% Food consumption by specialists [in all cities]",
+                "name": "Constitution",
+                "uniques": [		
+		    "[+1 Culture] from every specialist [in all cities]",
 		],
                 "row": 1,
-                "column": 5
-            },
+                "column": 1
+           },
             {
                 "name": "Universal Suffrage",
-                "uniques": [
-		    "[+25]% Strength for cities",
-		    "[8] units cost no maintenance"  
-		],  
-		"requires": ["Civil Society"],
-                "row": 2,
-                "column": 1
-            },
-            {
-                "name": "Civil Society",
                 "uniques": [
 		    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
 		    "[-100]% maintenance costs <for [Hospital]>",
@@ -695,20 +685,30 @@
                 "column": 3
             },
 	    {
-                "name": "Constitution",
-                "uniques": [		
-		    "[+1 Culture] from every specialist [in all cities]",
+                "name": "Civil Society",
+                "uniques": [
+		    "[-50]% Food consumption by specialists [in all cities]",
 		],
                 "row": 1,
-                "column": 1
+                "column": 5
             },
             {
-                "name": "Free Speech",
+                "name": "Democracy",
                 "uniques": [
 		    "[-50]% Unhappiness from [Specialists] [in all cities]",
 		    "[+25]% Golden Age length"
 	    	],
-                "requires": ["Democracy"],
+                "requires": ["Constitution"],
+                "row": 2,
+                "column": 1
+            },
+	    {
+                "name": "Free Speech",
+                "uniques": [
+		    "[+25]% Strength for cities",
+		    "[8] units cost no maintenance"  
+		],  
+		"requires": ["Civil Society"],
                 "row": 2,
                 "column": 5
             },
@@ -807,7 +807,7 @@
             "Scientific": 60
         },
         "uniques": [
-            "[+1 Happiness, +1 Culture] from every [Monument]",
+            "[+1 Happiness] from every [Monument]",
 	    "Gain a free [Monument] [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
@@ -865,7 +865,7 @@
             {
                 "name": "Order Complete",
                 "uniques": [
-                    "[+2 Food, +2 Production, +2 Culture, +3 Science, +3 Gold] [in all cities]"
+                    "[+2 Food, +2 Production, +2 Culture, +2 Science, +2 Gold] [in all cities]"
 		]
             }
         ]
