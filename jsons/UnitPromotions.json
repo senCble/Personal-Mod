@@ -141,7 +141,7 @@
 	{
 		"name": "Skirmish",
 		"prerequisites": ["Accuracy III","Barrage III","Mobility II","Anti-Armor II"],
-		"uniques": ["[+33]% Strength <vs [non-[Wounded]] units> <when attacking>","[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [non-[Wounded]] units> <when attacking>","[+10]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Ranged Mounted","Helicopter"],
         "column": 27,
         "row": 2
