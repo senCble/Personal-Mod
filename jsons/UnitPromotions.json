@@ -769,7 +769,7 @@
 	},
     	{
         	"name": "[Chu-Ko-Nu] ability",
-        	"uniques": ["[-20]% Strength <when attacking>","[1] additional attacks per turn", "Can move after attacking"]
+        	"uniques": ["[-25]% Strength <when attacking>","[1] additional attacks per turn", "Can move after attacking"]
     	},
 	{
 		"name": "Great Admiral",
