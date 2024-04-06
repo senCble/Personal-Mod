@@ -274,7 +274,7 @@
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Guilds",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Ranged Mounted] units>"],
 		"attackSound": "metalhit"
@@ -288,7 +288,7 @@
 		"strength": 13,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Guilds",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units>"],
 		"attackSound": "metalhit"
@@ -302,7 +302,7 @@
 		"strength": 12,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Guilds",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units>"],
 		"promotions":["[Persian Immortal] ability"],
@@ -317,7 +317,7 @@
 		"strength": 10,
 		"cost": 75,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Guilds",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <vs [Military] units>",
 		"[-1] Sight"]
@@ -333,29 +333,12 @@
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Guilds",
 		"upgradesTo": "Pikeman",
 		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
 	},
-	{
-		"name": "Marauder",
-		"unitType": "Scout",
-		"movement": 2,
-		"strength": 16,
-		"cost": 120,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Pharmaceuticals",
-		"upgradesTo": "Marine",
-		"uniques": ["[+1] Sight <when [Embarked]>",
-			"Defense bonus when embarked",
-			"[+33]% Strength <vs [Barbarian] units>",
-			"Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "metalhit"
-	},
-
 	/* Classical Era */
 	{
 		"name": "Horseman",
@@ -528,12 +511,28 @@
 
 	// Medieval Era
 	{
+		"name": "Marauder",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 16,
+		"cost": 120,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Pharmaceuticals",
+		"upgradesTo": "Marine",
+		"uniques": ["[+1] Sight <when [Embarked]>",
+			"Defense bonus when embarked",
+			"[+33]% Strength <vs [Barbarian] units>",
+			"Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Pikeman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
-		"requiredTech": "Civil Service",
+		"requiredTech": "Guilds",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units>"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
@@ -547,7 +546,7 @@
 		"movement": 2,
 		"strength": 16,
 		"cost": 45,
-		"requiredTech": "Civil Service",
+		"requiredTech": "Guilds",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units>", "Can move immediately once bought" ],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
