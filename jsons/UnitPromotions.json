@@ -765,7 +765,7 @@
 	},
 	{
 		"name": "[Zero] ability",
-		"uniques": ["[+25]% Strength <vs [Air] units>"]
+		"uniques": ["[+25]% Strength <vs [Fighter] units>","[+25]% Strength when performing Air Sweep"]
 	},
     	{
         	"name": "[Chu-Ko-Nu] ability",
