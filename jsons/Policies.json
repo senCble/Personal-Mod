@@ -175,8 +175,9 @@
             {
                 "name": "Discipline",
                 "uniques": [
-                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
-		    "[Great General] is earned [25]% faster"
+                    "[+15]% Strength <for [Sword] units> <when adjacent to a [Military] unit>",
+		    "[+15]% Strength <for [Gunpowder] units> <when adjacent to a [Military] unit>",
+		    "[Great General] is earned [25]% faster",
                 ],
                 "row": 1,
                 "column": 2
@@ -239,8 +240,8 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-		    "[+1 Happiness, +1 Faith] from every [Armory]",
-                    "[+1 Happiness, +1 Faith] from every [Castle]"
+		    "[+2 Faith] from every [Temple]",
+		    "[Faith] cost of purchasing items in cities [-20]%",
                 ],
                 "row": 1,
                 "column": 2
@@ -248,8 +249,8 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-		    "[+1 Culture] from every [Temple]",
-		    "[Faith] cost of purchasing items in cities [-20]%",
+		    "[+1 Happiness] from every [Armory]",
+                    "[+1 Happiness] from every [Castle]"
                 ],
                 "row": 1,
                 "column": 5
@@ -278,7 +279,7 @@
                 "name": "Reformation",
                 "uniques": [
 		    "[+2 Production] from every [Armory]",
-		    "[+3 Science] from every [Castle]"
+		    "[+2 Science] from every [Castle]"
                 ],
                 "requires": ["Mandate Of Heaven", "Free Religion"],
                 "row": 3,
@@ -476,7 +477,7 @@
 		    "[Gold] cost of purchasing items in cities [-25]%",
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
                 ],
-		"requires": ["Trade Unions","Mercantilism"],
+		"requires": ["Trade Unions"],
                 "row": 2,
                 "column": 2
             },
@@ -486,7 +487,7 @@
 		    "[+1 Gold] from every specialist [in all cities]",
 		    "[Great Merchant] is earned [25]% faster",
                 ],
-		"requires": ["Mercantilism"],
+		"requires": ["Mercantilism","Trade Unions"],
                 "row": 2,
                 "column": 4
             },
@@ -500,7 +501,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+1 Gold] from every [Trading post]",
+                    "[+2 Gold] from every [Trading post]",
 		    "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -535,7 +536,7 @@
                 "name": "Naval Tradition",
                 "uniques": [
 		    "[+2 Happiness] [in all cities] <within [2] tiles of a [Fort]>",
-		    "[+3 Science] from every [Citadel]",
+		    "[+4 Science] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
@@ -555,9 +556,9 @@
             {
                 "name": "Navigation School",
                 "uniques": [
-		    "[Great General] units gain the [Great Admiral] promotion",
 		    "Free [Great General] appears",
 		    "[Great General] is earned [25]% faster",
+		    "[Great General] units gain the [Great Admiral] promotion",
                 ],
                 "requires": ["Maritime Infrastructure","Naval Tradition"],
                 "row": 2,
@@ -577,9 +578,9 @@
             {
                 "name": "Exploration Complete",
                 "uniques": [
-		    "[+15]% Strength <for [Melee Water] units> <when adjacent to a [Great General] unit>",
                     "Empire enters golden age",
-		    "May buy [{Military} {Water} {non-[Mercenary]}] units with [Faith] for [2] times their normal Production cost",
+		    "[+15]% Strength <for [Melee Water] units> <when adjacent to a [Great General] unit>",
+		    "May buy [{Military} {Water} {non-[Mercenary]}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
         ]
@@ -707,7 +708,7 @@
 	    {
                 "name": "Free Speech",
                 "uniques": [
-		    "[+33]% Strength for cities",
+		    "[+25]% Strength for cities",
 		    "[8] units cost no maintenance"  
 		],
 		"requires": ["Constitution"],
@@ -744,7 +745,7 @@
                 "uniques": [		    
 		    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
 		    "[+1 Happiness, +2 Science] from every [Military Academy]",
-		    "Quantity of strategic resources produced by the empire +[50]%"
+		    "Quantity of strategic resources produced by the empire +[100]%"
 	        ],
                 "row": 1,
                 "column": 2
