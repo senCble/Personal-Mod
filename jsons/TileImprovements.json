@@ -9,7 +9,8 @@
 		"uniques": ["Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-            		"Pillaging this improvement yields approximately [+18 Gold]"],
+            		"Pillaging this improvement yields approximately [+18 Gold]",
+			"Cannot be built on [resource] tiles"],
 		"shortcutKey": "F"
 	},
 	{
@@ -18,7 +19,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
-		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]","Cannot be built on [resource] tiles"],
 		"shortcutKey": "L"
 	},
 	{
@@ -36,7 +37,7 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Currency",
-		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]","Cannot be built on [resource] tiles"],
 		"shortcutKey": "T"
 	},
 
