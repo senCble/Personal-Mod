@@ -480,7 +480,7 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "The Great Warpath",
-		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.","[Land] units gain the [Woodsman] promotion"],
 		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
 			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
 			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
@@ -896,7 +896,7 @@
 		"innerColor": [81, 0, 137],
 		"favoredReligion": "Islam",
 		"uniqueName": "Phoenician Heritage",
-		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]"],
+		"uniques": ["Gain [100] [Gold] (modified by game speed) <upon founding a city>","Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]"],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
 			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
@@ -923,7 +923,7 @@
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion"],
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","Gain enough Faith for [50]% of a Great Prophet <upon founding a Pantheon>"],
 
 		"cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
