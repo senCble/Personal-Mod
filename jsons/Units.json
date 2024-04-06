@@ -802,7 +802,7 @@
 		"cost": 120,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Privateer",
-		"obsoleteTech": "Navigation",
+		"obsoleteTech": "Steam Power",
 		"uniques": ["[+1] Sight", "May withdraw before melee ([75]%)"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
