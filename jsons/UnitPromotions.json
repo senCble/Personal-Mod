@@ -744,7 +744,7 @@
 	},
 	{
 		"name": "[Cossack] ability",
-		"uniques": ["[+50]% Strength <vs [Wounded] units>"]
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"]
 	},
 	{
 		"name": "[Hussar] ability",
@@ -765,7 +765,7 @@
 	},
 	{
 		"name": "[Zero] ability",
-		"uniques": ["[+25]% Strength <vs [Fighter] units>","[+25]% Strength when performing Air Sweep"]
+		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
 	},
     	{
         	"name": "[Chu-Ko-Nu] ability",
