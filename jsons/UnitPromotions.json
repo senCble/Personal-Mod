@@ -181,7 +181,7 @@
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]","[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
 		"unitTypes": ["Sword","Gunpowder"],
         "column": 6,
         "row": 5
