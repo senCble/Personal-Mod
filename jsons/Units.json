@@ -591,7 +591,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+1] Sight","[+1] Sight <when embarked>"],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
@@ -913,7 +913,7 @@
 		"requiredTech": "Navigation",
 		"upgradesTo": "Ironclad",
 		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
-		"uniques": ["May capture killed [Water] units"],
+		"uniques": ["[+1] Sight","May capture killed [Water] units"],
 		"attackSound": "cannon"
 	},
 	{
@@ -922,7 +922,7 @@
 		"movement": 5,
 		"strength": 24,
 		"rangedStrength": 28,
-		"cost": 185,
+		"cost": 180,
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
@@ -938,7 +938,7 @@
 		"movement": 5,
 		"strength": 28,
 		"rangedStrength": 34,
-		"cost": 185,
+		"cost": 180,
 		"requiredResource": "Iron",
 		"uniques": ["[+1] Sight"],
 		"requiredTech": "Navigation",
@@ -954,7 +954,7 @@
 		"movement": 4,
 		"strength": 25,
 		"rangedStrength": 25,
-		"cost": 185
+		"cost": 180
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
@@ -971,7 +971,7 @@
 		"movement": 5,
 		"strength": 25,
 		"rangedStrength": 25,
-		"cost": 185,
+		"cost": 180,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
@@ -990,7 +990,7 @@
 		"movement": 4,
 		"strength": 25,
 		"rangedStrength": 25,
-		"cost": 185,
+		"cost": 180,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
@@ -1005,7 +1005,7 @@
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 20,
-		"cost": 185,
+		"cost": 180,
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
@@ -1451,7 +1451,7 @@
 		"requiredTech": "Combustion",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques": ["[+25]% Strength <vs [Armored] units> <when attacking>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+25]% Strength <vs [Armored] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 	{
