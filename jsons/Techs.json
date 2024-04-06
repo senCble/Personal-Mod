@@ -162,7 +162,7 @@
 			{
 				"name": "Engineering",
 				"row": 8,
-				"prerequisites": ["Mathematics","Construction"],
+				"prerequisites": ["Mathematics","Construction","Bronze Working"],
 				"uniques": ["Roads connect tiles across rivers"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
@@ -197,7 +197,7 @@
 			{
 				"name": "Guilds",
 				"row": 7,
-				"prerequisites": ["Currency"],
+				"prerequisites": ["Currency","Engineering"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
@@ -276,6 +276,7 @@
 				"name": "Acoustics",
 				"row": 4,
 				"prerequisites": ["Education"],
+				"uniques": ["Enables conversion of city production to [Culture]"],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
 			},
 			{
