@@ -23,7 +23,7 @@
 	},
 	{
 		"name": "Stele",
-        "replaces": "Monument",
+		"replaces": "Monument",
 		"uniqueTo": "Ethiopia",
 		"culture": 2,
 		"faith": 2,
@@ -128,7 +128,7 @@
 	},
 	{
 		"name": "Water Mill",
-		"maintenance": 2,
+		"maintenance": 1,
 		"food": 2,
 		"production": 1,
 		"hurryCostModifier": 25,
