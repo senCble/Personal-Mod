@@ -158,7 +158,7 @@
 	{
 		"name": "Walls of Babylon",
 		"replaces": "Walls",
-		"cost": 65,
+		"cost": 60,
 		"uniqueTo": "Babylon",
 		"cityStrength": 6,
 		"cityHealth": 100,
@@ -587,7 +587,7 @@
 	},
 	{
 		"name": "Castle",
-		"cityStrength": 7,
+		"cityStrength": 8,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
@@ -599,12 +599,12 @@
 		"cost": 150,
 		"replaces": "Castle",
 		"uniqueTo": "India",
-		"cityStrength": 7,
+		"cityStrength": 8,
 		"cityHealth": 25,
 		"culture": 2,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
-		"uniques": ["[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured"],
+		"uniques": ["[+10]% [Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
 	},
 	{
@@ -822,7 +822,7 @@
 	{
 		"name": "Arsenal",
 		"cost": 300,
-		"cityStrength": 9,
+		"cityStrength": 12,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Castle",
@@ -969,8 +969,8 @@
 	},
 	{
 		"name": "Military Base",
-		"cityStrength": 12,
-		"cityHealth": 25,
+		"cityStrength": 15,
+		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Arsenal",
 		"requiredTech": "Replaceable Parts",
