@@ -167,6 +167,21 @@
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
 	{
+		"name": "Dromon",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Byzantium",
+		"replaces": "Galley",
+		"movement": 4,
+		"strength": 9,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Wounded] units>"],
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Chariot Archer",
 		"unitType": "Ranged Mounted",
 		"movement": 4,
@@ -310,21 +325,6 @@
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Dromon",
-		"unitType": "Ranged Water",
-		"uniqueTo": "Byzantium",
-		"replaces": "Trireme",
-		"movement": 4,
-		"strength": 10,
-		"rangedStrength": 13,
-		"cost": 90,
-		"requiredTech": "Optics",
-		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Wounded] units>"],
-		"upgradesTo": "Galleass",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "arrow"
 	},
 	{
 		"name": "Quinquereme",
