@@ -68,7 +68,7 @@
 	{
 		"name": "Extended Range",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
-		"uniques": ["[-5]% Strength <when attacking>", "[+1] Range"],
+		"uniques": ["[-10]% Strength <when attacking>", "[+1] Range"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"],
         "column": 3,
         "row": 3
@@ -769,7 +769,7 @@
 	},
     	{
         	"name": "[Chu-Ko-Nu] ability",
-        	"uniques": ["[-15]% Strength <when attacking>","[1] additional attacks per turn", "Can move after attacking"]
+        	"uniques": ["[-10]% Strength <when attacking>","[1] additional attacks per turn", "Can move after attacking"]
     	},
 	{
 		"name": "Great Admiral",
