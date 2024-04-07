@@ -939,7 +939,7 @@
 		"uniqueTo": "England",
 		"movement": 5,
 		"strength": 28,
-		"rangedStrength": 33,
+		"rangedStrength": 34,
 		"cost": 180,
 		"requiredResource": "Iron",
 		"uniques": ["[+1] Sight"],
