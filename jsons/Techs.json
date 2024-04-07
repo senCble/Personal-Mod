@@ -246,7 +246,7 @@
 			},
 			{
 				"name": "Physics",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Metal Casting"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
@@ -275,14 +275,14 @@
 			{
 				"name": "Acoustics",
 				"row": 4,
-				"prerequisites": ["Education"],
+				"prerequisites": ["Education","Chivalry"],
 				"uniques": ["Enables conversion of city production to [Culture]"],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
 			},
 			{
 				"name": "Banking",
 				"row": 6,
-				"prerequisites": ["Chivalry","Education"],
+				"prerequisites": ["Chivalry","Machinery"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
