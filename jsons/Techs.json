@@ -398,8 +398,8 @@
 			},
 			{
 				"name": "Electricity",
-				"row": 3,
-				"prerequisites": ["Scientific Theory", "Archaeology"],
+				"row": 4,
+				"prerequisites": ["Scientific Theory", "Archaeology","Industrialization"],
 				"quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
 			},
 			{
@@ -438,7 +438,7 @@
 			},
 			{
 				"name": "Replaceable Parts",
-				"row": 4,
+				"row": 5,
 				"prerequisites": ["Electricity","Steam Power"],
 				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
 			},
