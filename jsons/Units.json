@@ -695,7 +695,7 @@
 		"uniqueTo": "China",
 		"movement": 2,
 		"strength": 13,
-		"rangedStrength": 15,
+		"rangedStrength": 16,
 		"replaces": "Crossbowman",
 		"cost": 120,
 		"requiredTech": "Machinery",
