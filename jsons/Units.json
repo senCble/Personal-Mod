@@ -58,7 +58,7 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"promotions": ["Haka War Dance"],
-		"uniques": ["[+1] Sight <when [Embarked]>","Defense bonus when embarked"],
+		"uniques": ["Defense bonus when embarked"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
