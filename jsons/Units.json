@@ -56,9 +56,9 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Steel",
 		"promotions": ["Haka War Dance"],
-		"uniques": ["Defense bonus when embarked"],
+		"uniques": ["Can build [Moai] improvements on tiles","Defense bonus when embarked"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
@@ -83,7 +83,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 20,
-		"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Steel",
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
@@ -519,10 +519,12 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Pharmaceuticals",
 		"upgradesTo": "Marine",
-		"uniques": ["[+1] Sight <when [Embarked]>",
+		"uniques": [
+			"[+1] Sight <when [Embarked]>",
 			"Defense bonus when embarked",
 			"[+33]% Strength <vs [Barbarian] units>",
-			"Never appears as a Barbarian unit"],
+			"Never appears as a Barbarian unit"
+		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "metalhit"
 	},
