@@ -232,21 +232,21 @@
 			},
 			{
 				"name": "Chivalry",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Civil Service","Guilds"],
                 "uniques": ["Enables Defensive Pacts"],
                 "quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
 			{
 				"name": "Machinery",
-				"row": 8,
-				"prerequisites": ["Guilds","Engineering"],
+				"row": 7,
+				"prerequisites": ["Guilds"],
 				"uniques": ["Improves movement speed on roads"],
 				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
 			{
 				"name": "Physics",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Metal Casting"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
@@ -275,20 +275,20 @@
 			{
 				"name": "Acoustics",
 				"row": 4,
-				"prerequisites": ["Education"],
+				"prerequisites": ["Education","Chivalry"],
 				"uniques": ["Enables conversion of city production to [Culture]"],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
 			},
 			{
 				"name": "Banking",
 				"row": 6,
-				"prerequisites": ["Chivalry", "Education"],
+				"prerequisites": ["Chivalry","Machinery"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
 				"name": "Printing Press",
 				"row": 8,
-				"prerequisites": ["Machinery","Physics","Chivalry"],
+				"prerequisites": ["Machinery","Physics"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
 			{
