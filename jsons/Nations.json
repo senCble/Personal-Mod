@@ -599,7 +599,7 @@
 		"innerColor": [255,168,168],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Seven Cities of Gold",
-		"uniques": ["[+200 Gold] for discovering a Natural Wonder (bonus enhanced to [+400 Gold] if first to discover it)",
+		"uniques": ["Gain [250] [Gold] (modified by game speed) <upon discovering a Natural Wonder>",
 			"[+1 Happiness, +2 Faith] for every known Natural Wonder", "[+100]% Yield from every [Natural Wonder]"],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
