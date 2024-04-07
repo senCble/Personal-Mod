@@ -275,20 +275,20 @@
 			{
 				"name": "Acoustics",
 				"row": 4,
-				"prerequisites": ["Education","Chivalry"],
+				"prerequisites": ["Education"],
 				"uniques": ["Enables conversion of city production to [Culture]"],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
 			},
 			{
 				"name": "Banking",
 				"row": 6,
-				"prerequisites": ["Chivalry","Machinery"],
+				"prerequisites": ["Chivalry","Education"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
 				"name": "Printing Press",
 				"row": 8,
-				"prerequisites": ["Machinery","Physics"],
+				"prerequisites": ["Chivalry","Machinery","Physics"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
 			{
