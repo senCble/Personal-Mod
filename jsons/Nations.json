@@ -244,7 +244,7 @@
 		"innerColor": [240, 199, 0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Glory of Rome",
-		"uniques": ["[+30]% Strength <vs [City-States]>","[+25]% Production towards any buildings that already exist in the Capital"],
+		"uniques": ["[+25]% Strength <vs [City-States]>","[+25]% Production towards any buildings that already exist in the Capital"],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -331,7 +331,11 @@
 		"innerColor": [184, 0, 0],
 		"favoredReligion": "Shinto",
 		"uniqueName": "Bushido",
-		"uniques": ["Damage is ignored when determining unit Strength <for [non-[Air]] units>"],
+		"uniques": [
+			"Damage is ignored when determining unit Strength <for [non-[Air]] units>",
+			"[+2 Culture] from every [Atoll]",
+			"[+2 Culture] from every [Fishing Boat]"
+		],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
@@ -542,8 +546,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Wayfinding",
 		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>",
-            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
-            "[+1] Sight <for [Embarked] units>",  "[+10]% Strength <within [2] tiles of a [Moai]>"],
+            		"Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+            		"[+1] Sight <for [Embarked] units>",  
+			"[+20]% Strength <within [2] tiles of a [Moai]>"],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
@@ -835,7 +840,10 @@
 		"innerColor": [249, 247, 3],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Nobel Prize",
-		"uniques": ["Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [10]% boost to great person generation"],
+		"uniques": [
+			"Gain [120] Influence with a [Great Person] gift to a City-State", 
+			"When declaring friendship, both parties gain a [10]% boost to great person generation"
+		],
 		"cities": ["Stockholm","Uppsala","Gothenburg","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
             "Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
             "Helsingborg","Härnösand","Vadstena","Lund","Västervik","Enköping","Skövde","Eskilstuna","Luleå","Lidköping",
@@ -1445,7 +1453,7 @@
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
-        "innerColor": [185,12,12],
+        	"innerColor": [185,12,12],
 		"uniques": ["Can only heal by pillaging", "Excluded from map editor"]
 	}
 
