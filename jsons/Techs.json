@@ -282,7 +282,7 @@
 			{
 				"name": "Banking",
 				"row": 6,
-				"prerequisites": ["Chivalry","Machinery"],
+				"prerequisites": ["Education","Chivalry","Machinery"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
