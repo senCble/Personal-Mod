@@ -544,8 +544,8 @@
 	    {
                 "name": "Merchant Navy",
                 "uniques": [
+		    "[+2 Gold] from every [Barracks]",
 		    "[+2 Gold] from every [Walls]",
-		    "[+2 Gold] from every [Castle]",
 		    "[+3 Culture] from every [Citadel]",
                 ],
                 "requires": ["Naval Tradition"],
