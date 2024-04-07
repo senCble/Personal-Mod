@@ -159,7 +159,7 @@
 	},
 	{
 		"name": "Remove Marsh",
-		"turnsToBuild": 4,
+		"turnsToBuild": 6,
 		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
