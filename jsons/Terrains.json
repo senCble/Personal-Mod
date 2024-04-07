@@ -225,7 +225,6 @@
 	{
 		"name": "Marsh",
 		"type": "TerrainFeature",
-		"food": 2,
     		"gold": 1,
 		"movementCost": 3,
 		"unbuildable": true,
