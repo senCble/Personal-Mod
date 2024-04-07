@@ -162,7 +162,7 @@
 			{
 				"name": "Engineering",
 				"row": 9,
-				"prerequisites": ["Construction","Bronze Working"],
+				"prerequisites": ["Construction","Bronze Working","Mathematics"],
 				"uniques": ["Roads connect tiles across rivers"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
@@ -630,7 +630,7 @@
 			{
 				"name": "Nanotechnology",
 				"row": 7,
-				"prerequisites": ["Robotics"],
+				"prerequisites": ["Robotics","Lasers"],
 				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
 			},
 			{
