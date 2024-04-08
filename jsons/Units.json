@@ -172,7 +172,7 @@
 		"uniqueTo": "Byzantium",
 		"replaces": "Galley",
 		"movement": 4,
-		"strength": 9,
+		"strength": 8,
 		"rangedStrength": 10,
 		"cost": 56,
 		"requiredTech": "Sailing",
