@@ -268,7 +268,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [  
-		    "[+2 Culture] from every [Temple]",
+		    "[+1 Culture] from every [Temple]",
 		    "[+3 Culture] from every [Holy site]"
                 ],
                 "requires": ["Organized Religion"],
@@ -741,7 +741,7 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-		    "[+2 Science] from every [Strategic resource]",
+		    "[+1 Gold, +2 Science] from every [Strategic resource]",
 		    "Quantity of strategic resources produced by the empire +[100]%"
 	        ],
                 "row": 1,
@@ -853,7 +853,7 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[+2 Production] [in all cities]",
+                    "[+3 Science] [in all cities]",
 		    "[+1 Production] from every [Lumber Mill]",
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Quarry]"
