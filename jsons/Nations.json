@@ -183,8 +183,10 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
-		"uniques": ["[+2 Culture] [in all cities] <before discovering [Archaeology]>",
-            "[+2 Culture] from every [Landmark] <after discovering [Archaeology]>"],
+		"uniques": [
+			"[+2 Culture] [in all cities] <before discovering [Archaeology]>",
+            		"[+2 Culture] from every [Landmark] <after discovering [Archaeology]>"
+		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -244,7 +246,7 @@
 		"innerColor": [240, 199, 0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Glory of Rome",
-		"uniques": ["[+25]% Strength <vs [City-States]>","[+25]% Production towards any buildings that already exist in the Capital"],
+		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital"],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -660,7 +662,7 @@
 		"innerColor": [255,120,0],
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
-		"uniques": ["Double quantity of [Horses] produced","[+1] Movement <for [Mounted] units>", "[+1] Movement <for [Ranged Mounted] units>", "[Ranged Mounted] units gain the [Siege Projectiles] promotion"],
+		"uniques": ["Double quantity of [Horses] produced","[+30]% Strength <vs [City-States]>","[+1] Movement <for [Mounted] units>", "[+1] Movement <for [Ranged Mounted] units>"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
