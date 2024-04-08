@@ -2,7 +2,7 @@
     {
         "name": "discover cultural artifacts",
         "notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
-        "uniques": ["Gain [20] [Culture]"],
+        "uniques": ["Gain [20] [Culture] (modified by game speed)"],
         "color": "#cf8ff7"
     },
     {
@@ -19,7 +19,7 @@
     {
         "name": "a stash of gold",
         "notification": "We found a stash of Gold", // trigger notification only
-        "uniques": ["Gain [80] [Gold]"],
+        "uniques": ["Gain [60] [Gold] (modified by game speed)"],
         "color": "#ffeb7f"
     },
     {
@@ -36,12 +36,12 @@
     {
         "name": "find a crudely-drawn map",
         "notification": "We have found a crudely-drawn map in the ruins!",
-        "uniques": ["From a randomly chosen tile [6] tiles away from the ruins, reveal tiles up to [4] tiles away with [90]% chance"]
+        "uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [4] tiles away with [90]% chance"]
     },
     {
         "name": "reveal nearby Barbarian camps",
         "notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
-        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [15] tile radius","Only available <after [20] turns>"]
+        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [20] tile radius","Only available <after [20] turns>"]
     },
     {
         "name": "discover holy symbols",
