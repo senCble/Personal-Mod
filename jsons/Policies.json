@@ -241,7 +241,7 @@
                 "name": "Organized Religion",
                 "uniques": [
 		    "[+2 Faith] from every [Temple]",
-		    "[Faith] cost of purchasing items in cities [-20]%",
+		    "[+2 Culture] from every [Temple]",
                 ],
                 "row": 1,
                 "column": 2
@@ -268,7 +268,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [  
-		    "[+1 Culture] from every [Temple]",
+		    "[Faith] cost of purchasing items in cities [-20]%",
 		    "[+3 Culture] from every [Holy site]"
                 ],
                 "requires": ["Organized Religion"],
