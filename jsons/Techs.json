@@ -129,7 +129,7 @@
 			{
 				"name": "Construction",
 				"row": 9,
-				"prerequisites": ["Masonry","The Wheel","Bronze Working"],
+				"prerequisites": ["Masonry","The Wheel"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			}
 		]
@@ -239,8 +239,8 @@
 			},
 			{
 				"name": "Machinery",
-				"row": 7,
-				"prerequisites": ["Guilds"],
+				"row": 8,
+				"prerequisites": ["Guilds","Metal Casting"],
 				"uniques": ["Improves movement speed on roads"],
 				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
@@ -282,7 +282,7 @@
 			{
 				"name": "Banking",
 				"row": 6,
-				"prerequisites": ["Education","Chivalry","Machinery"],
+				"prerequisites": ["Chivalry","Machinery"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
@@ -321,7 +321,7 @@
 			{
 				"name": "Economics",
 				"row": 6,
-				"prerequisites": ["Banking","Printing Press"],
+				"prerequisites": ["Acoustics","Banking","Printing Press"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
 			{
@@ -399,7 +399,7 @@
 			{
 				"name": "Electricity",
 				"row": 4,
-				"prerequisites": ["Scientific Theory", "Archaeology","Industrialization"],
+				"prerequisites": ["Scientific Theory", "Industrialization"],
 				"quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
 			},
 			{
