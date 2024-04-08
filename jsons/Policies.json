@@ -527,7 +527,6 @@
                 "name": "Maritime Infrastructure",
                 "uniques": [
                     "[+1 Production, +1 Science] from every [Coast]",
-		    "[+3 Science] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 2
@@ -536,7 +535,7 @@
                 "name": "Naval Tradition",
                 "uniques": [
 		    "[+2 Happiness] [in all cities] <within [2] tiles of a [Fort]>",
-		    "[+3 Culture] from every [Citadel]",
+		    "[+3 Science] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
@@ -547,7 +546,7 @@
 		    "[+1 Gold] from every [Camp]",
 		    "[+1 Gold] from every [Pasture]",
 		    "[+1 Gold] from every [Plantation]",
-		    "[+1 Gold] from every [Fishing Boats]",
+		    "[+3 Culture] from every [Citadel]",
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 2,
@@ -681,7 +680,7 @@
                 "uniques": [
 		    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
 		    "[-100]% maintenance costs <for [Hospital]>",
-		    "[+1 Happiness] from every [Hospital]",    
+		    "[+1 Gold] from every [Farm]"
                 ],
                 "row": 1,
                 "column": 3
@@ -742,8 +741,7 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-		    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
-		    "[+1 Happiness, +2 Science] from every [Military Academy]",
+		    "[+2 Science] from every [Strategic resource]",
 		    "Quantity of strategic resources produced by the empire +[100]%"
 	        ],
                 "row": 1,
@@ -819,7 +817,6 @@
                 "name": "United Front",
                 "uniques": [
 		    "[+1 Happiness] from every [Workshop]",
-		    "[+1 Happiness] from every [Windmill]",
 		    "[+1 Happiness] from every [Factory]",
 		],
                 "row": 1,
