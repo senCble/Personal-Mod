@@ -268,7 +268,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [  
-		    "[+1 Food, +1 Culture] from every [Pasture]",
+		    "[+1 Culture] from every [Temple]",
 		    "[+3 Culture] from every [Holy site]"
                 ],
                 "requires": ["Organized Religion"],
@@ -484,7 +484,7 @@
 	    {
                 "name": "Entrepreneurship",
                 "uniques": [
-		    "[+100]% Gold from Great Merchant trade missions",
+		    "[+1 Gold] from every specialist [in all cities]",
 		    "[Great Merchant] is earned [25]% faster",
                 ],
 		"requires": ["Mercantilism","Trade Unions"],
@@ -501,8 +501,8 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+1 Gold] from every [Trading post]",
-		    "[+1 Gold] from every specialist [in all cities]",
+                    "[+2 Gold] from every [Trading post]",
+		    "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -527,7 +527,7 @@
                 "name": "Maritime Infrastructure",
                 "uniques": [
                     "[+1 Production, +1 Science] from every [Coast]",
-		    "[+1 Production, +1 Science] from every [Ocean]",
+		    "[+3 Science] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 2
@@ -536,7 +536,7 @@
                 "name": "Naval Tradition",
                 "uniques": [
 		    "[+2 Happiness] [in all cities] <within [2] tiles of a [Fort]>",
-		    "[+3 Science] from every [Citadel]",
+		    "[+3 Culture] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
@@ -544,9 +544,10 @@
 	    {
                 "name": "Merchant Navy",
                 "uniques": [
-		    "[+2 Gold] from every [Barracks]",
-		    "[+2 Gold] from every [Walls]",
-		    "[+3 Culture] from every [Citadel]",
+		    "[+1 Gold] from every [Camp]",
+		    "[+1 Gold] from every [Pasture]",
+		    "[+1 Gold] from every [Plantation]",
+		    "[+1 Gold] from every [Fishing Boats]",
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 2,
@@ -577,7 +578,6 @@
             {
                 "name": "Exploration Complete",
                 "uniques": [
-                    "Empire enters golden age",
 		    "[+15]% Strength <for [Melee Water] units> <when adjacent to a [Great General] unit>",
 		    "May buy [{Military} {Water} {non-[Mercenary]}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
