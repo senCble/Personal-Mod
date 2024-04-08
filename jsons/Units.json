@@ -192,7 +192,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Skirmisher",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
 	{
@@ -291,7 +291,7 @@
 		"strength": 10,
 		"cost": 75,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Physics",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <vs [Military] units>","[-33]% Strength <vs [Military] units> <when attacking>",
 		"[-1] Sight"]
@@ -673,7 +673,7 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Combustion",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Great Generals I", "Quick Study"],
+		"promotions": ["Great Generals I", "Quick Study","Siege Projectiles"],
 		"attackSound": "arrow"
 		// Keshik should have no penalty attacking cities
 	},
