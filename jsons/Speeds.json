@@ -61,7 +61,7 @@
         "productionCostModifier": 1.5,
         "goldCostModifier": 1.5,
         "scienceCostModifier": 1.5,
-        "cultureCostModifier": 1.13,
+        "cultureCostModifier": 1.125,
         "faithCostModifier": 1.5,
         "improvementBuildLengthModifier": 1.5,
         "barbarianModifier": 1.5,
