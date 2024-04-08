@@ -171,7 +171,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-25]% construction time for [All] improvements","[2] free [Worker] units appear"],
+		"uniques": ["[-25]% construction time for [All] improvements","[2] free [Worker] units appear","Only available <after adopting [Liberty]>"],
 		"requiredTech": "Masonry",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
@@ -206,7 +206,7 @@
 		"name": "Statue of Zeus",
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>","Only available <after adopting [Honor]>"],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
 		// "Requires [Honor]" in BNW
@@ -270,7 +270,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Mathematics",
-		"uniques": ["Gain a free [Garden] [in this city]"],
+		"uniques": ["Gain a free [Garden] [in this city]","Only available <after adopting [Tradition]>"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
 	{
