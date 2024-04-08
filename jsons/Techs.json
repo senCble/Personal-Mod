@@ -197,7 +197,7 @@
 			{
 				"name": "Guilds",
 				"row": 7,
-				"prerequisites": ["Currency","Engineering"],
+				"prerequisites": ["Currency"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
@@ -427,7 +427,7 @@
 			{
 				"name": "Refrigeration",
 				"row": 2,
-				"prerequisites": ["Biology", "Electricity"], //todo: offshore platform should need this
+				"prerequisites": ["Biology", "Electricity"],
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{
