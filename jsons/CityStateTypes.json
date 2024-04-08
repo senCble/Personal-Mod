@@ -19,13 +19,12 @@
         "name": "Maritime",
         "friendBonusUniques": [
           "[+2 Food] [in capital] <before the [Industrial era]>",
-          "[+3 Food] [in capital] <starting from the [Industrial era]>",
+          "[+4 Food] [in capital] <starting from the [Industrial era]>",
         ],
         "allyBonusUniques": [
           "[+2 Food] [in capital] <before the [Industrial era]>", 
-          "[+1 Food] [in all cities] <before the [Industrial era]>",
-          "[+3 Food] [in capital] <starting from the [Industrial era]>", 
-          "[+2 Food] [in all cities] <starting from the [Industrial era]>",
+          "[+4 Food] [in capital] <starting from the [Industrial era]>", 
+          "[+1 Food] [in all cities]",
         ],
         "color": [56, 255, 112]
     },
