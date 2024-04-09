@@ -679,7 +679,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
 		    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
-		    "[+1 Gold] from every [Farm] <in cities with a Hospital>"
+		    "[+1 Gold] from every [Farm] <in cities with a [Hospital]>"
                 ],
                 "row": 1,
                 "column": 3
