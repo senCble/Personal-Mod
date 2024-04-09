@@ -578,7 +578,7 @@
                 "name": "Exploration Complete",
                 "uniques": [
 		    "[+15]% Strength <for [Melee Water] units> <when adjacent to a [Great General] unit>",
-		    "May buy [{Military} {Water} {non-[Mercenary]}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
+		    "May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
         ]
@@ -854,7 +854,7 @@
                 "requires": ["Socialism"],
                 "uniques": [
                     "[+3 Science] [in all cities]",
-		    "[+1 Production] from every [Lumber Mill]",
+		    "[+1 Production] from every [Lumber mill]",
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Quarry]"
                 ],
