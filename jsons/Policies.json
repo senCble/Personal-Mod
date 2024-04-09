@@ -679,8 +679,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
 		    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
-		    "[-100]% maintenance costs <for [Hospital]>",
-		    "[+1 Gold] from every [Farm]"
+		    "[+1 Gold] from every [Farm] <in cities with a Hospital>"
                 ],
                 "row": 1,
                 "column": 3
@@ -707,7 +706,7 @@
                 "name": "Free Speech",
                 "uniques": [
 		    "[+25]% Strength for cities",
-		    "[8] units cost no maintenance"  
+		    "[6] units cost no maintenance"  
 		],
 		"requires": ["Constitution"],
                 "row": 2,
