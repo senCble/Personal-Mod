@@ -961,7 +961,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Ranged Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
@@ -978,7 +978,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Ranged Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
 			"[+1] Sight"],
 		"promotions": ["[Sipahi] ability"],
 		"attackSound": "horse"
@@ -997,7 +997,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Ranged Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Hakkapeliitta] ability"],
 		"attackSound": "horse"
 	},
@@ -1322,13 +1322,13 @@
 		"unitType": "Ranged Mounted",
 		"range": 1,
 		"movement": 5,
-		"strength": 55,
-		"rangedStrength": 55,
-		"cost": 375,
+		"strength": 50,
+		"rangedStrength": 50,
+		"cost": 350,
 		"requiredTech": "Combustion",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques": ["[+25]% Strength <vs [Armored] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+33]% Strength <vs [Armored] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 
