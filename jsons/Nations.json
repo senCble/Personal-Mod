@@ -186,7 +186,7 @@
 		"uniques": [
 			"[+2 Culture] [in Capital] <before the [Medieval era]>",
                         "[+2 Culture] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
-                        "[+2 Culture] from every [World Wonder] <starting from the [Industrial era]>"
+                        "[+2 Culture] from every [Landmark] <starting from the [Industrial era]>"
 		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
