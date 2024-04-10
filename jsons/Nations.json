@@ -337,7 +337,7 @@
 		"uniques": [
 			"Damage is ignored when determining unit Strength <for [non-[Air]] units>",
 			"[+2 Culture] from every [Atoll]",
-			"[+2 Culture] from every [Fishing Boats]"
+			"[+1 Production] from every [Fishing Boats]"
 		],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
