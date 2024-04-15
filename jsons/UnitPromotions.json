@@ -172,9 +172,9 @@
 	},
 	{
 		"name": "Blitz",
-		"prerequisites": ["Shock III","Drill III"],
+		"prerequisites": ["Shock III","Drill III","Coastal Raider III","Boarding Party III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Water",],
         "column": 6,
         "row": 4
 	},
@@ -624,9 +624,9 @@
 	{
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
-			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
+			"Bombardment III","Siege III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[-10]% Strength <when attacking>","[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Ranged Mounted","Helicopter"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine","Fighter","Bomber","Ranged Mounted","Helicopter"],
         "column": 24,
         "row": 5
 	},
