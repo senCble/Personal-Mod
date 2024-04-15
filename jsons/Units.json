@@ -1342,12 +1342,13 @@
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
 		"uniques": [
+			"No movement cost to pillage",
 			"[+1] Sight <when [Embarked]>",
 			"Defense bonus when embarked",
 			"Never appears as a Barbarian unit",
 		],
 		"upgradesTo": "XCOM Squad",
-		"promotions": ["Ignore terrain cost","[Sipahi] ability"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot"
   	},
 	{
@@ -1422,9 +1423,10 @@
 		"obsoleteTech": "Nanotechnology",
 		"uniques": [
 			"May Paradrop up to [10] tiles from inside friendly territory",
+			"No movement cost to pillage",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Sipahi] ability","Ignore terrain cost"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot"
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
@@ -1629,10 +1631,11 @@
 		"cost": 450,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
+			"No movement cost to pillage",
 			"May Paradrop up to [40] tiles from inside friendly territory",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["[Sipahi] ability","Ignore terrain cost"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot"
 	},
 	{
