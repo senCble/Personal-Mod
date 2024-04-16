@@ -149,7 +149,7 @@
 					"Minor deposits generated with weight [30] <in [Tundra] [Hill] tiles>",
 					"Minor deposits generated with weight [30] <in [Snow] [Hill] tiles>"],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
 	},
 	{
 		"name": "Oil",
@@ -205,7 +205,7 @@
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 
 	// Luxury resources
