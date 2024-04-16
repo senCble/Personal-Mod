@@ -385,7 +385,6 @@
                 "name": "Cultural Centers",
                 "uniques": [
 		    "[+1 Happiness] from every [National Wonder]",
-		    "[+1 Happiness] [in all cities with a world wonder]"
                 ],
                 "row": 1,
                 "column": 2
@@ -402,7 +401,7 @@
                 "name": "Monumentality",
                 "uniques": [
 		    "[+1 Culture] from every [National Wonder]",
-		    "[+20]% [Culture] [in all cities with a world wonder]",  
+		    "[+25]% [Culture] [in all cities with a world wonder]",  
                 ],
 		"requires": ["Cultural Centers"],
                 "row": 2,
@@ -454,7 +453,7 @@
 	    {
                 "name": "Trade Unions",
                 "uniques": [
-                    "[+1 Culture, +2 Gold] from each Trade Route",
+                    "[+2 Gold] from each Trade Route",
                     "[-50]% maintenance on road & railroads"
                 ],
                 "row": 1,
@@ -527,6 +526,7 @@
                 "name": "Maritime Infrastructure",
                 "uniques": [
                     "[+1 Production, +1 Science] from every [Coast]",
+		    "[+1 Production, +1 Science] from every [Ocean]",
                 ],
                 "row": 1,
                 "column": 2
@@ -679,7 +679,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
 		    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
-		    "[+1 Gold] from every [Farm] <in cities with a [Hospital]>"
+		    "[+25]% Strength for cities <in cities with a [Hospital]>"
                 ],
                 "row": 1,
                 "column": 3
@@ -705,7 +705,7 @@
 	    {
                 "name": "Free Speech",
                 "uniques": [
-		    "[+25]% Strength for cities",
+		    "[+1 Gold] from every [Farm] <in [non-fresh water] tiles>",
 		    "[6] units cost no maintenance"  
 		],
 		"requires": ["Constitution"],
