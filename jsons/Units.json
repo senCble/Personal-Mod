@@ -1422,10 +1422,10 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"upgradesTo": "XCOM Squad",
-		"obsoleteTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
 		"uniques": [
 			"May Paradrop up to [10] tiles from inside friendly territory",
+			"[+1] Sight <when [Embarked]>",
 			"Defense bonus when embarked",
 			"Never appears as a Barbarian unit"
 		],
