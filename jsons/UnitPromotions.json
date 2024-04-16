@@ -253,7 +253,7 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "[+25]% Strength <when attacking>"], // This number is not based on any source
+		"uniques": ["Unit will heal every turn, even if it performs an action", "No movement cost to pillage"], // This number is not based on any source
 		"unitTypes": ["Scout"],
         "column": 9,
         "row": 3
