@@ -259,7 +259,7 @@
                 "name": "Theocracy",
                 "uniques": [
                     "[+25]% [Gold] from every [Temple]",
-                    "[+3 Gold] from every [Holy site]"
+                    "[+2 Gold] from every [Holy site]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -269,7 +269,7 @@
                 "name": "Free Religion",
                 "uniques": [
 		    "[+2 Culture] from every [Temple]",
-		    "[+3 Culture] from every [Holy site]"
+		    "[+2 Culture] from every [Holy site]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -558,7 +558,7 @@
 		    "Free [Great General] appears",
 		    "[Great General] is earned [25]% faster",
                 ],
-                "requires": ["Maritime Infrastructure","Naval Tradition"],
+                "requires": ["Maritime Infrastructure","Merchant Navy"],
                 "row": 2,
                 "column": 2
             },
@@ -569,7 +569,7 @@
 		    "[+15]% [Culture] [in puppeted cities]",
 		    "[+15]% [Gold] [in puppeted cities]",
                 ],
-                "requires": ["Merchant Navy"],
+                "requires": ["Naval Tradition"],
                 "row": 3,
                 "column": 4
             },
@@ -605,6 +605,14 @@
                 "row": 1,
                 "column": 2
             },
+	    {
+                "name": "Sovereignty",
+                "uniques": [
+		    "[+1 Gold] from all [Science] buildings",
+		],
+                "row": 1,
+                "column": 4
+            },
             {
                 "name": "Free Thought",
                 "uniques": [
@@ -612,7 +620,7 @@
 		    "[+1 Science] from every [Mine] <in tiles without [resource]>",
                     "[+17]% [Science] from every [University]"
                 ],
-                "requires": ["Humanism"],
+                "requires": ["Secularism"],
                 "row": 2,
                 "column": 2
             },
@@ -624,14 +632,6 @@
                 ],
 		"requires": ["Secularism","Sovereignty"],
                 "row": 2,
-                "column": 4
-            },
-            {
-                "name": "Sovereignty",
-                "uniques": [
-		    "[+1 Gold] from all [Science] buildings",
-		],
-                "row": 1,
                 "column": 4
             },
             {
