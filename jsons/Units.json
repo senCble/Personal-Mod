@@ -1419,7 +1419,7 @@
 		"movement": 2,
 		"strength": 65,
 		"cost": 375,
-		"requiredTech": "Radar",
+		"requiredTech": "Pharmaceuticals",
 		"upgradesTo": "XCOM Squad",
 		"promotions": ["Amphibious"],
 		"uniques": [
