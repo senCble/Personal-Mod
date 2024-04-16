@@ -517,7 +517,7 @@
 		"strength": 16,
 		"cost": 120,
 		"requiredTech": "Compass",
-		"obsoleteTech": "Pharmaceuticals",
+		"obsoleteTech": "Archaeology",
 		"upgradesTo": "Marine",
 		"uniques": [
 			"[+1] Sight <when [Embarked]>",
@@ -1031,6 +1031,26 @@
 		"attackSound": "machinegun"
 	},
 	{
+		"name": "Marine",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 30,
+		"cost": 225,
+		"requiredTech": "Archaeology",
+		"upgradesTo": "Paratrooper",
+		"obsoleteTech": "Pharmaceuticals",
+		"promotions": ["Amphibious"],
+		"uniques": [
+			"[+33]% Strength <vs [Barbarian] units>",
+			"[+1] Sight <when [Embarked]>",
+			"Defense bonus when embarked",
+			"Never appears as a Barbarian unit",
+		],
+		"upgradesTo": "XCOM Squad",
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot"
+  	},
+	{
 		"name": "Rifleman",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1334,24 +1354,6 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Marine",
-		"unitType": "Scout",
-		"movement": 2,
-		"strength": 65,
-		"cost": 375,
-		"requiredTech": "Pharmaceuticals",
-		"promotions": ["Amphibious"],
-		"uniques": [
-			"No movement cost to pillage",
-			"[+1] Sight <when [Embarked]>",
-			"Defense bonus when embarked",
-			"Never appears as a Barbarian unit",
-		],
-		"upgradesTo": "XCOM Squad",
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "shot"
-  	},
-	{
 		"name": "Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
@@ -1420,10 +1422,11 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"upgradesTo": "XCOM Squad",
-		"obsoleteTech": "Nanotechnology",
+		"obsoleteTech": "Pharmaceuticals",
+		"promotions": ["Amphibious"],
 		"uniques": [
 			"May Paradrop up to [10] tiles from inside friendly territory",
-			"No movement cost to pillage",
+			"Defense bonus when embarked",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
@@ -1630,6 +1633,7 @@
 		"strength": 100,
 		"cost": 450,
 		"requiredTech": "Nanotechnology",
+		"promotions": ["Amphibious"],
 		"uniques": [
 			"No movement cost to pillage",
 			"May Paradrop up to [40] tiles from inside friendly territory",
