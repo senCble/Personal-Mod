@@ -240,8 +240,8 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-		    "[+2 Culture] from every [Temple]",
 		    "[+2 Faith] from every [Temple]",
+		    "[Faith] cost of purchasing items in cities [-20]%",
                 ],
                 "row": 1,
                 "column": 2
@@ -249,8 +249,8 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-		    "[+1 Happiness] from every [Armory]",
-                    "[+1 Happiness] from every [Castle]"
+		    "[+2 Production] from every [Armory]",
+		    "[+2 Science] from every [Castle]"
                 ],
                 "row": 1,
                 "column": 5
@@ -267,8 +267,8 @@
             },
             {
                 "name": "Free Religion",
-                "uniques": [  
-		    "[Faith] cost of purchasing items in cities [-20]%",
+                "uniques": [
+		    "[+2 Culture] from every [Temple]",
 		    "[+3 Culture] from every [Holy site]"
                 ],
                 "requires": ["Organized Religion"],
@@ -278,8 +278,8 @@
             {
                 "name": "Reformation",
                 "uniques": [
-		    "[+2 Production] from every [Armory]",
-		    "[+2 Science] from every [Castle]"
+		    "[+1 Happiness] from every [Armory]",
+                    "[+1 Happiness] from every [Castle]"
                 ],
                 "requires": ["Mandate Of Heaven", "Free Religion"],
                 "row": 3,
@@ -329,12 +329,11 @@
             {
                 "name": "Scholasticism",
                 "uniques": [
-                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
-		    "Allied City-States provide [Culture] equal to [25]% of what they produce for themselves",
+                    "Allied City-States provide [Science] equal to [50]% of what they produce for themselves",
                 ],
-                "requires": ["Philantropy","Consulates"],
+                "requires": ["Philantropy"],
                 "row": 2,
-                "column": 3
+                "column": 2
             },
             {
                 "name": "Cultural Diplomacy",
@@ -348,7 +347,7 @@
             },
             {
                 "name": "Educated Elite",
-                "requires": ["Scholasticism"],
+                "requires": ["Scholasticism","Consulates"],
                 "uniques": [
                     "Allied City-States will occasionally gift Great People"
                 ],
@@ -384,7 +383,7 @@
             {
                 "name": "Cultural Centers",
                 "uniques": [
-		    "[+1 Happiness] from every [National Wonder]",
+		    "[50]% of excess happiness converted to [Culture]",
                 ],
                 "row": 1,
                 "column": 2
@@ -392,7 +391,8 @@
 	    {
                 "name": "Tourism Destination",
                 "uniques": [
-                    "[50]% of excess happiness converted to [Culture]",
+		    "[Great Artist] is earned [25]% faster",
+		    "[+25]% Golden Age length"
                 ],
                 "row": 1,
                 "column": 4
@@ -419,8 +419,7 @@
             {
                 "name": "Cultural Exchange",
                 "uniques": [
-                    "[Great Artist] is earned [25]% faster",
-		    "[+25]% Golden Age length"
+		     "[+1 Happiness] from every [National Wonder]",
                 ],
                 "requires": ["Monumentality"],
                 "row": 3,
@@ -531,15 +530,6 @@
                 "row": 1,
                 "column": 2
             },
-            {
-                "name": "Naval Tradition",
-                "uniques": [
-		    "[+2 Happiness] [in all cities] <within [2] tiles of a [Fort]>",
-		    "[+3 Science] from every [Citadel]",
-                ],
-                "row": 1,
-                "column": 4
-            },
 	    {
                 "name": "Merchant Navy",
                 "uniques": [
@@ -548,7 +538,16 @@
 		    "[+1 Gold] from every [Plantation]",
 		    "[+3 Culture] from every [Citadel]",
                 ],
-                "requires": ["Naval Tradition"],
+                "row": 1,
+                "column": 4
+            },
+	    {
+                "name": "Naval Tradition",
+                "uniques": [
+		    "[+2 Happiness] [in all cities] <with a garrison>",
+		    "[+3 Science] from every [Citadel]",
+                ],
+		"requires": ["Merchant Navy"],
                 "row": 2,
                 "column": 4
             },
@@ -604,15 +603,6 @@
 		    "[Great Scientist] is earned [25]% faster",
                 ],
                 "row": 1,
-                "column": 4
-            },
-            {
-                "name": "Humanism",
-                "uniques": [
-                    "[+1 Happiness] from every [University]",
-		    "[+1 Happiness] from every [Public School]",
-                ],
-                "row": 1,
                 "column": 2
             },
             {
@@ -626,18 +616,27 @@
                 "row": 2,
                 "column": 2
             },
+	    {
+                "name": "Humanism",
+                "uniques": [
+                    "[+1 Happiness] from every [University]",
+		    "[+1 Happiness] from every [Public School]",
+                ],
+		"requires": ["Secularism","Sovereignty"],
+                "row": 2,
+                "column": 4
+            },
             {
                 "name": "Sovereignty",
                 "uniques": [
 		    "[+1 Gold] from all [Science] buildings",
 		],
-		"requires": ["Secularism"],
-                "row": 2,
+                "row": 1,
                 "column": 4
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+33]%"],
+                "uniques": ["Science gained from research agreements [+25]%"],
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
@@ -705,8 +704,7 @@
 	    {
                 "name": "Free Speech",
                 "uniques": [
-		    "[+1 Gold] from every [Farm] <in [non-fresh water] tiles>",
-		    "[6] units cost no maintenance"  
+		    "[+1 Gold] from every [Farm] <in [non-[River]] tiles>",
 		],
 		"requires": ["Constitution"],
                 "row": 2,
@@ -740,7 +738,7 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-		    "[+1 Gold, +2 Science] from every [Strategic resource]",
+		    "[+1 Production, +1 Science] from every [Strategic resource]",
 		    "Quantity of strategic resources produced by the empire +[100]%"
 	        ],
                 "row": 1,
@@ -806,7 +804,7 @@
             "Scientific": 60
         },
         "uniques": [
-            "[+1 Culture, +1 Happiness] from every [Monument]",
+            "[+2 Culture] from every [Monument]",
 	    "Gain a free [Monument] [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
