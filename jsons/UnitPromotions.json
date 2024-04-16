@@ -230,7 +230,11 @@
 	{
 		"name": "Scouting III",
 		"prerequisites": ["Scouting II"],
-		"uniques": ["[+1] Movement","Can pass through impassable tiles","Can see over obstacles"],
+		"uniques": [
+			"[+1] Movement",
+			"[1] Movement point cost to embark",
+			"[1] Movement point cost to disembark"
+		],
 		"unitTypes": ["Scout"],
         "column": 8,
         "row": 3
