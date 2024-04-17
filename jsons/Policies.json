@@ -249,8 +249,8 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-		    "[+2 Production] from every [Armory]",
-		    "[+2 Science] from every [Castle]"
+		    "[+1 Production] from every [Armory]",
+		    "[+3 Science] from every [Castle]"
                 ],
                 "row": 1,
                 "column": 5
@@ -259,7 +259,7 @@
                 "name": "Theocracy",
                 "uniques": [
                     "[+25]% [Gold] from every [Temple]",
-                    "[+2 Gold] from every [Holy site]"
+                    "[+3 Gold] from every [Holy site]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -268,8 +268,8 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-		    "[+2 Culture] from every [Temple]",
-		    "[+2 Culture] from every [Holy site]"
+		    "[+1 Culture] from every [Temple]",
+		    "[+3 Culture] from every [Holy site]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -705,6 +705,7 @@
                 "name": "Free Speech",
                 "uniques": [
 		    "[+1 Gold] from every [Farm] <in [non-[River]] tiles>",
+		    "[6] units cost no maintenance"
 		],
 		"requires": ["Constitution"],
                 "row": 2,
@@ -804,7 +805,7 @@
             "Scientific": 60
         },
         "uniques": [
-            "[+2 Culture] from every [Monument]",
+            "[+1 Happiness] from every [Monument]",
 	    "Gain a free [Monument] [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
@@ -813,8 +814,7 @@
             {
                 "name": "United Front",
                 "uniques": [
-		    "[+1 Happiness] from every [Workshop]",
-		    "[+1 Happiness] from every [Factory]",
+		    "[Gold] cost of purchasing [All] buildings [-33]%",
 		],
                 "row": 1,
                 "column": 1
@@ -840,8 +840,8 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-		    "[Gold] cost of purchasing [All] buildings [-25]%",
-		    "[-10]% maintenance cost for buildings [in all cities]"
+		    "[+1 Happiness] from every [Factory]",
+		    "[-15]% maintenance cost for buildings <in cities with a [Factory]>"
                 ],
                 "row": 2,
                 "column": 3
