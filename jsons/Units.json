@@ -1556,7 +1556,7 @@
 		"strength": 50,
 		"range": 3,
 		"rangedStrength": 85,
-		"cost": 425,
+		"cost": 450,
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
@@ -1569,7 +1569,7 @@
 		"movement": 2,
 		"strength": 85,
 		"rangedStrength": 85,
-		"cost": 425,
+		"cost": 400,
 		"requiredTech": "Mobile Tactics",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -1579,7 +1579,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 90,
-		"cost": 425,
+		"cost": 400,
 		"requiredTech": "Mobile Tactics",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -1631,7 +1631,7 @@
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 100,
-		"cost": 450,
+		"cost": 425,
 		"requiredTech": "Nanotechnology",
 		"promotions": ["Amphibious"],
 		"uniques": [
