@@ -27,6 +27,7 @@
   {
     "name": "Connect Resource",
     "description": "In order to make our civilizations stronger, connect [tileResource] to your trade network.",
+    "duration": 30,
       "weightForCityStateType": {
           "Maritime": 2,
           "Mercantile": 3
@@ -42,6 +43,7 @@
   {
     "name": "Acquire Great Person",
     "description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson].",
+    "duration": 30,
       "weightForCityStateType": {
           "Cultured": 3
       }
@@ -173,6 +175,7 @@
   {
     "name": "Spread Religion",
     "description": "We have heard the tenets of [religionName] and are most curious. Will you send missionaries to teach us about your religion?",
+    "duration": 30,
       "weightForCityStateType": {
           "Religious": 3
       }
