@@ -8,12 +8,12 @@
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
+        "uniques": "[+1 Faith] from every [Tundra]"
     },
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Desert] tiles without [Flood plains] [in this city]"]
+        "uniques": "[+1 Faith] from every [Flood plains]"
     },
     {
         "name": "Earth Mother",
@@ -27,8 +27,8 @@
     {
         "name": "Faith Healers",
         "type": "Pantheon",
-        "uniques": ["[All] Units adjacent to this city heal [+25] HP per turn when healing",
-            "[+2 Faith] from every [Library]"]
+        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing",
+            "[+1 Faith] from every [Library]"]
     },
     {
         "name": "Fertility Rites",
@@ -63,7 +63,7 @@
         "name": "God of War",
         "type": "Pantheon",
         "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion",
-            "[+1 Faith] from every [Barracks]"]
+            "[+2 Faith] from every [Barracks]"]
     },
     {
         "name": "Goddess of Festivals",
@@ -73,12 +73,12 @@
     {
         "name": "Goddess of Love",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness, +2 Faith] [in cities following this religion] <in cities with at least [6] [Population]>"]
+        "uniques": ["[+1 Happiness, +1 Faith] [in cities following this religion] <in cities with at least [6] [Population]>"]
     },
     {
         "name": "Goddess of Protection",
         "type": "Pantheon",
-        "uniques": ["[+25]% Strength for cities <when attacking>",
+        "uniques": ["[+33]% Strength for cities <when attacking>",
             "[+2 Faith] from every [Walls]"]
     },
     {
@@ -322,7 +322,7 @@
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+16]% Natural religion spread [in all cities]", "[+17]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
+        "uniques": ["[+17]% Natural religion spread [in all cities]", "[+17]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
     },
     {
         "name": "Religious Unity",
