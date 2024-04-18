@@ -18,12 +18,10 @@
     {
         "name": "Maritime",
         "friendBonusUniques": [
-          "[+2 Food] [in capital] <before the [Industrial era]>",
-          "[+3 Food] [in capital] <starting from the [Industrial era]>",
+          "[+2 Food] [in capital]"
         ],
         "allyBonusUniques": [
-          "[+2 Food] [in capital] <before the [Industrial era]>", 
-          "[+4 Food] [in capital] <starting from the [Industrial era]>", 
+          "[+3 Food] [in capital]", 
           "[+1 Food] [in all cities]",
         ],
         "color": [56, 255, 112]
@@ -31,12 +29,10 @@
     {
         "name": "Mercantile",
         "friendBonusUniques": [
-            "[+2 Happiness] <before the [Industrial era]>",
-            "[+3 Happiness] <starting from the [Industrial era]>"
+            "[+2 Happiness]>",
         ],
         "allyBonusUniques": [
-            "[+2 Happiness] <before the [Industrial era]>",
-            "[+4 Happiness] <starting from the [Industrial era]>",
+            "[+2 Happiness]",
             "Provides a unique luxury"
         ],
         "color": [255, 216, 0]
@@ -44,7 +40,7 @@
     {
         "name": "Militaristic",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
-        "allyBonusUniques": ["Provides military units every ≈[15] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[14] turns"],
         "color": [255, 0, 0]
     },
     {
