@@ -177,7 +177,7 @@
                 "uniques": [
                     "[+15]% Strength <for [Sword] units> <when adjacent to a [Military] unit>",
 		    "[+15]% Strength <for [Gunpowder] units> <when adjacent to a [Military] unit>",
-		    "[Great General] is earned [25]% faster",
+		    "[Great General] is earned [50]% faster",
                 ],
                 "row": 1,
                 "column": 2
@@ -234,7 +234,7 @@
         "uniques": [
 		"[+50]% Production when constructing [Armory] buildings [in all cities]",
 		"[+50]% Production when constructing [Castle] buildings [in all cities]",
-		"[+100]% Production when constructing [Temple] wonders [in all cities]",
+		"[+100]% Production when constructing [Temple] buildings [in all cities]",
         ],
         "policies": [
             {
@@ -250,7 +250,7 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
 		    "[+1 Production] from every [Armory]",
-		    "[+3 Science] from every [Castle]"
+		    "[+2 Science] from every [Castle]"
                 ],
                 "row": 1,
                 "column": 5
@@ -400,10 +400,10 @@
             {
                 "name": "Monumentality",
                 "uniques": [
-		    "[+1 Culture] from every [National Wonder]",
-		    "[+25]% [Culture] [in all cities with a world wonder]",  
+		    "[+25]% [Culture] [in all cities with a world wonder]",
+		    "[+1 Culture] from every [{non-[Palace]} {National Wonder}]",
                 ],
-		"requires": ["Cultural Centers"],
+		"requires": ["Cultural Centers", "Tourism Destination"],
                 "row": 2,
                 "column": 2
             },
@@ -412,14 +412,14 @@
                 "uniques": [
                     "Free [Great Artist] appears"
                 ],
-		"requires": ["Cultural Centers", "Tourism Destination"],
+		"requires": ["Tourism Destination"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Cultural Exchange",
                 "uniques": [
-		     "[+1 Happiness] from every [National Wonder]",
+		     "[+1 Happiness] from every [{non-[Palace]} {National Wonder}]",
                 ],
                 "requires": ["Monumentality"],
                 "row": 3,
@@ -525,7 +525,7 @@
                 "name": "Maritime Infrastructure",
                 "uniques": [
                     "[+1 Production, +1 Science] from every [Coast]",
-		    "[+1 Production, +1 Science] from every [Ocean]",
+	    	    "[+1 Production, +1 Science] from every [Ocean]",
                 ],
                 "row": 1,
                 "column": 2
@@ -556,7 +556,6 @@
                 "uniques": [
 		    "[Great General] units gain the [Great Admiral] promotion",
 		    "Free [Great General] appears",
-		    "[Great General] is earned [25]% faster",
                 ],
                 "requires": ["Maritime Infrastructure","Merchant Navy"],
                 "row": 2,
@@ -678,7 +677,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
 		    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
-		    "[+25]% Strength for cities <in cities with a [Hospital]>"
+		    "[+33]% Strength for cities <in cities with a [Hospital]>"
                 ],
                 "row": 1,
                 "column": 3
@@ -705,7 +704,7 @@
                 "name": "Free Speech",
                 "uniques": [
 		    "[+1 Gold] from every [Farm] <in [non-[River]] tiles>",
-		    "[6] units cost no maintenance"
+		    "[8] units cost no maintenance"
 		],
 		"requires": ["Constitution"],
                 "row": 2,
@@ -782,9 +781,9 @@
                     "[+25]% Production when constructing [Military] units [in all cities]",
                     "New [Military] units start with [15] Experience [in all cities]"
                 ],
-                "requires": ["Police State", "Fascism"],
+                "requires": ["Fascism"],
                 "row": 3,
-                "column": 3
+                "column": 2
             },
             {
                 "name": "Autocracy Complete",
@@ -805,8 +804,8 @@
             "Scientific": 60
         },
         "uniques": [
-            "[+1 Happiness] from every [Monument]",
-	    "Gain a free [Monument] [in all cities]",
+            "[+2 Happiness] from every [Monument]",
+	    "[+200]% Production when constructing [Monument] wonders [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
         ],
@@ -840,20 +839,20 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-		    "[+1 Happiness] from every [Factory]",
-		    "[-15]% maintenance cost for buildings <in cities with a [Factory]>"
+		    "[+3 Science] [in all cities]",
+		    "[+1 Production] from every [Lumber mill]",
+                    "[+1 Production] from every [Mine]",
+                    "[+1 Production] from every [Quarry]"
                 ],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Communism",
-                "requires": ["Socialism"],
+                "requires": ["United Front","Socialism"],
                 "uniques": [
-                    "[+3 Science] [in all cities]",
-		    "[+1 Production] from every [Lumber mill]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]"
+                    "Free [Great Scientist] appears",
+	     	    "Free [Great Engineer] appears",
                 ],
                 "row": 3,
                 "column": 3
@@ -861,7 +860,7 @@
             {
                 "name": "Order Complete",
                 "uniques": [
-                    "[+2 Food, +2 Production, +2 Culture, +2 Science, +2 Gold] [in all cities]"
+		    "[+2 Food, +2 Production, +2 Culture, +2 Science, +2 Gold] [in all cities]"
 		]
             }
         ]
