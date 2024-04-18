@@ -809,7 +809,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Gold, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]","Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
+		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]","Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -821,7 +821,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Gold, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]","[+25]% Great Person generation [in this city]"],
+		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]","[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -873,7 +873,7 @@
 		"requiredBuilding": "University",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]","[+2 Science] from [Forest] tiles [in this city]"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
@@ -886,7 +886,6 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
-		"uniques": ["[+1 Production, +1 Science] from [Forest] tiles [in this city]"]
 		"requiredTech": "Industrialization"
 	},
 	{
@@ -1031,7 +1030,7 @@
 		"requiredBuilding": "Hospital",
 		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[30]% Food is carried over after population increases [in this city]", "[+1 Science] from every specialist [in this city]"]
+		"uniques": ["[25]% Food is carried over after population increases [in this city]", "[+2 Science] from every specialist [in this city]"]
 	},
 	{
 		"name": "Manhattan Project",
