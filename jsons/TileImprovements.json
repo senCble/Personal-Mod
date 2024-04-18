@@ -210,7 +210,8 @@
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
-		"uniques": ["Great Improvement", "[+2 Production] <after discovering [Chemistry]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+2 Production] <after discovering [Chemistry]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]",
+			"[+50]% Production when constructing [Spaceship part] units [in this city] <after adopting [Order Complete]>"]
 	},
 	{
 		"name": "Customs house",
