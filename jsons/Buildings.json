@@ -873,7 +873,7 @@
 		"requiredBuilding": "University",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]","[+2 Science] from [Forest] tiles [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
@@ -886,6 +886,7 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
+		"uniques": ["[+1 Production, +1 Gold] from [Lumber mill] tiles [in this city]"],
 		"requiredTech": "Industrialization"
 	},
 	{
