@@ -635,7 +635,7 @@
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+25]%"],
+                "uniques": ["Science gained from research agreements [+33]%"],
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
