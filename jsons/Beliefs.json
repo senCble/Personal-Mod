@@ -8,12 +8,12 @@
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": "[+1 Faith] from every [Tundra]"
+        "uniques": ["[+1 Faith] from every [Tundra]"]
     },
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": "[+1 Faith] from every [Flood plains]"
+        "uniques": ["[+1 Faith] from every [Flood plains]"]
     },
     {
         "name": "Earth Mother",
