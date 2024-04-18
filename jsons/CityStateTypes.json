@@ -29,7 +29,7 @@
     {
         "name": "Mercantile",
         "friendBonusUniques": [
-            "[+2 Happiness]>",
+            "[+2 Happiness]"
         ],
         "allyBonusUniques": [
             "[+2 Happiness]",
