@@ -141,7 +141,7 @@
 	{
 		"name": "Skirmish",
 		"prerequisites": ["Accuracy III","Barrage III","Mobility II","Anti-Armor II"],
-		"uniques": ["[+33]% Strength <vs [non-[Wounded]] units> <when attacking>","[+5]% Strength <when fighting in [Open terrain] tiles>"],
+		"uniques": ["[+50]% Strength <vs [non-[Wounded]] units> <when attacking>","[+5]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Ranged Mounted","Helicopter"],
         "column": 27,
         "row": 2
@@ -368,7 +368,39 @@
         "column": 13,
         "row": 3
 	},
-
+	{
+		"name": "Bombardment I",
+		"uniques": [
+			"[+10]% Strength <when attacking>",
+			"[+10]% Strength <vs cities> <when attacking>",
+		],
+		"unitTypes": ["Ranged Water"],
+        "column": 26,
+        "row": 1
+	},
+	{
+		"name": "Bombardment II",
+		"prerequisites": ["Bombardment I"],
+		"uniques": [
+			"[+10]% Strength <when attacking>",
+			"[+10]% Strength <vs cities> <when attacking>",
+		],
+		"unitTypes": ["Ranged Water"],
+        "column": 26,
+        "row": 2
+	},
+	{
+		"name": "Bombardment III",
+		"prerequisites": ["Bombardment II"],
+		"uniques": [
+			"[+10]% Strength <when attacking>",
+			"[+10]% Strength <vs cities> <when attacking>",
+		],
+		"unitTypes": ["Ranged Water"],
+        "column": 26,
+        "row": 3
+	},
+	
 	// Submarine
 	{
 		"name": "Wolfpack I",
@@ -532,38 +564,7 @@
         "column": 19,
         "row": 3
 	},
-	{
-		"name": "Air Targeting I",
-		"uniques": [
-			"[+15]% Strength <vs [Land] units>",
-			"[+15]% Strength <vs [Water] units>"
-		],
-		"unitTypes": ["Bomber"],
-        "column": 20,
-        "row": 1
-	},
-	{
-		"name": "Air Targeting II",
-		"prerequisites": ["Air Targeting I"],
-		"uniques": [
-			"[+15]% Strength <vs [Land] units>",
-			"[+15]% Strength <vs [Water] units>"
-		],
-		"unitTypes": ["Bomber"],
-        "column": 20,
-        "row": 2
-	},
-	{
-		"name": "Air Targeting III",
-		"prerequisites": ["Air Targeting II"],
-		"uniques": [
-			"[+20]% Strength <vs [Land] units>",
-			"[+20]% Strength <vs [Water] units>"
-		],
-		"unitTypes": ["Bomber"],
-        "column": 20,
-        "row": 3
-	},
+
 
 	{
 		"name": "Sortie",
@@ -692,40 +693,6 @@
 	},
 
 
-	// Water ranged and air units
-	{
-		"name": "Bombardment I",
-		"uniques": [
-			"[+10]% Strength <when attacking>",
-			"[+20]% Strength <vs cities> <when attacking>",
-		],
-		"unitTypes": ["Ranged Water"],
-        "column": 26,
-        "row": 1
-	},
-	{
-		"name": "Bombardment II",
-		"prerequisites": ["Bombardment I"],
-		"uniques": [
-			"[+10]% Strength <when attacking>",
-			"[+20]% Strength <vs cities> <when attacking>",
-		],
-		"unitTypes": ["Ranged Water"],
-        "column": 26,
-        "row": 2
-	},
-	{
-		"name": "Bombardment III",
-		"prerequisites": ["Bombardment II"],
-		"uniques": [
-			"[+10]% Strength <when attacking>",
-			"[+20]% Strength <vs cities> <when attacking>",
-		],
-		"unitTypes": ["Ranged Water"],
-        "column": 26,
-        "row": 3
-	},
-
 	// Uniques that should be kept on upgrades
 	{
 		"name": "Morale", // Heroic Epic
@@ -789,7 +756,7 @@
 	},
 	{
 		"name": "[Janissary] ability",
-		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]
+		"uniques": ["Heals [50] damage if it kills a unit", "[+33]% Strength <when attacking>"]
 	},
 	{
 		"name": "[Sipahi] ability",
@@ -801,20 +768,20 @@
 	},
 	{
 		"name": "[Hussar] ability",
-		"uniques": ["[+50]% to Flank Attack bonuses"]
+		"uniques": ["[+100]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
-			"[+25]% Strength <when fighting in [Tundra] tiles>",
-			"[+25]% Strength <when fighting in [Hill] tiles>",
+		"uniques": ["[+33]% Strength <when fighting in [Snow] tiles>",
+			"[+33]% Strength <when fighting in [Tundra] tiles>",
+			"[+33]% Strength <when fighting in [Hill] tiles>",
 			"Double movement in [Snow]",
 			"Double movement in [Tundra]",
 			"Double movement in [Hill]"]
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
-		"uniques": ["Transfer Movement to [Great General]", "[+25]% Strength when stacked with [Great General]"]
+		"uniques": ["Transfer Movement to [Great General]", "[+33]% Strength when stacked with [Great General]"]
 	},
 	{
 		"name": "[Zero] ability",
