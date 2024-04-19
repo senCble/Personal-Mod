@@ -149,7 +149,7 @@
 	},
 	{
 		"name": "Walls",
-		"cityStrength": 5,
+		"cityStrength": 6,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
@@ -592,7 +592,7 @@
 	},
 	{
 		"name": "Castle",
-		"cityStrength": 8,
+		"cityStrength": 9,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
