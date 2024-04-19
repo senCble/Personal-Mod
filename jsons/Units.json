@@ -1323,14 +1323,14 @@
 		"requiredResource": "Coal",
 		"uniques": ["Can see invisible [Submarine] units", "[50]% chance to intercept air attacks",
 			"May withdraw before melee ([75]%)", "[+100]% Strength <vs [Submarine] units>"],
-		"promotions": ["Boarding Party I","Coastal Raider I"],
+		"promotions": ["Coastal Raider I"],
 		"attackSound": "shipguns"
 	},
 	{
 		"name": "Anti-Tank Gun",
 		"unitType": "Ranged Mounted",
 		"range": 1,
-		"movement": 5,
+		"movement": 4,
 		"strength": 50,
 		"rangedStrength": 50,
 		"cost": 350,
