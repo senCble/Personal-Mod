@@ -292,8 +292,7 @@
 	{
 		"name": "Coastal Raider I",
 		"uniques": [
-			"[+5]% Strength",
-			"[+15]% Strength <vs cities>", 
+			"[+5]% Strength", "[+15]% Strength <vs cities>", 
 			"Earn [33]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
@@ -304,8 +303,7 @@
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
 		"uniques": [
-			"[+5]% Strength",
-			"[+15]% Strength <vs cities>", 
+			"[+5]% Strength", "[+15]% Strength <vs cities>", 
 			"Earn [33]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
@@ -316,8 +314,7 @@
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
 		"uniques": [
-			"[+5]% Strength",
-			"[+15]% Strength <vs cities>", 
+			"[+5]% Strength", "[+15]% Strength <vs cities>", 
 			"Earn [34]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
@@ -511,8 +508,8 @@
 		{
 		"name": "Air Targeting I",
 		"uniques": [
-			"[+20]% Strength <vs [Water] units>",
-			"[+20]% Strength <vs [Land] units>"
+			"[+15]% Strength <vs [Water] units>",
+			"[+15]% Strength <vs [Land] units>"
 		],
 		"unitTypes": ["Bomber"],
         "column": 20,
@@ -522,8 +519,8 @@
 		"name": "Air Targeting II",
 		"prerequisites": ["Bombardment I"],
 		"uniques": [
-			"[+20]% Strength <vs [Water] units>",
-			"[+20]% Strength <vs [Land] units>"
+			"[+15]% Strength <vs [Water] units>",
+			"[+15]% Strength <vs [Land] units>"
 		],
 		"unitTypes": ["Bomber"],
         "column": 20,
