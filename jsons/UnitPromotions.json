@@ -172,9 +172,9 @@
 	},
 	{
 		"name": "Blitz",
-		"prerequisites": ["Shock III","Drill III","Coastal Raider III","Boarding Party III"],
+		"prerequisites": ["Shock III","Drill III","Coastal Raider III","Boarding Party III","Air Targeting III","Siege III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Water",],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Water","Bomber"],
         "column": 6,
         "row": 4
 	},
@@ -292,8 +292,8 @@
 	{
 		"name": "Coastal Raider I",
 		"uniques": [
-			"[+10]% Strength",
-			"[+10]% Strength <vs cities>", 
+			"[+5]% Strength",
+			"[+15]% Strength <vs cities>", 
 			"Earn [33]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
@@ -304,8 +304,8 @@
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
 		"uniques": [
-			"[+10]% Strength",
-			"[+10]% Strength <vs cities>", 
+			"[+5]% Strength",
+			"[+15]% Strength <vs cities>", 
 			"Earn [33]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
@@ -316,8 +316,8 @@
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
 		"uniques": [
-			"[+10]% Strength",
-			"[+10]% Strength <vs cities>", 
+			"[+5]% Strength",
+			"[+15]% Strength <vs cities>", 
 			"Earn [34]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
@@ -508,6 +508,38 @@
         "column": 17,
         "row": 3
 	},
+		{
+		"name": "Air Targeting I",
+		"uniques": [
+			"[+20]% Strength <vs [Water] units>",
+			"[+20]% Strength <vs [Land] units>"
+		],
+		"unitTypes": ["Bomber"],
+        "column": 20,
+        "row": 1
+	},
+	{
+		"name": "Air Targeting II",
+		"prerequisites": ["Bombardment I"],
+		"uniques": [
+			"[+20]% Strength <vs [Water] units>",
+			"[+20]% Strength <vs [Land] units>"
+		],
+		"unitTypes": ["Bomber"],
+        "column": 20,
+        "row": 2
+	},
+	{
+		"name": "Air Targeting III",
+		"prerequisites": ["Bombardment II"],
+		"uniques": [
+			"[+20]% Strength <vs [Water] units>",
+			"[+20]% Strength <vs [Land] units>"
+		],
+		"unitTypes": ["Bomber"],
+        "column": 20,
+        "row": 3
+	},
 	{
 		"name": "Evasion",
 		"prerequisites": ["Siege II", "Air Targeting II"],
@@ -564,8 +596,6 @@
         "column": 19,
         "row": 3
 	},
-
-
 	{
 		"name": "Sortie",
 		"prerequisites": ["Interception II", "Dogfighting II"],
@@ -574,7 +604,6 @@
         "column": 21,
         "row": 2
 	},
-
 	{
 		"name": "Operational Range",
 		"prerequisites": ["Interception I", "Dogfighting I", "Siege I", "Air Targeting I"],
@@ -662,16 +691,16 @@
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water","Ranged Mounted","Helicopter"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water","Ranged Mounted"],
         "column": 24,
         "row": 4
 	},
 	{
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
-			"Bombardment III", "Air Targeting III","Siege III", "Mobility II", "Anti-Armor II"],
+			"Bombardment III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[-10]% Strength <when attacking>","[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine","Fighter","Bomber","Ranged Mounted","Helicopter"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine","Ranged Mounted","Helicopter"],
         "column": 24,
         "row": 5
 	},
