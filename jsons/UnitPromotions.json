@@ -230,11 +230,7 @@
 	{
 		"name": "Scouting III",
 		"prerequisites": ["Scouting II"],
-		"uniques": [
-			"[+1] Movement",
-			"[1] Movement point cost to embark",
-			"[1] Movement point cost to disembark"
-		],
+		"uniques": ["[+1] Movement", "Ignores Zone of Control"],
 		"unitTypes": ["Scout"],
         "column": 8,
         "row": 3
@@ -530,8 +526,8 @@
 		"name": "Air Targeting III",
 		"prerequisites": ["Bombardment II"],
 		"uniques": [
-			"[+20]% Strength <vs [Water] units>",
-			"[+20]% Strength <vs [Land] units>"
+			"[+15]% Strength <vs [Water] units>",
+			"[+15]% Strength <vs [Land] units>"
 		],
 		"unitTypes": ["Bomber"],
         "column": 20,
