@@ -513,23 +513,23 @@
 	},
 	{
 		"name": "Air Targeting II",
-		"prerequisites": ["Bombardment I"],
+		"prerequisites": ["Bombardment I","Interception I","Dogfighting I"],
 		"uniques": [
 			"[+15]% Strength <vs [Water] units>",
 			"[+15]% Strength <vs [Land] units>"
 		],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Bomber", "Fighter"],
         "column": 20,
         "row": 2
 	},
 	{
 		"name": "Air Targeting III",
-		"prerequisites": ["Bombardment II"],
+		"prerequisites": ["Bombardment II","Interception II","Dogfighting II"]],
 		"uniques": [
 			"[+15]% Strength <vs [Water] units>",
 			"[+15]% Strength <vs [Land] units>"
 		],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Bomber", "Fighter"],
         "column": 20,
         "row": 3
 	},
@@ -596,6 +596,17 @@
 		"unitTypes": ["Fighter"],
         "column": 21,
         "row": 2
+	},
+	{
+		"name": "Air Targeting IV",
+		"prerequisites": ["Interception III","Dogfighting III"]],
+		"uniques": [
+			"[+33]% Strength <vs [Water] units>",
+			"[+33]% Strength <vs [Land] units>"
+		],
+		"unitTypes": ["Fighter"],
+        "column": 20,
+        "row": 4
 	},
 	{
 		"name": "Operational Range",
