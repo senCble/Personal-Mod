@@ -598,8 +598,8 @@
         "row": 2
 	},
 	{
-		"name": "Air Targeting IV",
-		"prerequisites": ["Interception III","Dogfighting III"]],
+		"name": "Air Bombardment",
+		"prerequisites": ["Interception III","Dogfighting III"],
 		"uniques": [
 			"[+33]% Strength <vs [Water] units>",
 			"[+33]% Strength <vs [Land] units>"
