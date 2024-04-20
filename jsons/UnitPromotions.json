@@ -480,7 +480,7 @@
 	// Bomber
 	{
 		"name": "Siege I",
-		"uniques": ["[+33]% Strength <vs cities>"],
+		"uniques": ["[+30]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 1
@@ -488,7 +488,7 @@
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
-		"uniques": ["[+33]% Strength <vs cities>"],
+		"uniques": ["[+30]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 2
@@ -496,7 +496,7 @@
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["[+34]% Strength <vs cities>"],
+		"uniques": ["[+40]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 3
@@ -513,7 +513,7 @@
 	},
 	{
 		"name": "Air Targeting II",
-		"prerequisites": ["Bombardment I","Interception I","Dogfighting I"],
+		"prerequisites": ["Air Targeting I"],
 		"uniques": [
 			"[+15]% Strength <vs [Water] units>",
 			"[+15]% Strength <vs [Land] units>"
@@ -524,10 +524,10 @@
 	},
 	{
 		"name": "Air Targeting III",
-		"prerequisites": ["Bombardment II","Interception II","Dogfighting II"]],
+		"prerequisites": ["Air Targeting II","Interception II","Dogfighting II"],
 		"uniques": [
-			"[+15]% Strength <vs [Water] units>",
-			"[+15]% Strength <vs [Land] units>"
+			"[+20]% Strength <vs [Water] units>",
+			"[+20]% Strength <vs [Land] units>"
 		],
 		"unitTypes": ["Bomber", "Fighter"],
         "column": 20,
@@ -545,7 +545,7 @@
 	// Aircraft
 	{
 		"name": "Interception I",
-		"uniques": ["[+33]% Damage when intercepting"],
+		"uniques": ["[+5]% Strength","[+25]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 1
@@ -553,7 +553,7 @@
 	{
 		"name": "Interception II",
 		"prerequisites": ["Interception I"],
-		"uniques": ["[+33]% Damage when intercepting"],
+		"uniques": ["[+5]% Strength","[+25]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 2
@@ -561,14 +561,14 @@
 	{
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
-		"uniques": ["[+34]% Damage when intercepting"],
+		"uniques": ["[+5]% Strength","[+35]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 3
 	},
 	{
 		"name": "Dogfighting I",
-		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"uniques": ["[+5]% Strength","[+25]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 1
@@ -576,7 +576,7 @@
 	{
 		"name": "Dogfighting II",
 		"prerequisites": ["Dogfighting I"],
-		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"uniques": ["[+5]% Strength","[+25]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 2
@@ -584,7 +584,7 @@
 	{
 		"name": "Dogfighting III",
 		"prerequisites": ["Dogfighting II"],
-		"uniques": ["[+34]% Strength when performing Air Sweep"],
+		"uniques": ["[+5]% Strength","[+35]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 3
@@ -596,17 +596,6 @@
 		"unitTypes": ["Fighter"],
         "column": 21,
         "row": 2
-	},
-	{
-		"name": "Air Bombardment",
-		"prerequisites": ["Interception III","Dogfighting III"],
-		"uniques": [
-			"[+33]% Strength <vs [Water] units>",
-			"[+33]% Strength <vs [Land] units>"
-		],
-		"unitTypes": ["Fighter"],
-        "column": 20,
-        "row": 4
 	},
 	{
 		"name": "Operational Range",
