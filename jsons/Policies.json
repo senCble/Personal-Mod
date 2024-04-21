@@ -457,7 +457,7 @@
                 "row": 1,
                 "column": 2
             },
-	    {
+	    	{
                 "name": "Mercantilism",
                 "uniques": [
 		    		"[+1 Science] from every [Trading post]",
@@ -575,7 +575,7 @@
                 "name": "Exploration Complete",
                 "uniques": [
 		    		"[+15]% Production when constructing [{Military} {Water}] units [in all cities]",
-					"[+15]% Strength <for [Water Melee] units>",
+					"[+15]% Strength <for [Melee Water] units>",
 		    		"May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
