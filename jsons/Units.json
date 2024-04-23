@@ -605,7 +605,7 @@
 		"replaces": "Knight",
 		"uniqueTo": "Siam",
 		"movement": 3,
-		"strength": 26,
+		"strength": 25,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
