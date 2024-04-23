@@ -44,7 +44,7 @@
 		"upgradesTo": "Swordsman",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
-        "civilopediaText": [
+        	"civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
 		]
 	},
@@ -610,7 +610,8 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Lancer",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Ranged Mounted] units>","[+50]% Strength <vs [Mounted] units>","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Formation I"],
 		"attackSound": "elephant"
 	},
 	{
@@ -888,7 +889,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Ranged Mounted] units>"],
+		"promotions": ["Formation I"],
 		"attackSound": "shot"
 	},
 	{
@@ -954,14 +955,14 @@
 		"unitType": "Ranged Mounted",
 		"range": 1,
 		"movement": 4,
-		"strength": 25,
-		"rangedStrength": 25,
+		"strength": 24,
+		"rangedStrength": 24,
 		"cost": 180,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Ranged Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
@@ -971,14 +972,14 @@
 		"uniqueTo": "The Ottomans",
 		"range": 1,
 		"movement": 5,
-		"strength": 25,
-		"rangedStrength": 25,
+		"strength": 24,
+		"rangedStrength": 24,
 		"cost": 180,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Ranged Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
 			"[+1] Sight"],
 		"promotions": ["[Sipahi] ability"],
 		"attackSound": "horse"
@@ -990,14 +991,14 @@
 		"uniqueTo": "Sweden",
 		"range": 1,
 		"movement": 4,
-		"strength": 25,
-		"rangedStrength": 25,
+		"strength": 24,
+		"rangedStrength": 24,
 		"cost": 180,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Ranged Mounted] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Hakkapeliitta] ability"],
 		"attackSound": "horse"
 	},
