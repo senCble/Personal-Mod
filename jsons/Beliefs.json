@@ -296,12 +296,12 @@
     {
         "name": "Holy Order",
         "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%"]
+        "uniques": ["[Faith] cost of purchasing [Missionary] units [-33]%", "[Faith] cost of purchasing [Inquisitor] units [-33]%"]
     },
     {
         "name": "Itinerant Preachers",
         "type": "Enhancer",
-        "uniques": ["Religion naturally spreads to cities [+2] tiles away"]
+        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
     },
     {
         "name": "Just War",
@@ -312,17 +312,17 @@
     {
         "name": "Messiah",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+        "uniques": ["[+50]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
     },
     {
         "name": "Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+        "uniques": ["[+50]% Spread Religion Strength <for [Missionary] units>","[+1] Movement <for [Missionary] units>"]
     },
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+17]% Natural religion spread [in all cities]", "[+17]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
+        "uniques": ["[+25]% Natural religion spread [in all cities]", "[+25]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
     },
     {
         "name": "Religious Unity",
@@ -332,6 +332,6 @@
     {
         "name": "Reliquary",
         "type": "Enhancer",
-        "uniques": ["[+100 Faith] whenever a Great Person is expended"]
+        "uniques": ["[+250 Faith] whenever a Great Person is expended"]
     }
 ]
