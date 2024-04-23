@@ -19,7 +19,7 @@
     {
         "name": "a stash of gold",
         "notification": "We found a stash of Gold", // trigger notification only
-        "uniques": ["Gain [60] [Gold] (modified by game speed)"],
+        "uniques": ["Gain [90] [Gold] (modified by game speed)"],
         "color": "#ffeb7f"
     },
     {
