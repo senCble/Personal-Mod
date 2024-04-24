@@ -739,19 +739,19 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-		    		"[+1 Production, +1 Science] from every [Strategic resource]",
+		    		"[+1 Food, +1 Science] from every [Strategic resource]",
 		    		"Quantity of strategic resources produced by the empire +[100]%"
 	        	],
-                "row": 2,
-                "column": 2
+                "row": 1,
+                "column": 4
             },
             {
                 "name": "Militarism",
                 "uniques": [
 		    		"[Gold] cost of purchasing [Military] units [-33]%",
 				],
-                "row": 2,
-                "column": 4
+                "row": 1,
+                "column": 2
             },
             {
                 "name": "Fascism",
@@ -772,7 +772,7 @@
 		    		"[+3 Happiness] from every [Courthouse]",
                 ],
                 // There are also some uniques regarding espoinage, which as of this writing is not yet implemented
-                "requires": ["Militarism"],
+                "requires": ["Populism"],
                 "row": 2,
                 "column": 4
             },
