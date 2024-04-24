@@ -1052,7 +1052,7 @@
 		"obsoleteTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
 		"uniques": [
-			"[+50]% Strength <vs [Barbarian] units>",
+			"[+33]% Strength <vs [Barbarian] units>",
 			"[+1] Sight <when [Embarked]>",
 			"Defense bonus when embarked",
 			"Never appears as a Barbarian unit",
