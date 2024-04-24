@@ -230,7 +230,7 @@
 	{
 		"name": "Scouting III",
 		"prerequisites": ["Scouting II"],
-		"uniques": ["[+1] Movement", "Ignores Zone of Control"],
+		"uniques": ["[+1] Movement", "Ignores Zone of Control", "[+25]% Strength <when attacking>"],
 		"unitTypes": ["Scout"],
         "column": 8,
         "row": 3
