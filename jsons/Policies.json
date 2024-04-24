@@ -739,10 +739,10 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-		    		"[+1 Production, +2 Science] from every [Strategic resource]",
+		    		"[+1 Production, +1 Science] from every [Strategic resource]",
 		    		"Quantity of strategic resources produced by the empire +[100]%"
 	        	],
-                "row": 1,
+                "row": 2,
                 "column": 2
             },
             {
@@ -750,7 +750,7 @@
                 "uniques": [
 		    		"[Gold] cost of purchasing [Military] units [-33]%",
 				],
-                "row": 1,
+                "row": 2,
                 "column": 4
             },
             {
@@ -862,6 +862,7 @@
                 "uniques": [
 		    		"Free [Great Scientist] appears",
 	     	    	"Free [Great Engineer] appears",
+					"[+50]% Production when constructing [Spaceship Factory] buildings [in all cities]"
 				]
             }
         ]
