@@ -1035,7 +1035,7 @@
 		"name": "Marine",
 		"unitType": "Scout",
 		"movement": 2,
-		"strength": 32,
+		"strength": 30,
 		"cost": 225,
 		"requiredTech": "Archaeology",
 		"obsoleteTech": "Pharmaceuticals",
