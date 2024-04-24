@@ -1425,9 +1425,8 @@
 		"upgradesTo": "XCOM Squad",
 		"promotions": ["Amphibious"],
 		"uniques": [
+			"No movement cost to pillage",
 			"May Paradrop up to [10] tiles from inside friendly territory",
-			"[+1] Sight <when [Embarked]>",
-			"Defense bonus when embarked",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
