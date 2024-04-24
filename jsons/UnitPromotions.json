@@ -517,7 +517,7 @@
 			"[+15]% Strength <vs [Water] units>",
 			"[+15]% Strength <vs [Land] units>"
 		],
-		"unitTypes": ["Bomber", "Fighter"],
+		"unitTypes": ["Bomber"],
         "column": 20,
         "row": 2
 	},
@@ -606,7 +606,7 @@
 	},
 	{
 		"name": "Air Repair",
-		"prerequisites": ["Interception II", "Dogfighting II", "Siege II", "Air Targeting II"],
+		"prerequisites": ["Interception II", "Dogfighting II", "Siege III", "Air Targeting III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter", "Bomber"],
         "column": 21,
