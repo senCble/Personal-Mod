@@ -1608,8 +1608,8 @@
 		"name": "Missile Cruiser",
 		"unitType": "Ranged Water",
 		"movement": 5,
-		"strength": 65,
-		"rangedStrength": 80,
+		"strength": 80,
+		"rangedStrength": 100,
 		"range": 3,
 		"interceptRange": 2,
 		"cost": 450,
@@ -1617,7 +1617,7 @@
 		"requiredTech": "Lasers",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
 			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire","Armor Plating I"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1638,13 +1638,12 @@
 		"movement": 3,
 		"strength": 75,
 		"rangedStrength": 75,
-		"range": 10,
-		"interceptRange": 10,
+		"range": 12,
+		"interceptRange": 12,
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",
-			"[+33]% Strength <vs [Air] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
 	{
