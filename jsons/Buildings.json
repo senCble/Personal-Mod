@@ -149,7 +149,7 @@
 	},
 	{
 		"name": "Walls",
-		"cityStrength": 6,
+		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
@@ -158,7 +158,7 @@
 	{
 		"name": "Walls of Babylon",
 		"replaces": "Walls",
-		"cost": 60,
+		"cost": 65,
 		"uniqueTo": "Babylon",
 		"cityStrength": 6,
 		"cityHealth": 100,
@@ -592,7 +592,7 @@
 	},
 	{
 		"name": "Castle",
-		"cityStrength": 9,
+		"cityStrength": 8,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
@@ -604,7 +604,7 @@
 		"cost": 150,
 		"replaces": "Castle",
 		"uniqueTo": "India",
-		"cityStrength": 9,
+		"cityStrength": 8,
 		"cityHealth": 25,
 		"culture": 2,
 		"hurryCostModifier": 25,
