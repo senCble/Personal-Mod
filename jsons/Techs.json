@@ -232,7 +232,7 @@
 			},
 			{
 				"name": "Chivalry",
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["Civil Service","Guilds"],
                 		"uniques": ["Enables Defensive Pacts"],
                 		"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
@@ -288,7 +288,7 @@
 			{
 				"name": "Printing Press",
 				"row": 8,
-				"prerequisites": ["Chivalry","Machinery","Physics"],
+				"prerequisites": ["Machinery","Physics"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
 			{
