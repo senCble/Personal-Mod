@@ -1050,14 +1050,13 @@
 		"cost": 225,
 		"requiredTech": "Archaeology",
 		"obsoleteTech": "Pharmaceuticals",
-		"promotions": ["Amphibious"],
 		"uniques": [
 			"[+33]% Strength <vs [Barbarian] units>",
 			"[+1] Sight <when [Embarked]>",
 			"Defense bonus when embarked",
 			"Never appears as a Barbarian unit",
 		],
-		"promotions": ["Ignore terrain cost"],
+		"promotions": ["Amphibious","Ignore terrain cost"],
 		"upgradesTo": "Paratrooper",
 		"attackSound": "shot"
   	},
@@ -1443,13 +1442,12 @@
 		"cost": 375,
 		"requiredTech": "Pharmaceuticals",
 		"upgradesTo": "XCOM Squad",
-		"promotions": ["Amphibious"],
 		"uniques": [
 			"No movement cost to pillage",
 			"May Paradrop up to [10] tiles from inside friendly territory",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Ignore terrain cost"],
+		"promotions": ["Amphibious","Ignore terrain cost"],
 		"attackSound": "shot"
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
@@ -1657,13 +1655,12 @@
 		"strength": 100,
 		"cost": 450,
 		"requiredTech": "Nanotechnology",
-		"promotions": ["Amphibious"],
 		"uniques": [
 			"No movement cost to pillage",
 			"May Paradrop up to [40] tiles from inside friendly territory",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Ignore terrain cost"],
+		"promotions": ["Amphibious","Ignore terrain cost"],
 		"attackSound": "shot"
 	},
 	{
