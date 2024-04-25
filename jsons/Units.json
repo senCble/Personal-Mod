@@ -159,7 +159,7 @@
 		"movement": 4,
 		"strength": 10,
 		"cost": 45,
-		"uniques": ["Cannot enter ocean tiles","[+33]% Strength <vs [Barbarian] units>",],
+		"uniques": ["Cannot enter ocean tiles","[+33]% Strength <vs [Barbarian] units>"],
 		"upgradesTo": "Trireme",
 		"requiredTech": "Sailing",
 		"obsoleteTech": "Optics",
