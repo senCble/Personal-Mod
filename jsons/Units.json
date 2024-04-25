@@ -1274,7 +1274,7 @@
 		"range": 2,
 		"cost": 375,
 		"requiredTech": "Electronics",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>",
+		"uniques": ["[100]% chance to intercept air attacks", "[+50]% Strength <vs [Air] units>", "[+50]% Strength <vs [Helicopter] units>",
 			"Can carry [2] [Aircraft] units","Never appears as a Barbarian unit"]
 	},
 	{
