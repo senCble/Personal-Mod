@@ -249,8 +249,8 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-		    		"[+1 Production] from every [Armory]",
-		    		"[+2 Science] from every [Castle]"
+					"[+2 Science] from every [Armory]",
+		    		"[+2 Production] from every [Castle]",
                 ],
                 "row": 1,
                 "column": 5
