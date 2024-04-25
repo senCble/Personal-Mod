@@ -268,7 +268,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-		    		"[+1 Culture] from every [Temple]",
+		    		"[+2 Culture] from every [Temple]",
 		    		"[+3 Culture] from every [Holy site]"
                 ],
                 "requires": ["Organized Religion"],
