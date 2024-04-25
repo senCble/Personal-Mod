@@ -1269,10 +1269,14 @@
 		"name": "Carrier",
 		"unitType": "Aircraft Carrier",
 		"movement": 5,
-		"strength": 40,
+		"strength": 35,
+		"rangedStrength": 40,
+		"interceptRange": 2,
+		"range": 2,
 		"cost": 375,
 		"requiredTech": "Electronics",
-		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units","Never appears as a Barbarian unit"]
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>",
+			"Can carry [2] [Aircraft] units","Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Battleship",
@@ -1351,7 +1355,6 @@
 		"rangedStrength": 50,
 		"cost": 350,
 		"requiredTech": "Combustion",
-		"obsoleteTech": "Computers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": ["[+50]% Strength <vs [Armored] units>","Can move after attacking",
