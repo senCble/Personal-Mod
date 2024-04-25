@@ -88,13 +88,13 @@
 			},
 			{
 				"name": "Masonry",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Mining"],
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
 			},
 			{
 				"name": "Bronze Working",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Mining"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
@@ -128,13 +128,13 @@
 			},
 			{
 				"name": "Construction",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Masonry","The Wheel"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			}
 						{
 				"name": "Iron Working",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Bronze Working"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			}
@@ -162,7 +162,7 @@
 			{
 				"name": "Currency",
 				"row": 7,
-				"prerequisites": ["Mathematics"],
+				"prerequisites": ["Mathematics","Horseback Riding"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
@@ -203,7 +203,7 @@
 			},
 			{
 				"name": "Metal Casting",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Engineering","Iron Working"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			}
@@ -630,13 +630,13 @@
 			{
 				"name": "Nanotechnology",
 				"row": 7,
-				"prerequisites": ["Satellites","Robotics","Lasers"],
+				"prerequisites": ["Robotics","Lasers"],
 				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
 			},
 			{
 				"name": "Stealth",
 				"row": 8,
-				"prerequisites": ["Robotics", "Lasers"],
+				"prerequisites": ["Lasers"],
 				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
 			}
 		]
