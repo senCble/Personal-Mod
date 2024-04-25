@@ -143,7 +143,7 @@
 		"prerequisites": ["Accuracy II","Barrage II","Mobility II","Anti-Armor II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>","[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Ranged Mounted","Helicopter"],
-        "column": 6,
+        "column": 27,
         "row": 3
 	},
 	{
@@ -221,8 +221,8 @@
 	},
 	{
 		"name": "Scouting II",
-		"prerequisites": ["Scouting I","[1] Movement point cost to disembark","[1] Movement point cost to embark"],
-		"uniques": ["[+1] Sight"],
+		"prerequisites": ["Scouting I"],
+		"uniques": ["[+1] Sight","[1] Movement point cost to disembark","[1] Movement point cost to embark"],
 		"unitTypes": ["Scout"],
         "column": 8,
         "row": 2
