@@ -88,13 +88,13 @@
 			},
 			{
 				"name": "Masonry",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Mining"],
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
 			},
 			{
 				"name": "Bronze Working",
-				"row": 10,
+				"row": 9,
 				"prerequisites": ["Mining"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
@@ -134,7 +134,7 @@
 			}
 						{
 				"name": "Iron Working",
-				"row": 10,
+				"row": 9,
 				"prerequisites": ["Bronze Working"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			}
@@ -240,7 +240,7 @@
 			{
 				"name": "Machinery",
 				"row": 8,
-				"prerequisites": ["Guilds","Metal Casting"],
+				"prerequisites": ["Guilds","Engineering"],
 				"uniques": ["Improves movement speed on roads"],
 				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
