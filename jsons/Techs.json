@@ -128,9 +128,15 @@
 			},
 			{
 				"name": "Construction",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Masonry","The Wheel"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			}
+						{
+				"name": "Iron Working",
+				"row": 10,
+				"prerequisites": ["Bronze Working"],
+				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			}
 		]
 	},
@@ -166,12 +172,6 @@
 				"uniques": ["Roads connect tiles across rivers"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
-			{
-				"name": "Iron Working",
-				"row": 10,
-				"prerequisites": ["Bronze Working"],
-				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
-			}
 		]
 	},
 	{
@@ -232,15 +232,15 @@
 			},
 			{
 				"name": "Chivalry",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Civil Service","Guilds"],
-                "uniques": ["Enables Defensive Pacts"],
-                "quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+                		"uniques": ["Enables Defensive Pacts"],
+                		"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
 			{
 				"name": "Machinery",
 				"row": 8,
-				"prerequisites": ["Guilds","Engineering"],
+				"prerequisites": ["Guilds","Metal Casting"],
 				"uniques": ["Improves movement speed on roads"],
 				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
@@ -282,7 +282,7 @@
 			{
 				"name": "Banking",
 				"row": 6,
-				"prerequisites": ["Education","Chivalry","Machinery"],
+				"prerequisites": ["Chivalry","Machinery"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
@@ -321,7 +321,7 @@
 			{
 				"name": "Economics",
 				"row": 6,
-				"prerequisites": ["Acoustics","Banking","Printing Press"],
+				"prerequisites": ["Banking","Printing Press"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
 			{
@@ -399,7 +399,7 @@
 			{
 				"name": "Electricity",
 				"row": 4,
-				"prerequisites": ["Scientific Theory", "Industrialization"],
+				"prerequisites": ["Scientific Theory"],
 				"quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
 			},
 			{
