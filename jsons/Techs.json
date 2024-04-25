@@ -472,13 +472,13 @@
 			{
 				"name": "Electronics",
 				"row": 5,
-				"prerequisites": ["Replaceable Parts"],
+				"prerequisites": ["Replaceable Parts", "Flight"],
 				"quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
 			},
 			{
 				"name": "Ballistics",
 				"row": 6,
-				"prerequisites": ["Flight","Replaceable Parts"],
+				"prerequisites": ["Flight", "Railroads"],
 				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
 			},
 			{
@@ -499,7 +499,7 @@
 			{
 				"name": "Pharmaceuticals",
 				"row": 2,
-				"prerequisites": ["Plastics","Refrigeration"],
+				"prerequisites": ["Refrigeration", "Plastics"],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
 			},
 			{
@@ -509,17 +509,17 @@
 				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
 			},
 			{
-				"name": "Radar",
-				"row": 6,
-				"prerequisites": ["Ballistics","Electronics"],
-				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
-			},
-			{
 				"name": "Combined Arms",
-				"row": 8,
-				"prerequisites": ["Ballistics","Combustion"],
+				"row": 6,
+				"prerequisites": ["Electronics","Ballistics"],
 				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			}
+			{
+				"name": "Radar",
+				"row": 8,
+				"prerequisites": ["Ballistics","Combustion"],
+				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
+			},
 		]
 	},
 	{
@@ -544,7 +544,7 @@
 			{
 				"name": "Rocketry",
 				"row": 6,
-				"prerequisites": ["Radar"],
+				"prerequisites": ["Combined Arms"],
 				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
 			},
 			{
