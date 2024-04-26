@@ -850,12 +850,12 @@
 		"replaces": "Musketman",
 		"uniqueTo": "France",
 		"movement": 2,
-		"strength": 28,
+		"strength": 24,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Can move after attacking"]
+		"promotions": ["[Musketeer] ability"],
 		"attackSound": "shot"
 	},
 	{
@@ -1226,14 +1226,14 @@
 		"name": "Foreign Legion",
 		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
-		"uniqueTo": "France",
+		"uniqueTo": "City-states",
 		"movement": 2,
 		"strength": 50,
 		"cost": 325,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"promotions": ["[Musketeer] ability"],
 		"attackSound": "shot"
 	},
 	{
