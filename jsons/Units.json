@@ -990,8 +990,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units> <when attacking>",
-			"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
-			"[+1] Sight"],
+			"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Sipahi] ability"],
 		"attackSound": "horse"
 	},
