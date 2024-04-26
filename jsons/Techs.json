@@ -196,8 +196,8 @@
 			},
 			{
 				"name": "Guilds",
-				"row": 6,
-				"prerequisites": ["Currency","Horseback Riding"],
+				"row": 7,
+				"prerequisites": ["Currency"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
