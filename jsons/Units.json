@@ -591,14 +591,14 @@
 		"replaces": "Knight",
 		"uniqueTo": "Spain",
 		"movement": 4,
-		"strength": 22,
-		"cost": 135,
+		"strength": 20,
+		"cost": 120,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", 
-			"Founds a new city <on foreign continents>", "[+2] Sight"],
+			"Founds a new city <on foreign continents>", "[+1] Sight"],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
@@ -1141,8 +1141,7 @@
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"[+1] Sight"],
+			"[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Hussar] ability"],
 		"attackSound": "horse"
 	},
