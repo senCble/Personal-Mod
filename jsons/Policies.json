@@ -78,8 +78,8 @@
         "priorities": {
             "Neutral": 10,
             "Cultural": 20,
-            "Diplomatic": 0,
-            "Domination": 20,
+            "Diplomatic": 20,
+            "Domination": 10,
             "Scientific": 10
         },
         "uniques": [
@@ -158,7 +158,7 @@
         "uniques": [
             "[+25]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-	    	"Earn [25]% of killed [non-[Barbarian]] unit's [Strength] as [Culture]",
+			"Earn [25]% of killed [non-[Barbarian]] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments"
         ],
         "policies": [
@@ -563,9 +563,10 @@
             {
                 "name": "Colonialism",
                 "uniques": [
-                    "[+15]% [Science] [in puppeted cities]",
 		    		"[+15]% [Culture] [in puppeted cities]",
 		    		"[+15]% [Gold] [in puppeted cities]",
+					"[+15]% [Production] [in puppeted cities]",
+					"[+15]% [Science] [in puppeted cities]",
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 3,
@@ -636,7 +637,7 @@
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+25]%"],
+                "uniques": ["Science gained from research agreements [+33]%"],
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
@@ -678,7 +679,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
 		    		"[+100]% Production when constructing [Hospital] buildings [in all cities]",
-		    		"[+25]% Strength for cities <in cities with a [Hospital]>"
+		    		"[+30]% Strength for cities <in cities with a [Hospital]>"
                 ],
                 "row": 1,
                 "column": 3
@@ -695,7 +696,6 @@
                 "name": "Democracy",
                 "uniques": [
 		    		"[-50]% Unhappiness from [Specialists] [in all cities]",
-		    		"[+25]% Golden Age length"
 	    		],
 				"requires": ["Civil Society"],
                 "row": 2,
@@ -715,6 +715,7 @@
                 "name": "Freedom Complete",
                 "uniques": [
                     "[+100]% Yield from every [Great Improvement]",
+					"[+25]% Golden Age length"
                 ]
             }
         ]
