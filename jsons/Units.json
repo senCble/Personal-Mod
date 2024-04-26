@@ -639,7 +639,7 @@
 		"name": "Skirmisher",
 		"unitType": "Ranged Mounted",
 		"movement": 4,
-		"strength": 14,
+		"strength": 13,
 		"rangedStrength": 16,
 		"cost": 120,
 		"requiredTech": "Chivalry",
@@ -673,7 +673,7 @@
 		"replaces": "Skirmisher",
 		"uniqueTo": "Mongolia",
 		"movement": 4,
-		"strength": 14,
+		"strength": 13,
 		"rangedStrength": 16,
 		"cost": 120,
 		"requiredTech": "Chivalry",
@@ -762,7 +762,7 @@
 		"name": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 22,
+		"strength": 21,
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
@@ -791,7 +791,7 @@
 		"replaces": "Longswordsman",
 		"uniqueTo": "Denmark",
 		"movement": 3,
-		"strength": 22,
+		"strength": 21,
 		"cost": 120,
 		"requiredTech": "Metal Casting",
 		"upgradesTo": "Musketman",
@@ -855,7 +855,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+1] Sight"]
+		"uniques": ["Can move after attacking"]
 		"attackSound": "shot"
 	},
 	{
