@@ -88,13 +88,13 @@
 			},
 			{
 				"name": "Masonry",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Mining"],
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
 			},
 			{
 				"name": "Bronze Working",
-				"row": 10,
+				"row": 9,
 				"prerequisites": ["Mining"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
@@ -128,7 +128,7 @@
 			},
 			{
 				"name": "Construction",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Masonry","The Wheel"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			}
@@ -167,8 +167,8 @@
 			},
 			{
 				"name": "Engineering",
-				"row": 8,
-				"prerequisites": ["Construction","Mathematics"],
+				"row": 9,
+				"prerequisites": ["Construction","Mathematics","Bronze Working"],
 				"uniques": ["Roads connect tiles across rivers"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
