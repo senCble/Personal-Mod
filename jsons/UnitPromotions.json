@@ -152,7 +152,7 @@
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Sword","Gunpowder"],
         "column": 6,
-        "row": 4
+        "row": 3
 	},
 	{
 		"name": "Formation I",
