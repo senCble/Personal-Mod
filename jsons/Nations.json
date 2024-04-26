@@ -154,7 +154,7 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sun Never Sets",
-		"uniques": ["[+2] Movement <for [Water] units>"],
+		"uniques": ["[+2] Movement <for [Water] units>","[+2] Range <for [Air] units>"]
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -185,7 +185,7 @@
 		"uniqueName": "Ancien Régime",
 		"uniques": [
 			"[+2 Culture] from every [Monument] <before the [Industrial era]>",
-                        "[+2 Culture] from every [Landmark] <starting from the [Industrial era]>"
+			"[+2 Culture] from every [Landmark] <starting from the [Industrial era]>"
 		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
@@ -338,7 +338,7 @@
 		"uniques": [
 			"Damage is ignored when determining unit Strength <for [non-[Air]] units>",
 			"[+2 Culture] from every [Atoll]",
-			"[+1 Culture] from every [Fishing Boats]"
+			"[+1 Production] from every [Fishing Boats]"
 		],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
@@ -551,8 +551,7 @@
 		"uniqueName": "Wayfinding",
 		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>",
             		"Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
-            		"[+1] Sight <for [Embarked] units>",  
-			"[+20]% Strength <within [2] tiles of a [Moai]>"],
+            		"[+1] Sight <for [Embarked] units>", "[+15]% Strength <within [2] tiles of a [Moai]>"],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
@@ -792,7 +791,7 @@
 
         "favoredReligion": "Tengriism",
 		"uniqueName": "Scourge of God",
-		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
+		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [3] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
 		"cities": ["Attila's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     },
@@ -936,7 +935,7 @@
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","Gain enough Faith for [50]% of a Great Prophet <upon founding a Pantheon>"],
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","[+1 Faith] [in all cities] <after founding a Pantheon> <before founding a religion>"],
 
 		"cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
