@@ -175,8 +175,7 @@
             {
                 "name": "Discipline",
                 "uniques": [
-                    "[+15]% Strength <for [Sword] units> <when adjacent to a [Military] unit>",
-		    		"[+15]% Strength <for [Gunpowder] units> <when adjacent to a [Military] unit>",
+                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
 		    		"[Great General] is earned [50]% faster",
                 ],
                 "row": 1,
