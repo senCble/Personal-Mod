@@ -753,12 +753,12 @@
 	},
 	{
 		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
-		"uniques": ["[+30]% Strength decreasing with distance from the capital"]
+		"uniques": ["[+33]% Strength decreasing with distance from the capital"]
 	},
-    {
-        "name": "Devout",
-        "uniques": ["Can Spread Religion <[1] additional time(s)>"]
-    },
+    	{
+        	"name": "Devout",
+        	"uniques": ["Can Spread Religion <[1] additional time(s)>"]
+    	},
 	{
 		"name": "[Mohawk Warrior] ability",
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"]
@@ -811,6 +811,10 @@
     	{
         	"name": "[Chu-Ko-Nu] ability",
         	"uniques": ["[1] additional attacks per turn", "Can move after attacking"]
+    	},
+	{
+        	"name": "[Hoplite] ability",
+        	"uniques": ["[+15]% Strength <when adjacent to a [Military] unit>"]
     	},
 	{
 		"name": "Great Admiral",
