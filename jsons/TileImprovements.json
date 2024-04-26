@@ -247,6 +247,7 @@
 		"uniques": [
                         "Can only be built on [Coastal] tiles", 
                         "[+1 Culture] for each adjacent [Moai]",
+			"[+1 Faith] <after founding a Pantheon>",
                         "[+2 Gold] <after discovering [Flight]>", 
                         "Pillaging this improvement yields approximately [+10 Gold]"
                 ],
