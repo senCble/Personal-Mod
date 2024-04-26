@@ -779,7 +779,7 @@
 	},
 	{
 		"name": "[Janissary] ability",
-		"uniques": ["Heals [50] damage if it kills a unit", "[+33]% Strength <when attacking>"]
+		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]
 	},
 	{
 		"name": "[Sipahi] ability",
@@ -816,7 +816,7 @@
     	},
 	{
         	"name": "[Hoplite] ability",
-        	"uniques": ["[+15]% Strength <when adjacent to a [Military] unit>"]
+        	"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>"]
     	},
 	{
 		"name": "Great Admiral",
