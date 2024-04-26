@@ -147,6 +147,14 @@
         "row": 3
 	},
 	{
+		"name": "Lightning Warfare",
+		"prerequisites": ["Accuracy III","Barrage III"],
+		"uniques": ["[+1] Movement","Ignores Zone of Control"],
+		"unitTypes": ["Ranged Mounted","Helicopter"],
+		"column": 27,
+        	"row": 4
+	},
+	{
 		"name": "Besiege",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
@@ -481,7 +489,7 @@
 	// Bomber
 	{
 		"name": "Siege I",
-		"uniques": ["[+30]% Strength <vs cities>"],
+		"uniques": ["[+45]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 1
@@ -489,7 +497,7 @@
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
-		"uniques": ["[+30]% Strength <vs cities>"],
+		"uniques": ["[+45]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 2
@@ -497,7 +505,7 @@
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["[+40]% Strength <vs cities>"],
+		"uniques": ["[+60]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 3
@@ -821,14 +829,6 @@
 	{
 		"name": "Great Admiral",
 		"uniques": ["[+3] Movement <when [Embarked]>"]
-	},
-	{
-		"name": "Lightning Warfare",
-		"prerequisites": ["Accuracy III","Barrage III"],
-		"uniques": ["[+1] Movement","Ignores Zone of Control"],
-		"unitTypes": ["Ranged Mounted","Helicopter"],
-		"column": 27,
-        	"row": 4
 	},
 	{
 		"name": "Prize Ships",
