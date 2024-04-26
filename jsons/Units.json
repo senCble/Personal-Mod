@@ -250,7 +250,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -264,7 +264,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>"],
 		"promotions":["[Hoplite] ability"],
 		"attackSound": "metalhit"
 	},
@@ -279,7 +279,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>"],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
 	},
@@ -538,7 +538,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -552,7 +552,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units>", "Can move immediately once bought" ],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>", "Can move immediately once bought" ],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -971,7 +971,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units>",
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units> <when attacking>",
 			"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
@@ -989,7 +989,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units>",
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units> <when attacking>",
 			"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
 			"[+1] Sight"],
 		"promotions": ["[Sipahi] ability"],
@@ -1009,7 +1009,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units>",
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units> <when attacking>",
 			"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Hakkapeliitta] ability"],
 		"attackSound": "horse"
