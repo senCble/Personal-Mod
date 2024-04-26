@@ -337,8 +337,7 @@
 		"uniqueName": "Bushido",
 		"uniques": [
 			"Damage is ignored when determining unit Strength <for [non-[Air]] units>",
-			"[+2 Culture] from every [Atoll]",
-			"[+1 Production] from every [Fishing Boats]"
+			"[+1 Culture] from every [Coast]",
 		],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
@@ -489,7 +488,7 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "The Great Warpath",
-		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.","[Land] units gain the [Woodsman] promotion"],
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.","[Melee] units gain the [Woodsman] promotion"],
 		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
 			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
 			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
@@ -935,7 +934,7 @@
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","[+1 Faith] [in all cities] <after founding a Pantheon> <before founding a religion>"],
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","[+1 Faith] [in all coastal cities] <before founding a religion>"],
 
 		"cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
