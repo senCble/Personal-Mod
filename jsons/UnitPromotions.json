@@ -803,12 +803,14 @@
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Snow] tiles>",
+		"uniques": [
+			"[+33]% Strength <when fighting in [Snow] tiles>",
 			"[+33]% Strength <when fighting in [Tundra] tiles>",
 			"[+33]% Strength <when fighting in [Hill] tiles>",
 			"Double movement in [Snow]",
 			"Double movement in [Tundra]",
-			"Double movement in [Hill]"]
+			"Double movement in [Hill]"
+		]
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
@@ -820,11 +822,15 @@
 	},
     	{
         	"name": "[Chu-Ko-Nu] ability",
-        	"uniques": ["[1] additional attacks per turn", "Can move after attacking"]
+        	"uniques": ["[-5]% Strength <when attacking>","[1] additional attacks per turn","Can move after attacking"]
     	},
 	{
         	"name": "[Hoplite] ability",
         	"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>"]
+    	},
+	{
+        	"name": "[Musketeer] ability",
+        	"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
     	},
 	{
 		"name": "Great Admiral",
