@@ -759,7 +759,7 @@
 	},
 	{
 		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+		"uniques": ["No movement cost to pillage", "[+15]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
@@ -775,7 +775,7 @@
 	},
 	{
 		"name": "[Jaguar] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
+		"uniques": ["[+25]% Strength <when fighting in [Forest] tiles>", "[+25]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
 	},
 	{
 		"name": "[Persian Immortal] ability",
@@ -783,7 +783,7 @@
 	},
 	{
 		"name": "[Conquistador] ability",
-		"uniques": ["Defense bonus when embarked"]
+		"uniques": ["Defense bonus when embarked","[+1] Sight <when [Embarked>"]
 	},
 	{
 		"name": "[Janissary] ability",
@@ -791,7 +791,7 @@
 	},
 	{
 		"name": "[Sipahi] ability",
-		"uniques": ["No movement cost to pillage"]
+		"uniques": ["No movement cost to pillage","[+1] Sight"]
 	},
 	{
 		"name": "[Cossack] ability",
