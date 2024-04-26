@@ -955,6 +955,7 @@
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Battleship",
+		"uniques": ["[+1] Sight"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
