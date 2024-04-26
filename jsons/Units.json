@@ -58,7 +58,7 @@
 		"cost": 40,
 		"obsoleteTech": "Steel",
 		"promotions": ["Haka War Dance"],
-		"uniques": ["Can build [Moai] improvements on tiles","Defense bonus when embarked"],
+		"uniques": ["Defense bonus when embarked"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
@@ -704,7 +704,7 @@
 		"uniqueTo": "China",
 		"movement": 2,
 		"strength": 13,
-		"rangedStrength": 14,
+		"rangedStrength": 15,
 		"replaces": "Crossbowman",
 		"cost": 120,
 		"requiredTech": "Machinery",
