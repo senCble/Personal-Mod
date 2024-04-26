@@ -141,7 +141,7 @@
 	{
 		"name": "Coup de Grace",
 		"prerequisites": ["Accuracy III","Barrage III","Mobility II","Anti-Armor II"],
-		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>","[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [Wounded] units> <when attacking>","[+10]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Ranged Mounted","Helicopter"],
         "column": 27,
         "row": 3
@@ -191,7 +191,7 @@
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]","[+10]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]","[+10]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder"],
         "column": 6,
         "row": 5
@@ -783,7 +783,7 @@
 	},
 	{
 		"name": "[Conquistador] ability",
-		"uniques": ["Defense bonus when embarked","[+1] Sight <when [Embarked>"]
+		"uniques": ["Defense bonus when embarked","[+1] Sight <when [Embarked]>"]
 	},
 	{
 		"name": "[Janissary] ability",
