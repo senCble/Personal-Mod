@@ -952,7 +952,6 @@
 		"rangedStrength": 35,
 		"cost": 180,
 		"requiredResource": "Iron",
-		"uniques": ["[+1] Sight"],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Battleship",
