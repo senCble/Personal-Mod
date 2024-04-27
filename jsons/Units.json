@@ -1226,12 +1226,12 @@
 		"replaces": "Great War Infantry",
 		"uniqueTo": "City-states",
 		"movement": 2,
-		"strength": 45,
+		"strength": 42,
 		"cost": 325,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Combined Arms",
-		"promotions": ["[Musketeer] ability"],
+		"promotions": ["[Foreign Legion] ability"],
 		"attackSound": "shot"
 	},
 	{
