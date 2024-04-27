@@ -209,7 +209,7 @@
 		"name": "Statue of Zeus",
 		"culture": 1,
 		"isWonder": true,
-                "greatPersonPoints": {"Great General": 1},
+                "greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>","Only available <after adopting [Honor]>"],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
@@ -269,7 +269,7 @@
 	},
 	{
 		"name": "Hanging Gardens",
-		"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Scientist": 1},
 		"food": 6,
 		"culture": 1,
 		"isWonder": true,
@@ -625,7 +625,7 @@
 	{
 		"name": "Alhambra",
 		"culture": 1,
-		"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
 		"percentStatBonus": {"culture": 15},
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
@@ -742,7 +742,7 @@
 		"name": "Forbidden Palace",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Gifts of Gold to City-States generate [17]% more Influence"],
 		"requiredTech": "Banking",
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
@@ -759,7 +759,7 @@
 		"name": "Leaning Tower of Pisa",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person"],
 		"requiredTech": "Printing Press",
 		"quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
@@ -998,7 +998,7 @@
 		"name": "Statue of Liberty",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": ["[+1 Production] from every specialist [in all cities]"],
 		"requiredTech": "Replaceable Parts",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
