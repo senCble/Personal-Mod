@@ -829,6 +829,10 @@
         	"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>"]
     	},
 	{
+        	"name": "[Legion] ability",
+        	"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles,[-25]% construction time for [All] improvements"]
+    	},
+	{
         	"name": "[Musketeer] ability",
         	"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
     	},
