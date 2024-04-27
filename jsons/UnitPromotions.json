@@ -554,7 +554,7 @@
 	// Aircraft
 	{
 		"name": "Interception I",
-		"uniques": ["[+5]% Strength","[+25]% Damage when intercepting"],
+		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 1
@@ -562,7 +562,7 @@
 	{
 		"name": "Interception II",
 		"prerequisites": ["Interception I"],
-		"uniques": ["[+5]% Strength","[+25]% Damage when intercepting"],
+		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 2
@@ -570,14 +570,14 @@
 	{
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
-		"uniques": ["[+5]% Strength","[+35]% Damage when intercepting"],
+		"uniques": ["[+34]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 3
 	},
 	{
 		"name": "Dogfighting I",
-		"uniques": ["[+5]% Strength","[+25]% Strength when performing Air Sweep"],
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 1
@@ -585,7 +585,7 @@
 	{
 		"name": "Dogfighting II",
 		"prerequisites": ["Dogfighting I"],
-		"uniques": ["[+5]% Strength","[+25]% Strength when performing Air Sweep"],
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 2
@@ -593,7 +593,7 @@
 	{
 		"name": "Dogfighting III",
 		"prerequisites": ["Dogfighting II"],
-		"uniques": ["[+5]% Strength","[+35]% Strength when performing Air Sweep"],
+		"uniques": ["[+34]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 3
