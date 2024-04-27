@@ -475,8 +475,8 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["[-25]% construction time for [All] improvements", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
-		"promotions": ["Cover I"],
+		"uniques": ["[-25]% construction time for [All] improvements"],
+		"promotions": ["[Legion] ability"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
