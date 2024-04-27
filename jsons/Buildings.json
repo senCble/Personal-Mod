@@ -67,8 +67,11 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-        "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in this city]",
-            "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
+                "uniques": [
+                        "[+10]% [Food] [in all cities]", 
+                        "[+15]% Production when constructing [Archery] units [in this city]",
+                        "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"
+                ],
 		"requiredTech": "Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
@@ -206,6 +209,7 @@
 		"name": "Statue of Zeus",
 		"culture": 1,
 		"isWonder": true,
+                "greatPersonPoints": {"Great General": 1},
 		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>","Only available <after adopting [Honor]>"],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
@@ -282,11 +286,17 @@
 	},
 	{
 		"name": "Terracotta Army",
-		"culture": 6,
+		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"requiredTech": "Construction",
-		"uniques": ["[-17]% maintenance costs <for [Land] units>"],
+		"uniques": [
+			"Free [Scout] appears",
+			"Free [Warrior] appears",
+			"Free [Spearman] appears",
+			"Free [Chariot Archer] appears",
+			"Free [Composite Bowman] appears"
+		],
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
 	// Column 4
@@ -689,7 +699,7 @@
 		"name": "Sistine Chapel",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 2},
+		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[+20]% [Culture] [in all cities]"],
 		"requiredTech": "Acoustics",
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
@@ -732,7 +742,7 @@
 		"name": "Forbidden Palace",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Gifts of Gold to City-States generate [17]% more Influence"],
 		"requiredTech": "Banking",
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
@@ -788,7 +798,7 @@
 		"name": "Taj Mahal",
 		"culture": 1,
 		"happiness": 4,
-		"greatPersonPoints": {"Great Artist": 2},
+		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"uniques": ["Empire enters golden age"],
 		"requiredTech": "Architecture",
@@ -838,6 +848,7 @@
 		"name": "Kremlin",
 		"culture": 3,
 		"cityStrength": 12,
+                "greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"uniques": ["[+25]% City Strength from defensive buildings"],
 		"requiredTech": "Metallurgy",
@@ -862,6 +873,7 @@
 		"culture": 1,
 		"happiness": 4,
 		"isWonder": true,
+                "greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[2] free [Great Artist] units appear"],
 		"requiredTech": "Archaeology",
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
@@ -986,7 +998,7 @@
 		"name": "Statue of Liberty",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 2},
+		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[+1 Production] from every specialist [in all cities]"],
 		"requiredTech": "Replaceable Parts",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
@@ -1017,7 +1029,7 @@
 		"name": "Cristo Redentor",
 		"culture": 5,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 2},
+		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[-10]% Culture cost of adopting new Policies"],
 		"requiredTech": "Plastics",
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
@@ -1044,7 +1056,7 @@
 		"name": "Pentagon",
 		"isWonder": true,
 		"culture": 3,
-		"greatPersonPoints": {"Great Engineer": 2},
+		"greatPersonPoints": {"Great Merchant": 2},
 		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
 		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
@@ -1068,7 +1080,7 @@
 	{
 		"name": "Sydney Opera House",
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 2},
+		"greatPersonPoints": {"Great Artist": 1},
 		"percentStatBonus": {"culture": 50},
 		"uniques": ["Free Social Policy","Must be next to [Coast]"],
 		"requiredTech": "Ecology",
