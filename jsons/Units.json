@@ -1246,7 +1246,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Helicopter] units>", "[+33]% Strength <vs [Water] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1310,7 +1310,7 @@
 		"movement": 2,
 		"interceptRange": 2,
 		"strength": 50,
-		"cost": 375,
+		"cost": 350,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mobile SAM",
 		"obsoleteTech": "Rocketry",
@@ -1339,7 +1339,7 @@
 		"cost": 375,
 		"requiredTech": "Electronics",
 		"requiredResource": "Coal",
-		"uniques": ["Can see invisible [Submarine] units", "[50]% chance to intercept air attacks",
+		"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks",
 			"May withdraw before melee ([75]%)", "[+100]% Strength <vs [Submarine] units>"],
 		"promotions": ["Coastal Raider I"],
 		"attackSound": "shipguns"
@@ -1384,7 +1384,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Helicopter] units>", "[+33]% Strength <vs [Water] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1400,7 +1400,7 @@
 		"cost": 350,
 		"requiredTech": "Radar",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>","[+75]% Strength <vs [Helicopter] units>", "[+33]% Strength <vs [Water] units>"],
 		"promotions": ["[Zero] ability"],
 		"attackSound": "machinegun"
 	},
@@ -1639,10 +1639,10 @@
 		"rangedStrength": 75,
 		"range": 12,
 		"interceptRange": 12,
-		"cost": 425,
+		"cost": 450,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Helicopter] units>", "[+33]% Strength <vs [Water] units>"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -1676,13 +1676,13 @@
 		"name": "Stealth Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
-		"strength": 85,
-		"rangedStrength": 85,
+		"strength": 100,
+		"rangedStrength": 100,
 		"range": 20,
 		"cost": 450,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
-		"uniques": ["Damage taken from interception reduced by [90]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
+		"uniques": ["Damage taken from interception reduced by [50]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
 		"attackSound": "bombing"
 	},
 
