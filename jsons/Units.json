@@ -1246,7 +1246,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Helicopter] units>", "[+33]% Strength <vs [Water] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1384,7 +1384,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Helicopter] units>", "[+33]% Strength <vs [Water] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1400,7 +1400,7 @@
 		"cost": 350,
 		"requiredTech": "Radar",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>","[+75]% Strength <vs [Helicopter] units>", "[+33]% Strength <vs [Water] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>","[+75]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
 		"promotions": ["[Zero] ability"],
 		"attackSound": "machinegun"
 	},
@@ -1642,7 +1642,7 @@
 		"cost": 450,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Helicopter] units>", "[+33]% Strength <vs [Water] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "[+50]% Strength <vs [Water] units>"],
 		"attackSound": "jetgun"
 	},
 	{
