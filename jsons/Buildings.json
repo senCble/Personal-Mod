@@ -207,7 +207,7 @@
 	},
 	{
 		"name": "Statue of Zeus",
-		"culture": 1,
+		"culture": 3,
 		"isWonder": true,
                 "greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>","Only available <after adopting [Honor]>"],
@@ -286,7 +286,7 @@
 	},
 	{
 		"name": "Terracotta Army",
-		"culture": 1,
+		"culture": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"requiredTech": "Construction",
@@ -295,7 +295,7 @@
 			"Free [Warrior] appears",
 			"Free [Spearman] appears",
 			"Free [Chariot Archer] appears",
-			"Free [Composite Bowman] appears"
+			"Free [Composite Bowman] appears",
 		],
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
@@ -402,7 +402,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Market] [in this city]", "[+3 Culture] [in this city] <after discovering [Archaeology]>"],
+		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Market] [in this city]", "[+2 Culture] [in this city] <after discovering [Archaeology]>"],
 		"requiredTech": "Currency",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
 	},
@@ -440,7 +440,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
-		"requiredTech": "Iron Working",
+		"requiredTech": "Optics",
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 
@@ -525,6 +525,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
+		"uniques": ["[+1 Production] from [Lumber mill] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -536,7 +537,8 @@
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
+		"percentStatBonus": {"production": 10},
+		"uniques": ["[+1 Production, +1 Science] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -759,7 +761,7 @@
 		"name": "Leaning Tower of Pisa",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person"],
 		"requiredTech": "Printing Press",
 		"quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
@@ -898,7 +900,6 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
-		"uniques": ["[+1 Production, +1 Science] from [Lumber mill] tiles [in this city]"],
 		"requiredTech": "Industrialization"
 	},
 	{
@@ -998,7 +999,7 @@
 		"name": "Statue of Liberty",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["[+1 Production] from every specialist [in all cities]"],
 		"requiredTech": "Replaceable Parts",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
