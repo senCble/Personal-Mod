@@ -1226,7 +1226,7 @@
 		"replaces": "Great War Infantry",
 		"uniqueTo": "City-states",
 		"movement": 2,
-		"strength": 50,
+		"strength": 45,
 		"cost": 325,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
