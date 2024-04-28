@@ -450,7 +450,7 @@
 	    {
                 "name": "Trade Unions",
                 "uniques": [
-                    "[+2 Gold] from each Trade Route",
+                    "[+2 Culture] from each Trade Route",
                     "[-50]% maintenance on road & railroads"
                 ],
                 "row": 1,
@@ -552,6 +552,7 @@
             {
                 "name": "Navigation School",
                 "uniques": [
+                     "[+15]% Production when constructing [{Military} {Water}] units [in all cities]",
                      "[Great General] units gain the [Great Admiral] promotion",
                      "Free [Great General] appears",
                 ],
@@ -573,8 +574,8 @@
             {
                 "name": "Exploration Complete",
                 "uniques": [
-                    "[+15]% Production when constructing [{Military} {Water}] units [in all cities]",
                     "[+15]% Strength <for [Melee Water] units>",
+                    "Empire enters golden age",
                     "May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
@@ -592,7 +593,7 @@
         },
         "uniques": [
             "[+5]% [Science] <while the empire is happy>",
-            "[+5]% [Science] <while the empire is happy> <when not at war>"
+            "[+5]% [Science] <when not at war>"
         ],
         "policies": [
             {
@@ -609,7 +610,8 @@
                 "uniques": [
                     "[+1 Gold] from all [Science] buildings",
                 ],
-                "row": 1,
+                "requires": ["Humanism"],
+                "row": 2,
                 "column": 4
             },
             {
@@ -626,11 +628,11 @@
 	    	{
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness] from every [University]",
-                    "[+1 Happiness] from every [Public School]",
+                    "[+1 Culture] from every [University]",
+                    "[+1 Culture] from every [Observatory]",
+                    "[+1 Culture] from every [Public School]",
                 ],
-                "requires": ["Secularism","Sovereignty"],
-                "row": 2,
+                "row": 1,
                 "column": 4
             },
             {
@@ -757,7 +759,7 @@
                 "uniques": [
                     "[+3] Movement <for [Great General] units> <when [non-[Embarked]]>",
                     "[Armored] units gain the [Lightning Warfare] promotion",
-                    "[+15]% Strength <for [Armored] units>"
+                    "[+15]% Strength <for [Armored] units> <when attacking>"
                 ],
                 "requires": ["Populism", "Militarism"],
                 "row": 2,
