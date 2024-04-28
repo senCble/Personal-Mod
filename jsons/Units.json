@@ -1671,11 +1671,7 @@
 		"cost": 475,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
-		"uniques": [
-			"May travel on Water tiles without embarking", 
-			"Can move after attacking", "No defensive terrain bonus", 
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["[+25]% Strength <when attacking>","Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"promotions": ["Armor Plating I"],
 		"attackSound": "gdrAttack"
 	},
