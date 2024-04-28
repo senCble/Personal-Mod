@@ -1027,6 +1027,16 @@
 		"requiredTech": "Plastics"
 	},
 	{
+		"name": "Refinery",
+		"cost": 500,
+		"production": 2,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"uniques": ["Provides [1] [Iron]","Provides [1] [Oil]","Limited to [4] per Civilization"]
+		"requiredTech": "Plastics"
+	},
+	{
 		"name": "Cristo Redentor",
 		"culture": 5,
 		"isWonder": true,
