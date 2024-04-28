@@ -439,8 +439,8 @@
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
-		"requiredTech": "Optics",
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Coast] tiles [in this city]"],
+		"requiredTech": "Sailing",
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 
@@ -1032,7 +1032,6 @@
 		"production": 2,
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"requiredResource": "Coal",
 		"uniques": ["Provides [1] [Iron]","Provides [1] [Oil]","Limited to [4] per Civilization"]
 		"requiredTech": "Plastics"
 	},
