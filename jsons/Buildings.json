@@ -936,7 +936,7 @@
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[All] Units adjacent to this city heal [+15] HP per turn when healing"],
+		"uniques": ["[Land] Units adjacent to this city heal [+15] HP per turn when healing"],
 		"requiredTech": "Biology"
 	},
 	{
