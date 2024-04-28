@@ -1338,7 +1338,6 @@
 		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Electronics",
-		"requiredResource": "Coal",
 		"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks",
 			"May withdraw before melee ([75]%)", "[+100]% Strength <vs [Submarine] units>"],
 		"promotions": ["Coastal Raider I"],
