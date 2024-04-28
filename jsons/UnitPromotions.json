@@ -149,7 +149,7 @@
 	{
 		"name": "Lightning Warfare",
 		"prerequisites": ["Accuracy III","Barrage III"],
-		"uniques": ["[+1] Movement","[+1] Movement <for [Helicopter] units>","Ignores Zone of Control"],
+		"uniques": ["[+1] Movement","Ignores Zone of Control"],
 		"unitTypes": ["Ranged Mounted","Helicopter"],
 		"column": 27,
         	"row": 4
