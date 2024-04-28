@@ -522,9 +522,9 @@
 		"obsoleteTech": "Archaeology",
 		"upgradesTo": "Marine",
 		"uniques": [
+			"[+33]% Strength <vs [Barbarian] units>",
 			"[+1] Sight <when [Embarked]>",
 			"Defense bonus when embarked",
-			"[+33]% Strength <vs [Barbarian] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ignore terrain cost"],
@@ -1179,7 +1179,7 @@
 		"name": "Artillery",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 21,
+		"strength": 20,
 		"rangedStrength": 28,
 		"range": 3,
 		"cost": 325,
@@ -1246,7 +1246,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1314,7 +1314,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mobile SAM",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+50]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1383,7 +1383,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1399,7 +1399,7 @@
 		"cost": 350,
 		"requiredTech": "Radar",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>","[+75]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>","[+50]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
 		"promotions": ["[Zero] ability"],
 		"attackSound": "machinegun"
 	},
@@ -1500,7 +1500,7 @@
 		"name": "Rocket Artillery",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 45,
+		"strength": 40,
 		"rangedStrength": 60,
 		"range": 3,
 		"cost": 425,
@@ -1520,7 +1520,7 @@
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
-			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+			"[+50]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
 	{
@@ -1560,8 +1560,10 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+50]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+50]% Strength <vs [Armored] units>", "No defensive terrain bonus", 
+			"Can move after attacking","May travel on Water tiles without embarking",
+			"All tiles cost 1 movement", "[-33]% Strength <vs cities> <when attacking>", 
+			"Cannot attack <in [Ocean] tiles>","Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 
@@ -1573,7 +1575,7 @@
 		"strength": 50,
 		"range": 3,
 		"rangedStrength": 85,
-		"cost": 450,
+		"cost": 425,
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", 
@@ -1589,7 +1591,7 @@
 		"rangedStrength": 85,
 		"cost": 400,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit","[+25]% Strength <vs [Armored] units>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1606,28 +1608,29 @@
 		"name": "Missile Cruiser",
 		"unitType": "Ranged Water",
 		"movement": 5,
-		"strength": 80,
-		"rangedStrength": 100,
+		"strength": 65,
+		"rangedStrength": 80,
 		"range": 3,
 		"interceptRange": 2,
 		"cost": 450,
 		"requiredResource": "Iron",
 		"requiredTech": "Lasers",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
-			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
+			"Can carry [3] [Missile] units", "[+125]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire","Armor Plating I"],
 		"attackSound": "shipguns"
 	},
 	{
 		"name": "Modern Armor",
 		"unitType": "Armored",
-		"movement": 6,
+		"movement": 5,
 		"strength": 100,
-		"cost": 425,
+		"cost": 450,
 		"requiredTech": "Robotics",
 		"requiredResource": "Oil",
 		"upgradesTo": "Giant Death Robot",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"promotions": ["Armor Plating I"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1638,10 +1641,10 @@
 		"rangedStrength": 75,
 		"range": 12,
 		"interceptRange": 12,
-		"cost": 450,
+		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "[+50]% Strength <vs [Water] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Helicopter] units>", "[+50]% Strength <vs [Water] units>"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -1665,10 +1668,15 @@
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 150,
-		"cost": 450,
+		"cost": 475,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
-		"uniques": ["May travel on Water tiles without embarking", "Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"May travel on Water tiles without embarking", 
+			"Can move after attacking", "No defensive terrain bonus", 
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Armor Plating I"],
 		"attackSound": "gdrAttack"
 	},
 	{
@@ -1780,7 +1788,7 @@
 		"unitType": "Civilian",
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+            		"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
