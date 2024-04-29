@@ -759,7 +759,7 @@
                 "uniques": [
                     "[+3] Movement <for [Great General] units> <when [non-[Embarked]]>",
                     "[Armored] units gain the [Lightning Warfare] promotion",
-                    "[+15]% Strength <for [Armored] units> <when attacking>"
+                    "[+15]% Strength <for [Armored] units>"
                 ],
                 "requires": ["Populism", "Militarism"],
                 "row": 2,
