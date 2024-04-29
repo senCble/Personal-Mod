@@ -231,9 +231,9 @@
             "Scientific": 10
         },
         "uniques": [
-			"[+50]% Production when constructing [Armory] buildings [in all cities]",
-			"[+50]% Production when constructing [Castle] buildings [in all cities]",
-			"[+100]% Production when constructing [Temple] buildings [in all cities]",
+            "[+50]% Production when constructing [Armory] buildings [in all cities]",
+            "[+50]% Production when constructing [Castle] buildings [in all cities]",
+            "[+100]% Production when constructing [Temple] buildings [in all cities]",
         ],
         "policies": [
             {
@@ -574,8 +574,8 @@
             {
                 "name": "Exploration Complete",
                 "uniques": [
+                    "[Melee Water] units gain the [Landing Party] promotion",
                     "[+15]% Strength <for [Melee Water] units>",
-                    "Empire enters golden age",
                     "May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
@@ -629,8 +629,8 @@
                 "name": "Humanism",
                 "uniques": [
                     "[+1 Culture] from every [University]",
-                    "[+1 Culture] from every [Observatory]",
                     "[+1 Culture] from every [Public School]",
+                    "[+1 Culture] from every [Research Lab]",
                 ],
                 "row": 1,
                 "column": 4
