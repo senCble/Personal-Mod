@@ -705,7 +705,7 @@
 	    	{
                 "name": "Free Speech",
                 "uniques": [
-                    "[+25]% [Culture] from every [Broadcast Tower]",
+                    "[+17]% [Culture] from every [Broadcast Tower]",
                 ],
                 "requires": ["Constitution","Universal Suffrage"],
                 "row": 2,
