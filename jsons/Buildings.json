@@ -1016,7 +1016,7 @@
 		"percentStatBonus": {"science": 50},
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Public School",
-		"uniques": ["[+2 Science, +1 Gold] from [Snow] tiles <in this city>","[+2 Science] from [Tundra] tiles <in this city>"],
+		"uniques": ["[+2 Science, +1 Gold] from [Snow] tiles [in this city]","[+2 Science] from [Tundra] tiles [in this city]"],
 		"maintenance": 3,
 		"requiredTech": "Plastics"
 	},
@@ -1072,7 +1072,7 @@
 		"cost": 500,
 		"happiness": 2,
 		"requiredBuilding": "Theatre",
-		"uniques": ["[25]% of excess happiness converted to [Culture] <in this city>"],
+		"uniques": ["[10]% of excess happiness converted to [Culture] <in this city>", "[10]% of excess happiness converted to [Gold] <in this city>"],
 		"maintenance": 3,
 		"requiredTech": "Radar"
 	},
@@ -1128,7 +1128,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "[+25]% [Culture] from every [Stadium]", "Gain a free [Stadium] [in this city]"],
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "[+17]% [Culture] from every [Stadium]", "Gain a free [Stadium] [in this city]"],
 		"requiredTech": "Telecommunications",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
@@ -1137,7 +1137,11 @@
 		"cost": 300,
 		"maintenance": 1,
 		"requiredTech": "Telecommunications",
-		"uniques": ["Population loss from nuclear attacks [-75]% [in this city]","Damage to garrison from nuclear attacks [-75]% [in this city]"]
+		"uniques": [
+			"Population loss from nuclear attacks [-90]% [in this city]",
+			"Damage to garrison from nuclear attacks [-90]% [in this city]"
+			"[+1 Gold] from every [Farm] <in this city> <in [non-[River]] tiles>"
+		]
 	},
 	{
 		"name": "Hubble Space Telescope",
