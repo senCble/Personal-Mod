@@ -251,7 +251,7 @@
 	{
 		"name": "Circus Maximus",
 		"cost": 125,
-		"happiness": 5,
+		"happiness": 4,
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [25] per owned city"],
@@ -522,7 +522,7 @@
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 10},
+		"percentStatBonus": {"production": 5},
 		"uniques": ["[+1 Production] from [Lumber mill] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
@@ -535,7 +535,7 @@
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 10},
+		"percentStatBonus": {"production": 5},
 		"uniques": ["[+1 Production, +1 Science] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
