@@ -684,7 +684,7 @@
                 "row": 1,
                 "column": 3
             },
-	    	{
+            {
                 "name": "Civil Society",
                 "uniques": [
                     "[-50]% Food consumption by specialists [in all cities]",
@@ -696,7 +696,6 @@
                 "name": "Democracy",
                 "uniques": [
                     "[-50]% Unhappiness from [Specialists] [in all cities]",
-		    "[+25]% Golden Age length"
                 ],
                 "requires": ["Civil Society"],
                 "row": 2,
@@ -706,6 +705,7 @@
                 "name": "Free Speech",
                 "uniques": [
                     "[+17]% [Culture] from every [Broadcast Tower]",
+                    "[+25]% Golden Age length"
                 ],
                 "requires": ["Constitution","Universal Suffrage"],
                 "row": 2,
