@@ -704,10 +704,9 @@
 	    	{
                 "name": "Free Speech",
                 "uniques": [
-                    "[6] free [Foreign Legion] units appear",
-                    "[6] units cost no maintenance"
+                    "[+25]% [Culture] from every [Broadcast Tower]",
                 ],
-                "requires": ["Constitution"],
+                "requires": ["Constitution","Universal Suffrage"],
                 "row": 2,
                 "column": 1
             },
