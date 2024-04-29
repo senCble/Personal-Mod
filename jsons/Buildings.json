@@ -78,12 +78,10 @@
 	// Column 2
 	{
 		"name": "Stone Works",
-		"happiness": 1,
-		"production": 1,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
+		"uniques": ["[+1 Production, +1 Happiness] [in this city] <with [0] to [0] neighboring [Plains] tiles>",
 			"[+1 Production] from [Stone] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"],
 		"requiredTech": "Calendar"
@@ -436,7 +434,7 @@
 		"name": "Colossus",
 		"cost": 185,
 		"culture": 1,
-		"gold": 5,
+		"gold": 3,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Coast] tiles [in this city]"],
