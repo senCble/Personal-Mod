@@ -524,7 +524,7 @@
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 5},
+		"percentStatBonus": {"production": 10},
 		"uniques": ["[+1 Production] from [Lumber mill] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
@@ -532,13 +532,13 @@
 		"name": "Longhouse",
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
-		"cost": 110,
+		"cost": 100,
 		"maintenance": 2,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 5},
-		"uniques": ["[+1 Production, +1 Science] from [Forest] tiles [in this city]"],
+		"percentStatBonus": {"production": 10},
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -936,7 +936,7 @@
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[Land] Units adjacent to this city heal [+15] HP per turn when healing"],
+		"uniques": ["[non-[Air]] Units adjacent to this city heal [+15] HP per turn when healing"],
 		"requiredTech": "Biology"
 	},
 	{
@@ -1016,6 +1016,7 @@
 		"percentStatBonus": {"science": 50},
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Public School",
+		"uniques": ["[+2 Science, +1 Gold] from [Snow] tiles <in this city>","[+2 Science] from [Tundra] tiles <in this city>"],
 		"maintenance": 3,
 		"requiredTech": "Plastics"
 	},
@@ -1026,6 +1027,7 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"uniques": ["Provides [1] [Iron]","Provides [1] [Oil]","Limited to [4] per Civilization"]
+		"requiredResource": "Coal",
 		"requiredTech": "Plastics"
 	},
 	{
@@ -1046,7 +1048,8 @@
 		"requiredBuilding": "Hospital",
 		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[25]% Food is carried over after population increases [in this city]", "[+1 Science] from every specialist [in this city]"]
+		"requiredResource": "Horses",
+		"uniques": ["[25]% Food is carried over after population increases [in this city]", "[+2 Science] from every specialist [in this city]"]
 	},
 	{
 		"name": "Manhattan Project",
@@ -1071,7 +1074,7 @@
 		"requiredBuilding": "Theatre",
 		"uniques": ["[25]% of excess happiness converted to [Culture] <in this city>"],
 		"maintenance": 3,
-		"requiredTech": "Flight"
+		"requiredTech": "Radar"
 	},
 	// Column 14
 	{
