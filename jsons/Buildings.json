@@ -809,7 +809,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+33]%"],
+		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+25]%"],
 		"requiredTech": "Architecture",
 		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
 	},
@@ -959,13 +959,6 @@
 
 	// Column 11
 	{
-		"name": "Stadium",
-		"happiness": 2,
-		"requiredBuilding": "Theatre",
-		"maintenance": 2,
-		"requiredTech": "Refrigeration"
-	},
-	{
 		"name": "Broadcast Tower",
 		"culture": 3,
 		"percentStatBonus": {"culture": 33},
@@ -1051,7 +1044,7 @@
 		"requiredBuilding": "Hospital",
 		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[25]% Food is carried over after population increases [in this city]", "[+2 Science] from every specialist [in this city]"]
+		"uniques": ["[25]% Food is carried over after population increases [in this city]", "[+1 Science] from every specialist [in this city]"]
 	},
 	{
 		"name": "Manhattan Project",
@@ -1068,6 +1061,15 @@
 		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
 		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
+	},
+	{
+		"name": "Stadium",
+		"cost": 500,
+		"happiness": 2,
+		"requiredBuilding": "Theatre",
+		"uniques": ["[25]% of excess happiness converted to [Culture] <in this city>"],
+		"maintenance": 3,
+		"requiredTech": "Flight"
 	},
 	// Column 14
 	{
@@ -1121,7 +1123,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "[+34]% [Culture] from every [Broadcast Tower]", "Gain a free [Broadcast Tower] [in this city]"],
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "[+25]% [Culture] from every [Stadium]", "Gain a free [Stadium] [in this city]"],
 		"requiredTech": "Telecommunications",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
