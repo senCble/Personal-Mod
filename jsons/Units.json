@@ -1350,7 +1350,7 @@
 		"movement": 5,
 		"strength": 55,
 		"rangedStrength": 55,
-		"cost": 375,
+		"cost": 350,
 		"requiredTech": "Combustion",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Helicopter Gunship",
