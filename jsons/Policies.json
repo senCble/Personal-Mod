@@ -704,8 +704,8 @@
 	    	{
                 "name": "Free Speech",
                 "uniques": [
-                    "[+50]% Yield from every [Great Improvement]",
-		    "[+25]% Golden Age length"
+                    "[+17]% [Culture] from every [Broadcast Tower]",
+                    "[+25]% Golden Age length"
                 ],
                 "requires": ["Constitution","Universal Suffrage"],
                 "row": 2,
@@ -714,7 +714,7 @@
             {
                 "name": "Freedom Complete",
                 "uniques": [
-                    "[+33]% [Culture] from every [Broadcast Tower]",
+                    "[+100]% Yield from every [Great Improvement]",
                 ]
             }
         ]
