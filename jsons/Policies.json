@@ -38,7 +38,7 @@
                 "name": "Oligarchy",
                 "uniques": [
                     "Units in cities cost no Maintenance",
-                    "[+40]% Strength for cities <with a garrison> <when attacking>"
+                    "[+50]% Strength for cities <with a garrison> <when attacking>"
                 ],
                 "row": 1,
                 "column": 5
@@ -679,7 +679,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
                     "[+100]% Production when constructing [Hospital] buildings [in all cities]",
-                    "[+30]% Strength for cities <in cities with a [Hospital]>"
+                    "[+25]% Strength for cities <in cities with a [Hospital]>"
                 ],
                 "row": 1,
                 "column": 3
@@ -696,6 +696,7 @@
                 "name": "Democracy",
                 "uniques": [
                     "[-50]% Unhappiness from [Specialists] [in all cities]",
+		    "[+25]% Golden Age length"
                 ],
                 "requires": ["Civil Society"],
                 "row": 2,
@@ -704,8 +705,7 @@
 	    	{
                 "name": "Free Speech",
                 "uniques": [
-                    "[+17]% [Culture] from every [Broadcast Tower]",
-                    "[+25]% Golden Age length"
+                    "[+25]% [Culture] from every [Broadcast Tower]",
                 ],
                 "requires": ["Constitution","Universal Suffrage"],
                 "row": 2,
