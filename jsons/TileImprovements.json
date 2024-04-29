@@ -277,7 +277,7 @@
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains", "Coast", "Lakes"],
 		"turnsToBuild": 7,
 		"uniques": [
-                        "[+1 Production, +2 Gold] <after discovering [Economics]>",
+                        "[+1 Production, +1 Gold] <after discovering [Economics]>",
 			"Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
                 ],
@@ -288,13 +288,14 @@
                 "name": "Chateau",
                 "uniqueTo": "France",
                 "terrainsCanBeBuiltOn": ["Land"],
-                "food": 2,
+                "food": 1,
                 "culture": 1,
+		"gold": 1,
                 "turnsToBuild": 7,
                 "techRequired": "Chivalry",
                 "uniques": [
                     "Gives a defensive bonus of [50]%",
-                    "[+1 Culture, +2 Gold] <after discovering [Flight]>",
+                    "[+2 Culture, +1 Gold] <after discovering [Flight]>",
                     "Must be next to [Luxury resource]",
                     "Cannot be built on [resource] tiles",
                     "Only available <with [0] to [0] neighboring [Chateau] tiles>",
