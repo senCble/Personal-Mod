@@ -1668,7 +1668,7 @@
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 150,
-		"cost": 450,
+		"cost": 475,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
 		"uniques": [
