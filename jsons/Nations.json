@@ -184,8 +184,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
 		"uniques": [
-			"[+2 Culture] from every [Monument] <before the [Industrial era]>",
-			"[+2 Culture] from every [Landmark] <starting from the [Industrial era]>"
+			"[+2 Culture] from every [Monument] <before discovering [Archaeology]>",
+			"[+2 Culture] from every [Landmark] <after discovering [Archaeology]>"
 		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
