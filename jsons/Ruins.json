@@ -36,7 +36,8 @@
     {
         "name": "find a crudely-drawn map",
         "notification": "We have found a crudely-drawn map in the ruins!",
-        "uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [4] tiles away with [90]% chance"]
+        "uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [4] tiles away with [90]% chance",
+	"Reveal up to [All] [Ruins] within a [20] tile radius"]
     },
     {
         "name": "reveal nearby Barbarian camps",
