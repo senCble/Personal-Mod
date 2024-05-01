@@ -84,7 +84,6 @@
         },
         "uniques": [
             "[+1 Culture] [in all cities]",
-            "[+1 Happiness] [in capital]",
             "Only available <before adopting [Tradition]>"
         ],
         "policies": [
