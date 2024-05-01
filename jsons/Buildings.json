@@ -1016,7 +1016,7 @@
 		"percentStatBonus": {"science": 50},
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Public School",
-		"uniques": ["[+2 Science, +1 Gold] from [Snow] tiles [in this city]","[+2 Science] from [Tundra] tiles [in this city]"],
+		"uniques": ["[+2 Science] from [Snow] tiles [in this city]","[+2 Science] from [Tundra] tiles [in this city]"],
 		"maintenance": 3,
 		"requiredTech": "Plastics"
 	},
@@ -1028,7 +1028,7 @@
 		"hurryCostModifier": 0,
 		"uniques": ["Provides [1] [Iron]","Provides [1] [Oil]","Limited to [4] per Civilization"]
 		"requiredResource": "Coal",
-		"requiredTech": "Plastics"
+		"requiredTech": "Refrigeration"
 	},
 	{
 		"name": "Cristo Redentor",
