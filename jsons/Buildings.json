@@ -970,6 +970,16 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
+		"name": "Refinery",
+		"cost": 500,
+		"production": 3,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["Provides [1] [Iron]","Provides [1] [Oil]","Limited to [4] per Civilization"]
+		"requiredResource": "Coal",
+		"requiredTech": "Refrigeration"
+	},
+	{
 		"name": "Eiffel Tower",
 		"culture": 1,
 		"happiness": 5,
@@ -1021,16 +1031,6 @@
 		"requiredTech": "Plastics"
 	},
 	{
-		"name": "Refinery",
-		"cost": 500,
-		"production": 2,
-		"maintenance": 3,
-		"hurryCostModifier": 0,
-		"uniques": ["Provides [1] [Iron]","Provides [1] [Oil]","Limited to [4] per Civilization"]
-		"requiredResource": "Coal",
-		"requiredTech": "Refrigeration"
-	},
-	{
 		"name": "Cristo Redentor",
 		"culture": 5,
 		"isWonder": true,
@@ -1072,7 +1072,7 @@
 		"cost": 500,
 		"happiness": 2,
 		"requiredBuilding": "Theatre",
-		"uniques": ["[10]% of excess happiness converted to [Culture] <in this city>", "[10]% of excess happiness converted to [Gold] <in this city>"],
+		"uniques": ["[25]% of excess happiness converted to [Culture] <in this city>"],
 		"maintenance": 3,
 		"requiredTech": "Radar"
 	},
