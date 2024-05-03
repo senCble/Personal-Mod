@@ -521,8 +521,8 @@
             {
                 "name": "Maritime Infrastructure",
                 "uniques": [
-                    "[+1 Production, +1 Science] from every [Coast]",
-                    "[+1 Production, +1 Science] from every [Ocean]",
+                    "[+1 Production] from every [Coast]",
+                    "[+2 Science] from every [Ocean]",
                 ],
                 "row": 1,
                 "column": 2
