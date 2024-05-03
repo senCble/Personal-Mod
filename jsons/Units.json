@@ -1594,7 +1594,7 @@
 		"movement": 2,
 		"strength": 85,
 		"rangedStrength": 85,
-		"cost": 425,
+		"cost": 400,
 		"requiredTech": "Mobile Tactics",
 		"uniques": ["Never appears as a Barbarian unit","[+25]% Strength <vs [Armored] units>"],
 		"attackSound": "tankshot"
@@ -1673,11 +1673,11 @@
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 150,
-		"cost": 475,
+		"cost": 450,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
 		"uniques": [
-			"[+25]% Strength <when attacking>",
+			"[+25]% Strength <vs [Armored] units>",
 			"Can move after attacking", 
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"
