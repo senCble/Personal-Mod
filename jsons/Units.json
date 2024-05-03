@@ -320,7 +320,7 @@
 		"name": "Trireme",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 13,
+		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Optics",
 		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
@@ -334,7 +334,7 @@
 		"uniqueTo": "Carthage",
 		"replaces": "Trireme",
 		"movement": 4,
-		"strength": 16,
+		"strength": 17,
 		"cost": 75,
 		"requiredTech": "Optics",
 		"uniques": ["Cannot enter ocean tiles"],
@@ -972,7 +972,7 @@
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units> <when attacking>",
 			"Can move after attacking","No defensive terrain bonus", 
-			"[-33]% Strength <vs cities> <when attacking>", "[+25%]% Strength <vs cities> <when defending>",
+			"[-33]% Strength <vs cities> <when attacking>", "[+25]% Strength <vs cities> <when defending>",
 			"Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
@@ -992,7 +992,7 @@
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units> <when attacking>",
 			"Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>","[+25%]% Strength <vs cities> <when defending>"],
+			"[-33]% Strength <vs cities> <when attacking>","[+25]% Strength <vs cities> <when defending>"],
 		"promotions": ["[Sipahi] ability"],
 		"attackSound": "horse"
 	},
@@ -1012,7 +1012,7 @@
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units> <when attacking>",
 			"Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>","[+25%]% Strength <vs cities> <when defending>"],
+			"[-33]% Strength <vs cities> <when attacking>","[+25]% Strength <vs cities> <when defending>"],
 		"promotions": ["[Hakkapeliitta] ability"],
 		"attackSound": "horse"
 	},
@@ -1360,7 +1360,7 @@
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": ["[+25]% Strength <vs [Armored] units>","Can move after attacking",
 			"No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", 
-			"[+25%]% Strength <vs cities> <when defending>","Never appears as a Barbarian unit"],
+			"[+25]% Strength <vs cities> <when defending>","Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 
