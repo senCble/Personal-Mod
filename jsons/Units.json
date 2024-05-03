@@ -1568,8 +1568,7 @@
 		"uniques": ["[+50]% Strength <vs [Armored] units>", "No defensive terrain bonus", 
 			"Can move after attacking","May travel on Water tiles without embarking",
 			"All tiles cost 1 movement", "[-33]% Strength <vs cities> <when attacking>",
-			"[+33%]% Strength <vs cities> <when defending>","Cannot attack <in [Ocean] tiles>",
-			"Never appears as a Barbarian unit"],
+			"Cannot attack <in [Ocean] tiles>","Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 
