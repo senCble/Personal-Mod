@@ -1027,7 +1027,7 @@
 		"percentStatBonus": {"science": 50},
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Public School",
-		"uniques": ["[+3 Science] from [Snow] tiles [in this city]"],
+		"uniques": ["[+1 Science] from [Snow] tiles [in this city]","[+2 Science] from [Snow] tiles without [Hills] [in this city]"],
 		"maintenance": 3,
 		"requiredTech": "Plastics"
 	},
