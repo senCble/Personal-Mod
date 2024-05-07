@@ -1222,7 +1222,7 @@
 		"movement": 2,
 		"strength": 45,
 		"cost": 300,
-		"requiredTech": "Rifling",
+		"requiredTech": "Replacable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Combined Arms",
 		"promotions": ["[Foreign Legion] ability"],
