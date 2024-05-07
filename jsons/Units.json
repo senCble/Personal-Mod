@@ -645,8 +645,7 @@
 		"requiredResource": "Horses",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus","Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
 	{
@@ -679,9 +678,8 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Great Generals I", "Quick Study", "Siege Projectiles"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
 		// Keshik should have no penalty attacking cities
 	},
@@ -970,10 +968,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units> <when attacking>",
-			"Can move after attacking","No defensive terrain bonus", 
-			"[-33]% Strength <vs cities> <when attacking>", "[+25]% Strength <vs cities> <when defending>",
-			"Never appears as a Barbarian unit"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","Can move after attacking","No defensive terrain bonus","Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
@@ -990,9 +985,7 @@
 		"obsoleteTech": "Computers",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units> <when attacking>",
-			"Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>","[+25]% Strength <vs cities> <when defending>"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","Can move after attacking","No defensive terrain bonus"],
 		"promotions": ["[Sipahi] ability"],
 		"attackSound": "horse"
 	},
@@ -1010,9 +1003,7 @@
 		"obsoleteTech": "Computers",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Ranged Mounted] units> <when attacking>",
-			"Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>","[+25]% Strength <vs cities> <when defending>"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","Can move after attacking","No defensive terrain bonus"],
 		"promotions": ["[Hakkapeliitta] ability"],
 		"attackSound": "horse"
 	},
@@ -1359,8 +1350,7 @@
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": ["[+25]% Strength <vs [Armored] units>","Can move after attacking",
-			"No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", 
-			"[+25]% Strength <vs cities> <when defending>","Never appears as a Barbarian unit"],
+			"No defensive terrain bonus","Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 
@@ -1567,7 +1557,7 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["[+50]% Strength <vs [Armored] units>", "No defensive terrain bonus", 
 			"Can move after attacking","May travel on Water tiles without embarking",
-			"All tiles cost 1 movement", "[-33]% Strength <vs cities> <when attacking>",
+			"All tiles cost 1 movement","[-33]% Strength <vs cities> <when attacking>",
 			"Cannot attack <in [Ocean] tiles>","Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
@@ -1677,7 +1667,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
 		"uniques": [
-			"[+25]% Strength <vs [Armored] units>",
+			"[+25]% Strength <vs [Armored] units> <when attacking>",
 			"Can move after attacking", 
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"
