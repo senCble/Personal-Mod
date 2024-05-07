@@ -844,8 +844,4 @@
 		"name": "Prize Ships",
 		"uniques": ["May capture killed [Water] units"]
 	},
-	{
-		"name": "Siege Projectiles",
-		"uniques": ["[+33]% Strength <vs cities> <when attacking>"]
-	},
 ]
