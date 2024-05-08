@@ -20,7 +20,7 @@
             {
                 "name": "Aristocracy",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+10]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 1,
@@ -38,7 +38,7 @@
                 "name": "Oligarchy",
                 "uniques": [
                     "Units in cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>"
+                    "[+40]% Strength for cities <with a garrison> <when attacking>"
                 ],
                 "row": 1,
                 "column": 5
@@ -79,7 +79,7 @@
             "Neutral": 10,
             "Cultural": 20,
             "Diplomatic": 20,
-            "Domination": 10,
+            "Domination": 20,
             "Scientific": 10
         },
         "uniques": [
@@ -151,7 +151,7 @@
             "Neutral": 0,
             "Cultural": 0,
             "Diplomatic": 0,
-            "Domination": 10,
+            "Domination": 20,
             "Scientific": 0
         },
         "uniques": [
@@ -205,7 +205,7 @@
                     "[+50]% Production when constructing [Walls] buildings [in all cities]",
                     "[+1 Happiness] from every [Walls]",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
-				],
+		],
                 "requires": ["Military Caste"],
                 "row": 3,
                 "column": 4
@@ -226,7 +226,7 @@
             "Neutral": 0,
             "Cultural": 10,
             "Diplomatic": 0,
-            "Domination": 10,
+            "Domination": 20,
             "Scientific": 10
         },
         "uniques": [
@@ -678,7 +678,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
                     "[+100]% Production when constructing [Hospital] buildings [in all cities]",
-                    "[+25]% Strength for cities <in cities with a [Hospital]>"
+                    "[+30]% Strength for cities <in cities with a [Hospital]>"
                 ],
                 "row": 1,
                 "column": 3
@@ -695,6 +695,7 @@
                 "name": "Democracy",
                 "uniques": [
                     "[-50]% Unhappiness from [Specialists] [in all cities]",
+                    "[+25]% Golden Age length"
                 ],
                 "requires": ["Civil Society"],
                 "row": 2,
@@ -704,7 +705,6 @@
                 "name": "Free Speech",
                 "uniques": [
                     "[+50]% Yield from every [Great Improvement]",
-                    "[+25]% Golden Age length"
                 ],
                 "requires": ["Constitution","Universal Suffrage"],
                 "row": 2,
@@ -805,7 +805,7 @@
         },
         "uniques": [
             "[+2 Happiness] from every [Monument]",
-            "[+200]% Production when constructing [Monument] wonders [in all cities]",
+            "[+200]% Production when constructing [Monument] buildings [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
         ],
