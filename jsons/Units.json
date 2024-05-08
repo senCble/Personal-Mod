@@ -250,7 +250,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+25]% Strength <vs [Ranged Mounted] units> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -264,7 +264,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+25]% Strength <vs [Ranged Mounted] units> <when attacking>"],
 		"promotions":["[Hoplite] ability"],
 		"attackSound": "metalhit"
 	},
@@ -279,7 +279,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+25]% Strength <vs [Ranged Mounted] units> <when attacking>"],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
 	},
@@ -537,7 +537,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+25]% Strength <vs [Ranged Mounted] units> <when attacking>"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -551,7 +551,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>", "Can move immediately once bought" ],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+25]% Strength <vs [Ranged Mounted] units> <when attacking>", "Can move immediately once bought" ],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
