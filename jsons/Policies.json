@@ -695,7 +695,6 @@
                 "name": "Democracy",
                 "uniques": [
                     "[-50]% Unhappiness from [Specialists] [in all cities]",
-                    "[+25]% Golden Age length"
                 ],
                 "requires": ["Civil Society"],
                 "row": 2,
@@ -704,17 +703,17 @@
 	    	{
                 "name": "Free Speech",
                 "uniques": [
-                    "[+50]% Yield from every [Great Improvement]",
+                    "[+100]% Yield from every [Great Improvement]",
                 ],
-                "requires": ["Constitution","Universal Suffrage"],
+                "requires": ["Constitution","Universal Suffrage","Civil Society"],
                 "row": 2,
-                "column": 2
+                "column": 3
             },
             {
                 "name": "Freedom Complete",
                 "uniques": [
-                    "[+20]% [Culture] from every [Broadcast Tower]",
-                    "[+3 Culture] from every [Great Improvement]",
+                    "[+17]% [Culture] from every [Broadcast Tower]",
+		    "[+25]% Golden Age length"
                 ]
             }
         ]
