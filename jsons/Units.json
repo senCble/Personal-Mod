@@ -294,10 +294,10 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+250]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
 			"[-33]% Strength <vs [Military] units>","[-33]% Strength <vs [Military] units> <when attacking>",
 			"[-1] Sight"]
-		"promotions":  ["Cover I"],
+		"promotions":  ["Cover I","Volley"],
 		"attackSound": "throw"
 	},
 	{
