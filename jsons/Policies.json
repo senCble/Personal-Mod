@@ -803,7 +803,7 @@
             "Scientific": 60
         },
         "uniques": [
-            "[+2 Happiness] from every [Monument]",
+            "[+1 Happiness] from every [Monument]",
             "[+200]% Production when constructing [Monument] buildings [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
