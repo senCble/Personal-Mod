@@ -13,7 +13,7 @@
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Flood plains]"]
+        "uniques": ["[+1 Faith] from every [Flood plains]","[+1 Faith] from every [Oasis]"]
     },
     {
         "name": "Earth Mother",
@@ -27,8 +27,8 @@
     {
         "name": "Faith Healers",
         "type": "Pantheon",
-        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing",
-            "[+1 Faith] from every [Library]"]
+        "uniques": ["[All] Units adjacent to this city heal [+25] HP per turn when healing",
+            "[+2 Faith] from every [Library]"]
     },
     {
         "name": "Fertility Rites",
@@ -78,7 +78,7 @@
     {
         "name": "Goddess of Protection",
         "type": "Pantheon",
-        "uniques": ["[+25]% Strength for cities <when attacking>",
+        "uniques": ["[+30]% Strength for cities <when attacking>",
             "[+2 Faith] from every [Walls]"]
     },
     {
@@ -195,7 +195,7 @@
     {
         "name": "Liturgical Drama",
         "type": "Follower",
-        "uniques": ["[+1 Culture, +3 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
+        "uniques": ["[+1 Culture, +2 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
     },
     {
         "name": "Monasteries",
