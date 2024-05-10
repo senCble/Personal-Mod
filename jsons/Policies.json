@@ -155,9 +155,8 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+25]% Strength <vs [Barbarian] units>",
+            "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-            "Earn [25]% of killed [non-[Barbarian]] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments"
         ],
         "policies": [
@@ -214,6 +213,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+		    "Earn [25]% of killed [Military] unit's [Strength] as [Science]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
@@ -247,8 +247,8 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                    "[+2 Science] from every [Armory]",
-                    "[+2 Production] from every [Castle]",
+		    "[+2 Production] from every [Armory]",
+                    "[+2 Science] from every [Castle]",
                 ],
                 "row": 1,
                 "column": 5
@@ -522,6 +522,7 @@
                 "name": "Maritime Infrastructure",
                 "uniques": [
                     "[+1 Production] from every [Coast]",
+		    "[+1 Science] from every [Atoll]",
                     "[+2 Science] from every [Ocean]",
                 ],
                 "row": 1,
@@ -712,7 +713,7 @@
             {
                 "name": "Freedom Complete",
                 "uniques": [
-                    "[+17]% [Culture] from every [Broadcast Tower]",
+                    "[+20]% [Culture] from every [Broadcast Tower]",
 		    "[+25]% Golden Age length"
                 ]
             }
@@ -768,7 +769,7 @@
                 "uniques": [
                     "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[Gold] cost of purchasing [Courthouse] buildings [-50]%",
-                    "[+3 Happiness] from every [Courthouse]",
+                    "[+2 Happiness] from every [Courthouse]",
                 ],
                 "requires": ["Populism"],
                 "row": 2,
