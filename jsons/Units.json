@@ -292,7 +292,7 @@
 		"strength": 11,
 		"cost": 75,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Physics",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+250]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
 			"[-33]% Strength <vs [Military] units>","[-33]% Strength <vs [Military] units> <when attacking>",
@@ -851,7 +851,7 @@
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
 		"promotions": ["[Musketeer] ability"],
 		"attackSound": "shot"
 	},
@@ -865,7 +865,7 @@
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
 		"promotions": ["[Janissary] ability"],
 		"attackSound": "shot"
 	},
@@ -879,7 +879,7 @@
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Ignores terrain cost"],
 		"promotions": ["Drill I"],
 		"attackSound": "shot"
@@ -894,7 +894,7 @@
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
 		"promotions": ["Formation I"],
 		"attackSound": "shot"
 	},
