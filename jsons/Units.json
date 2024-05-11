@@ -1217,11 +1217,9 @@
 	{
 		"name": "Foreign Legion",
 		"unitType": "Gunpowder",
-		"replaces": "Great War Infantry",
 		"movement": 2,
-		"strength": 45,
-		"cost": 300,
-		"requiredTech": "Replaceable Parts",
+		"strength": 42,
+		"cost": 325,
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Unbuildable","Cannot be purchased"],
