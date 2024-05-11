@@ -1224,7 +1224,8 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Combined Arms",
-		"promotions": ["[Foreign Legion] ability","Unbuildable","Cannot be purchased"],
+		"uniques": ["Unbuildable","Cannot be purchased"],
+		"promotions": ["[Foreign Legion] ability"],
 		"attackSound": "shot"
 	},
 	{
