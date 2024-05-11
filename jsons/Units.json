@@ -1218,14 +1218,13 @@
 		"name": "Foreign Legion",
 		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
-		"uniqueTo": "City-states",
 		"movement": 2,
 		"strength": 45,
 		"cost": 300,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Combined Arms",
-		"promotions": ["[Foreign Legion] ability"],
+		"promotions": ["[Foreign Legion] ability","Unbuildable","Cannot be purchased"],
 		"attackSound": "shot"
 	},
 	{
