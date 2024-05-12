@@ -522,7 +522,8 @@
                 "name": "Maritime Infrastructure",
                 "uniques": [
                     "[+1 Production] from every [Coast]",
-                    "[+2 Science] from every [Ocean]",
+		    "[+1 Science] from every [Atoll]",
+                    "[+1 Production, +1 Science] from every [Ocean]",
                 ],
                 "row": 1,
                 "column": 2
@@ -703,7 +704,6 @@
 	    	{
                 "name": "Free Speech",
                 "uniques": [
-		    "New [Foreign Legion] units start with [30] Experience [in all cities]",
 		    "[6] free [Foreign Legion] units appear",
                     "Gain [15] Influence with a [Military] gift to a City-State"
                 ],
