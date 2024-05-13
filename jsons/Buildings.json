@@ -1190,7 +1190,7 @@
 	{
 		"name": "Cathedral",
 		"cost": 0,
-		"culture": 3,
+		"culture": 2,
 		"faith": 1,
 		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
