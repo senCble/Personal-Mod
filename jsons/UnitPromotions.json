@@ -224,7 +224,7 @@
 	// Scout
 	{
 		"name": "Scouting I",
-		"uniques": ["[+1] Sight","Can pass through impassable tiles"],
+		"uniques": ["[+1] Sight","[1] Movement point cost to disembark","[1] Movement point cost to embark"],
 		"unitTypes": ["Scout"],
         "column": 8,
         "row": 1
@@ -232,7 +232,7 @@
 	{
 		"name": "Scouting II",
 		"prerequisites": ["Scouting I"],
-		"uniques": ["[+1] Sight","[1] Movement point cost to disembark","[1] Movement point cost to embark"],
+		"uniques": ["[+1] Sight","Can pass through impassable tiles"],
 		"unitTypes": ["Scout"],
         "column": 8,
         "row": 2
