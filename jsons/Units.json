@@ -1662,17 +1662,17 @@
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 150,
-		"cost": 475,
+		"interceptRange": 2,
+		"cost": 450,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
 		"uniques": [
-			"[+25]% Strength <vs [Armored] units>",
-			"[+150]% Strength <vs [Helicopter] units>",
+			"[+25]% Strength <when attacking>",
 			"Can move after attacking", 
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Armor Plating I"],
+		"promotions": ["Armor Plating I","Amphibious"],
 		"attackSound": "gdrAttack"
 	},
 	{
