@@ -184,7 +184,7 @@
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
+        "uniques": ["[+1 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
             "[+1 Faith] from every specialist [in cities following this religion]"]
     },
     {
@@ -195,7 +195,7 @@
     {
         "name": "Liturgical Drama",
         "type": "Follower",
-        "uniques": ["[+1 Culture, +2 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
+        "uniques": ["[+1 Culture, +3 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
     },
     {
         "name": "Monasteries",
