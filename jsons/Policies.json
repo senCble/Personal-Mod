@@ -335,7 +335,7 @@
             {
                 "name": "Cultural Diplomacy",
                 "uniques": [
-                    "[+100]% resources gifted by City-States",
+                    "[+50]% resources gifted by City-States",
                     "[+50]% Happiness from luxury resources gifted by City-States"
                 ],
                 "requires": ["Scholasticism"],
@@ -446,7 +446,7 @@
                 "[+25]% [Gold] [in capital]",
         ],
         "policies": [
-	    {
+            {
                 "name": "Trade Unions",
                 "uniques": [
                     "[+2 Culture] from each Trade Route",
@@ -454,17 +454,6 @@
                 ],
                 "row": 1,
                 "column": 2
-            },
-	    	{
-                "name": "Mercantilism",
-                "uniques": [
-                    "[+1 Science] from every [Trading post]",
-                    "[+5]% [Science] from every [Market]",
-                    "[+5]% [Science] from every [Bank]",
-                    "[+7]% [Science] from every [Stock Exchange]",
-                ],
-                "row": 1,
-                "column": 4
             },
             {
                 "name": "Mercenary Army",
@@ -476,7 +465,25 @@
                 "row": 2,
                 "column": 2
             },
-	    	{
+            {
+                "name": "Protectionism",
+                "uniques": ["[+2] Happiness from each type of luxury resource"],
+                "requires": ["Mercenary Army"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Mercantilism",
+                "uniques": [
+                    "[+1 Science] from every [Trading post]",
+                    "[+5]% [Science] from every [Market]",
+                    "[+5]% [Science] from every [Bank]",
+                    "[+7]% [Science] from every [Stock Exchange]",
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
                 "name": "Entrepreneurship",
                 "uniques": [
                      "[+1 Gold] from every specialist [in all cities]",
@@ -485,13 +492,6 @@
                 "requires": ["Mercantilism","Trade Unions"],
                 "row": 2,
                 "column": 4
-            },
-            {
-                "name": "Protectionism",
-                "uniques": ["[+2] Happiness from each type of luxury resource"],
-                "requires": ["Mercenary Army"],
-                "row": 3,
-                "column": 2
             },
             {
                 "name": "Commerce Complete",
@@ -521,14 +521,14 @@
             {
                 "name": "Maritime Infrastructure",
                 "uniques": [
-                    "[+1 Production] from every [Coast]",
-		    "[+1 Science] from every [Atoll]",
-                    "[+1 Production, +1 Science] from every [Ocean]",
+                    "[+1 Production] from [Coast] tiles without [Atoll] [in all cities]",
+                    "[+2 Science] from every [Atoll]",
+                    "[+2 Science] from every [Ocean]",
                 ],
                 "row": 1,
                 "column": 2
             },
-	    	{
+            {
                 "name": "Merchant Navy",
                 "uniques": [
                     "[+1 Gold] from every [Camp]",
@@ -545,7 +545,7 @@
                     "[+2 Happiness] [in all cities] <with a garrison>",
                     "[+3 Science] from every [Citadel]",
                 ],
-                "requires": ["Merchant Navy"],
+                "requires": ["Maritime Infrastructure","Merchant Navy"],
                 "row": 2,
                 "column": 4
             },
@@ -556,7 +556,7 @@
                      "[Great General] units gain the [Great Admiral] promotion",
                      "Free [Great General] appears",
                 ],
-                "requires": ["Maritime Infrastructure","Merchant Navy"],
+                "requires": ["Merchant Navy"],
                 "row": 2,
                 "column": 2
             },
