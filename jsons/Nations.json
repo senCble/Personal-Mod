@@ -183,7 +183,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
-		"uniques": ["[+2 Culture] from every [Monument] <before the [Industrial era]>","[+2 Culture] from every [Landmark] <after the [Industrial era]>"],
+		"uniques": ["[+2 Culture] from every [Monument] <before the [Industrial era]>","[+2 Culture] from every [Landmark] <starting from the [Industrial era]>"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
