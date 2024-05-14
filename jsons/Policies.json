@@ -20,7 +20,7 @@
             {
                 "name": "Aristocracy",
                 "uniques": [
-                    "[+10]% Production when constructing [All] wonders [in all cities]",
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 1,
@@ -65,7 +65,7 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+15]% growth [in all cities with a garrison]",
+                    "[+15]% growth [in all cities]",
                     "Provides a [Aqueduct] in your first [4] cities for free",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -88,6 +88,15 @@
         ],
         "policies": [
             {
+                "name": "Citizenship",
+                "uniques": [
+                    "[+50]% Production when constructing [Settler] units [in all cities]",
+                    "Free [Worker] appears"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
                 "name": "Collective Rule",
                 "uniques": [
                     "[-25]% construction time for [All] improvements",
@@ -95,15 +104,6 @@
             ],
                 "requires": ["Citizenship"],
                 "row": 2,
-                "column": 1
-            },
-            {
-                "name": "Citizenship",
-                "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in capital]",
-                    "Free [Worker] appears"
-                ],
-                "row": 1,
                 "column": 1
             },
             {
@@ -204,7 +204,7 @@
                     "[+50]% Production when constructing [Walls] buildings [in all cities]",
                     "[+1 Happiness] from every [Walls]",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
-		],
+		    ],
                 "requires": ["Military Caste"],
                 "row": 3,
                 "column": 4
@@ -213,7 +213,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-		    "Earn [25]% of killed [Military] unit's [Strength] as [Science]",
+                    "Earn [25]% of killed [Military] unit's [Strength] as [Science]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
@@ -239,7 +239,8 @@
                 "name": "Organized Religion",
                 "uniques": [
                     "[+2 Faith] from every [Temple]",
-                    "[Faith] cost of purchasing items in cities [-20]%",
+                    "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
+                    "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
                 "row": 1,
                 "column": 2
@@ -247,7 +248,7 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-		    "[+2 Production] from every [Armory]",
+		            "[+2 Production] from every [Armory]",
                     "[+2 Science] from every [Castle]",
                 ],
                 "row": 1,
@@ -565,6 +566,7 @@
                 "uniques": [
                     "[+15]% [Culture] [in puppeted cities]",
                     "[+15]% [Gold] [in puppeted cities]",
+                    "[+15]% [Production] [in puppeted cities]",
                     "[+15]% [Science] [in puppeted cities]",
                 ],
                 "requires": ["Naval Tradition"],
@@ -704,7 +706,7 @@
 	    	{
                 "name": "Free Speech",
                 "uniques": [
-		    "[6] free [Foreign Legion] units appear",
+                    "[6] free [Foreign Legion] units appear",
                     "Gain [15] Influence with a [Military] gift to a City-State"
                 ],
                 "requires": ["Constitution"],
@@ -715,7 +717,7 @@
                 "name": "Freedom Complete",
                 "uniques": [
                     "[+100]% Yield from every [Great Improvement]",
-		    "[+25]% Golden Age length"
+                    "[+25]% Golden Age length"
                 ]
             }
         ]
