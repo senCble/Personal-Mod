@@ -262,7 +262,7 @@
 	{
 		"name": "Courthouse",
 		"maintenance": 4,
-		"hurryCostModifier": 50,
+		"hurryCostModifier": 40,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built <in [in annexed cities] cities>"],
 		"requiredTech": "Mathematics"
@@ -336,7 +336,7 @@
 	{
 		"name": "National College",
 		"cost": 125,
-		"science": 3,
+		"science": 1,
 		"culture": 1,
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 50},
@@ -479,7 +479,7 @@
 		"name": "Grand Temple",
 		"cost": 125,
 		"culture": 1,
-		"faith": 8,
+		"faith": 10,
 		"uniques": [
 			"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [25] per owned city",
@@ -533,13 +533,13 @@
 		"name": "Longhouse",
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
-		"cost": 110,
+		"cost": 100,
 		"maintenance": 2,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
-		"uniques": ["[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Lumber mill] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -680,7 +680,7 @@
 		"name": "Opera House",
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
-		"hurryCostModifier": 10,
+		"hurryCostModifier": 15,
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
@@ -693,7 +693,7 @@
 		"culture": 4,
 		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
-		"hurryCostModifier": 10,
+		"hurryCostModifier": 15,
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
@@ -754,7 +754,7 @@
 	{
 		"name": "Theatre",
 		"happiness": 2,
-		"hurryCostModifier": 10,
+		"hurryCostModifier": 15,
 		"maintenance": 2,
 		"requiredBuilding": "Colosseum",
 		"requiredTech": "Printing Press"
@@ -793,7 +793,7 @@
 		"name": "Hermitage",
 		"cost": 125,
 		"percentStatBonus": {"culture": 50},
-		"culture": 5,
+		"culture": 3,
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [25] per owned city"],
 		"requiredTech": "Architecture"
