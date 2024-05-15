@@ -183,7 +183,7 @@
 	{
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III","Coastal Raider III","Boarding Party III","Air Targeting III","Siege III"],
-		"uniques": ["[1] additional attacks per turn","Can move after attacking"],
+		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Water","Bomber"],
         "column": 6,
         "row": 4
@@ -800,6 +800,10 @@
 	{
 		"name": "[Dromon] ability",
 		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>"]
+	},
+	{
+		"name": "[Ballista] ability",
+		"uniques": ["[+25]% Strength <vs cities> <when attacking>"]
 	},
 	{
 		"name": "[Hussar] ability",
