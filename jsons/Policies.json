@@ -155,8 +155,9 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+33]% Strength <vs [Barbarian] units>",
+            "[+25]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+            "Earn [25]% of killed [non-[Barbarian]] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments"
         ],
         "policies": [
@@ -168,6 +169,16 @@
                     "Free [Great General] appears",
                 ],
                 "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Military Caste",
+                "uniques": [
+                    "[+1 Happiness, +2 Culture] from every [Barracks]",
+                    "May buy [Barracks] buildings for [150] [Gold] [in puppeted cities] <after discovering [Bronze Working]",
+                ],
+                "requires": ["Warrior Code"],
+                "row": 2,
                 "column": 4
             },
             {
@@ -189,22 +200,12 @@
                 "column": 2
             },
             {
-                "name": "Military Caste",
-                "uniques": [
-                    "[+1 Happiness, +2 Culture] from every [Barracks]",
-                    "Gain a free [Barracks] [in puppeted cities] <after discovering [Bronze Working]>"
-                ],
-                "requires": ["Warrior Code"],
-                "row": 2,
-                "column": 4
-            },
-            {
                 "name": "Professional Army",
                 "uniques": [
+                    "[-33]% Gold cost of upgrading <for [Military] units>",
                     "[+50]% Production when constructing [Walls] buildings [in all cities]",
                     "[+1 Happiness] from every [Walls]",
-                    "[-33]% Gold cost of upgrading <for [Military] units>",
-		    ],
+                ],
                 "requires": ["Military Caste"],
                 "row": 3,
                 "column": 4
