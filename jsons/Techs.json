@@ -112,6 +112,7 @@
 				"cost": 85,
 				"row": 1,
 				"prerequisites": ["Sailing"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
