@@ -836,7 +836,7 @@
     	},
 	{
         	"name": "[Legion] ability",
-        	"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "[-25]% construction time for [All] improvements"]
+        	"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"]
     	},
 	{
         	"name": "[Musketeer] ability",
@@ -850,6 +850,10 @@
 		"name": "Great Admiral",
 		"uniques": ["[+3] Movement <when [Embarked]>"]
 	},
+	{
+        	"name": "Field Engineer",
+        	"uniques": ["[-33]% construction time for [Road] improvements","[-33]% construction time for [Railroad] improvements","[-33]% construction time for [Fort] improvements"]
+    	},
 	{
 		"name": "Prize Ships",
 		"uniques": ["May capture killed [Water] units"]
