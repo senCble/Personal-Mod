@@ -155,9 +155,8 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+25]% Strength <vs [Barbarian] units>",
+            "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-            "Earn [25]% of killed [non-[Barbarian]] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments"
         ],
         "policies": [
@@ -166,7 +165,7 @@
                 "uniques": [
                     "[+15]% Production when constructing [{Military} {Land}] units [in all cities]",
                     "[+100]% Production when constructing [Barracks] buildings [in all cities]",
-                    "Free [Great General] appears",
+		    "Free [Great General] appears",
                 ],
                 "row": 1,
                 "column": 4
@@ -175,7 +174,8 @@
                 "name": "Military Caste",
                 "uniques": [
                     "[+1 Happiness, +2 Culture] from every [Barracks]",
-                    "May buy [Barracks] buildings for [200] [Gold] [in puppeted cities]",
+                    "[Gold] cost of purchasing [Barracks] buildings [-50]% <in [Puppeted] cities>",
+                    "May buy [Barracks] buildings with [Gold] [in puppeted cities]",
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -194,6 +194,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
+		    "[Worker] units gain the [Field Engineer] promotion",
                 ],
                 "requires": ["Discipline"],
                 "row": 2,
@@ -247,13 +248,14 @@
                 "column": 2
             },
             {
-                "name": "Mandate Of Heaven",
+                "name": "Free Religion",
                 "uniques": [
-		            "[+2 Production] from every [Armory]",
-                    "[+2 Science] from every [Castle]",
+                    "[+2 Culture] from every [Temple]",
+                    "[+3 Culture] from every [Holy site]"
                 ],
-                "row": 1,
-                "column": 5
+                "requires": ["Organized Religion"],
+                "row": 2,
+                "column": 3
             },
             {
                 "name": "Theocracy",
@@ -266,14 +268,13 @@
                 "column": 1
             },
             {
-                "name": "Free Religion",
+                "name": "Mandate Of Heaven",
                 "uniques": [
-                    "[+2 Culture] from every [Temple]",
-                    "[+3 Culture] from every [Holy site]"
+                    "[+2 Production] from every [Armory]",
+                    "[+2 Science] from every [Castle]",
                 ],
-                "requires": ["Organized Religion"],
-                "row": 2,
-                "column": 3
+                "row": 1,
+                "column": 5
             },
             {
                 "name": "Reformation",
