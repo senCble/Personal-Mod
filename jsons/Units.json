@@ -477,7 +477,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"promotions": ["[Legion] ability"],
+		"promotions": ["[Legion] ability","Field Engineer"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
