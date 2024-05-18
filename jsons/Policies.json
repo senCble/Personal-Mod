@@ -20,7 +20,7 @@
             {
                 "name": "Aristocracy",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+10]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 1,
@@ -174,8 +174,7 @@
                 "name": "Military Caste",
                 "uniques": [
                     "[+1 Happiness, +2 Culture] from every [Barracks]",
-                    "[Gold] cost of purchasing [Barracks] buildings [-50]% <in [Puppeted] cities>",
-                    "May buy [Barracks] buildings with [Gold] [in puppeted cities]",
+                    "May buy [Barracks] buildings for [140] [Gold] [in puppeted cities]",
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
