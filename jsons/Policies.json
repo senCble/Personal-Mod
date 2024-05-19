@@ -165,7 +165,7 @@
                 "uniques": [
                     "[+15]% Production when constructing [{Military} {Land}] units [in all cities]",
                     "[+100]% Production when constructing [Barracks] buildings [in all cities]",
-		    "Free [Great General] appears",
+                    "Free [Great General] appears",
                 ],
                 "row": 1,
                 "column": 4
@@ -184,7 +184,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
-		    "[Worker] units gain the [Field Engineer] promotion"
+                    "[Great General] is earned [50]% faster",
                 ],
                 "row": 1,
                 "column": 2
@@ -193,7 +193,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-		    "[Great General] is earned [50]% faster",
+                    "[Worker] units gain the [Field Engineer] promotion"
                 ],
                 "requires": ["Discipline"],
                 "row": 2,
