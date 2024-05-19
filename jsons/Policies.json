@@ -193,9 +193,9 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-                    "[Worker] units gain the [Field Engineer] promotion"
+		    "[Worker] units gain the [Field Engineer] promotion",
                 ],
-                "requires": ["Discipline"],
+                "requires": ["Discipline","Warrior Code"],
                 "row": 2,
                 "column": 2
             },
@@ -328,7 +328,7 @@
             {
                 "name": "Scholasticism",
                 "uniques": [
-                    "Allied City-States provide [Science] equal to [50]% of what they produce for themselves",
+                    "Allied City-States provide [Science] equal to [100]% of what they produce for themselves",
                 ],
                 "requires": ["Philantropy"],
                 "row": 2,
@@ -382,7 +382,7 @@
             {
                 "name": "Cultural Centers",
                 "uniques": [
-                    "[50]% of excess happiness converted to [Culture]",
+                    "[100]% of excess happiness converted to [Culture]",
                 ],
                 "row": 1,
                 "column": 2
@@ -567,7 +567,6 @@
                 "uniques": [
                     "[+15]% [Culture] [in puppeted cities]",
                     "[+15]% [Gold] [in puppeted cities]",
-                    "[+15]% [Production] [in puppeted cities]",
                     "[+15]% [Science] [in puppeted cities]",
                 ],
                 "requires": ["Naval Tradition"],
@@ -633,7 +632,7 @@
                 "uniques": [
                     "[+1 Culture] from every [University]",
                     "[+1 Culture] from every [Public School]",
-                    "[+1 Culture] from every [Research Lab]",
+                    "[+1 Culture] from every [Observatory]",
                 ],
                 "row": 1,
                 "column": 4
