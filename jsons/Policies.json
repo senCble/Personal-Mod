@@ -174,7 +174,7 @@
                 "name": "Military Caste",
                 "uniques": [
                     "[+1 Happiness, +2 Culture] from every [Barracks]",
-                    "May buy [Barracks] buildings for [140] [Gold] [in puppeted cities]",
+                    "Gain a free [Barracks] [in puppeted cities]",
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -184,7 +184,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
-                    "[Great General] is earned [50]% faster",
+		    "[Worker] units gain the [Field Engineer] promotion"
                 ],
                 "row": 1,
                 "column": 2
@@ -193,7 +193,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-		    "[Worker] units gain the [Field Engineer] promotion",
+		    "[Great General] is earned [50]% faster",
                 ],
                 "requires": ["Discipline"],
                 "row": 2,
