@@ -852,7 +852,7 @@
 	},
 	{
         	"name": "Field Engineer",
-        	"uniques": ["[-33]% construction time for [Road] improvements","[-33]% construction time for [Fort] improvements"]
+        	"uniques": ["[-33]% construction time for [Road] improvements","[-33]% construction time for [Fort] improvements","[-33]% construction time for [Repair] improvements"]
     	},
 	{
 		"name": "Prize Ships",
