@@ -851,10 +851,6 @@
 		"uniques": ["[+3] Movement <when [Embarked]>"]
 	},
 	{
-        	"name": "Field Engineer",
-        	"uniques": ["[-33]% construction time for [Road] improvements","[-33]% construction time for [Fort] improvements","[-33]% construction time for [Repair] improvements"]
-    	},
-	{
 		"name": "Prize Ships",
 		"uniques": ["May capture killed [Water] units"]
 	},
