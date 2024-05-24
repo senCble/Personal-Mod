@@ -203,7 +203,7 @@
                 "name": "Professional Army",
                 "uniques": [
                     "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
-                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                    "[-25]% Gold cost of upgrading <for [Military] units>",
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
