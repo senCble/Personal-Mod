@@ -193,7 +193,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-		    "[Worker] units gain the [Field Engineer] promotion",
+                    "[-25]% maintenance costs <for [Land] units>"
                 ],
                 "requires": ["Discipline","Warrior Code"],
                 "row": 2,
@@ -202,9 +202,8 @@
             {
                 "name": "Professional Army",
                 "uniques": [
+                    "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
-                    "[+100]% Production when constructing [Walls] buildings [in all cities]",
-                    "[+1 Happiness] from every [Walls]",
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
@@ -214,7 +213,6 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-                    "Earn [25]% of killed [Military] unit's [Strength] as [Science]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
