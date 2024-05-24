@@ -308,7 +308,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
 		"name": "Burial Tomb",
@@ -1204,7 +1204,7 @@
     		"happiness": 1,
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+			"Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Mosque",
