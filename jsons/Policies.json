@@ -193,7 +193,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-                    "[-25]% maintenance costs <for [Land] units>"
+		    "Earn [25]% of killed [Military] unit's [Strength] as [Science]",
                 ],
                 "requires": ["Discipline","Warrior Code"],
                 "row": 2,
@@ -202,8 +202,9 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
-                    "[-25]% Gold cost of upgrading <for [Military] units>",
+                    "[-25]% maintenance costs <for [Land] units>",
+		    "[-33]% maintenance on road & railroads",
+                    "[-33]% Gold cost of upgrading <for [Military] units>",
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
