@@ -230,7 +230,8 @@
         },
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "[+2 Faith] from every [Temple]",
+            "[+1 Faith] from every [Shrine]",
+            "[+1 Faith] from every [Temple]",
         ],
         "policies": [
             {
@@ -267,7 +268,8 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+2 Science] from every [Armory]",
+                    "[+1 Science] from every [Barracks]",
+                    "[+1 Science] from every [Armory]",
                 ],
                 "row": 1,
                 "column": 5
@@ -379,7 +381,7 @@
             {
                 "name": "Cultural Centers",
                 "uniques": [
-                    "[100]% of excess happiness converted to [Culture]",
+                    "[50]% of excess happiness converted to [Culture]",
                 ],
                 "row": 1,
                 "column": 2
@@ -520,7 +522,7 @@
             {
                 "name": "Maritime Infrastructure",
                 "uniques": [
-                    "[+1 Production] from [Coast] tiles without [Atoll] [in all cities]",
+                    "[+1 Production] from every [Coast] tiles without [Atoll] [in all cities]",
                     "[+2 Science] from every [Atoll]",
                     "[+2 Science] from every [Ocean]",
                 ],
@@ -629,7 +631,7 @@
                 "uniques": [
                     "[+1 Culture] from every [University]",
                     "[+1 Culture] from every [Public School]",
-                    "[+1 Culture] from every [Observatory]",
+                    "[+1 Culture] from every [Research Lab]",
                 ],
                 "row": 1,
                 "column": 4
