@@ -139,7 +139,7 @@
                 "name": "Liberty Complete",
                 "uniques": [
                     "Free Great Person",
-                    "[Faith] cost of purchasing [Great Person] units [-10]% <starting from the [Industrial era]>"
+                    "[Faith] cost of purchasing [{non-[Great Prophet]} {Great Person}] units [-20]% <starting from the [Industrial era]>"
                 ]
             }
         ]
@@ -193,6 +193,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
+                    "[-25]% maintenance costs <for [Land] units>",
                 ],
                 "requires": ["Discipline"],
                 "row": 3,
@@ -212,7 +213,6 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[-33]% maintenance costs <for [Land] units>",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
@@ -229,15 +229,14 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+50]% Production when constructing [Armory] buildings [in all cities]",
-            "[+50]% Production when constructing [Castle] buildings [in all cities]",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
+            "[+2 Faith] from every [Temple]",
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+2 Faith] from every [Temple]",
+                    "[Faith] cost of purchasing [Great Prophet] units [-20]%",
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
@@ -267,8 +266,8 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                    "[+2 Production] from every [Armory]",
-                    "[+2 Science] from every [Castle]",
+                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
+                    "[+2 Science] from every [Armory]",
                 ],
                 "row": 1,
                 "column": 5
@@ -277,7 +276,7 @@
                 "name": "Reformation",
                 "uniques": [
                     "[+1 Happiness] from every [Armory]",
-                    "[+1 Happiness] from every [Castle]"
+                    "[+1 Happiness] from every [Temple]"
                 ],
                 "requires": ["Mandate Of Heaven", "Free Religion"],
                 "row": 3,
@@ -287,7 +286,7 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-                    "[+10]% [Production] [in all cities] <during We Love The King Day>",
+                    "[+10]% [Faith] [in all cities] <during We Love The King Day>",
                     "[+10]% [Science] [in all cities] <during We Love The King Day>",
                 ]
             }
