@@ -256,7 +256,7 @@
     {
         "name": "Interfaith Dialogue",
         "type": "Founder",
-        "uniques": ["[+1 Science] from every [5] global followers [in all cities]"]
+        "uniques": ["[+1 Science] from every [6] global followers [in all cities]"]
     }
     {
         "name": "Papal Primacy",
@@ -276,12 +276,12 @@
     {
         "name": "Tithe",
         "type": "Founder",
-        "uniques": ["[+1 Gold] from every [5] global followers [in all cities]"]
+        "uniques": ["[+1 Gold] from every [6] global followers [in all cities]"]
     },
     {
         "name": "World Church",
         "type": "Founder",
-        "uniques": ["[+1 Culture] from every [5] global followers [in all cities]"]
+        "uniques": ["[+1 Culture] from every [6] global followers [in all cities]"]
     },
 
     ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
