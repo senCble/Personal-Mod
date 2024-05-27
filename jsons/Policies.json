@@ -231,13 +231,12 @@
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+1 Faith] from every [Shrine]",
-            "[+2 Faith] from every [Temple]",
+            "[+1 Faith] from every [Temple]",
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[Faith] cost of purchasing [Great Prophet] units [-20]%",
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
@@ -269,7 +268,7 @@
                 "uniques": [
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
                     "[+1 Science] from every [Barracks]",
-                    "[+2 Science] from every [Armory]",
+                    "[+1 Science] from every [Armory]",
                 ],
                 "row": 1,
                 "column": 5
@@ -288,8 +287,9 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-                    "[+15]% [Faith] [in all cities] <during We Love The King Day>",
-                    "[+15]% [Science] [in all cities] <during We Love The King Day>",
+                    "[Faith] cost of purchasing [Great Prophet] units [-20]%",
+                    "[+10]% [Faith] [in all cities] <during We Love The King Day>",
+                    "[+10]% [Science] [in all cities] <during We Love The King Day>",
                 ]
             }
         ]
