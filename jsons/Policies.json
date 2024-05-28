@@ -184,7 +184,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
-                    "[Great General] is earned [50]% faster",
+                    "[-33]% maintenance costs <for [Land] units>",
                 ],
                 "row": 1,
                 "column": 2
@@ -193,6 +193,8 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
+                    "[-33]% construction time for [Road] improvements",
+                    "[-33]% construction time for [Fort] improvements"
                 ],
                 "requires": ["Discipline"],
                 "row": 3,
@@ -212,7 +214,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[-33]% maintenance costs <for [Land] units>",
+                    "[Great General] is earned [50]% faster",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
@@ -288,8 +290,7 @@
                 "uniques": [
                     "Free [Great Prophet] appears",
                     "[Faith] cost of purchasing [Great Prophet] units [-20]%",
-                    "[+10]% [Faith] [in all cities] <during We Love The King Day>",
-                    "[+10]% [Science] [in all cities] <during We Love The King Day>",
+                    "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
         ]
