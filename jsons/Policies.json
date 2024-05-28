@@ -523,8 +523,7 @@
             {
                 "name": "Maritime Infrastructure",
                 "uniques": [
-                    "[+1 Production] from every [Coast]",
-                    "[+2 Science] from every [Ocean]",
+                    "[+2 Production, +2 Science] [in all coastal cities]",
                 ],
                 "row": 1,
                 "column": 2
@@ -540,7 +539,7 @@
                 "row": 1,
                 "column": 4
             },
-	    	{
+            {
                 "name": "Naval Tradition",
                 "uniques": [
                     "[+2 Happiness] [in all cities] <with a garrison>",
