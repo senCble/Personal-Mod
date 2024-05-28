@@ -184,7 +184,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
-                    "[-25]% maintenance costs <for [Land] units>",
+                    "[-33]% maintenance costs <for [Land] units>",
                 ],
                 "row": 1,
                 "column": 2
