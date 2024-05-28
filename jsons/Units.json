@@ -477,7 +477,6 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["[-33]% construction time for [All] improvements <in [Foreign Land] tiles>"],
 		"promotions": ["[Legion] ability"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
