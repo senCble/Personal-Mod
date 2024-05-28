@@ -1,4 +1,4 @@
-[
+    [
 
 	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
 
@@ -703,7 +703,7 @@
 		"uniqueTo": "China",
 		"movement": 2,
 		"strength": 13,
-		"rangedStrength": 15,
+		"rangedStrength": 14,
 		"replaces": "Crossbowman",
 		"cost": 120,
 		"requiredTech": "Machinery",
