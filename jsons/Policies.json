@@ -258,8 +258,8 @@
             {
                 "name": "Theocracy",
                 "uniques": [
-                    "[+25]% [Gold] from every [Temple]",
-                    "[+3 Gold] from every [Holy site]"
+                    "[+2 Science] from every [Temple]",
+                    "[+3 Science] from every [Holy site]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -269,8 +269,7 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+1 Science] from every [Barracks]",
-                    "[+1 Science] from every [Armory]",
+                    "[+25]% [Gold] from every [Armory]"
                 ],
                 "row": 1,
                 "column": 5
