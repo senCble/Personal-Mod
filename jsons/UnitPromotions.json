@@ -779,7 +779,7 @@
 	},
 	{
 		"name": "[Persian Immortal] ability",
-		"uniques": ["[+10] HP when healing"]
+		"uniques": ["[+15] HP when healing"]
 	},
 	{
 		"name": "[Conquistador] ability",
@@ -832,7 +832,7 @@
     	},
 	{
         	"name": "[Hoplite] ability",
-        	"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>"]
+        	"uniques": ["[+15]% Strength <when adjacent to a [Military] unit>"]
     	},
 	{
         	"name": "[Legion] ability",
