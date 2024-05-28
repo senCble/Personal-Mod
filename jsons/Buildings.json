@@ -606,7 +606,7 @@
 	},
 	{
 		"name": "Castle",
-		"cityStrength": 7,
+		"cityStrength": 8,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
@@ -618,7 +618,7 @@
 		"cost": 150,
 		"replaces": "Castle",
 		"uniqueTo": "India",
-		"cityStrength": 7,
+		"cityStrength": 8,
 		"cityHealth": 25,
 		"culture": 2,
 		"hurryCostModifier": 25,
@@ -1050,8 +1050,7 @@
 		"requiredBuilding": "Hospital",
 		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
-		"requiredResource": "Horses",
-		"uniques": ["[25]% Food is carried over after population increases [in this city]", "[+2 Science] from every specialist [in this city]"]
+		"uniques": ["[30]% Food is carried over after population increases [in this city]", "[+1 Science] from every specialist [in this city]"]
 	},
 	{
 		"name": "Manhattan Project",
