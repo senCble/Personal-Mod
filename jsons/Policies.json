@@ -248,8 +248,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-                    "[+2 Culture] from every [Temple]",
-                    "[+3 Culture] from every [Holy site]"
+                    "[+1 Happiness, +2 Culture] from every [Temple]",
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -258,8 +257,8 @@
             {
                 "name": "Theocracy",
                 "uniques": [
-                    "[+2 Science] from every [Temple]",
-                    "[+3 Science] from every [Holy site]"
+                    "[+25]% [Gold] from every [Temple]",
+                    "[+3 Culture] from every [Holy site]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -269,7 +268,8 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+25]% [Gold] from every [Armory]"
+                    "[+1 Science] from every [Barracks]",
+                    "[+1 Science] from every [Armory]",
                 ],
                 "row": 1,
                 "column": 5
@@ -278,7 +278,7 @@
                 "name": "Reformation",
                 "uniques": [
                     "[+1 Happiness] from every [Armory]",
-                    "[+1 Happiness] from every [Temple]"
+                    "[+3 Science] from every [Holy site]"
                 ],
                 "requires": ["Mandate Of Heaven", "Free Religion"],
                 "row": 3,
