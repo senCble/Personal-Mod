@@ -727,7 +727,7 @@
 	// Uniques that should be kept on upgrades
 	{
 		"name": "Morale", // Heroic Epic
-		"uniques": ["[+10]% Strength"]
+		"uniques": ["[+15]% Strength"]
 	},
 	{
 		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
