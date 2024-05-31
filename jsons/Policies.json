@@ -457,9 +457,8 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[+1 Science] from every [Trading post]",
-                    "[+5]% [Science] from every [Market]",
-                    "[+5]% [Science] from every [Bank]",
-                    "[+7]% [Science] from every [Stock Exchange]",
+                    "[+2] [Science] from every [Market]",
+                    "[+2] [Science] from every [Bank]",
                 ],
                 "row": 1,
                 "column": 4
@@ -553,7 +552,7 @@
                      "[Great General] units gain the [Great Admiral] promotion",
                      "Free [Great General] appears",
                 ],
-                "requires": ["Merchant Navy"],
+                "requires": ["Maritime Infrastructure"],
                 "row": 2,
                 "column": 2
             },
