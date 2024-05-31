@@ -221,8 +221,8 @@
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"faith": 8,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"faith": 6,
+		"uniques": ["Great Improvement", "[+4 Faith] <after discovering [Flight]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Citadel",
@@ -243,11 +243,11 @@
 		"uniqueTo": "Polynesia",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1,
-		"faith": 1,
 		"turnsToBuild": 4,
 		"uniques": [
                         "Can only be built on [Coastal] tiles", 
                         "[+1 Culture] for each adjacent [Moai]",
+			"[+1 Faith] <after discovering [Theology]>", 
                         "[+1 Faith, +2 Gold] <after discovering [Flight]>", 
                         "Pillaging this improvement yields approximately [+10 Gold]"
                 ],
@@ -277,7 +277,7 @@
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains", "Coast", "Lakes"],
 		"turnsToBuild": 7,
 		"uniques": [
-                        "[+1 Production, +1 Gold] <after discovering [Economics]>",
+                        "[+1 Production, +2 Gold] <after discovering [Economics]>",
 			"Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
                 ],
