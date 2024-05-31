@@ -271,7 +271,7 @@
     {
         "name": "Pilgrimage",
         "type": "Founder",
-        "uniques": ["[+4 Faith] for each global city following this religion"]
+        "uniques": ["[+3 Faith] for each global city following this religion"]
     },
     {
         "name": "Tithe",
