@@ -73,12 +73,12 @@
     {
         "name": "Goddess of Love",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness, +1 Faith] [in cities following this religion] <in cities with at least [6] [Population]>"]
+        "uniques": ["[+1 Happiness, +2 Faith] [in cities following this religion] <in cities with at least [6] [Population]>"]
     },
     {
         "name": "Goddess of Protection",
         "type": "Pantheon",
-        "uniques": ["[+30]% Strength for cities <when attacking>",
+        "uniques": ["[+33]% Strength for cities <when attacking>",
             "[+2 Faith] from every [Walls]"]
     },
     {
@@ -131,7 +131,8 @@
     {
         "name": "Sacred Waters",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness, +1 Faith] in cities on [River] tiles"]
+        "uniques": ["[+1 Happiness] in cities on [River] tiles",
+            "[+2 Faith] from every [Water Mill]"]
     },
     {
         "name": "Stone Circles",
