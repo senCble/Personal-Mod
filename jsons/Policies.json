@@ -13,7 +13,6 @@
         },
         "uniques": [
             "[+3 Culture] [in capital]",
-            "[-25]% Culture cost of natural border growth [in all cities]",
             "Only available <before adopting [Liberty]>"
         ],
         "policies": [
@@ -47,7 +46,7 @@
             {
                 "name": "Aristocracy",
                 "uniques": [
-                    "[+10]% Production when constructing [All] wonders [in all cities]",
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 1,
@@ -56,8 +55,8 @@
             {
                 "name": "Oligarchy",
                 "uniques": [
-                    "Units in cities cost no Maintenance",
-                    "[+40]% Strength for cities <with a garrison> <when attacking>"
+                    "[-25]% Culture cost of natural border growth [in all cities]",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>"
                 ],
                 "row": 1,
                 "column": 5
@@ -399,7 +398,7 @@
                     "[+20]% [Culture] [in all cities with a world wonder]",
                     "[+1 Culture] from every [National Wonder]",
                 ],
-                "requires": ["Cultural Centers", "Tourism Destination"],
+                "requires": ["Cultural Centers"],
                 "row": 2,
                 "column": 2
             },
@@ -408,7 +407,7 @@
                 "uniques": [
                      "[+1 Happiness] from every [National Wonder]",
                 ],
-                "requires": ["Monumentality"],
+                "requires": ["Monumentality","Tourism Destination"],
                 "row": 3,
                 "column": 2
             },
@@ -418,7 +417,7 @@
                     "Free [Great Artist] appears"
                 ],
                 "requires": ["Tourism Destination"],
-                "row": 2,
+                "row": 3,
                 "column": 4
             },
             {
@@ -455,23 +454,6 @@
                 "column": 2
             },
             {
-                "name": "Mercenary Army",
-                "uniques": [
-                    "[Gold] cost of purchasing items in cities [-25]%",
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-                ],
-                "requires": ["Trade Unions"],
-                "row": 2,
-                "column": 2
-            },
-            {
-                "name": "Protectionism",
-                "uniques": ["[+2] Happiness from each type of luxury resource"],
-                "requires": ["Mercenary Army"],
-                "row": 3,
-                "column": 2
-            },
-            {
                 "name": "Mercantilism",
                 "uniques": [
                     "[+1 Science] from every [Trading post]",
@@ -483,12 +465,29 @@
                 "column": 4
             },
             {
+                "name": "Mercenary Army",
+                "uniques": [
+                    "[Gold] cost of purchasing items in cities [-25]%",
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+                ],
+                "requires": ["Trade Unions","Mercantilism"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Protectionism",
+                "uniques": ["[+2] Happiness from each type of luxury resource"],
+                "requires": ["Mercenary Army"],
+                "row": 3,
+                "column": 2
+            },
+            {
                 "name": "Entrepreneurship",
                 "uniques": [
                      "[+1 Gold] from every specialist [in all cities]",
                      "[Great Merchant] is earned [25]% faster",
                 ],
-                "requires": ["Mercantilism","Trade Unions"],
+                "requires": ["Mercantilism"],
                 "row": 2,
                 "column": 4
             },
@@ -520,7 +519,7 @@
             {
                 "name": "Maritime Infrastructure",
                 "uniques": [
-                    "[+3 Production] [in all coastal cities]",
+                    "[+2 Production, +2 Science] [in all coastal cities]",
                     "[+3 Science] from every [Citadel]",
                 ],
                 "row": 1,
@@ -541,6 +540,7 @@
                 "name": "Naval Tradition",
                 "uniques": [
                     "[+2 Happiness] [in all cities] <with a garrison>",
+                    "Units in cities cost no Maintenance",
                 ],
                 "requires": ["Maritime Infrastructure","Merchant Navy"],
                 "row": 2,
@@ -677,7 +677,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
                     "[+100]% Production when constructing [Hospital] buildings [in all cities]",
-                    "[+30]% Strength for cities <in cities with a [Hospital]>"
+                    "[+33]% Strength for cities <in cities with a [Hospital]>"
                 ],
                 "row": 1,
                 "column": 3
