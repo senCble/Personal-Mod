@@ -18,30 +18,12 @@
         ],
         "policies": [
             {
-                "name": "Aristocracy",
-                "uniques": [
-                    "[+10]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
                 "name": "Legalism",
                 "uniques": [
                     "Provides the cheapest [Culture] building in your first [4] cities for free"
                 ],
                 "row": 1,
                 "column": 3
-            },
-            {
-                "name": "Oligarchy",
-                "uniques": [
-                    "Units in cities cost no Maintenance",
-                    "[+40]% Strength for cities <with a garrison> <when attacking>"
-                ],
-                "row": 1,
-                "column": 5
             },
             {
                 "name": "Landed Elite",
@@ -61,6 +43,24 @@
                 "requires": ["Legalism"],
                 "row": 2,
                 "column": 4
+            },
+            {
+                "name": "Aristocracy",
+                "uniques": [
+                    "[+10]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Oligarchy",
+                "uniques": [
+                    "Units in cities cost no Maintenance",
+                    "[+40]% Strength for cities <with a garrison> <when attacking>"
+                ],
+                "row": 1,
+                "column": 5
             },
             {
                 "name": "Tradition Complete",
@@ -116,16 +116,6 @@
                 "column": 4
             },
             {
-                "name": "Representation",
-                "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
-                ],
-                "requires": ["Republic"],
-                "row": 2,
-                "column": 3
-            },
-            {
                 "name": "Meritocracy",
                 "uniques": [
                     "[+1 Happiness] [in all cities connected to capital]",
@@ -134,6 +124,16 @@
                 "requires": ["Republic"],
                 "row": 2,
                 "column": 5
+            },
+            {
+                "name": "Representation",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "requires": ["Republic"],
+                "row": 2,
+                "column": 3
             },
             {
                 "name": "Liberty Complete",
@@ -334,7 +334,7 @@
             {
                 "name": "Cultural Diplomacy",
                 "uniques": [
-                    "[+50]% resources gifted by City-States",
+                    "[+100]% resources gifted by City-States",
                     "[+50]% Happiness from luxury resources gifted by City-States"
                 ],
                 "requires": ["Scholasticism"],
@@ -403,15 +403,6 @@
                 "row": 2,
                 "column": 2
             },
-	    	{
-                "name": "Artistic Genius",
-                "uniques": [
-                    "Free [Great Artist] appears"
-                ],
-                "requires": ["Tourism Destination"],
-                "row": 2,
-                "column": 4
-            },
             {
                 "name": "Cultural Exchange",
                 "uniques": [
@@ -420,6 +411,15 @@
                 "requires": ["Monumentality"],
                 "row": 3,
                 "column": 2
+            },
+            {
+                "name": "Artistic Genius",
+                "uniques": [
+                    "Free [Great Artist] appears"
+                ],
+                "requires": ["Tourism Destination"],
+                "row": 2,
+                "column": 4
             },
             {
                 "name": "Aesthetics Complete",
@@ -594,24 +594,6 @@
         ],
         "policies": [
             {
-                "name": "Secularism",
-                "uniques": [
-                    "[+1 Science] from every specialist [in all cities]",
-                    "[Great Scientist] is earned [25]% faster",
-                ],
-                "row": 1,
-                "column": 2
-            },
-	    	{
-                "name": "Sovereignty",
-                "uniques": [
-                    "[+1 Gold] from all [Science] buildings",
-                ],
-                "requires": ["Humanism"],
-                "row": 2,
-                "column": 4
-            },
-            {
                 "name": "Free Thought",
                 "uniques": [
                     "[+1 Science] from every [Lumber mill]",
@@ -638,6 +620,24 @@
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
+            },
+            {
+                "name": "Secularism",
+                "uniques": [
+                    "[+1 Science] from every specialist [in all cities]",
+                    "[Great Scientist] is earned [25]% faster",
+                ],
+                "row": 1,
+                "column": 2
+            },
+	    	{
+                "name": "Sovereignty",
+                "uniques": [
+                    "[+1 Gold] from all [Science] buildings",
+                ],
+                "requires": ["Humanism"],
+                "row": 2,
+                "column": 4
             },
             {
                 "name": "Rationalism Complete",
@@ -764,6 +764,16 @@
                 "column": 2
             },
             {
+                "name": "Total War",
+                "uniques": [
+                    "[+25]% Production when constructing [Military] units [in all cities]",
+                    "New [Military] units start with [15] Experience [in all cities]"
+                ],
+                "requires": ["Fascism"],
+                "row": 3,
+                "column": 2
+            },
+            {
                 "name": "Police State",
                 "uniques": [
                     "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
@@ -773,16 +783,6 @@
                 "requires": ["Populism"],
                 "row": 2,
                 "column": 4
-            },
-            {
-                "name": "Total War",
-                "uniques": [
-                    "[+25]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] Experience [in all cities]"
-                ],
-                "requires": ["Fascism"],
-                "row": 3,
-                "column": 2
             },
             {
                 "name": "Autocracy Complete",
@@ -813,7 +813,7 @@
                 "name": "United Front",
                 "uniques": [
                     "[Gold] cost of purchasing [All] buildings [-33]%",
-		],
+                ],
                 "row": 1,
                 "column": 1
             },
@@ -825,14 +825,6 @@
                 ],
                 "row": 1,
                 "column": 3
-            },
-            {
-                "name": "Nationalism",
-                "uniques": [
-                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
-                ],
-                "row": 1,
-                "column": 5
             },
             {
                 "name": "Socialism",
@@ -855,6 +847,14 @@
                 ],
                 "row": 3,
                 "column": 3
+            },
+            {
+                "name": "Nationalism",
+                "uniques": [
+                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                ],
+                "row": 1,
+                "column": 5
             },
             {
                 "name": "Order Complete",
