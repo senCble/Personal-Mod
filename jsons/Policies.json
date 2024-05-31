@@ -163,7 +163,7 @@
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "[+15]% Production when constructing [{Military} {Land}] units [in all cities]",
+                    "[+25]% Production when constructing [{Military} {Land}] units [in all cities]",
                     "[+100]% Production when constructing [Barracks] buildings [in all cities]",
                     "Free [Great General] appears",
                 ],
@@ -389,8 +389,8 @@
             {
                 "name": "Tourism Destination",
                 "uniques": [
+                    "[+1 Culture] from every specialist [in all cities]",
                     "[Great Artist] is earned [25]% faster",
-                    "[+25]% Golden Age length"
                 ],
                 "row": 1,
                 "column": 4
@@ -551,7 +551,7 @@
             {
                 "name": "Navigation School",
                 "uniques": [
-                     "[+15]% Production when constructing [{Military} {Water}] units [in all cities]",
+                     "[+25]% Production when constructing [{Military} {Water}] units [in all cities]",
                      "[Great General] units gain the [Great Admiral] promotion",
                      "Free [Great General] appears",
                 ],
@@ -714,7 +714,7 @@
                 "name": "Freedom Complete",
                 "uniques": [
                     "[+100]% Yield from every [Great Improvement]",
-                    "[+25]% Golden Age length"
+                    "[+50]% Golden Age length"
                 ]
             }
         ]
@@ -778,7 +778,7 @@
             {
                 "name": "Total War",
                 "uniques": [
-                    "[+35]% Production when constructing [Military] units [in all cities]",
+                    "[+25]% Production when constructing [Military] units [in all cities]",
                     "New [Military] units start with [15] Experience [in all cities]"
                 ],
                 "requires": ["Fascism"],
