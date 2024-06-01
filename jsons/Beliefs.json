@@ -296,7 +296,7 @@
     {
         "name": "Holy Order",
         "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing [Missionary] units [-33]%", "[Faith] cost of purchasing [Inquisitor] units [-33]%"]
+        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%"]
     },
     {
         "name": "Itinerant Preachers",
@@ -317,7 +317,7 @@
     {
         "name": "Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+30]% Spread Religion Strength <for [Missionary] units>", "[+1] Movement <for [Missionary] units>"]
+        "uniques": ["[+30]% Spread Religion Strength <for [Missionary] units>", "[+2] Movement <for [Missionary] units>"]
     },
     {
         "name": "Religious Texts",
