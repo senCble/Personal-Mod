@@ -439,7 +439,7 @@
             "Scientific": 10
         },
         "uniques": [
-                "[+25]% [Gold] [in capital]",
+            "[+50]% [Gold] [in capital]",
         ],
         "policies": [
             {
@@ -455,9 +455,9 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[+1 Science] from every [Trading post]",
-                    "[+1] [Science] from every [Market]",
-                    "[+1] [Science] from every [Bank]",
-                    "[+1] [Science] from every [Stock Exchange]",
+                    "[+1 Science] from every [Market]",
+                    "[+1 Science] from every [Bank]",
+                    "[+1 Science] from every [Stock Exchange]",
                 ],
                 "row": 1,
                 "column": 4
