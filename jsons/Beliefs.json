@@ -312,12 +312,12 @@
     {
         "name": "Messiah",
         "type": "Enhancer",
-        "uniques": ["[+33]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+        "uniques": ["[+30]% Spread Religion Strength <for [Great Prophet] units>", "[-30]% Faith cost of generating Great Prophet equivalents"]
     },
     {
         "name": "Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+33]% Spread Religion Strength <for [Missionary] units>", "[+1] Movement <for [Missionary] units>"]
+        "uniques": ["[+30]% Spread Religion Strength <for [Missionary] units>", "[+1] Movement <for [Missionary] units>"]
     },
     {
         "name": "Religious Texts",
