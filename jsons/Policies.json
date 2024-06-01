@@ -235,7 +235,7 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-					"[-10]% Faith cost of generating Great Prophet equivalents",    
+                    "[-10]% Faith cost of generating Great Prophet equivalents",    
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
