@@ -317,7 +317,7 @@
     {
         "name": "Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+33]% Spread Religion Strength <for [Missionary] units>", "[+2] Movement <for [Missionary] units>"]
+        "uniques": ["[+33]% Spread Religion Strength <for [Missionary] units>", "[+1] Movement <for [Missionary] units>"]
     },
     {
         "name": "Religious Texts",
