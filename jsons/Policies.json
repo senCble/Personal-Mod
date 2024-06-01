@@ -272,7 +272,7 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "[Faith] cost of purchasing [Great Prophet] units [-15]%",
+                    "[Faith] cost of purchasing [Great Prophet] units [-10]%",
                     "[+3 Science] from every [Holy site]",
                 ],
                 "requires": ["Mandate Of Heaven", "Free Religion"],
