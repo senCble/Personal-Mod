@@ -227,7 +227,7 @@
             "Domination": 20,
             "Scientific": 10
         },
-        "uniques": [
+        "uniques": [    
             "[+2 Faith] from every [Temple]",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
         ],
@@ -235,6 +235,7 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
+					"[-10]% Faith cost of generating Great Prophet equivalents",    
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
@@ -272,7 +273,7 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "Gain a free [Enhancer] belief <after founding a religion>",
+                    "[+2 Production] from every [Armory]",
                     "[+3 Science] from every [Holy site]",
                 ],
                 "requires": ["Mandate Of Heaven", "Free Religion"],
@@ -283,7 +284,7 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-                    "[-10]% Faith cost of generating Great Prophet equivalents",             
+                    "Gain a free [Enhancer] belief <after founding a religion>",    
                     "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
