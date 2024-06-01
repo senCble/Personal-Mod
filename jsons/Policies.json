@@ -191,7 +191,7 @@
                 "name": "Professional Army",
                 "uniques": [
                     "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
-                    "[-25]% Gold cost of upgrading <for [Military] units>",
+                    "[-33]% Gold cost of upgrading <for [Military] units>",
                 ],
                 "requires": ["Military Caste","Discipline"],
                 "row": 3,
@@ -201,8 +201,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-                    "[-33]% construction time for [Road] improvements",
-                    "[-33]% construction time for [Fort] improvements"
+                    "[Great General] is earned [50]% faster",
                 ],
                 "requires": ["Discipline"],
                 "row": 3,
@@ -212,7 +211,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[Great General] is earned [50]% faster",
+                    "[+1 Happiness] [in all puppeted cities]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
@@ -273,7 +272,7 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "[Faith] cost of purchasing [Great Prophet] units [-20]%",
+                    "[Faith] cost of purchasing [Great Prophet] units [-15]%",
                     "[+3 Science] from every [Holy site]",
                 ],
                 "requires": ["Mandate Of Heaven", "Free Religion"],
