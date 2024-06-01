@@ -211,7 +211,6 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[+1 Happiness] [in all puppeted cities]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
@@ -234,8 +233,7 @@
         "policies": [
             {
                 "name": "Organized Religion",
-                "uniques": [
-                    "[-10]% Faith cost of generating Great Prophet equivalents",    
+                "uniques": [    
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
@@ -273,8 +271,8 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "[+2 Production] from every [Armory]",
-                    "[+3 Science] from every [Holy site]",
+                    "Gain a free [Enhancer] belief <after founding a religion>",    
+                    "[-10]% Faith cost of generating Great Prophet equivalents",
                 ],
                 "requires": ["Mandate Of Heaven", "Free Religion"],
                 "row": 3,
@@ -284,7 +282,7 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-                    "Gain a free [Enhancer] belief <after founding a religion>",    
+                    "[+3 Science] from every [Holy site]",
                     "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
