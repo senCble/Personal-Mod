@@ -138,7 +138,7 @@
                 "name": "Liberty Complete",
                 "uniques": [
                     "Free Great Person",
-                    "[Faith] cost of purchasing [{non-[Great Prophet]} {Great Person}] units [-10]% <starting from the [Industrial era]>"
+                    "[Faith] cost of purchasing [Great Person] units [-10]% <starting from the [Industrial era]>"
                 ]
             }
         ]
@@ -182,7 +182,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
-                    "[-25]% maintenance costs <for [Land] units>",
+                    "[Great General] is earned [50]% faster"
                 ],
                 "row": 1,
                 "column": 2
@@ -201,7 +201,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-                    "[Great General] is earned [50]% faster",
+                    "[-25]% maintenance costs <for [Land] units>",
                 ],
                 "requires": ["Discipline"],
                 "row": 3,
@@ -283,7 +283,7 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-                    "[Faith] cost of purchasing [Great Prophet] units [-20]%",                    
+                    "[Faith] cost of purchasing [Great Prophet] units [-15]%",                    
                     "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
