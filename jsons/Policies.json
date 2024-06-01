@@ -173,6 +173,7 @@
                 "name": "Military Caste",
                 "uniques": [
                     "[+1 Happiness, +2 Culture] from every [Barracks]",
+                    "[+1 Happiness] [in all puppeted cities]",
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -182,7 +183,8 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
-                    "[-25]% maintenance costs <for [Land] units>",
+                    "[-33]% construction time for [Road] improvements",
+                    "[-33]% construction time for [Fort] improvements"
                 ],
                 "row": 1,
                 "column": 2
@@ -201,7 +203,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-                    "[Great General] is earned [50]% faster"
+                    "[-25]% maintenance costs <for [Land] units>",
                 ],
                 "requires": ["Discipline"],
                 "row": 3,
@@ -211,6 +213,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+                    "[Great General] is earned [50]% faster",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
@@ -726,7 +729,7 @@
             "Scientific": 50
         },
         "uniques": [
-            "[-33]% maintenance costs <for [All] units>",
+            "[-25]% maintenance costs <for [All] units>",
             "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>"
