@@ -173,7 +173,6 @@
                 "name": "Military Caste",
                 "uniques": [
                     "[+1 Happiness, +2 Culture] from every [Barracks]",
-                    "[+1 Happiness] [in all puppeted cities]",
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -212,6 +211,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+                    "[+1 Happiness] [in all puppeted cities]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
