@@ -455,8 +455,8 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[+2 Science] from every [Market]",
-                    "[+2 Science] from every [Bank]",
                     "[+2 Science] from every [Mint]",
+                    "[+2 Science] from every [Bank]",
                 ],
                 "row": 1,
                 "column": 4
@@ -467,14 +467,14 @@
                     "[Gold] cost of purchasing items in cities [-25]%",
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
                 ],
-                "requires": ["Trade Unions","Mercantilism"],
+                "requires": ["Trade Unions"],
                 "row": 2,
                 "column": 2
             },
             {
                 "name": "Protectionism",
                 "uniques": ["[+2] Happiness from each type of luxury resource"],
-                "requires": ["Mercenary Army"],
+                "requires": ["Mercenary Army","Mercantilism"],
                 "row": 3,
                 "column": 2
             },
@@ -485,7 +485,7 @@
                      "[Great Merchant] is earned [25]% faster",
                 ],
                 "requires": ["Mercantilism"],
-                "row": 2,
+                "row": 3,
                 "column": 4
             },
             {
