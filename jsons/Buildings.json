@@ -1072,7 +1072,7 @@
 		"cost": 500,
 		"happiness": 2,
 		"requiredBuilding": "Theatre",
-		"uniques": ["[+1 Culture] from every specialist [in all cities]"],
+		"uniques": ["[25]% of excess happiness converted to [Culture] <in this city>"],
 		"maintenance": 3,
 		"requiredTech": "Radar"
 	},
