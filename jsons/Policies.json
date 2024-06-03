@@ -556,7 +556,7 @@
             {
                 "name": "Colonialism",
                 "uniques": [
-                    "[+15]% [Culture] [in puppeted cities]",
+                    "[+15]% [Production] [in puppeted cities]",
                     "[+15]% [Gold] [in puppeted cities]",
                     "[+15]% [Science] [in puppeted cities]",
                 ],
@@ -701,7 +701,7 @@
                     "[6] free [Foreign Legion] units appear",
                     "Gain [15] Influence with a [Military] gift to a City-State"
                 ],
-                "requires": ["Constitution"],
+                "requires": ["Constitution","Universal Suffrage"],
                 "row": 2,
                 "column": 1
             },
