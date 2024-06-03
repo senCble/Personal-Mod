@@ -456,6 +456,7 @@
                 "uniques": [
                     "[+2 Science] from every [Market]",
                     "[+2 Science] from every [Bank]",
+                    "[+2 Science] from every [Mint]",
                 ],
                 "row": 1,
                 "column": 4
@@ -605,6 +606,7 @@
                 "uniques": [
                     "[+1 Culture] from every [University]",
                     "[+1 Culture] from every [Public School]",
+                    "[+1 Culture] from every [Observatory]",
                     "[+1 Culture] from every [Research Lab]",
                 ],
                 "row": 1,
@@ -664,7 +666,7 @@
                 "name": "Constitution",
                 "uniques": [
                     "[+1 Culture] from every specialist [in all cities]",
-                    "[+3 Culture] from every [Great Improvement]",
+                    "[+2 Culture] from every [Great Improvement]",
                 ],
                 "row": 1,
                 "column": 1
