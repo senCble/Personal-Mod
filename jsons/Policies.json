@@ -439,7 +439,8 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+25]% [Gold] [in all non-occupied cities]",
+            "[+25]% [Gold] [in capital]",
+            "[+1 Gold] from every [Colosseum]"
         ],
         "policies": [
             {
@@ -454,7 +455,6 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[+1 Science] from every [Trading post]",
                     "[+1 Science] from all [Gold] buildings",
                 ],
                 "row": 1,
@@ -490,7 +490,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+2 Gold] from every [Trading post]",
+                    "[+1 Gold, +1 Science] from every [Trading post]",
                     "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
