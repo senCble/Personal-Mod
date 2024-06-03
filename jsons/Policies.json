@@ -440,7 +440,6 @@
         },
         "uniques": [
             "[+25]% [Gold] [in capital]",
-            "[+1 Gold] from every [Colosseum]"
         ],
         "policies": [
             {
@@ -455,7 +454,8 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[+1 Science] from all [Gold] buildings",
+                    "[+2 Science] from every [Market]",
+                    "[+2 Science] from every [Bank]",
                 ],
                 "row": 1,
                 "column": 4
