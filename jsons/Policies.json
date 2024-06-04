@@ -666,7 +666,7 @@
                 "name": "Constitution",
                 "uniques": [
                     "[+1 Culture] from every specialist [in all cities]",
-                    "[+1 Culture] from every [Wonder]",
+                    "[+2 Culture] from every [Great Improvement]",
                 ],
                 "row": 1,
                 "column": 1
