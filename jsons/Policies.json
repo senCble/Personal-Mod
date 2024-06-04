@@ -439,7 +439,7 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+25]% [Gold] [in capital]",
+            "[+25]% [Gold] [in all non-occupied cities]",
         ],
         "policies": [
             {
@@ -657,7 +657,7 @@
             "Scientific": 50
         },
         "uniques": [
-            "[+33]% Great Person generation [in all cities]",
+            "[+25]% Great Person generation [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Order]>"
         ],
