@@ -192,7 +192,7 @@
                 "uniques": [
                     "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
                     "[+100]% Production when constructing [Heroic Epic] buildings [in capital]",
-                    "Gain a free [Barracks] [in all puppeted cities]",                   
+                    "Gain a free [Barracks] [in puppeted cities]",                   
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
