@@ -191,7 +191,8 @@
                 "name": "Professional Army",
                 "uniques": [
                     "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
-                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                    "Gain a free [Barracks] [in all puppeted cities]",
+                   
                 ],
                 "requires": ["Military Caste","Discipline"],
                 "row": 3,
@@ -201,7 +202,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-                    "[Great General] is earned [50]% faster",
+                    "[-33]% Gold cost of upgrading <for [Military] units>",
                 ],
                 "requires": ["Discipline"],
                 "row": 3,
@@ -211,7 +212,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[+1 Happiness] [in all puppeted cities]",
+                    "[Great General] is earned [50]% faster",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
@@ -228,13 +229,14 @@
             "Scientific": 10
         },
         "uniques": [    
-            "[-20]% Faith cost of generating Great Prophet equivalents",
+            "Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
         ],
         "policies": [
             {
                 "name": "Organized Religion",
-                "uniques": [    
+                "uniques": [
+                    "[-20]% Faith cost of generating Great Prophet equivalents",
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
@@ -384,8 +386,7 @@
             {
                 "name": "Tourism Destination",
                 "uniques": [
-                    "[+1 Culture] from every specialist [in all cities]",
-                    "[Great Artist] is earned [25]% faster",
+                    "Free [Great Artist] appears"
                 ],
                 "row": 1,
                 "column": 4
@@ -396,7 +397,7 @@
                     "[+20]% [Culture] [in all cities with a world wonder]",
                     "[+1 Culture] from every [National Wonder]",
                 ],
-                "requires": ["Cultural Centers"],
+                "requires": ["Cultural Centers","Tourism Destination"],
                 "row": 2,
                 "column": 2
             },
@@ -405,17 +406,18 @@
                 "uniques": [
                      "[+1 Happiness] from every [National Wonder]",
                 ],
-                "requires": ["Monumentality","Tourism Destination"],
+                "requires": ["Monumentality"],
                 "row": 3,
                 "column": 2
             },
             {
                 "name": "Artistic Genius",
                 "uniques": [
-                    "Free [Great Artist] appears"
+                    "[+1 Culture] from every specialist [in all cities]",
+                    "[Great Artist] is earned [25]% faster",
                 ],
                 "requires": ["Tourism Destination"],
-                "row": 3,
+                "row": 2,
                 "column": 4
             },
             {
@@ -597,7 +599,16 @@
                     "[+1 Science] from every [Mine] <in tiles without [resource]>",
                     "[+17]% [Science] from every [University]"
                 ],
-                "requires": ["Secularism"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Secularism",
+                "uniques": [
+                    "[+1 Science] from every specialist [in all cities]",
+                    "[Great Scientist] is earned [25]% faster",
+                ],
+                "requires": ["Free Thought"],
                 "row": 2,
                 "column": 2
             },
@@ -617,15 +628,6 @@
                 "uniques": ["Science gained from research agreements [+50]%"],
                 "requires": ["Free Thought"],
                 "row": 3,
-                "column": 2
-            },
-            {
-                "name": "Secularism",
-                "uniques": [
-                    "[+1 Science] from every specialist [in all cities]",
-                    "[Great Scientist] is earned [25]% faster",
-                ],
-                "row": 1,
                 "column": 2
             },
 	    	{
