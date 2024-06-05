@@ -191,7 +191,7 @@
                 "name": "Professional Army",
                 "uniques": [
                     "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
-                    "[+100]% Production when constructing [Heroic Epic] buildings [in capital]",
+                    "[+100]% Production when constructing [Heroic Epic] buildings [in all cities]",
                     "Gain a free [Barracks] [in puppeted cities]",                   
                 ],
                 "requires": ["Military Caste"],
