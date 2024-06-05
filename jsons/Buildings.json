@@ -265,7 +265,7 @@
 		"maintenance": 4,
 		"hurryCostModifier": 40,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built <in [in annexed cities] cities>"],
+			"Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -487,7 +487,7 @@
 			"Cost increases by [25] per owned city",
 			"[+100]% Natural religion spread [in this city]", 
 			"Hidden when religion is disabled", 
-			"Can only be built <in [in holy cities] cities>"
+			"Can only be built <in [Holy] cities>"
 		],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
