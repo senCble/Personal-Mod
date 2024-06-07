@@ -588,8 +588,7 @@
             "Scientific": 50
         },
         "uniques": [
-            "[+5]% [Science] <while the empire is happy>",
-            "[+5]% [Science] <when not at war>"
+            "[+10]% [Science] <when not at war>"
         ],
         "policies": [
             {
