@@ -89,7 +89,7 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in all cities]",
+                    "[+50]% Production when constructing [Civilian] units [in capital]",
                     "Free [Worker] appears"
                 ],
                 "row": 1,
@@ -190,8 +190,8 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "Gain a free [Barracks] [in puppeted cities]",
                     "[+100]% Production when constructing [Heroic Epic] wonders [in capital]",
+                    "Gain a free [Barracks] [in puppeted cities]",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
                 ],
                 "requires": ["Military Caste"],
@@ -728,7 +728,7 @@
             "Scientific": 50
         },
         "uniques": [
-            "[-25]% maintenance costs <for [All] units>",
+            "[-33]% maintenance costs <for [All] units>",
             "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>"
