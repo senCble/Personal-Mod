@@ -441,7 +441,7 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+25]% [Gold] from every [Market] <in [Non-occupied] cities>",
+            "[+25]% [Gold] [in all non-occupied cities]",
         ],
         "policies": [
             {
