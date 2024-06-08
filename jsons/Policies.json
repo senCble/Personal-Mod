@@ -212,7 +212,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[-25]% maintenance costs <for [Land] units>",
+                    "[-17]% maintenance costs <for [Land] units>",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
@@ -441,7 +441,7 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+10]% [Gold] [in all non-occupied cities]",
+            "[+10]% [Gold] [in all cities connected to capital]",
         ],
         "policies": [
             {
