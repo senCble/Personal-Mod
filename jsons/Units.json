@@ -339,6 +339,7 @@
 		"cost": 75,
 		"requiredTech": "Optics",
 		"uniques": ["Cannot enter ocean tiles"],
+		"promotions": ["[Quinquereme] ability"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -403,7 +404,8 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","[-25]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Cover I"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -979,7 +981,7 @@
 		"replaces": "Cavalry",
 		"uniqueTo": "The Ottomans",
 		"range": 1,
-		"movement": 5,
+		"movement": 4,
 		"strength": 26,
 		"rangedStrength": 26,
 		"cost": 180,
@@ -987,7 +989,7 @@
 		"obsoleteTech": "Computers",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","Can move after attacking","No defensive terrain bonus","[+1] Sight"],
 		"promotions": ["[Sipahi] ability"],
 		"attackSound": "horse"
 	},
@@ -1137,7 +1139,7 @@
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>","[+1] Sight"],
+			"[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Hussar] ability"],
 		"attackSound": "horse"
 	},
