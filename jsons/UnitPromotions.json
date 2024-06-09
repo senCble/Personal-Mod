@@ -791,7 +791,7 @@
 	},
 	{
 		"name": "[Sipahi] ability",
-		"uniques": ["No movement cost to pillage","[+1] Sight"]
+		"uniques": ["No movement cost to pillage","[+1] Movement"]
 	},
 	{
 		"name": "[Cossack] ability",
@@ -807,7 +807,11 @@
 	},
 	{
 		"name": "[Hussar] ability",
-		"uniques": ["[+100]% to Flank Attack bonuses"]
+		"uniques": ["[+100]% to Flank Attack bonuses","[+1] Sight"]
+	},
+	{
+		"name": "[Quinquereme] ability",
+		"uniques": ["[+50]% to Flank Attack bonuses","Ignores Zone of Control"]
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
