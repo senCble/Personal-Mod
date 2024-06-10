@@ -479,7 +479,8 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"promotions": ["[Legion] ability","Cover I"],
+		"uniques": ["[+10]% Strength <vs [Ranged] units> <when defending>"],
+		"promotions": ["[Legion] ability"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
