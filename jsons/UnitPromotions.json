@@ -786,6 +786,10 @@
 		"uniques": ["Defense bonus when embarked","[+1] Sight <when [Embarked]>"]
 	},
 	{
+		"name": "[Cataphract] ability",
+		"uniques": ["[+33]% Strength <vs cities> <when attacking>"]
+	},
+	{
 		"name": "[Janissary] ability",
 		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]
 	},
@@ -803,7 +807,7 @@
 	},
 	{
 		"name": "[Ballista] ability",
-		"uniques": ["[+25]% Strength <vs cities> <when attacking>"]
+		"uniques": ["[+25]% Strength <when attacking>"]
 	},
 	{
 		"name": "[Hussar] ability",
