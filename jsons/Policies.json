@@ -245,6 +245,7 @@
                 "name": "Reformation",
                 "uniques": [
                     "[+1 Science] from all [Faith] buildings",
+                    "[+3 Science] from every [Holy site]"
                 ],
                 "requires": ["Mandate Of Heaven", "Free Religion"],
                 "row": 3,
@@ -284,7 +285,7 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-                    "[+3 Science] from every [Holy site]",
+                    "Gain a free [Follower] belief <after founding a religion>",
                     "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
