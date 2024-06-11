@@ -228,7 +228,7 @@
     {
         "name": "Religious Community",
         "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [12]%"]
+        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
     },
     {
         "name": "Swords into Ploughshares",
