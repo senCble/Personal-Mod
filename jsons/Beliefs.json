@@ -28,14 +28,13 @@
         "name": "Faith Healers",
         "type": "Pantheon",
         "uniques": ["[All] Units adjacent to this city heal [+25] HP per turn when healing",
-            "[+2 Faith] from every [Library]"]
+            "[+2 Faith] from every [Barracks]"]
     },
     {
         "name": "Fertility Rites",
         "type": "Pantheon",
         "uniques": ["[+15]% growth [in this city]",
             "[+1 Faith] from every [Granary]"]
-        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
     },
     {
         "name": "God King",
@@ -51,19 +50,18 @@
         "name": "God of the Open Sky",
         "type": "Pantheon",
         "uniques": ["[+1 Culture] from every [Pasture]",
-           "[+1 Faith] [in cities following this religion] <within [2] tiles of a [Pasture]>"]
+           "[+2 Faith] from every [Stable]"]
     },
     {
         "name": "God of the Sea",
         "type": "Pantheon",
         "uniques": ["[+1 Production] from every [Fishing Boats]",
-            "[+1 Faith] [in cities following this religion] <within [2] tiles of a [Fishing Boats]>"]
+            "[+2 Faith] from every [Lighthouse]"]
     },
     {
         "name": "God of War",
         "type": "Pantheon",
-        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion",
-            "[+2 Faith] from every [Barracks]"]
+        "uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"]
     },
     {
         "name": "Goddess of Festivals",
@@ -85,7 +83,7 @@
         "name": "Goddess of the Hunt",
         "type": "Pantheon",
         "uniques": ["[+1 Food] from every [Camp]",
-            "[+1 Faith] [in cities following this religion] <within [2] tiles of a [Camp]>"]
+            "[+2 Faith] from every [Circus]"]
     },
     {
         "name": "Messenger of the Gods",
@@ -109,7 +107,7 @@
         "name": "Oral Tradition",
         "type": "Pantheon",
         "uniques": ["[+1 Culture] from every [Plantation]",
-            "[+1 Faith] [in cities following this religion] <within [2] tiles of a [Plantation]>"]
+            "[+2 Faith] from every [Colosseum]"]
     },
     {
         "name": "Religious Idols",
@@ -126,7 +124,7 @@
         "name": "Sacred Path",
         "type": "Pantheon",
         "uniques": ["[+1 Culture] from every [Jungle]",
-             "[+1 Faith] [in cities following this religion] <within [1] tiles of a [Jungle]>"]
+            "[+2 Faith] from every [Library]"]
     },
     {
         "name": "Sacred Waters",
