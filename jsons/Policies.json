@@ -191,7 +191,7 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[+100]% Production when constructing [Heroic Epic] wonders [in capital]",
-                    "Gain a free [Barracks] [in puppeted cities]",
+                    "[+1 Happiness] <in [non-[Non-occupied]] cities>",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
                 ],
                 "requires": ["Military Caste"],
@@ -212,7 +212,6 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[-17]% maintenance costs <for [Land] units>",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
@@ -229,14 +228,14 @@
             "Scientific": 10
         },
         "uniques": [    
-            "Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
+            "[-20]% Faith cost of generating Great Prophet equivalents",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[-20]% Faith cost of generating Great Prophet equivalents",
+                    "[+2 Culture] from every [Temple]",
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
@@ -244,9 +243,29 @@
                 "column": 2
             },
             {
+                "name": "Reformation",
+                "uniques": [
+                    "[+1 Science] from all [Faith] buildings",
+                ],
+                "requires": ["Mandate Of Heaven", "Free Religion"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Mandate Of Heaven",
+                "uniques": [
+                    "[+1 Faith] from every [Barracks]",
+                    "[+1 Faith] from every [Armory]",
+                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
                 "name": "Free Religion",
                 "uniques": [
-                    "[+1 Happiness, +2 Culture] from every [Temple]",
+                    "[+1 Happiness] from every [Armory]",
+                    "[+1 Happiness] from every [Temple]",
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -261,25 +280,6 @@
                 "requires": ["Organized Religion"],
                 "row": 2,
                 "column": 1
-            },
-            {
-                "name": "Mandate Of Heaven",
-                "uniques": [
-                    "[+1 Faith] from every [Barracks]",
-                    "[+1 Faith] from every [Armory]",
-                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                ],
-                "row": 1,
-                "column": 5
-            },
-            {
-                "name": "Reformation",
-                "uniques": [
-                    "[+1 Science] from all [Faith] buildings",
-                ],
-                "requires": ["Mandate Of Heaven", "Free Religion"],
-                "row": 3,
-                "column": 4
             },
             {
                 "name": "Piety Complete",
@@ -441,7 +441,7 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+10]% [Gold] [in all cities connected to capital]",
+            "[+10]% [Gold] [in all non-occupied cities]",
         ],
         "policies": [
             {
