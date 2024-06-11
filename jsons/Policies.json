@@ -191,7 +191,7 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[+100]% Production when constructing [Heroic Epic] wonders [in capital]",
-                    "[+1 Happiness] <in [non-[Non-occupied]] cities>",
+                    "[+1 Happiness] [in puppeted cities]",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
                 ],
                 "requires": ["Military Caste"],
@@ -519,8 +519,8 @@
             {
                 "name": "Maritime Infrastructure",
                 "uniques": [
-                    "[+2 Culture, +2 Science] [in all coastal cities]",
-                    "[+2 Production] from every [Citadel]",
+                    "[+2 Production, +2 Science] [in all coastal cities]",
+                    "[+3 Culture] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 2
@@ -559,9 +559,9 @@
             {
                 "name": "Colonialism",
                 "uniques": [
-                    "[+15]% [Production] [in puppeted cities]",
-                    "[+15]% [Gold] [in puppeted cities]",
-                    "[+15]% [Science] [in puppeted cities]",
+                    "[+20]% [Production] [in puppeted cities]",
+                    "[+20]% [Gold] [in puppeted cities]",
+                    "[+20]% [Science] [in puppeted cities]",
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 3,
