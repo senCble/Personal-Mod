@@ -245,7 +245,6 @@
                 "name": "Reformation",
                 "uniques": [
                     "[+1 Science] from all [Faith] buildings",
-                    "[+3 Science] from every [Holy site]"
                 ],
                 "requires": ["Mandate Of Heaven", "Free Religion"],
                 "row": 3,
@@ -264,8 +263,8 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-                    "[+1 Happiness] from every [Armory]",
                     "[+1 Happiness] from every [Temple]",
+                    "Gain a free [Follower] belief <after founding a religion>",
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -285,7 +284,7 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-                    "Gain a free [Enhancer] belief <after founding a religion>",
+                    "[+3 Science] from every [Holy site]",
                     "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
