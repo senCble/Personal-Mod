@@ -756,7 +756,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["[+50]% Strength <vs cities> <when defending>","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
 		"attackSound": "throw"
 	},
 	{
