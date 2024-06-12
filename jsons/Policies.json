@@ -246,9 +246,9 @@
                 "uniques": [
                     "[+1 Science] from all [Faith] buildings",
                 ],
-                "requires": ["Mandate Of Heaven", "Free Religion"],
-                "row": 3,
-                "column": 4
+                "requires": ["Organized Religion"],
+                "row": 2,
+                "column": 3
             },
             {
                 "name": "Mandate Of Heaven",
@@ -263,12 +263,12 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-                    "[+1 Happiness] from every [Temple]",
                     "Gain a free [Follower] belief <after founding a religion>",
+                    "[+1 Happiness] from every [Armory]",
                 ],
-                "requires": ["Organized Religion"],
-                "row": 2,
-                "column": 3
+                "requires": ["Mandate Of Heaven", "Reformation"],
+                "row": 3,
+                "column": 4
             },
             {
                 "name": "Theocracy",
