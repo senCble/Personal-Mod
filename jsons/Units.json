@@ -465,6 +465,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
+		"uniques": ["[+5]% Strength <vs [Ranged] units> <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -480,6 +481,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
+		"uniques": ["[+5]% Strength <vs [Ranged] units> <when defending>"],
 		"promotions": ["[Legion] ability"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -496,6 +498,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
+		"uniques": ["[+5]% Strength <vs [Ranged] units> <when defending>"],
 		"promotions": ["[Mohawk Warrior] ability"],
 		"attackSound": "metalhit"
 	},
@@ -510,6 +513,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
+		"uniques": ["[+5]% Strength <vs [Ranged] units> <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 		// Barbarian unique Swordsman. Has same icon and name but slightly different 3d texture
