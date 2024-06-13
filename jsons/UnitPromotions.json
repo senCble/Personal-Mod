@@ -857,6 +857,10 @@
         	"uniques": ["[+20]% Strength <when fighting in [Friendly Land] tiles>"]
     	},
 	{
+        	"name": "[Mandekalu Cavalry] ability",
+        	"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]"]
+    	},
+	{
 		"name": "Great Admiral",
 		"uniques": ["[+3] Movement <when [Embarked]>","[1] Movement point cost to disembark"]
 	},
