@@ -230,7 +230,7 @@
 		"unbuildable": true,
 		"defenceBonus": -0.15,
 		"occursOn": ["Grassland"],
-		"uniques": ["Rare feature","Fresh water",
+		"uniques": ["Rough terrain","Rare feature","Fresh water",
 					"[-2] to Fertility for Map Generation",
 					"Every [10] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
