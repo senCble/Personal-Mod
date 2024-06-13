@@ -111,7 +111,7 @@
 		"replaces": "Archer",
 		"uniqueTo": "Babylon",
 		"upgradesTo": "Composite Bowman",
-		"promotions": ["[Bowman] Ability"],
+		"promotions": ["[Bowman] ability"],
 		"attackSound": "arrow"
 	},
 	{
