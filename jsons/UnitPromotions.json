@@ -743,7 +743,7 @@
 	},
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
+		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
@@ -800,6 +800,10 @@
 	{
 		"name": "[Dromon] ability",
 		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>"]
+	},
+	{
+		"name": "[War Chariot] ability",
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
 	},
 	{
 		"name": "[Ballista] ability",
