@@ -833,6 +833,10 @@
         	"uniques": ["[1] additional attacks per turn","Can move after attacking"]
     	},
 	{
+        	"name": "[Bowman] ability",
+        	"uniques": ["[+10]% Strength <vs [Melee] units> <when defending>","[+10]% Strength <vs [Mounted] units> <when defending>"]
+    	},
+	{
         	"name": "[Hoplite] ability",
         	"uniques": ["[+15]% Strength <when adjacent to a [Military] unit>"]
     	},
