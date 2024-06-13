@@ -834,7 +834,7 @@
     	},
 	{
         	"name": "[Bowman] ability",
-        	"uniques": ["[+10]% Strength <vs [Melee] units> <when defending>","[+10]% Strength <vs [Mounted] units> <when defending>"]
+        	"uniques": ["[+15]% Strength <vs [Melee] units> <when defending>","[+15]% Strength <vs [Mounted] units> <when defending>"]
     	},
 	{
         	"name": "[Hoplite] ability",
