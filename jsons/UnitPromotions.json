@@ -786,10 +786,6 @@
 		"uniques": ["Defense bonus when embarked","[+2] Sight"]
 	},
 	{
-		"name": "[Cataphract] ability",
-		"uniques": ["[+33]% Strength <vs cities> <when attacking>"]
-	},
-	{
 		"name": "[Janissary] ability",
 		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]
 	},
