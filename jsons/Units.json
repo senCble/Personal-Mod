@@ -623,7 +623,7 @@
 		"replaces": "Knight",
 		"uniqueTo": "Siam",
 		"movement": 3,
-		"strength": 24,
+		"strength": 25,
 		"cost": 135,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Railroads",
