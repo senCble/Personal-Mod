@@ -567,7 +567,7 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>", "Can move immediately once bought"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"promotions": ["Formation I"],
+		"promotions": ["Raider"],
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW
 	},
@@ -790,7 +790,7 @@
 		"uniqueTo": "Japan",
 		"movement": 2,
 		"strength": 24,
-		"cost": 135,
+		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
