@@ -858,7 +858,7 @@
     	},
 	{
         	"name": "[Mandekalu Cavalry] ability",
-        	"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]"]
+        	"uniques": ["[+50]% to Flank Attack bonuses", "Earn [50]% of the damage done to [City] units as [Gold]"]
     	},
 	{
 		"name": "Great Admiral",
