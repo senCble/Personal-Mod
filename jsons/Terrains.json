@@ -132,7 +132,7 @@
 		"uniques": ["Rough terrain",
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
-            "Units ending their turn on this terrain take [25] damage",
+            "Units ending their turn on this terrain take [25] damage <before the [Industrial era]>",
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations"]
 	},
