@@ -395,7 +395,7 @@
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
 		"promotions":["Cover I"],
-		"uniques": ["Can move after attacking","[-25]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
