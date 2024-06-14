@@ -857,8 +857,8 @@
         	"uniques": ["[+20]% Strength <when fighting in [Friendly Land] tiles>"]
     	},
 	{
-        	"name": "[Mandekalu Cavalry] ability",
-        	"uniques": ["[+50]% to Flank Attack bonuses", "Earn [50]% of the damage done to [City] units as [Gold]"]
+        	"name": "Raider",
+        	"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]"]
     	},
 	{
 		"name": "Great Admiral",
