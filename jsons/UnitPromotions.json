@@ -819,10 +819,8 @@
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
-		"uniques": [
-			"[+25]% Strength <when fighting in [Snow] tiles>","[+25]% Strength <when fighting in [Tundra] tiles>","[+25]% Strength <when fighting in [Hill] tiles>",
-			"Double movement in [Snow]","Double movement in [Tundra]","Double movement in [Hill]"
-		]
+		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>","[+25]% Strength <when fighting in [Tundra] tiles>","[+25]% Strength <when fighting in [Hill] tiles>",
+			"Double movement in [Snow]","Double movement in [Tundra]","Double movement in [Hill]"]
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
@@ -838,7 +836,7 @@
     	},
 	{
         	"name": "[Bowman] ability",
-        	"uniques": ["[+15]% Strength <vs [Melee] units> <when defending>","[+15]% Strength <vs [Mounted] units> <when defending>"]
+        	"uniques": ["[+10]% Strength <vs [Melee] units> <when defending>","[+10]% Strength <vs [Mounted] units> <when defending>"]
     	},
 	{
         	"name": "[Hoplite] ability",
