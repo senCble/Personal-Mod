@@ -589,8 +589,8 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Lancer",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", 
+			"Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
@@ -618,13 +618,13 @@
 		"replaces": "Knight",
 		"uniqueTo": "Siam",
 		"movement": 3,
-		"strength": 25,
+		"strength": 24,
 		"cost": 135,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Railroads",
 		"upgradesTo": "Lancer",
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>","[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"promotions": ["Formation I"],
 		"attackSound": "elephant"
 	},
