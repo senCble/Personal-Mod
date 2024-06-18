@@ -807,7 +807,7 @@
 	},
 	{
 		"name": "[Ballista] ability",
-		"uniques": ["[+25]% Strength <when attacking>"]
+		"uniques": ["[+15]% Strength <vs [All] units> <when attacking>"]
 	},
 	{
 		"name": "[Hussar] ability",
