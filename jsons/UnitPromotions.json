@@ -743,7 +743,7 @@
 	},
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"]
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
@@ -779,7 +779,7 @@
 	},
 	{
 		"name": "[Persian Immortal] ability",
-		"uniques": ["[+15] HP when healing"]
+		"uniques": ["[+10] HP when healing"]
 	},
 	{
 		"name": "[Conquistador] ability",
@@ -807,7 +807,7 @@
 	},
 	{
 		"name": "[Ballista] ability",
-		"uniques": ["[+25]% Strength <when attacking>"]
+		"uniques": ["[+15]% Strength <when attacking>"]
 	},
 	{
 		"name": "[Hussar] ability",
@@ -815,7 +815,7 @@
 	},
 	{
 		"name": "[Quinquereme] ability",
-		"uniques": ["[+50]% to Flank Attack bonuses","Ignores Zone of Control"]
+		"uniques": ["[+50]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
@@ -840,7 +840,7 @@
     	},
 	{
         	"name": "[Hoplite] ability",
-        	"uniques": ["[+15]% Strength <when adjacent to a [Military] unit>"]
+        	"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>"]
     	},
 	{
         	"name": "[Legion] ability",
