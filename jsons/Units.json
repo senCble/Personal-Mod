@@ -984,7 +984,7 @@
 		"name": "Cavalry",
 		"unitType": "Ranged Mounted",
 		"range": 1,
-		"movement": 5,
+		"movement": 4,
 		"strength": 26,
 		"rangedStrength": 26,
 		"cost": 200,
@@ -992,7 +992,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Never appears as a Barbarian unit"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","Can move after attacking","No defensive terrain bonus","Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
@@ -1001,7 +1001,7 @@
 		"replaces": "Cavalry",
 		"uniqueTo": "The Ottomans",
 		"range": 1,
-		"movement": 5,
+		"movement": 4,
 		"strength": 26,
 		"rangedStrength": 26,
 		"cost": 200,
@@ -1009,7 +1009,7 @@
 		"obsoleteTech": "Computers",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+1] Sight"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","Can move after attacking","No defensive terrain bonus","[+1] Sight"],
 		"promotions": ["[Sipahi] ability"],
 		"attackSound": "horse"
 	},
@@ -1027,7 +1027,7 @@
 		"obsoleteTech": "Computers",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","Can move after attacking","No defensive terrain bonus"],
 		"promotions": ["[Hakkapeliitta] ability"],
 		"attackSound": "horse"
 	},
