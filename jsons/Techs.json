@@ -83,7 +83,7 @@
 			{
 				"name": "The Wheel",
 				"row": 7,
-				"prerequisites": ["Animal Husbandry", "Archery", "Mining"],
+				"prerequisites": ["Animal Husbandry", "Archery"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
