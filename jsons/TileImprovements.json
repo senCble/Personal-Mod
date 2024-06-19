@@ -188,7 +188,7 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "turnsToBuild": 2,
         "shortcutKey": "E",
-        "uniques": ["Unbuildable", "Excluded from map editor"],
+        "uniques": ["Unbuildable", "Can be built outside your borders", "Excluded from map editor"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
 
