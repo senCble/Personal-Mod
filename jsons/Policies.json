@@ -624,7 +624,7 @@
             {
                 "name": "Scientific Revolution",
                 "uniques": ["Science gained from research agreements [+50]%"],
-                "requires": ["Free Thought"],
+                "requires": ["Secularism"],
                 "row": 3,
                 "column": 2
             },
