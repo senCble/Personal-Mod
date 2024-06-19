@@ -236,7 +236,6 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Culture] from every [Temple]",
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
@@ -253,6 +252,16 @@
                 "column": 3
             },
             {
+                "name": "Free Religion",
+                "uniques": [
+                    "Gain a free [Follower] belief <after founding a religion>",
+                    "[+1 Happiness] from every [Temple]",
+                ],
+                "requires": ["Reformation"],
+                "row": 3,
+                "column": 4
+            },
+            {
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[+1 Faith] from every [Barracks]",
@@ -261,16 +270,6 @@
                 ],
                 "row": 1,
                 "column": 5
-            },
-            {
-                "name": "Free Religion",
-                "uniques": [
-                    "[+1 Happiness] from every [Armory]",
-                    "[+1 Happiness] from every [Temple]",
-                ],
-                "requires": ["Mandate Of Heaven", "Reformation"],
-                "row": 3,
-                "column": 4
             },
             {
                 "name": "Theocracy",
