@@ -229,14 +229,14 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+2 Culture] from every [Temple]",
+            "[-20]% Faith cost of generating Great Prophet equivalents",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[-20]% Faith cost of generating Great Prophet equivalents",
+                    "[+1 Culture] from every [Temple]",
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
