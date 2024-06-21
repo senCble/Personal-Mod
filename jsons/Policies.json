@@ -441,9 +441,9 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+2 Gold] from every [Colosseum]",
-            "[+2 Gold] from every [Circus]",
-            "[+2 Gold] from every [Theater]",
+            "[+1 Gold] from every [Colosseum]",
+            "[+1 Gold] from every [Circus]",
+            "[+1 Gold] from every [Theater]",
         ],
         "policies": [
             {
