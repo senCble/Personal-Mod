@@ -441,7 +441,9 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+10]% [Gold] [in all non-occupied cities]",
+            "[+2 Gold] from every [Colosseum]",
+            "[+2 Gold] from every [Circus]",
+            "[+2 Gold] from every [Theater]",
         ],
         "policies": [
             {
@@ -456,10 +458,7 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[+1 Science] from every [Market]",
-                    "[+1 Science] from every [Mint]",
-                    "[+1 Science] from every [Bank]",
-                    "[+1 Science] from every [Trading post] <in tiles without [Jungle]>",
+                    "[+1 Science] from all [Gold] buildings",
                 ],
                 "row": 1,
                 "column": 4
