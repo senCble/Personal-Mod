@@ -236,7 +236,6 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Happiness] from every [Temple]",
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
@@ -244,28 +243,28 @@
                 "column": 2
             },
             {
-                "name": "Reformation",
+                "name": "Free Religion",
                 "uniques": [
-                    "[+1 Science] from all [Faith] buildings",
+                    "[+1 Happiness, +2 Culture] from every [Temple]",
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "Free Religion",
+                "name": "Reformation",
                 "uniques": [
                     "Gain a free [Follower] belief <after founding a religion>",
                 ],
-                "requires": ["Reformation"],
+                "requires": ["Free Religion"],
                 "row": 3,
                 "column": 3
             },
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                    "[+1 Faith] from every [Barracks]",
-                    "[+1 Faith] from every [Armory]",
+                    "[+1 Science] from every [Barracks]",
+                    "[+1 Science] from every [Armory]",
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
                 ],
                 "row": 1,
@@ -441,9 +440,7 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+1 Gold] from every [Colosseum]",
-            "[+1 Gold] from every [Circus]",
-            "[+1 Gold] from every [Theater]",
+            "[+10]% [Gold] [in all cities connected to capital]"
         ],
         "policies": [
             {
@@ -458,7 +455,8 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[+1 Science] from all [Gold] buildings",
+                    "[+2 Science] from every [Market]",
+                    "[+2 Science] from every [Bank]",
                 ],
                 "row": 1,
                 "column": 4
@@ -603,8 +601,8 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-                    "[+1 Science] from every [Lumber mill]",
                     "[+1 Science] from every [Mine] <in tiles without [resource]>",
+                    "[+1 Science] from every [Lumber mill]",
                     "[+17]% [Science] from every [University]"
                 ],
                 "requires": ["Secularism"],
@@ -623,6 +621,7 @@
                 "uniques": [
                     "[+1 Culture] from every [University]",
                     "[+1 Culture] from every [Public School]",
+                    "[+1 Culture] from every [Observatory]",
                     "[+1 Culture] from every [Research Lab]",
                 ],
                 "row": 1,
@@ -665,8 +664,7 @@
             {
                 "name": "Constitution",
                 "uniques": [
-                    "[+1 Culture] from every specialist [in all cities]",
-                    "[+2 Culture] from every [Great Improvement]",
+                    "[+2 Culture] from every specialist [in all cities]",
                 ],
                 "row": 1,
                 "column": 1
