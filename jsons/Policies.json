@@ -211,7 +211,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+                    "Earn [75]% of killed [Military] unit's [Strength] as [Gold]",
                     "[+1 Happiness] [in annexed cities]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
@@ -236,6 +236,7 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
+                    "[+1 Happiness] from every [Temple]",
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
@@ -255,11 +256,10 @@
                 "name": "Free Religion",
                 "uniques": [
                     "Gain a free [Follower] belief <after founding a religion>",
-                    "[+1 Happiness] from every [Temple]",
                 ],
                 "requires": ["Reformation"],
                 "row": 3,
-                "column": 4
+                "column": 3
             },
             {
                 "name": "Mandate Of Heaven",
@@ -386,7 +386,8 @@
             {
                 "name": "Tourism Destination",
                 "uniques": [
-                    "Free [Great Artist] appears"
+                    "[+1 Culture] from every specialist [in all cities]",
+                    "[Great Artist] is earned [25]% faster",
                 ],
                 "row": 1,
                 "column": 4
@@ -397,7 +398,7 @@
                     "[+20]% [Culture] [in all cities with a world wonder]",
                     "[+1 Culture] from every [National Wonder]",
                 ],
-                "requires": ["Cultural Centers","Tourism Destination"],
+                "requires": ["Cultural Centers"],
                 "row": 2,
                 "column": 2
             },
@@ -406,18 +407,17 @@
                 "uniques": [
                      "[+1 Happiness] from every [National Wonder]",
                 ],
-                "requires": ["Monumentality"],
+                "requires": ["Monumentality","Tourism Destination"],
                 "row": 3,
                 "column": 2
             },
             {
                 "name": "Artistic Genius",
                 "uniques": [
-                    "[+1 Culture] from every specialist [in all cities]",
-                    "[Great Artist] is earned [25]% faster",
+                    "Free [Great Artist] appears"
                 ],
                 "requires": ["Tourism Destination"],
-                "row": 2,
+                "row": 3,
                 "column": 4
             },
             {
@@ -456,9 +456,10 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[+2 Science] from every [Market]",
-                    "[+2 Science] from every [Mint]",
-                    "[+2 Science] from every [Bank]",
+                    "[+1 Science] from every [Market]",
+                    "[+1 Science] from every [Mint]",
+                    "[+1 Science] from every [Bank]",
+                    "[+1 Science] from every [Trading post] <in tiles without [Jungle]>",
                 ],
                 "row": 1,
                 "column": 4
@@ -592,23 +593,30 @@
         ],
         "policies": [
             {
+                "name": "Secularism",
+                "uniques": [
+                    "[+1 Science] from every specialist [in all cities]",
+                    "[Great Scientist] is earned [25]% faster",
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
                 "name": "Free Thought",
                 "uniques": [
                     "[+1 Science] from every [Lumber mill]",
                     "[+1 Science] from every [Mine] <in tiles without [resource]>",
                     "[+17]% [Science] from every [University]"
                 ],
-                "row": 1,
+                "requires": ["Secularism"],
+                "row": 2,
                 "column": 2
             },
             {
-                "name": "Secularism",
-                "uniques": [
-                    "[+1 Science] from every specialist [in all cities]",
-                    "[Great Scientist] is earned [25]% faster",
-                ],
+                "name": "Scientific Revolution",
+                "uniques": ["Science gained from research agreements [+50]%"],
                 "requires": ["Free Thought"],
-                "row": 2,
+                "row": 3,
                 "column": 2
             },
 	    	{
@@ -621,13 +629,6 @@
                 ],
                 "row": 1,
                 "column": 4
-            },
-            {
-                "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+50]%"],
-                "requires": ["Secularism"],
-                "row": 3,
-                "column": 2
             },
 	    	{
                 "name": "Sovereignty",
