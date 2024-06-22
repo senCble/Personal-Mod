@@ -222,13 +222,12 @@
 		"replaces": "Chariot Archer",
 		"movement": 3,
 		"strength": 8,
-		"rangedStrength": 10,
+		"rangedStrength": 11,
 		"cost": 60,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Skirmisher",
 		"obsoleteTech": "Metallurgy",
 		"uniques": ["No defensive terrain bonus","[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
-		"promotions": ["Indirect Fire"],
 		"attackSound": "elephant"
 	},
 	{
