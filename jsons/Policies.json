@@ -456,6 +456,7 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[+2 Science] from every [Market]",
+                    "[+2 Science] from every [Mint]",
                     "[+2 Science] from every [Bank]",
                 ],
                 "row": 1,
@@ -611,7 +612,7 @@
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+50]%"],
+                "uniques": ["Science gained from research agreements [+33]%"],
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
@@ -619,10 +620,8 @@
 	    	{
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Culture] from every [University]",
-                    "[+1 Culture] from every [Public School]",
-                    "[+1 Culture] from every [Observatory]",
-                    "[+1 Culture] from every [Research Lab]",
+                    "[+2 Culture] from every [Public School]",
+                    "[+100]% Production when constructing [Public School] buildings [in all cities]",
                 ],
                 "row": 1,
                 "column": 4
