@@ -229,8 +229,8 @@
             "Scientific": 10
         },
         "uniques": [
-            "[-20]% Faith cost of generating Great Prophet equivalents",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
+            "[-20]% Faith cost of generating Great Prophet equivalents",
         ],
         "policies": [
             {
@@ -263,9 +263,9 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
+                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
                     "[+1 Science] from every [Barracks]",
                     "[+1 Science] from every [Armory]",
-                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
                 ],
                 "row": 1,
                 "column": 5
@@ -456,8 +456,8 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[+2 Science] from every [Market]",
-                    "[+2 Science] from every [Mint]",
                     "[+2 Science] from every [Bank]",
+                    "[+2 Science] from every [Stock Exchange]",
                 ],
                 "row": 1,
                 "column": 4
@@ -620,10 +620,9 @@
 	    	{
                 "name": "Humanism",
                 "uniques": [
-                    "[+50]% Production when constructing [Public School] buildings [in all cities]",
-                    "[+50]% Production when constructing [Research Lab] buildings [in all cities]",
+                    "[+100]% Production when constructing [Public School] buildings [in all cities]",
+                    "[+1 Culture] from every [University]",
                     "[+1 Culture] from every [Public School]",
-                    "[+1 Culture] from every [Research Lab]",
                 ],
                 "row": 1,
                 "column": 4
