@@ -748,7 +748,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
-		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Gifts of Gold to City-States generate [17]% more Influence"],
+		"uniques": ["[-10]% Unhappiness from [Population] [in all non-occupied cities]"],
 		"requiredTech": "Banking",
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
 	},
