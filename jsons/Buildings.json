@@ -124,7 +124,7 @@
 	},
 	{
 		"name": "Circus",
-		"requiredNearbyImprovedResources": ["Ivory","Horses"],
+		"requiredNearbyImprovedResources": ["Furs","Ivory","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trapping"
