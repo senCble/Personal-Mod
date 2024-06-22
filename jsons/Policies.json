@@ -619,7 +619,7 @@
 	    	{
                 "name": "Humanism",
                 "uniques": [
-                    "[+25]% Production when constructing [Science] buildings [in all cities]",
+                    "[+25]% Production when constructing [{non-[Wonder]} {Science}] buildings [in all cities]",
                     "[+2 Culture] from every [Public School]",
                     "[+2 Culture] from every [Research Lab]",
                 ],
