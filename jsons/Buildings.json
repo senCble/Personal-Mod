@@ -994,7 +994,7 @@
 	},
 	{
 		"name": "Military Base",
-		"cityStrength": 12,
+		"cityStrength": 14,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Arsenal",
