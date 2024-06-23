@@ -695,11 +695,11 @@
                 "row": 2,
                 "column": 5
             },
-	    	{
+            {
                 "name": "Free Speech",
                 "uniques": [
-                    "[8] units cost no maintenance",
-                    "[+1 Gold] from [Farm] tiles without [River] [in all cities]"
+                    "[+1 Gold] from [Farm] tiles without [River] [in all cities]",
+                    "[8] units cost no maintenance"
                 ],
                 "requires": ["Constitution"],
                 "row": 2,
