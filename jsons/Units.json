@@ -342,7 +342,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -454,7 +454,7 @@
 		"replaces": "Composite Bowman",
 		"uniqueTo": "The Maya",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["[-15]% Strength <when fighting in [Foreign Land] tiles> <before discovering [Construction]"],
+		"uniques": ["[-33]% Strength <vs cities> <before discovering [Construction]"],
 		"attackSound": "arrow",
 	},
 	{
