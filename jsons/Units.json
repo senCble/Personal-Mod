@@ -327,7 +327,7 @@
 		"cost": 75,
 		"requiredTech": "Optics",
 		"uniques": ["Cannot enter ocean tiles"],
-		"promotions": ["[Quinquereme] ability"],
+		"promotions": ["Besiege"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
