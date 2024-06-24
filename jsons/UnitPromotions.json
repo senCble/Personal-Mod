@@ -743,7 +743,7 @@
 	},
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
+		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
@@ -759,7 +759,7 @@
 	},
 	{
 		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+		"uniques": ["No movement cost to pillage", "[+15]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
@@ -779,7 +779,7 @@
 	},
 	{
 		"name": "[Persian Immortal] ability",
-		"uniques": ["[+10] HP when healing"]
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles> <when defending>","[+10] HP when healing"]
 	},
 	{
 		"name": "[Conquistador] ability",
@@ -836,7 +836,7 @@
     	},
 	{
         	"name": "[Hoplite] ability",
-        	"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>"]
+        	"uniques": ["[+15]% Strength <when adjacent to a [Military] unit>"]
     	},
 	{
         	"name": "[Legion] ability",
