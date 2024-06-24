@@ -743,7 +743,7 @@
 	},
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"]
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles","Defense bonus when embarked"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
@@ -759,7 +759,7 @@
 	},
 	{
 		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+15]% Strength <when fighting in [Foreign Land] tiles>"]
+		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
@@ -771,8 +771,7 @@
     	},
 	{
 		"name": "[Mohawk Warrior] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>",
-			"Invisible to non-adjacent units <in [Forest] tiles>","Invisible to non-adjacent units <in [Jungle] tiles>"]
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "[+10] HP when healing <in [Friendly Land] tiles>"]
 	},
 	{
 		"name": "[Jaguar] ability",
@@ -780,7 +779,7 @@
 	},
 	{
 		"name": "[Persian Immortal] ability",
-		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles> <when defending>","[+10] HP when healing"]
+		"uniques": ["[+10]% Strength <when defending>","[+10] HP when healing"]
 	},
 	{
 		"name": "[Conquistador] ability",
@@ -803,10 +802,6 @@
 		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>"]
 	},
 	{
-		"name": "[War Chariot] ability",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
-	},
-	{
 		"name": "[Hussar] ability",
 		"uniques": ["[+100]% to Flank Attack bonuses","[+1] Sight"]
 	},
@@ -817,7 +812,7 @@
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
-		"uniques": ["Transfer Movement to [Great General]", "[+25]% Strength when stacked with [Great General]"]
+		"uniques": ["Transfer Movement to [Great General]", "[+33]% Strength when stacked with [Great General]"]
 	},
 	{
 		"name": "[Zero] ability",
@@ -833,7 +828,7 @@
     	},
 	{
         	"name": "[Hoplite] ability",
-        	"uniques": ["[+15]% Strength <when adjacent to a [Military] unit>"]
+        	"uniques": ["[+15]% Strength <when adjacent to a [{Military} {Land}] unit>"]
     	},
 	{
         	"name": "[Legion] ability",
@@ -853,7 +848,7 @@
     	},
 	{
 		"name": "Great Admiral",
-		"uniques": ["[+3] Movement <when [Embarked]>","[1] Movement point cost to disembark"]
+		"uniques": ["[+3] Movement <when [Embarked]>","[1] Movement point cost to disembark", "[1] Movement point cost to embark"]
 	},
 	{
 		"name": "Prize Ships",
