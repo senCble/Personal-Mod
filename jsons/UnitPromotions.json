@@ -759,7 +759,7 @@
 	},
 	{
 		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+15]% Strength <when fighting in [Foreign Land] tiles>"]
+		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
@@ -775,11 +775,11 @@
 	},
 	{
 		"name": "[Jaguar] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Forest] tiles>", "[+25]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
 	},
 	{
 		"name": "[Persian Immortal] ability",
-		"uniques": ["[+15] HP when healing"]
+		"uniques": ["[+10] HP when healing"]
 	},
 	{
 		"name": "[Conquistador] ability",
@@ -804,10 +804,6 @@
 	{
 		"name": "[War Chariot] ability",
 		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
-	},
-	{
-		"name": "[Ballista] ability",
-		"uniques": ["[+15]% Strength <vs [All] units> <when attacking>"]
 	},
 	{
 		"name": "[Hussar] ability",
@@ -840,7 +836,7 @@
     	},
 	{
         	"name": "[Hoplite] ability",
-        	"uniques": ["[+15]% Strength <when adjacent to a [Military] unit>"]
+        	"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>"]
     	},
 	{
         	"name": "[Legion] ability",
