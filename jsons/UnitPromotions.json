@@ -1,4 +1,4 @@
-[
+"Can see over obstacles <in [Forest] tiles>","Can see over obstacles <in [Jungle] tiles>"[
 
 	{
 		"name": "Heal Instantly",
@@ -771,7 +771,8 @@
     	},
 	{
 		"name": "[Mohawk Warrior] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"]
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>",
+			"Can see over obstacles <in [Forest] tiles>","Can see over obstacles <in [Jungle] tiles>"]
 	},
 	{
 		"name": "[Jaguar] ability",
