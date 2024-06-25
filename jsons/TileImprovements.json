@@ -247,8 +247,9 @@
 		"uniques": [
                         "Can only be built on [Coastal] tiles", 
                         "[+1 Culture] for each adjacent [Moai]",
+			"[+1 Culture] for each adjacent [City center]",
 			"[+1 Faith] <after discovering [Theology]>", 
-                        "[+1 Faith, +2 Gold] <after discovering [Flight]>", 
+                        "[+2 Gold] <after discovering [Flight]>", 
                         "Pillaging this improvement yields approximately [+10 Gold]"
                 ],
 		"techRequired": "Construction",
@@ -273,7 +274,8 @@
 	{
 		"name": "Polder",
 		"uniqueTo": "The Netherlands",
-		"food": 3
+		"food": 2,
+		"gold": 1,
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains", "Coast", "Lakes"],
 		"turnsToBuild": 7,
 		"uniques": [
