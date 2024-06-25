@@ -677,6 +677,16 @@
                 ],
                 "row": 1,
                 "column": 3
+            },           
+            {
+                "name": "Free Speech",
+                "uniques": [
+                    "[6] free [Foreign Legion] units appear",
+                    "[6] units cost no maintenance"
+                ],
+                "requires": ["Constitution", "Universal Suffrage"],
+                "row": 2,
+                "column": 1
             },
             {
                 "name": "Civil Society",
@@ -685,7 +695,7 @@
                 ],
                 "row": 1,
                 "column": 5
-            },
+            }, 
             {
                 "name": "Democracy",
                 "uniques": [
@@ -694,16 +704,6 @@
                 "requires": ["Civil Society"],
                 "row": 2,
                 "column": 5
-            },
-            {
-                "name": "Free Speech",
-                "uniques": [
-                    "[6] free [Foreign Legion] units appear",
-                    "[6] units cost no maintenance"
-                ],
-                "requires": ["Constitution"],
-                "row": 2,
-                "column": 1
             },
             {
                 "name": "Freedom Complete",
