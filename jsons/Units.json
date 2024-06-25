@@ -221,8 +221,8 @@
 		"replaces": "Chariot Archer",
 		"movement": 3,
 		"strength": 8,
-		"rangedStrength": 11,
-		"cost": 65,
+		"rangedStrength": 10,
+		"cost": 60,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Skirmisher",
 		"obsoleteTech": "Metallurgy",
@@ -369,7 +369,7 @@
 		"replaces": "Horseman",
 		"movement": 3,
 		"strength": 14,
-		"cost": 85,
+		"cost": 80,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Military Science",
@@ -439,6 +439,7 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
+		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
 	{
@@ -447,7 +448,7 @@
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
-		"cost": 65,
+		"cost": 70,
 		"requiredTech": "The Wheel",
 		"obsoleteTech": "Machinery",
 		"replaces": "Composite Bowman",
@@ -803,7 +804,6 @@
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"promotions": ["Amphibious"],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
 	},
@@ -820,7 +820,7 @@
 		"upgradesTo": "Privateer",
 		"obsoleteTech": "Navigation",
 		"uniques": ["[+1] Sight", "May withdraw before melee ([75]%)"],
-		"hurryCostModifier": 30,
+		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
 	{
@@ -835,7 +835,7 @@
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Steam Power",
 		"uniques": ["[+3] Movement <in [Coast] tiles>"],
-		"hurryCostModifier": 30,
+		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
 	{
@@ -860,7 +860,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Replaceable Parts",
-		"promotions": ["[Musketeer] ability"],
+		"promotions": ["[Foreign Legion] ability"],
 		"attackSound": "shot"
 	},
 	{
