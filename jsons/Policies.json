@@ -664,7 +664,7 @@
                 "name": "Constitution",
                 "uniques": [
                     "[+1 Culture] from every specialist [in all cities]",
-                    "[+17]% [Culture] [in all cities with a world wonder]",
+                    "[+1 Gold] from every [Farm]",
                 ],
                 "row": 1,
                 "column": 1
@@ -673,7 +673,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
                     "[+100]% Production when constructing [Hospital] buildings [in all cities]",
-                    "[+30]% Strength for cities <in cities with a [Hospital]>"
+                    "[+33]% Strength for cities <in cities with a [Hospital]>"
                 ],
                 "row": 1,
                 "column": 3
@@ -698,7 +698,7 @@
             {
                 "name": "Free Speech",
                 "uniques": [
-                    "[+1 Gold] from every [Farm]",
+                    "[6] free [Foreign Legion] units appear",
                     "[6] units cost no maintenance"
                 ],
                 "requires": ["Constitution"],
