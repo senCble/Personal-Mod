@@ -1130,7 +1130,8 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "[-1] population [in foreign cities]", "[-1 Happiness] [in foreign cities]"],
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", 
+			"[-1] population [in foreign cities]", "[-1 Happiness] [in foreign cities]"],
 		"requiredTech": "Telecommunications",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
@@ -1139,9 +1140,7 @@
 		"cost": 300,
 		"maintenance": 1,
 		"requiredTech": "Telecommunications",
-		"uniques": [
-			"Population loss from nuclear attacks [-90]% [in this city]",
-			"Damage to garrison from nuclear attacks [-90]% [in this city]"
+		"uniques": ["Population loss from nuclear attacks [-90]% [in this city]","Damage to garrison from nuclear attacks [-90]% [in this city]"
 		]
 	},
 	{
