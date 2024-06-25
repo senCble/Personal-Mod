@@ -835,12 +835,8 @@
         	"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can build [Repair] improvements on tiles","[+10]% Strength <vs [Ranged] units> <when defending>"]
     	},
 	{
-        	"name": "[Musketeer] ability",
-        	"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
-    	},
-	{
         	"name": "[Foreign Legion] ability",
-        	"uniques": ["[+20]% Strength <when fighting in [Friendly Land] tiles>"]
+        	"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
     	},
 	{
         	"name": "Raider",
