@@ -89,7 +89,7 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in all cities]",
+                    "[+50]% Production when constructing [Civilian] units [in capital]",
                     "Free [Worker] appears"
                 ],
                 "row": 1,
