@@ -10,6 +10,7 @@
 		"uniques": ["Can build [Land] improvements on tiles", 
               		"Can build [Water] improvements on tiles", 
               		"Automation is a primary action"],
+                "hurryCostModifier": 10
 		"cost": 65
   	},
 	{
