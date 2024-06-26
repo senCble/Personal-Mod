@@ -10,7 +10,7 @@
 		"uniques": ["Can build [Land] improvements on tiles", 
               		"Can build [Water] improvements on tiles", 
               		"Automation is a primary action"],
-                "hurryCostModifier": 10
+                "hurryCostModifier": 5
 		"cost": 65
   	},
 	{
@@ -145,7 +145,7 @@
 		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 10,
-		"cost": 45,
+		"cost": 40,
 		"uniques": ["Cannot enter ocean tiles","[+33]% Strength <vs [Barbarian] units>"],
 		"upgradesTo": "Trireme",
 		"requiredTech": "Sailing",
