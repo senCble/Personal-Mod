@@ -10,7 +10,6 @@
 		"uniques": ["Can build [Land] improvements on tiles", 
               		"Can build [Water] improvements on tiles", 
               		"Automation is a primary action"],
-                "hurryCostModifier": 5
 		"cost": 65
   	},
 	{
@@ -618,7 +617,7 @@
 		"replaces": "Knight",
 		"uniqueTo": "Siam",
 		"movement": 3,
-		"strength": 25,
+		"strength": 24,
 		"cost": 135,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Railroads",
