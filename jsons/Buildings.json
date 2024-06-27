@@ -210,10 +210,21 @@
 		"culture": 3,
 		"isWonder": true,
                 "greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>","Gain a free [Barracks] [in this city]", "Only available <after adopting [Honor]>"],
+		"uniques": ["[+25]% Strength <for [All] units> <vs cities> <when attacking>","Gain a free [Barracks] [in this city]", "Only available <after adopting [Honor]>"],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
 		// "Requires [Honor]" in BNW
+	},
+	{
+		"name": "Colossus",
+		"cost": 185,
+		"culture": 1,
+		"gold": 3,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Coast] tiles [in this city]"],
+		"requiredTech": "Sailing",
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 
 	// Classical Era
@@ -305,7 +316,7 @@
 		"name": "Temple",
 		"faith": 2,
 		"requiredBuilding": "Shrine",
-		"maintenance": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled"]
@@ -435,17 +446,6 @@
 			"Cost increases by [25] per owned city"],
 		"requiredTech": "Iron Working"
 	},
-	{
-		"name": "Colossus",
-		"cost": 185,
-		"culture": 1,
-		"gold": 3,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Coast] tiles [in this city]"],
-		"requiredTech": "Sailing",
-		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
-	},
 
 	// Medieval Era
 
@@ -528,20 +528,19 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
-		"uniques": ["[+1 Production] from [{non-[resource]} {Forest}] tiles [in this city]",],
+		"uniques": ["[+1 Production] from [{non-[resource]} {Forest}] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
 		"name": "Longhouse",
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
-		"cost": 110,
-		"maintenance": 2,
+		"cost": 100,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
-		"uniques": ["[+1 Production] from [Forest] tiles [in this city]","[+1 Science] from [Lumber mill] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
