@@ -7,10 +7,11 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
+	    	"cost": 65,
 		"uniques": ["Can build [Land] improvements on tiles", 
               		"Can build [Water] improvements on tiles", 
               		"Automation is a primary action"],
-		"cost": 75
+	    	"hurryCostModifier": 10
   	},
 	{
 		"name": "Settler",
