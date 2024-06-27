@@ -294,7 +294,6 @@
 		"uniques": [
 			"Free [Scout] appears",
 			"Free [Warrior] appears",
-			"Free [Archer] appears",
 			"Free [Spearman] appears",
 			"Free [Chariot Archer] appears",
 			"Free [Composite Bowman] appears",
@@ -317,8 +316,8 @@
 		"uniqueTo": "Egypt",
 		"maintenance": 0,
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
+		"culture": 3,
 		"faith": 2,
-		"happiness": 2,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
@@ -329,7 +328,7 @@
 		"uniqueTo": "Songhai",
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"culture": 2,
+		"happiness": 2,
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy"
