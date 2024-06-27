@@ -144,10 +144,11 @@
 		"uniqueTo": "Aztecs",
 		"food": 2,
 		"production": 1,
+		"happiness": 1,
 		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]", "[+1 Food] from [Marsh] tiles [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"percentStatBonus": {"food": 20},
+		"percentStatBonus": {"food": 15},
 		"requiredTech": "The Wheel"
 	},
 	{
@@ -690,7 +691,7 @@
 		"replaces": "Opera House",
 		"uniqueTo": "Celts",
 		"culture": 4,
-		"happiness": 3,
+		"happiness": 2,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Amphitheater",
