@@ -10,7 +10,7 @@
 		"uniques": ["Can build [Land] improvements on tiles", 
               		"Can build [Water] improvements on tiles", 
               		"Automation is a primary action"],
-		"cost": 65
+		"cost": 75
   	},
 	{
 		"name": "Settler",
