@@ -4,14 +4,12 @@
         "friendBonusUniques": [
             "[+3 Culture] <before the [Medieval era]>",
             "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+12 Culture] <starting from the [Industrial era]> <before the [Information era]>",
-            "[+24 Culture] <starting from the [Information era]>"
+            "[+12 Culture] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
             "[+6 Culture] <before the [Medieval era]>",
             "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+24 Culture] <starting from the [Industrial era]> <before the [Information era]>",
-            "[+48 Culture] <starting from the [Information era]>"
+            "[+24 Culture] <starting from the [Industrial era]>"
         ],
         "color": [139, 96, 255]
     },
@@ -40,22 +38,20 @@
     {
         "name": "Militaristic",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
-        "allyBonusUniques": ["Provides military units every ≈[10] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[13] turns"],
         "color": [255, 0, 0]
     },
     {
         "name": "Religious",
         "friendBonusUniques":  [
-            "[+4 Faith] <before the [Medieval era]>",
-            "[+8 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+16 Faith] <starting from the [Industrial era]> <before the [Information era]>",
-            "[+32 Faith] <starting from the [Information era]>"
+            "[+3 Faith] <before the [Medieval era]>",
+            "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+18 Faith] <starting from the [Industrial era]>",
         ],
         "allyBonusUniques":  [
-            "[+8 Faith] <before the [Medieval era]>",
-            "[+16 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+32 Faith] <starting from the [Industrial era]> <before the [Information era]>",
-            "[+64 Faith] <starting from the [Information era]>"
+            "[+6 Faith] <before the [Medieval era]>",
+            "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+36 Faith] <starting from the [Industrial era]>",
         ],
         "color": [255, 255, 255]
     }
