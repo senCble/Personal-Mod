@@ -1577,7 +1577,7 @@
 		"strength": 50,
 		"range": 3,
 		"rangedStrength": 85,
-		"cost": 500,
+		"cost": 475,
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", 
