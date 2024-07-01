@@ -379,7 +379,7 @@
             {
                 "name": "Cultural Centers",
                 "uniques": [
-                    "[100]% of excess happiness converted to [Culture]",
+                    "[50]% of excess happiness converted to [Culture]",
                 ],
                 "row": 1,
                 "column": 2
