@@ -1618,7 +1618,7 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Lasers",
 		"uniques": ["[100]% chance to intercept air attacks","Can carry [3] [Missile] units",
-			"Can see invisible [Submarine] units", "[+125]% Strength <vs [Submarine] units>",
+			"Can see invisible [Submarine] units", "[+150]% Strength <vs [Submarine] units>",
 			"Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire","Armor Plating I"],
 		"attackSound": "shipguns"
