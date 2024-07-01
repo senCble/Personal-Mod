@@ -273,7 +273,8 @@
 	{
 		"name": "Polder",
 		"uniqueTo": "The Netherlands",
-		"food": 3,
+		"food": 2,
+		"gold": 1,
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains", "Coast", "Lakes"],
 		"turnsToBuild": 7,
 		"uniques": [
@@ -288,8 +289,8 @@
                 "name": "Chateau",
                 "uniqueTo": "France",
                 "terrainsCanBeBuiltOn": ["Land"],
-                "food": 1,
-                "culture": 1,
+		"production": 1,
+		"culture": 1,
 		"gold": 1,
                 "turnsToBuild": 7,
                 "techRequired": "Chivalry",
