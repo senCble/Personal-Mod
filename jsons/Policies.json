@@ -230,12 +230,14 @@
         },
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "[-20]% Faith cost of generating Great Prophet equivalents",
+            "[+1 Faith] from every [Shrine]",
+            "[+1 Faith] from every [Temple]",
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
+                    "[-20]% Faith cost of generating Great Prophet equivalents",
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
@@ -264,7 +266,8 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+1 Faith, +2 Science] from every [Armory]",
+                    "[+1 Science] from every [Barracks]",
+                    "[+1 Science] from every [Armory]",
                 ],
                 "row": 1,
                 "column": 5
