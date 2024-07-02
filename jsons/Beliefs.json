@@ -299,7 +299,7 @@
     {
         "name": "Itinerant Preachers",
         "type": "Enhancer",
-        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+        "uniques": ["Religion naturally spreads to cities [+2] tiles away"]
     },
     {
         "name": "Just War",
@@ -320,7 +320,7 @@
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+30]% Natural religion spread [in all cities]", "[+30]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
+        "uniques": ["[+25]% Natural religion spread [in all cities]", "[+25]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
     },
     {
         "name": "Religious Unity",
