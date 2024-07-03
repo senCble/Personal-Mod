@@ -183,7 +183,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
-		"uniques": ["[+2 Culture] [in all cities] <before the [Industrial era]>","[+2 Culture, +2 Gold] [in all cities with a world wonder] <starting from the [Industrial era]>"],
+		"uniques": ["[+2 Culture] [in all cities] <before the [Industrial era]>","[+2 Culture] [in all cities with a world wonder] <starting from the [Industrial era]>"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
