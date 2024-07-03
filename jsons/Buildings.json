@@ -184,7 +184,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Provides a sum of gold each time you spend a Great Person",
+		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
 		"requiredTech": "Masonry",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
@@ -360,7 +360,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-		"uniques": ["Gain [450] [Culture] (modified by game speed)"],
+		"uniques": ["Gain [500] [Culture] (modified by game speed)"],
 		"requiredTech": "Philosophy",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
@@ -991,10 +991,9 @@
 	{
 		"name": "Refinery",
 		"cost": 500,
-		"production": 2,
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["Provides [1] [Iron]","Provides [1] [Oil]","Limited to [4] per Civilization"]
+		"uniques": ["Provides [1] [Iron]","Provides [1] [Coal]","Provides [1] [Oil]","Limited to [4] per Civilization"]
 		"requiredResource": "Coal",
 		"requiredTech": "Refrigeration"
 	},
