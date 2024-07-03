@@ -39,7 +39,7 @@
         "uniques": [
                 "From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [4] tiles away with [90]% chance",
 	        "Reveal up to [All] [Ancient ruins] within a [20] tile radius",
-                "Only available <after [20] turns>"
+                "Only available <after turn number [20]>"
         ]
     },
     {
@@ -48,7 +48,7 @@
         "uniques": [
                 "Reveal up to [All] [Barbarian encampment] within a [20] tile radius",
 		"Reveal up to [All] [Ancient ruins] within a [20] tile radius",
-                "Only available <after [20] turns>"
+                "Only available <after turn number [20]>"
         ]
     },
     {
@@ -58,7 +58,7 @@
                 "Hidden when religion is disabled", 
                 "Gain enough Faith for a Pantheon", 
                 "Only available <before founding a Pantheon>", 
-                "Only available <after [20] turns>"],
+                "Only available <after turn number [20]>"],
 	"color": "#CDDDF4"
     },
     {
@@ -69,7 +69,7 @@
                 "Gain enough Faith for [33]% of a Great Prophet", 
                 "Unavailable <after generating a Great Prophet>",
                 "Only available <after founding a Pantheon>", 
-                "Only available <after [20] turns>"
+                "Only available <after turn number [20]>"
         ],
 	"color": "#CDDDF4"
     }
