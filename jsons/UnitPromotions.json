@@ -374,7 +374,7 @@
 		"name": "Bombardment I",
 		"uniques": [
 			"[+10]% Strength <when attacking>",
-			"[+10]% Strength <vs cities> <when attacking>",
+			"[+5]% Strength <vs cities> <when attacking>",
 		],
 		"unitTypes": ["Ranged Water"],
         "column": 26,
@@ -385,7 +385,7 @@
 		"prerequisites": ["Bombardment I"],
 		"uniques": [
 			"[+10]% Strength <when attacking>",
-			"[+10]% Strength <vs cities> <when attacking>",
+			"[+5]% Strength <vs cities> <when attacking>",
 		],
 		"unitTypes": ["Ranged Water"],
         "column": 26,
@@ -396,7 +396,7 @@
 		"prerequisites": ["Bombardment II"],
 		"uniques": [
 			"[+10]% Strength <when attacking>",
-			"[+10]% Strength <vs cities> <when attacking>",
+			"[+5]% Strength <vs cities> <when attacking>",
 		],
 		"unitTypes": ["Ranged Water"],
         "column": 26,
@@ -489,7 +489,7 @@
 	// Bomber
 	{
 		"name": "Siege I",
-		"uniques": ["[+45]% Strength <vs cities>"],
+		"uniques": ["[+30]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 1
@@ -497,7 +497,7 @@
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
-		"uniques": ["[+45]% Strength <vs cities>"],
+		"uniques": ["[+30]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 2
@@ -505,7 +505,7 @@
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["[+60]% Strength <vs cities>"],
+		"uniques": ["[+40]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 3
