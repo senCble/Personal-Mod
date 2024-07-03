@@ -779,21 +779,6 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Samurai",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Japan",
-		"movement": 2,
-		"strength": 24,
-		"cost": 125,
-		"requiredTech": "Steel",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"requiredResource": "Iron",
-		"promotions": ["Can move after attacking", "Quick Study", "Great Generals II"],
-		"attackSound": "metalhit"
-	},
-	{
 		"name": "Berserker",
 		"unitType": "Sword",
 		"replaces": "Longswordsman",
@@ -808,6 +793,21 @@
 		"promotions": ["Amphibious"],
 		"attackSound": "metalhit"
 		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
+	},
+	{
+		"name": "Samurai",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Japan",
+		"movement": 2,
+		"strength": 26,
+		"cost": 125,
+		"requiredTech": "Steel",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"requiredResource": "Iron",
+		"promotions": ["Quick Study", "Great Generals II"],
+		"attackSound": "metalhit"
 	},
 
 	// Rennaisance Era
