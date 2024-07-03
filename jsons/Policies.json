@@ -667,7 +667,7 @@
                 "name": "Constitution",
                 "uniques": [
                     "[+1 Culture] from every specialist [in all cities]",
-                    "[+1 Gold] from every [Farm]",
+                    "[+1 Gold] from every [{non-[River]} {Farm}]",
                 ],
                 "row": 1,
                 "column": 1
