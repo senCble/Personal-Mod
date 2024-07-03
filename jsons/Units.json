@@ -557,7 +557,7 @@
 		"uniqueTo": "Germany",
 		"movement": 2,
 		"strength": 16,
-		"cost": 75,
+		"cost": 55,
 		"requiredTech": "Metal Casting",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>","Can move immediately once bought"],
 		"upgradesTo": "Musketman",
@@ -820,7 +820,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Privateer",
 		"obsoleteTech": "Navigation",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([75]%)"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [75]% chance>"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
@@ -1341,7 +1341,7 @@
 		"cost": 375,
 		"requiredTech": "Electronics",
 		"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks",
-			"May withdraw before melee ([75]%)", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraws before melee combat <with [75]% chance>", "[+100]% Strength <vs [Submarine] units>"],
 		"promotions": ["Coastal Raider I"],
 		"attackSound": "shipguns"
 	},
