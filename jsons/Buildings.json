@@ -994,7 +994,6 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"uniques": ["Provides [1] [Iron]","Provides [1] [Coal]","Provides [1] [Oil]","Limited to [4] per Civilization"]
-		"requiredResource": "Coal",
 		"requiredTech": "Refrigeration"
 	},
 	{
