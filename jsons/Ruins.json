@@ -31,7 +31,7 @@
     {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
-        "uniques": ["This Unit gains [15] XP", "Only available <after [20] turns>"]
+        "uniques": ["This Unit gains [15] XP", "Only available <after turn number [20]>"]
     },
     {
         "name": "find a crudely-drawn map",
