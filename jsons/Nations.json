@@ -183,7 +183,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
-		"uniques": ["[+2 Culture] [in all cities] <before the [Industrial era]>","[+2 Culture] [in all cities with a world wonder] <starting from the [Industrial era]>"],
+		"uniques": ["[+2 Culture] [in all cities] <before the [Industrial era]>","[Great Artist] is earned [25]% faster <starting from the [Industrial era]>"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -1025,7 +1025,6 @@
 		"uniqueName": "The Long Count",
 		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
- 		// Parameters: tech, comment, amount, comment. Compare "Free [Great General] appears" as used by policies
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
 			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
 			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
