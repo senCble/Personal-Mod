@@ -76,7 +76,7 @@
     {
         "name": "Goddess of Protection",
         "type": "Pantheon",
-        "uniques": ["[+25]% Strength for cities>",
+        "uniques": ["[+25]% Strength for cities",
             "[+2 Faith] from every [Walls]"]
     },
     {
