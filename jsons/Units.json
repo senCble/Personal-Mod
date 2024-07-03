@@ -1138,7 +1138,7 @@
 		"cost": 225,
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
-		"upgradesTo": "Landship",
+		"upgradesTo": "",
 		"obsoleteTech": "Railroads",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
@@ -1253,6 +1253,23 @@
 		"attackSound": "machinegun"
 	},
 	{
+		"name": "Zero",
+		"unitType": "Fighter",
+		"replaces": "Triplane",
+		"uniqueTo": "Japan",
+		"movement": 3,
+		"strength": 38,
+		"rangedStrength": 38,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 300,
+		"requiredTech": "Flight",
+		"upgradesTo": "Fighter",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>","[+50]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
+		"promotions": ["[Zero] ability"],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Great War Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
@@ -1264,6 +1281,22 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Bomber",
 		"obsoleteTech": "Radar",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "B17",
+		"unitType": "Bomber",
+		"replaces": "Great War Bomber",
+		"uniqueTo": "America",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"cost": 350,
+		"requiredTech": "Flight",
+		"requiredResource": "Oil",
+		"promotions": ["Evasion", "Siege I"],
+		"upgradesTo": "Bomber",
 		"attackSound": "bombing"
 	},
 	{
@@ -1334,6 +1367,23 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "Panzer",
+		"unitType": "Armored",
+		"uniqueTo": "Germany",
+		"replaces": "Landship",
+		"movement": 5,
+		"strength": 60,
+		"cost": 325,
+		"requiredTech": "Railroads",
+		"requiredResource": "Oil",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Robotics",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["Armor Plating I"],
+		"attackSound": "tankshot"
+		//German unique unit, stronger than Tank
+	},
+	{
 		"name": "Destroyer",
 		"unitType": "Melee Water",
 		"movement": 6,
@@ -1387,23 +1437,6 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Zero",
-		"unitType": "Fighter",
-		"replaces": "Fighter",
-		"uniqueTo": "Japan",
-		"movement": 3,
-		"strength": 50,
-		"rangedStrength": 50,
-		"range": 8,
-		"interceptRange": 8,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>","[+50]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
-		"promotions": ["[Zero] ability"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1464,22 +1497,6 @@
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
-	},
-	{
-		"name": "Panzer",
-		"unitType": "Armored",
-		"uniqueTo": "Germany",
-		"replaces": "Tank",
-		"movement": 6,
-		"strength": 80,
-		"cost": 400,
-		"requiredTech": "Combined Arms",
-		"requiredResource": "Oil",
-		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"promotions": ["Armor Plating I"],
-		"attackSound": "tankshot"
-		//German unique unit, stronger than Tank
 	},
 	{
 		"name": "Atomic Bomb",
