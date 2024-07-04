@@ -148,7 +148,7 @@
 		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]", "[+1 Food] from [Marsh] tiles [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"percentStatBonus": {"food": 15},
+		"percentStatBonus": {"food": 10},
 		"requiredTech": "The Wheel"
 	},
 	{
