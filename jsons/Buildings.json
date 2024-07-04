@@ -606,7 +606,7 @@
 	},
 	{
 		"name": "Angkor Wat",
-		"culture": 1,
+		"culture": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
@@ -730,7 +730,7 @@
 		"name": "Satrap's Court",
 		"replaces": "Bank",
 		"uniqueTo": "Persia",
-		"gold": 3,
+		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"happiness": 2,
 		"hurryCostModifier": 15,
