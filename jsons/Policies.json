@@ -830,7 +830,7 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[+3 Science] [in all cities]",
+                    "[+4 Science] [in all cities]",
                     "[+1 Production] from every [Lumber mill]",
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Quarry]"
