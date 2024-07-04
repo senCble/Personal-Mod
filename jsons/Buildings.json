@@ -312,6 +312,7 @@
 		"greatPersonPoints": {"Great Artist": 1},
 		"requiredTech": "Construction",
 		"uniques": [
+			"Free [Scout] appears",
 			"Free [Warrior] appears",
 			"Free [Spearman] appears",
 			"Free [Chariot Archer] appears",
