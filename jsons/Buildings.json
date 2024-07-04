@@ -201,8 +201,7 @@
 		"replaces": "Barracks",
 		"uniqueTo": "Japan",
 		"hurryCostModifier": 25,
-		"happiness": 2,
-		"maintenance": 1,
+		"science": 2,
 		"uniques": ["New [Military] units start with [25] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
