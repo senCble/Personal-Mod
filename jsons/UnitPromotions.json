@@ -743,7 +743,7 @@
 	},
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles","Defense bonus when embarked"]
+		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles","Defense bonus when embarked"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
@@ -771,7 +771,8 @@
     	},
 	{
 		"name": "[Mohawk Warrior] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "[+10] HP when healing <in [Friendly Land] tiles>"]
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", 
+			"Invisible to non-adjacent units <in [{Friendly Land} {Forest}] tiles>","Invisible to non-adjacent units <in [{Friendly Land} {Jungle}] tiles>"]
 	},
 	{
 		"name": "[Jaguar] ability",
