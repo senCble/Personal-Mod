@@ -759,7 +759,7 @@
 	},
 	{
 		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+15]% Strength <when fighting in [Foreign Land] tiles>"]
+		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
@@ -780,7 +780,7 @@
 	},
 	{
 		"name": "[Persian Immortal] ability",
-		"uniques": ["[+10]% Strength <when defending>","[+10] HP when healing"]
+		"uniques": ["[+10] HP when healing"]
 	},
 	{
 		"name": "[Conquistador] ability",
@@ -829,7 +829,7 @@
     	},
 	{
         	"name": "[Hoplite] ability",
-        	"uniques": ["[+15]% Strength <when adjacent to a [{Military} {Land}] unit>"]
+        	"uniques": ["[+10]% Strength <when adjacent to a [{Military} {Land}] unit>"]
     	},
 	{
         	"name": "[Legion] ability",
