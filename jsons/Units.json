@@ -546,7 +546,7 @@
 		"strength": 16,
 		"cost": 100,
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units>"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -560,7 +560,7 @@
 		"strength": 16,
 		"cost": 55,
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units> <when attacking>","Can move immediately once bought"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units>","Can move immediately once bought"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"promotions": ["Raider"],
