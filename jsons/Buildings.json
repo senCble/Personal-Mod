@@ -153,7 +153,7 @@
 	},
 	{
 		"name": "Walls",
-		"cityStrength": 5,
+		"cityStrength": 6,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
@@ -162,7 +162,7 @@
 	{
 		"name": "Walls of Babylon",
 		"replaces": "Walls",
-		"cost": 65,
+		"cost": 60,
 		"uniqueTo": "Babylon",
 		"cityStrength": 6,
 		"cityHealth": 100,
@@ -200,8 +200,9 @@
 		"name": "Dojo",
 		"replaces": "Barracks",
 		"uniqueTo": "Japan",
+		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"science": 2,
+		"science": 3,
 		"uniques": ["New [Military] units start with [25] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
@@ -613,7 +614,7 @@
 	},
 	{
 		"name": "Castle",
-		"cityStrength": 8,
+		"cityStrength": 9,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
@@ -622,15 +623,15 @@
 	},
 	{
 		"name": "Mughal Fort",
-		"cost": 150,
+		"cost": 140,
 		"replaces": "Castle",
 		"uniqueTo": "India",
-		"cityStrength": 8,
+		"cityStrength": 9,
 		"cityHealth": 25,
 		"culture": 2,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
-		"uniques": ["[+10]% [Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured"],
+		"uniques": ["[+2 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
 	},
 	{
@@ -856,7 +857,7 @@
 	{
 		"name": "Arsenal",
 		"cost": 300,
-		"cityStrength": 10,
+		"cityStrength": 12,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Castle",
@@ -1029,7 +1030,7 @@
     	},
 	{
 		"name": "Military Base",
-		"cityStrength": 14,
+		"cityStrength": 12,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Arsenal",
