@@ -1384,7 +1384,7 @@
 		"movement": 5,
 		"strength": 50,
 		"rangedStrength": 50,
-		"cost": 375,
+		"cost": 350,
 		"requiredTech": "Combustion",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Helicopter Gunship",
@@ -1585,11 +1585,11 @@
 		"unitType": "Ranged Gunpowder",
 		"range": 1,
 		"movement": 2,
-		"strength": 80,
-		"rangedStrength": 80,
+		"strength": 85,
+		"rangedStrength": 85,
 		"cost": 475,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Never appears as a Barbarian unit","[+33]% Strength <vs [Armored] units>"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
 	{
