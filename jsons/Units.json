@@ -196,6 +196,7 @@
 		"upgradesTo": "Skirmisher",
 		"obsoleteTech": "Metallurgy",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"promotions": ["Barrage I"],
 		"attackSound": "arrow"
 	},
 	{
@@ -1001,15 +1002,15 @@
 		"uniqueTo": "The Ottomans",
 		"range": 1,
 		"movement": 4,
-		"strength": 26,
-		"rangedStrength": 26,
+		"strength": 30,
+		"rangedStrength": 30,
 		"cost": 175,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Computers",
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["[+25]% Strength <vs [Mounted] units>","Can move after attacking","No defensive terrain bonus","[+1] Sight"],
-		"promotions": ["[Sipahi] ability","Barrage I"],
+		"promotions": ["[Sipahi] ability"],
 		"attackSound": "horse"
 	},
 	{
@@ -1368,7 +1369,7 @@
 		"uniqueTo": "Germany",
 		"replaces": "Landship",
 		"movement": 5,
-		"strength": 60,
+		"strength": 65,
 		"cost": 325,
 		"requiredTech": "Railroads",
 		"requiredResource": "Oil",
