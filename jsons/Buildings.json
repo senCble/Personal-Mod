@@ -558,7 +558,7 @@
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+15]% Production when constructing [Land] units [in this city]","[+1 Production] from [Iron] tiles [in this city]"]
+		"uniques": ["[+15]% Production when constructing [{non-[Mounted]} {non-[Ranged Mounted]} {Land}] units [in this city]","[+1 Production] from [Iron] tiles [in this city]"]
 	},
 	// Column 6
 	{
