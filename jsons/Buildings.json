@@ -147,9 +147,9 @@
 		"food": 2,
 		"production": 1,
 		"happiness": 1,
-		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "[+2 Food] from [Marsh] tiles [in this city]", "Must be next to [Fresh water]"],
+		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]", "[+1 Food] from [Marsh] tiles [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"food": 10},
+		"percentStatBonus": {"food": 15},
 		"requiredTech": "The Wheel"
 	},
 	{
@@ -229,7 +229,7 @@
 		"name": "Colossus",
 		"cost": 185,
 		"culture": 1,
-		"gold": 3,
+		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Coast] tiles [in this city]"],
