@@ -145,7 +145,7 @@
 		"food": 2,
 		"production": 1,
 		"happiness": 1,
-		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]", "[+1 Food] from [Marsh] tiles [in this city]", "Must be next to [Fresh water]"],
+		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "[+2 Food] from [Marsh] tiles [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"percentStatBonus": {"food": 10},
