@@ -165,7 +165,7 @@
 	{
 		"name": "Formation I",
 		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
-		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Ranged Mounted] units> <when attacking>", 
+		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Ranged Mounted] units>", 
 			"[+10]% Strength <when fighting in [Open terrain] tiles> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted"],
         "column": 7,
@@ -174,7 +174,7 @@
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Ranged Mounted] units> <when attacking>", 
+		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Ranged Mounted] units>", 
 			"[+10]% Strength <when fighting in [Open terrain] tiles> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted"],
         "column": 7,
@@ -800,7 +800,7 @@
 	},
 	{
 		"name": "[Dromon] ability",
-		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>"]
+		"uniques": ["[+50]% Strength <vs [Wounded] units> <when attacking>"]
 	},
 	{
 		"name": "[Hussar] ability",
