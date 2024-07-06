@@ -1018,7 +1018,7 @@
 		"replaces": "Cavalry",
 		"uniqueTo": "Sweden",
 		"range": 1,
-		"movement": 4,
+		"movement": 5,
 		"strength": 26,
 		"rangedStrength": 26,
 		"cost": 175,
@@ -1139,8 +1139,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Railroads",
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
@@ -1155,8 +1154,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+1] Sight"],
 		"promotions": ["[Hussar] ability"],
 		"attackSound": "horse"
 	},
@@ -1172,8 +1170,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "horse"
 	},
