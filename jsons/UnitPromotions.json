@@ -771,8 +771,7 @@
     	},
 	{
 		"name": "[Mohawk Warrior] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", 
-			"Invisible to non-adjacent units <in [{Friendly Land} {Forest}] tiles>","Invisible to non-adjacent units <in [{Friendly Land} {Jungle}] tiles>"]
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>","[+10] HP when healing <in [Friendly Land]> tiles"]
 	},
 	{
 		"name": "[Jaguar] ability",
@@ -780,7 +779,7 @@
 	},
 	{
 		"name": "[Persian Immortal] ability",
-		"uniques": ["[+10] HP when healing"]
+		"uniques": ["[+15] HP when healing"]
 	},
 	{
 		"name": "[Conquistador] ability",
