@@ -759,7 +759,7 @@
 	},
 	{
 		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+		"uniques": ["No movement cost to pillage", "[+15]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
