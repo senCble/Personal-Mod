@@ -174,7 +174,7 @@
 		"unitType": "Ranged Mounted",
 		"movement": 4,
 		"strength": 6,
-		"rangedStrength": 9,
+		"rangedStrength": 10,
 		"cost": 55,
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
@@ -190,13 +190,12 @@
 		"replaces": "Chariot Archer",
 		"movement": 5,
 		"strength": 6,
-		"rangedStrength": 9,
+		"rangedStrength": 10,
 		"cost": 55,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Skirmisher",
 		"obsoleteTech": "Metallurgy",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
-		"promotions": ["Barrage I"],
 		"attackSound": "arrow"
 	},
 	{
@@ -206,7 +205,7 @@
 		"replaces": "Chariot Archer",
 		"movement": 4,
 		"strength": 7,
-		"rangedStrength": 10,
+		"rangedStrength": 11,
 		"cost": 55,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Skirmisher",
@@ -239,7 +238,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Ranged Mounted] units> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Ranged Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -253,7 +252,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Ranged Mounted] units> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Ranged Mounted] units>"],
 		"promotions":["[Hoplite] ability"],
 		"attackSound": "metalhit"
 	},
@@ -268,7 +267,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Ranged Mounted] units> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Ranged Mounted] units>"],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
 	},
@@ -278,7 +277,7 @@
 		"replaces": "Spearman",
 		"uniqueTo": "Celts",
 		"movement": 2,
-		"strength": 11,
+		"strength": 12,
 		"cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Gunpowder",
@@ -1010,7 +1009,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["[+25]% Strength <vs [Mounted] units>","Can move after attacking","No defensive terrain bonus","[+1] Sight"],
-		"promotions": ["[Sipahi] ability"],
+		"promotions": ["[Sipahi] ability","Barrage I"],
 		"attackSound": "horse"
 	},
 	{
@@ -1019,7 +1018,7 @@
 		"replaces": "Cavalry",
 		"uniqueTo": "Sweden",
 		"range": 1,
-		"movement": 5,
+		"movement": 4,
 		"strength": 26,
 		"rangedStrength": 26,
 		"cost": 175,
