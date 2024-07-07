@@ -771,7 +771,7 @@
     	},
 	{
 		"name": "[Mohawk Warrior] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>","[+10] HP when healing <in [Friendly Land]> tiles"]
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>","[+10] HP when healing <in [Friendly Land] tiles>"]
 	},
 	{
 		"name": "[Jaguar] ability",
