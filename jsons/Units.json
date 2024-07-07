@@ -801,7 +801,7 @@
 		"uniqueTo": "Japan",
 		"movement": 2,
 		"strength": 26,
-		"cost": 125,
+		"cost": 135,
 		"requiredTech": "Steel",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
