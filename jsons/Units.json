@@ -1420,7 +1420,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Modern Fighter",
+		"name": "Fighter",
 		"unitType": "Fighter",
 		"movement": 3,
 		"strength": 50,
@@ -1435,7 +1435,7 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Modern Bomber",
+		"name": "Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
 		"strength": 65,
