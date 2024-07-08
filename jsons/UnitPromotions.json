@@ -742,49 +742,68 @@
 		"uniques": ["[+50]% XP gained from combat"]
 	},
 	{
-		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles","Defense bonus when embarked"]
-	},
-	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 		"uniques": ["All healing effects doubled"]
-	},
-	{
-		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"uniques": ["Withdraws before melee combat <with [75]% chance>"]
 	},
 	{
 		"name": "Ignore terrain cost",
 		"uniques": ["Ignores terrain cost"]
 	},
 	{
-		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+15]% Strength <when fighting in [Foreign Land] tiles>"]
-	},
-	{
-		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
-		"uniques": ["[+33]% Strength decreasing with distance from the capital"]
-	},
-    	{
-        	"name": "Devout",
-        	"uniques": ["Can Spread Religion <[1] additional time(s)>"]
-    	},
-	{
-		"name": "[Mohawk Warrior] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>","[+10] HP when healing <in [Friendly Land] tiles>"]
+		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "Defense bonus when embarked"]
 	},
 	{
 		"name": "[Jaguar] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", 
+			"Heals [25] damage if it kills a unit"]
+	},
+	{
+		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
+		"uniques": ["Withdraws before melee combat <with [75]% chance>"]
+	},
+	{
+        	"name": "[Bowman] ability",
+        	"uniques": ["[+10]% Strength <vs [Melee] units> <when defending>", "[+10]% Strength <vs [Mounted] units> <when defending>"]
+    	},
+	{
+		"name": "[Dromon] ability",
+		"uniques": ["[+50]% Strength <vs [Wounded] units> <when attacking>"]
 	},
 	{
 		"name": "[Persian Immortal] ability",
 		"uniques": ["[+15] HP when healing"]
 	},
 	{
+        	"name": "[Hoplite] ability",
+        	"uniques": ["[+10]% Strength <when adjacent to a [{Military} {Land}] unit>"]
+    	},
+	{
+		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
+		"uniques": ["No movement cost to pillage", "[+15]% Strength <when fighting in [Foreign Land] tiles>"]
+	},
+	{
+		"name": "[Mohawk Warrior] ability",
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>",
+			"[+10] HP when healing <in [Friendly Land] tiles>"]
+	},
+	{
+        	"name": "[Legion] ability",
+        	"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can build [Repair] improvements on tiles",
+			"[+10] HP when healing <in [Fort] tiles>"]
+    	},
+	{
+        	"name": "Raider",
+        	"uniques": ["No movement cost to pillage", "Earn [50]% of the damage done to [City] units as [Gold]"]
+    	},
+	{
 		"name": "[Conquistador] ability",
 		"uniques": ["Defense bonus when embarked","[+2] Sight"]
 	},
+    	{
+        	"name": "[Chu-Ko-Nu] ability",
+        	"uniques": ["[1] additional attacks per turn","Can move after attacking"]
+    	},
 	{
 		"name": "[Janissary] ability",
 		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]
@@ -794,16 +813,8 @@
 		"uniques": ["No movement cost to pillage","[+1] Sight"]
 	},
 	{
-		"name": "[Cossack] ability",
-		"uniques": ["[+33]% Strength <vs [Wounded] units>"]
-	},
-	{
-		"name": "[Dromon] ability",
-		"uniques": ["[+50]% Strength <vs [Wounded] units> <when attacking>"]
-	},
-	{
-		"name": "[Hussar] ability",
-		"uniques": ["[+100]% to Flank Attack bonuses"]
+		"name": "[Hakkapeliitta] ability",
+		"uniques": ["Transfer Movement to [Great General]", "[+33]% Strength when stacked with [Great General]"]
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
@@ -811,36 +822,28 @@
 			"Double movement in [Snow]","Double movement in [Tundra]","Double movement in [Hill]"]
 	},
 	{
-		"name": "[Hakkapeliitta] ability",
-		"uniques": ["Transfer Movement to [Great General]", "[+33]% Strength when stacked with [Great General]"]
+        	"name": "[Foreign Legion] ability",
+        	"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+    	},
+	{
+		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
+		"uniques": ["[+33]% Strength decreasing with distance from the capital"]
+	},
+	{
+		"name": "[Cossack] ability",
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"]
+	},
+	{
+		"name": "[Hussar] ability",
+		"uniques": ["[+100]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "[Zero] ability",
 		"uniques": ["[+33]% Strength <vs [Air] units>"]
 	},
-    	{
-        	"name": "[Chu-Ko-Nu] ability",
-        	"uniques": ["[1] additional attacks per turn","Can move after attacking"]
-    	},
 	{
-        	"name": "[Bowman] ability",
-        	"uniques": ["[+10]% Strength <vs [Melee] units> <when defending>","[+10]% Strength <vs [Mounted] units> <when defending>"]
-    	},
-	{
-        	"name": "[Hoplite] ability",
-        	"uniques": ["[+10]% Strength <when adjacent to a [{Military} {Land}] unit>"]
-    	},
-	{
-        	"name": "[Legion] ability",
-        	"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can build [Repair] improvements on tiles"]
-    	},
-	{
-        	"name": "[Foreign Legion] ability",
-        	"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
-    	},
-	{
-        	"name": "Raider",
-        	"uniques": ["No movement cost to pillage", "Earn [50]% of the damage done to [City] units as [Gold]"]
+        	"name": "Devout",
+        	"uniques": ["Can Spread Religion <[1] additional time(s)>"]
     	},
 	{
 		"name": "Great Admiral",
