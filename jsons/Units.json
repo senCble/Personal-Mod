@@ -57,7 +57,7 @@
 		"movement": 2,
 		"strength": 9,
 		"cost": 40,
-		"obsoleteTech": "Steel",
+		"obsoleteTech": "Gunpowder",
 		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
@@ -70,7 +70,7 @@
 		"movement": 2,
 		"strength": 9,
 		"cost": 40,
-		"obsoleteTech": "Steel",
+		"obsoleteTech": "Gunpowder",
 		"promotions": ["[Jaguar] ability","Woodsman"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
@@ -142,14 +142,15 @@
   	},
 	{
 		"name": "Galley",
-		"unitType": "Melee Water",
+		"unitType": "Ranged Water",
 		"movement": 4,
-		"strength": 9,
+		"strength": 7,
+		"rangedStrength": 7,
 		"cost": 40,
-		"uniques": ["Cannot enter ocean tiles","[+33]% Strength <vs [Barbarian] units>"],
-		"upgradesTo": "Trireme",
 		"requiredTech": "Sailing",
-		"obsoleteTech": "Optics",
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Compass",
+		"uniques": ["Cannot enter ocean tiles","[+33]% Strength <vs [Barbarian] units>"],
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
@@ -163,10 +164,10 @@
 		"rangedStrength": 9,
 		"cost": 55,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles","[+33]% Strength <vs [Barbarian] units>"],
 		"upgradesTo": "Galleass",
-		"promotions": ["[Dromon] ability"],
 		"obsoleteTech": "Navigation",
+		"uniques": ["Cannot enter ocean tiles"],
+		"promotions": ["[Dromon] ability"],
 		"attackSound": "arrow"
 	},
 	{
@@ -329,7 +330,7 @@
 		"uniques": ["Cannot enter ocean tiles"],
 		"promotions": ["Besiege"],
 		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
+		"obsoleteTech": "Navigation",
 		"attackSound": "nonmetalhit"
 	},
 	{
