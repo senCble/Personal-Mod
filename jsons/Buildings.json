@@ -36,6 +36,7 @@
 	{
 		"name": "Granary",
 		"food": 2,
+		"cost": 55,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
@@ -64,6 +65,7 @@
 	},
 	{
 		"name": "Temple of Artemis",
+		"cost": 175,
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -91,6 +93,7 @@
 	},
 	{
 		"name": "Stonehenge",
+		"cost": 175,
 		"faith": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -115,6 +118,7 @@
 	},
 	{
 		"name": "The Great Library",
+		"cost": 175,
 		"science": 3,
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -163,7 +167,7 @@
 	{
 		"name": "Walls of Babylon",
 		"replaces": "Walls",
-		"cost": 60,
+		"cost": 55,
 		"uniqueTo": "Babylon",
 		"cityStrength": 6,
 		"cityHealth": 100,
@@ -173,6 +177,7 @@
 	},
 	{
 		"name": "The Pyramids",
+		"cost": 175,
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
@@ -182,6 +187,7 @@
 	},
 	{
 		"name": "Mausoleum of Halicarnassus",
+		"cost": 175,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
@@ -202,7 +208,7 @@
 		"replaces": "Barracks",
 		"uniqueTo": "Japan",
 		"hurryCostModifier": 25,
-		"science": 3,
+		"science": 2,
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [25] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
@@ -218,6 +224,7 @@
 	},
 	{
 		"name": "Statue of Zeus",
+		"cost": 175,
 		"culture": 3,
 		"isWonder": true,
                 "greatPersonPoints": {"Great Engineer": 1},
@@ -228,7 +235,7 @@
 	},
 	{
 		"name": "Colossus",
-		"cost": 185,
+		"cost": 175,
 		"culture": 1,
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
@@ -462,6 +469,7 @@
 	// Column 5
 	{
 		"name": "Garden",
+		"cost": 125,
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -533,6 +541,7 @@
 	},
 	{
 		"name": "Workshop",
+		"cost": 125,
 		"maintenance": 2,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
@@ -555,6 +564,7 @@
 	},
 	{
 		"name": "Forge",
+		"cost": 125,
 		"maintenance": 1,
 		"production": 1,
 		"hurryCostModifier": 25,
@@ -565,7 +575,7 @@
 	// Column 6
 	{
 		"name": "Harbor",
-		"cost": 120,
+		"cost": 125,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
@@ -574,8 +584,9 @@
 	},
 	{
 		"name": "University",
+		"cost": 150,
 		"maintenance": 2,
-		"hurryCostModifier": 15,
+		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Library",
@@ -587,7 +598,7 @@
 		"replaces": "University",
 		"uniqueTo": "Siam",
 		"maintenance": 2,
-		"hurryCostModifier": 15,
+		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"culture": 3,
@@ -615,6 +626,7 @@
 	},
 	{
 		"name": "Castle",
+		"cost": 150,
 		"cityStrength": 9,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
@@ -624,7 +636,7 @@
 	},
 	{
 		"name": "Mughal Fort",
-		"cost": 140,
+		"cost": 150,
 		"replaces": "Castle",
 		"uniqueTo": "India",
 		"cityStrength": 9,
@@ -666,6 +678,7 @@
 	},
 	{
 		"name": "Armory",
+		"cost": 150,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
@@ -951,6 +964,7 @@
 	// Column 10
 	{
 		"name": "Hospital",
+		"cost": 350,
 		"food": 5,
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
@@ -960,6 +974,7 @@
 	},
 	{
 		"name": "Stock Exchange",
+		"cost": 350,
 		"gold": 3,
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 2},
@@ -969,6 +984,7 @@
 	},
 	{
 		"name": "Hydro Plant",
+		"cost": 350,
 		"requiredResource": "Aluminum",
 		"hurryCostModifier": 0,
 		"maintenance": 3,
@@ -1040,6 +1056,7 @@
 	},
 	{
 		"name": "Statue of Liberty",
+		"cost": 1050,
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -1049,6 +1066,7 @@
 	},
 	{
 		"name": "Neuschwanstein",
+		"cost": 1050,
 		"happiness": 2,
 		"culture": 4,
 		"gold": 6,
@@ -1200,7 +1218,7 @@
 		"name": "Spaceship Factory",
 		"production": 3,
 		"requiredResource": "Aluminum",
-		"cost": 360,
+		"cost": 350,
 		"requiredBuilding": "Factory",
 		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]"],
 		"requiredTech": "Robotics"
