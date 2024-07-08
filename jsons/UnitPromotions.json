@@ -751,7 +751,7 @@
 	},
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "Defense bonus when embarked"]
+		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
 		"name": "[Jaguar] ability",
@@ -768,11 +768,11 @@
     	},
 	{
 		"name": "[Dromon] ability",
-		"uniques": ["[+50]% Strength <vs [Wounded] units> <when attacking>"]
+		"uniques": ["[+33]% Strength <vs [Water] units>"]
 	},
 	{
 		"name": "[Persian Immortal] ability",
-		"uniques": ["[+15] HP when healing"]
+		"uniques": ["[+10] HP when healing"]
 	},
 	{
         	"name": "[Hoplite] ability",
@@ -789,8 +789,7 @@
 	},
 	{
         	"name": "[Legion] ability",
-        	"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can build [Repair] improvements on tiles",
-			"[+10] HP when healing <in [Fort] tiles>"]
+        	"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can build [Repair] improvements on tiles"]
     	},
 	{
         	"name": "Raider",
@@ -806,7 +805,7 @@
     	},
 	{
 		"name": "[Janissary] ability",
-		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]
+		"uniques": ["[+25]% Strength <when attacking>", "Heals [50] damage if it kills a unit"]
 	},
 	{
 		"name": "[Sipahi] ability",
