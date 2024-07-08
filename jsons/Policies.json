@@ -521,7 +521,7 @@
                 "name": "Maritime Infrastructure",
                 "uniques": [
                     "[+2 Production, +2 Science] [in all coastal cities]",
-                    "[+3 Culture] from every [Citadel]",
+                    "[+3 Science] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 2
@@ -532,7 +532,7 @@
                     "[+1 Gold] from every [Camp]",
                     "[+1 Gold] from every [Pasture]",
                     "[+1 Gold] from every [Plantation]",
-                    "[+3 Science] from every [Citadel]",
+                    "[+3 Culture] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
