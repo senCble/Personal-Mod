@@ -259,7 +259,7 @@
 	},
 	{
 		"name": "The Great Lighthouse",
-		"cost": 185,
+		"cost": 175,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
@@ -457,7 +457,7 @@
 	{
 		"name": "Heroic Epic",
 		"cost": 125,
-		"culture": 1,
+		"culture": 3,
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [25] per owned city"],
@@ -503,7 +503,7 @@
 		"uniques": [
 			"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [25] per owned city",
-			"[+100]% Natural religion spread [in this city]", 
+			"[+50]% Natural religion spread [in all cities]", 
 			"Hidden when religion is disabled", 
 			"Can only be built <in [Holy] cities>"
 		],
