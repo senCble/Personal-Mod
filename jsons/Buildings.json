@@ -538,7 +538,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
-		"uniques": ["[+1 Production] from [{non-[resource]} {Forest}] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Lumber mill] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -546,7 +546,6 @@
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
 		"cost": 100,
-		"maintenance": 2,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
@@ -618,7 +617,7 @@
 	{
 		"name": "Castle",
 		"cost": 150,
-		"cityStrength": 9,
+		"cityStrength": 8,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
@@ -630,7 +629,7 @@
 		"cost": 150,
 		"replaces": "Castle",
 		"uniqueTo": "India",
-		"cityStrength": 9,
+		"cityStrength": 8,
 		"cityHealth": 25,
 		"culture": 2,
 		"hurryCostModifier": 25,
@@ -675,16 +674,6 @@
 		"requiredBuilding": "Barracks",
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
-	},
-	{
-		"name": "Krepost",
-		"cost": 125,
-		"replaces": "Armory",
-		"uniqueTo": "Russia",
-		"hurryCostModifier": 25,
-		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
-			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Metal Casting"
 	},
 
 	// Renaissance Era
@@ -872,12 +861,24 @@
 	{
 		"name": "Arsenal",
 		"cost": 300,
-		"cityStrength": 12,
+		"cityStrength": 10,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Castle",
 		"requiredTech": "Metallurgy",
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Krepost",
+		"cost": 250,
+		"replaces": "Arsenal",
+		"uniqueTo": "Russia",
+		"cityStrength": 12,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
+			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Printing Press"
 	},
 	{
 		"name": "Kremlin",
