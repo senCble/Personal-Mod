@@ -183,7 +183,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
-		"uniques": ["[+2 Culture] [in all cities] <before the [Industrial era]>","[+2 Culture] [in all cities with a world wonder] <starting from the [Industrial era]>"],
+		"uniques": ["[+2 Culture] [in all cities] <before the [Industrial era]>","[+2 Culture] from every [World Wonder] <in capital> <starting from the [Industrial era]>"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -298,7 +298,7 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Manifest Destiny",
-		"uniques": ["[+1] Sight <for [Land] units>","[-50]% Gold cost of acquiring tiles [in all cities]","[-25]% Culture cost of natural border growth [in puppeted cities]"],
+		"uniques": ["[+1] Sight <for [Land] units>","[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
