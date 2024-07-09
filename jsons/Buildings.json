@@ -634,7 +634,7 @@
 		"culture": 2,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
-		"uniques": ["[+2 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured"],
+		"uniques": ["[+3 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
 	},
 	{
@@ -873,8 +873,9 @@
 		"cost": 225,
 		"replaces": "Arsenal",
 		"uniqueTo": "Russia",
-		"cityStrength": 12,
-		"cityHealth": 50,
+		"science": 2,
+		"cityStrength": 10,
+		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Castle",
 		"requiredTech": "Printing Press",
