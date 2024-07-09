@@ -584,9 +584,8 @@
 	},
 	{
 		"name": "University",
-		"cost": 150,
+		"cost": 175,
 		"maintenance": 2,
-		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Library",
@@ -753,7 +752,7 @@
 	},
     	{
         	"name": "Constabulary",
-        	"cost": 160,
+        	"cost": 175,
         	"maintenance": 1,
         	"hurryCostModifier": 15,
         	"uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
@@ -924,7 +923,7 @@
 	},
 	{
 		"name": "Factory",
-		"cost": 360,
+		"cost": 375,
 		"production": 4,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 2},
@@ -964,7 +963,7 @@
 	// Column 10
 	{
 		"name": "Hospital",
-		"cost": 350,
+		"cost": 375,
 		"food": 5,
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
@@ -974,17 +973,17 @@
 	},
 	{
 		"name": "Stock Exchange",
-		"cost": 350,
+		"cost": 375,
 		"gold": 3,
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 2},
-		"hurryCostModifier": 15,
+		"hurryCostModifier": 0,
 		"requiredBuilding": "Bank",
 		"requiredTech": "Electricity"
 	},
 	{
 		"name": "Hydro Plant",
-		"cost": 350,
+		"cost": 375,
 		"requiredResource": "Aluminum",
 		"hurryCostModifier": 0,
 		"maintenance": 3,
@@ -1218,7 +1217,7 @@
 		"name": "Spaceship Factory",
 		"production": 3,
 		"requiredResource": "Aluminum",
-		"cost": 350,
+		"cost": 375,
 		"requiredBuilding": "Factory",
 		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]"],
 		"requiredTech": "Robotics"
