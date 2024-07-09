@@ -630,7 +630,7 @@
 		"replaces": "Castle",
 		"uniqueTo": "India",
 		"cityStrength": 10,
-		"cityHealth": 25,
+		"cityHealth": 50,
 		"culture": 2,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
