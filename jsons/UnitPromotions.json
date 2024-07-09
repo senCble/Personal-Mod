@@ -1,4 +1,4 @@
-[
+Ft[
 
 	{
 		"name": "Heal Instantly",
@@ -269,9 +269,9 @@
         "row": 3
 	},
 	{
-		"name": "Trailblazer",
+		"name": "Seafarer",
 		"prerequisites": ["Scouting I", "Survivalism I"],
-		"uniques": ["[1] Movement point cost to disembark","[1] Movement point cost to embark","Can pass through impassable tiles"],
+		"uniques": ["[1] Movement point cost to disembark","[1] Movement point cost to embark","[+1] Movement <for [Embarked] units>"],
 		"unitTypes": ["Scout"],
         "column": 27,
         "row": 2
