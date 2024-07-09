@@ -191,7 +191,7 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[+100]% Production when constructing [Heroic Epic] wonders [in capital]",
-                    "[-17]% maintenance costs <for [Land] units>",
+                    "[-25]% maintenance costs <for [Land] units>",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
                 ],
                 "requires": ["Military Caste"],
@@ -442,7 +442,8 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+10]% [Gold] [in all cities connected to capital]"
+            "[+2 Gold] [in all cities connected to capital]",
+            "[+2 Gold] [in all non-occupied cities]",
         ],
         "policies": [
             {
@@ -561,8 +562,8 @@
                 "name": "Colonialism",
                 "uniques": [
                     "[+15]% [Production] [in puppeted cities]",
-                    "[+15]% [Gold] [in puppeted cities]",
                     "[+15]% [Science] [in puppeted cities]",
+                    "[+15]% [Gold] [in puppeted cities]",
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 3,
