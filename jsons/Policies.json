@@ -191,7 +191,7 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[+100]% Production when constructing [Heroic Epic] wonders [in capital]",
-                    "[-17]% maintenance costs <for [Land] units>",
+                    "[-25]% maintenance costs <for [Land] units>",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
                 ],
                 "requires": ["Military Caste"],
@@ -229,8 +229,7 @@
         },
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "[+1 Culture] from every [Shrine]",
-            "[+1 Culture] from every [Temple]",
+            "[+1 Happiness] from every [Templ]",
         ],
         "policies": [
             {
@@ -246,7 +245,8 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-                    "[+1 Happiness, +2 Science] from every [Temple]",
+                    "[+1 Culture, +1 Science] from every [Shrine]",
+                    "[+1 Science, +1 Science] from every [Temple]",
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
