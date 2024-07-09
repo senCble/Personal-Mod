@@ -952,7 +952,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
-		"uniques": ["[+1 Faith] [in all cities] <with [1] to [6] neighboring [{unimproved} {Forest}] tiles>",
+		"uniques": ["[+1 Faith] [in all cities] <within [1] tiles of a [{unimproved} {Forest}]>",
 			"[+1 Faith] [in all cities] <with [3] to [6] neighboring [Forest] tiles>"],
 		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
 			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
