@@ -143,8 +143,8 @@
 		"prerequisites": ["Accuracy III","Barrage III","Mobility II","Anti-Armor II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>","[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Ranged Mounted","Helicopter"],
-        "column": 27,
-        "row": 3
+        	"column": 27,
+        	"row": 3
 	},
 	{
 		"name": "Lightning Warfare",
@@ -224,7 +224,7 @@
 	// Scout
 	{
 		"name": "Scouting I",
-		"uniques": ["[+1] Sight","[1] Movement point cost to disembark","[1] Movement point cost to embark"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Scout"],
         "column": 8,
         "row": 1
@@ -232,7 +232,7 @@
 	{
 		"name": "Scouting II",
 		"prerequisites": ["Scouting I"],
-		"uniques": ["[+1] Sight","Can pass through impassable tiles"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Scout"],
         "column": 8,
         "row": 2
@@ -267,6 +267,14 @@
 		"unitTypes": ["Scout"],
         "column": 9,
         "row": 3
+	},
+	{
+		"name": "Trailblazer",
+		"prerequisites": ["Scouting I", "Survivalism I"],
+		"uniques": ["[1] Movement point cost to disembark","[1] Movement point cost to embark","Can pass through impassable tiles"],
+		"unitTypes": ["Scout"],
+        "column": 27,
+        "row": 2
 	},
 
 	// Water melee
@@ -489,7 +497,7 @@
 	// Bomber
 	{
 		"name": "Siege I",
-		"uniques": ["[+30]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 1
@@ -497,7 +505,7 @@
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
-		"uniques": ["[+30]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 2
@@ -505,7 +513,7 @@
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["[+40]% Strength <vs cities>"],
+		"uniques": ["[+34]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 3
@@ -535,8 +543,8 @@
 		"name": "Air Targeting III",
 		"prerequisites": ["Air Targeting II","Interception II","Dogfighting II"],
 		"uniques": [
-			"[+20]% Strength <vs [Water] units>",
-			"[+20]% Strength <vs [Land] units>"
+			"[+15]% Strength <vs [Water] units>",
+			"[+15]% Strength <vs [Land] units>"
 		],
 		"unitTypes": ["Bomber", "Fighter"],
         "column": 20,
@@ -554,7 +562,7 @@
 	// Aircraft
 	{
 		"name": "Interception I",
-		"uniques": ["[+30]% Damage when intercepting"],
+		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 1
@@ -562,7 +570,7 @@
 	{
 		"name": "Interception II",
 		"prerequisites": ["Interception I"],
-		"uniques": ["[+30]% Damage when intercepting"],
+		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 2
@@ -570,14 +578,14 @@
 	{
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
-		"uniques": ["[+40]% Damage when intercepting"],
+		"uniques": ["[+34]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 3
 	},
 	{
 		"name": "Dogfighting I",
-		"uniques": ["[+30]% Strength when performing Air Sweep"],
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 1
@@ -585,7 +593,7 @@
 	{
 		"name": "Dogfighting II",
 		"prerequisites": ["Dogfighting I"],
-		"uniques": ["[+30]% Strength when performing Air Sweep"],
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 2
@@ -593,7 +601,7 @@
 	{
 		"name": "Dogfighting III",
 		"prerequisites": ["Dogfighting II"],
-		"uniques": ["[+40]% Strength when performing Air Sweep"],
+		"uniques": ["[+34]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 3
@@ -795,10 +803,6 @@
         	"name": "Raider",
         	"uniques": ["No movement cost to pillage", "Earn [50]% of the damage done to [City] units as [Gold]"]
     	},
-	{
-		"name": "[Conquistador] ability",
-		"uniques": ["Defense bonus when embarked","[+2] Sight"]
-	},
     	{
         	"name": "[Chu-Ko-Nu] ability",
         	"uniques": ["[1] additional attacks per turn","Can move after attacking"]
@@ -851,6 +855,10 @@
 	{
 		"name": "Prize Ships",
 		"uniques": ["May capture killed [Water] units"]
+	},
+	{
+		"name": "[War Canoe] ability",
+		"uniques": ["Defense bonus when embarked","[+1] Sight"]
 	},
 	{	// For barbarian water units
 		"name": "Unable to pillage tiles",
