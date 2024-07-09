@@ -214,15 +214,6 @@
 		"requiredTech": "Bronze Working"
 	},
 	{
-		"name": "Krepost",
-		"replaces": "Barracks",
-		"uniqueTo": "Russia",
-		"hurryCostModifier": 25,
-		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
-			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Bronze Working"
-	},
-	{
 		"name": "Statue of Zeus",
 		"cost": 175,
 		"culture": 3,
@@ -555,6 +546,7 @@
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
 		"cost": 100,
+		"maintenance": 2,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
@@ -596,8 +588,8 @@
 		"name": "Wat",
 		"replaces": "University",
 		"uniqueTo": "Siam",
+		"cost": 175,
 		"maintenance": 2,
-		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"culture": 3,
@@ -683,6 +675,16 @@
 		"requiredBuilding": "Barracks",
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
+	},
+	{
+		"name": "Krepost",
+		"cost": 125,
+		"replaces": "Armory",
+		"uniqueTo": "Russia",
+		"hurryCostModifier": 25,
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
+			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Metal Casting"
 	},
 
 	// Renaissance Era
