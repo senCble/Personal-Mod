@@ -857,7 +857,7 @@
 		"uniques": ["May capture killed [Water] units"]
 	},
 	{
-		"name": "[War Canoe] ability",
+		"name": "War Canoe",
 		"uniques": ["Defense bonus when embarked","[+1] Sight <for [Embarked] units>"]
 	},
 	{	// For barbarian water units
