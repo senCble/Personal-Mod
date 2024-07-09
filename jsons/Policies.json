@@ -191,7 +191,7 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[+100]% Production when constructing [Heroic Epic] wonders [in capital]",
-                    "[-25]% maintenance costs <for [Land] units>",
+                    "[-17]% maintenance costs <for [Land] units>",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
                 ],
                 "requires": ["Military Caste"],
@@ -211,8 +211,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [75]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[+1 Happiness] [in annexed cities]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
@@ -230,8 +229,8 @@
         },
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "[+1 Faith] from every [Shrine]",
-            "[+1 Faith] from every [Temple]",
+            "[+1 Culture] from every [Shrine]",
+            "[+1 Culture] from every [Temple]",
         ],
         "policies": [
             {
@@ -247,7 +246,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-                    "[+1 Happiness, +2 Culture] from every [Temple]",
+                    "[+1 Happiness, +2 Science] from every [Temple]",
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -266,8 +265,7 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+1 Science] from every [Barracks]",
-                    "[+1 Science] from every [Armory]",
+                    "Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
                 ],
                 "row": 1,
                 "column": 5
