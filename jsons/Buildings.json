@@ -860,7 +860,7 @@
 	},
 	{
 		"name": "Arsenal",
-		"cost": 300,
+		"cost": 250,
 		"cityStrength": 10,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
@@ -870,7 +870,7 @@
 	},
 	{
 		"name": "Krepost",
-		"cost": 250,
+		"cost": 225,
 		"replaces": "Arsenal",
 		"uniqueTo": "Russia",
 		"cityStrength": 12,
@@ -878,8 +878,7 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Castle",
 		"requiredTech": "Printing Press",
-		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
-			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Kremlin",
