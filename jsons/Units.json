@@ -600,7 +600,7 @@
 		"replaces": "Knight",
 		"uniqueTo": "Spain",
 		"movement": 4,
-		"strength": 20,
+		"strength": 22,
 		"cost": 125,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
@@ -608,7 +608,7 @@
 		"obsoleteTech": "Railroads",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", 
 			"Founds a new city <on foreign continents>","[+1] Sight"],
-		"promotions": ["[War Canoe] ability"],
+		"promotions": ["War Canoe"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
 		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
@@ -890,8 +890,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Replaceable Parts",
-		"uniques": ["Ignores terrain cost"],
-		"promotions": ["Drill I"],
+		"promotions": ["Drill I","Ignore terrain cost"],
 		"attackSound": "shot"
 	},
 	{
@@ -915,8 +914,8 @@
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
-		"obsoleteTech": "Steam Power",
-		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I"],
 		"uniques": ["[+1] Sight"]
 		"attackSound": "cannon"
@@ -930,7 +929,7 @@
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
-		"upgradesTo": "Ironclad",
+		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
 		"uniques": ["May capture killed [Water] units"],
 		"attackSound": "cannon"
@@ -1178,7 +1177,7 @@
 	{
 		"name": "Ironclad",
 		"unitType": "Melee Water",
-		"movement": 4,
+		"movement": 3,
 		"strength": 45,
 		"cost": 250,
 		"requiredTech": "Steam Power",
@@ -1186,7 +1185,7 @@
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Electronics",
 		"promotions": ["Coastal Raider I"],
-		"uniques": ["[+2] Movement <in [Coast] tiles>","Never appears as a Barbarian unit"],
+		"uniques": ["[+3] Movement <in [Coast] tiles>","Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 	{
