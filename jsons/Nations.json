@@ -298,7 +298,7 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Manifest Destiny",
-		"uniques": ["[+1] Sight <for [Land] units>","[-50]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["[+2] Sight <for [{Military} {Land}] units>","[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
@@ -624,7 +624,7 @@
 		"innerColor": [90, 0, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "River Warlord",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "Defense bonus when embarked <for [All] units>", "[{Military} {Land}] units gain the [Amphibious] promotion"],
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "[{Military} {Land}] units gain the [War Canoe] promotion", "[{Military} {Land}] units gain the [Amphibious] promotion"],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
 			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
 			"Agadez","Niamey","Torodi","Ouatagouna","Dori","Bamba","Segou"],
@@ -747,8 +747,8 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Viking Fury",
-		"uniques": ["[+1] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
-			"No movement cost to pillage <for [Melee] units>"],
+		"uniques": ["[+1] Movement <for [Embarked] units>", "No movement cost to pillage <for [Melee] units>", 
+			"[1] Movement point cost to disembark <for [All] units>","[1] Movement point cost to embark <for [All] units>"],
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
