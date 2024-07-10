@@ -674,6 +674,7 @@
 	// Mixed
 	{
 		"name": "Cover I",
+		"prerequisites": ["Accuracy I","Barrage I","Drill I","Shock I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
         "column": 24,
