@@ -600,7 +600,7 @@
 		"replaces": "Knight",
 		"uniqueTo": "Spain",
 		"movement": 4,
-		"strength": 22,
+		"strength": 20,
 		"cost": 125,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
