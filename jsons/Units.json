@@ -1155,7 +1155,7 @@
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+1] Sight"],
-		"promotions": ["[Hussar] ability"],
+		"promotions": ["Screening"],
 		"attackSound": "horse"
 	},
 	{
