@@ -439,8 +439,8 @@
             "Scientific": 10
         },
         "uniques": [
+            "[+25]% [Gold] [in capital]",
             "[+2 Gold] [in all cities connected to capital]",
-            "[+2 Gold] [in all non-occupied cities]",
         ],
         "policies": [
             {
@@ -518,7 +518,7 @@
             {
                 "name": "Maritime Infrastructure",
                 "uniques": [
-                    "[+2 Production, +2 Science] [in all coastal cities]",
+                    "[+2 Production, +3 Science] [in all coastal cities]",
                     "[+3 Science] from every [Citadel]",
                 ],
                 "row": 1,
@@ -558,9 +558,9 @@
             {
                 "name": "Colonialism",
                 "uniques": [
-                    "[+15]% [Production] [in puppeted cities]",
-                    "[+15]% [Science] [in puppeted cities]",
-                    "[+15]% [Gold] [in puppeted cities]",
+                    "[+20]% [Production] [in puppeted cities]",
+                    "[+20]% [Science] [in puppeted cities]",
+                    "[+20]% [Gold] [in puppeted cities]",
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 3,
