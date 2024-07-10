@@ -815,7 +815,7 @@
     	},
 	{
 		"name": "[Janissary] ability",
-		"uniques": ["[+25]% Strength <when attacking>", "Heals [50] damage if it kills a unit"]
+		"uniques": ["[+25]% Strength <when attacking>", "Heals [50] damage if it kills a unit", "Can move after attacking"]
 	},
 	{
 		"name": "[Sipahi] ability",
