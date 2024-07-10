@@ -549,12 +549,12 @@
 	},
 	{
 		"name": "Air Targeting III",
-		"prerequisites": ["Air Targeting II","Interception II","Dogfighting II"],
+		"prerequisites": ["Air Targeting II"],
 		"uniques": [
 			"[+15]% Strength <vs [Water] units>",
 			"[+15]% Strength <vs [Land] units>"
 		],
-		"unitTypes": ["Bomber", "Fighter"],
+		"unitTypes": ["Bomber"],
         "column": 20,
         "row": 3
 	},
