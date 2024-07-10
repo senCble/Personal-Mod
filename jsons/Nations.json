@@ -183,7 +183,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
-		"uniques": ["[+2 Culture] [in all cities] <before the [Industrial era]>","[+1 Culture] from every [World Wonder] <starting from the [Industrial era]>"],
+		"uniques": ["[+2 Culture] [in all cities] <before the [Industrial era]>","[+2 Culture] from every [World Wonder] <starting from the [Industrial era]>"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -384,7 +384,7 @@
 		"innerColor": [37, 43, 33],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Furor Teutonicus",
-		"uniques": ["When conquering an encampment, earn [10] Gold and recruit a Barbarian unit <with [100]% chance>","[-25]% maintenance costs <for [Land] units>"],
+		"uniques": ["When conquering an encampment, earn [10] Gold and recruit a Barbarian unit <with [100]% chance>","[-33]% maintenance costs <for [Land] units>"],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
@@ -417,7 +417,7 @@
 
 		"favoredReligion": "Islam",
 		"uniqueName": "Barbary Corsairs",
-		"uniques": ["[-67]% maintenance costs <for [Water] units>", "[Melee Water] units gain the [Prize Ships] promotion"],
+		"uniques": ["[-75]% maintenance costs <for [Water] units>", "[Melee Water] units gain the [Prize Ships] promotion"],
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
 			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar",
