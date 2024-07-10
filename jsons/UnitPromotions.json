@@ -270,7 +270,7 @@
 	},
 	{
 		"name": "Seafarer",
-		"prerequisites": ["Scouting III", "Survivalism III"],
+		"prerequisites": ["Scouting I", "Survivalism I"],
 		"uniques": ["[1] Movement point cost to disembark","[1] Movement point cost to embark","[+1] Movement <for [Embarked] units>"],
 		"unitTypes": ["Scout"],
         "column": 27,
