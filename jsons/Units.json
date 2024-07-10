@@ -290,7 +290,7 @@
 	},
 	{
 		"name": "Battering Ram",
-		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
+		"unitType": "Siege", // You might expect this to be a siege unit, but apparently it is not
 		"replaces": "Spearman",
 		"uniqueTo": "The Huns",
 		"movement": 2,
@@ -299,10 +299,10 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
+		"uniques": ["[+250]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
 			"[-33]% Strength <vs [Military] units>","[-33]% Strength <vs [Military] units> <when attacking>",
 			"[-1] Sight"]
-		"promotions":  ["Cover I","Volley"],
+		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
 	/* Classical Era */
