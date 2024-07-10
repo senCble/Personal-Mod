@@ -270,8 +270,16 @@
 	},
 	{
 		"name": "Seafarer",
-		"prerequisites": ["Scouting I", "Survivalism I"],
+		"prerequisites": ["Scouting III", "Survivalism III"],
 		"uniques": ["[1] Movement point cost to disembark","[1] Movement point cost to embark","[+1] Movement <for [Embarked] units>"],
+		"unitTypes": ["Scout"],
+        "column": 27,
+        "row": 1
+	},
+	{
+		"name": "Screening",
+		"prerequisites": ["Scouting III", "Survivalism III"],
+		"uniques": ["[+100]% to Flank Attack bonuses"]
 		"unitTypes": ["Scout"],
         "column": 27,
         "row": 2
@@ -835,10 +843,6 @@
 	{
 		"name": "[Cossack] ability",
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"]
-	},
-	{
-		"name": "[Hussar] ability",
-		"uniques": ["[+100]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "[Zero] ability",
