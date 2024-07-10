@@ -1554,7 +1554,7 @@
 		"movement": 6,
 		"strength": 65,
 		"rangedStrength": 65,
-		"cost": 450,
+		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+50]% Strength <vs [Armored] units>", "No defensive terrain bonus", 
