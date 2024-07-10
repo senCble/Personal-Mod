@@ -1314,7 +1314,7 @@
 		"uniqueTo": "Germany",
 		"replaces": "Landship",
 		"movement": 5,
-		"strength": 60,
+		"strength": 65,
 		"cost": 325,
 		"requiredTech": "Railroads",
 		"requiredResource": "Oil",
