@@ -57,6 +57,7 @@
 		"movement": 2,
 		"strength": 9,
 		"cost": 40,
+		"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
 		"obsoleteTech": "Gunpowder",
 		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Swordsman",
@@ -71,6 +72,7 @@
 		"strength": 9,
 		"cost": 40,
 		"obsoleteTech": "Gunpowder",
+		"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
 		"promotions": ["[Jaguar] ability","Woodsman"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
