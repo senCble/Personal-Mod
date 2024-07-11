@@ -357,7 +357,7 @@
 		"science": 1,
 		"culture": 1,
 		"isNationalWonder": true,
-		"percentStatBonus": {"science": 50},
+		"percentStatBonus": {"science": 33},
 		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [25] per owned city"],
 		"requiredTech": "Philosophy"
 	},
@@ -598,8 +598,9 @@
 	{
 		"name": "Oxford University",
 		"cost": 125,
-		"science": 3,
+		"science": 1,
 		"culture": 1,
+		"percentStatBonus": {"science": 17},
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [University] is constructed in all [non-[Puppeted]] cities>", "Free Technology", "Cost increases by [25] per owned city"],
 		"requiredTech": "Education"
@@ -744,7 +745,6 @@
         	"name": "Constabulary",
         	"cost": 175,
         	"maintenance": 1,
-        	"hurryCostModifier": 15,
         	"uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
         	"requiredTech": "Banking"
     	},
@@ -947,6 +947,7 @@
 	},
 	{
 		"name": "Military Academy",
+		"cost": 250,
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
@@ -996,7 +997,6 @@
         	"name": "Police Station",
         	"cost": 300,
         	"maintenance": 1,
-        	"hurryCostModifier": 15,
         	"uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
         	"requiredBuilding": "Constabulary",
         	"requiredTech": "Electricity"
@@ -1041,7 +1041,7 @@
             		"New spies start with [1] level(s)",
             		"Promotes all spies [1] time(s)",
             		"Gain an extra spy", // Order is significant here
-			"[-15]% enemy spy effectiveness [in this city]",
+			"[-15]% enemy spy effectiveness [in all cities]",
 			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [25] per owned city"],
         	"requiredTech": "Radio"
