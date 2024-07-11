@@ -235,6 +235,7 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
+                    "[-20]% Faith cost of generating Great Prophet equivalents",
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
@@ -255,7 +256,7 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+2 Faith] from every [Armory]",
+                    "[+3 Faith] from every [Armory]",
                 ],
                 "row": 1,
                 "column": 4
