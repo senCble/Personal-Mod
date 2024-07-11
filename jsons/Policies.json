@@ -276,7 +276,7 @@
                     "[+3 Science] from every [Armory]",
                     "[+3 Science] from every [Holy site]",
                 ],
-                "requires": ["Mandate of Heaven"],
+                "requires": ["Mandate Of Heaven"],
                 "row": 2,
                 "column": 3
             },
