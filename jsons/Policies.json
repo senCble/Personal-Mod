@@ -266,7 +266,7 @@
                     "[+1 Happiness] from every [Temple]",
                     "[+1 Happiness] from every [Armory]",
                 ],
-                "requires": ["Organized Religion","Mandate of Heaven"],
+                "requires": ["Organized Religion","Mandate Of Heaven"],
                 "row": 2,
                 "column": 3
             },
