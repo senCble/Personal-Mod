@@ -235,39 +235,11 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[Faith] cost of purchasing [Great Prophet] units [-20]%",
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"
                 ],
                 "row": 1,
                 "column": 2
-            },
-            {
-                "name": "Free Religion",
-                "uniques": [
-                    "[+1 Happiness, +2 Science] from every [Temple]",
-                ],
-                "requires": ["Organized Religion"],
-                "row": 2,
-                "column": 3
-            },
-            {
-                "name": "Reformation",
-                "uniques": [
-                    "Gain a free [Follower] belief <after founding a religion>",
-                ],
-                "requires": ["Free Religion"],
-                "row": 3,
-                "column": 3
-            },
-            {
-                "name": "Mandate Of Heaven",
-                "uniques": [
-                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
-                ],
-                "row": 1,
-                "column": 5
             },
             {
                 "name": "Theocracy",
@@ -280,10 +252,39 @@
                 "column": 1
             },
             {
+                "name": "Mandate Of Heaven",
+                "uniques": [
+                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
+                    "[+2 Faith] from every [Armory]",
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Free Religion",
+                "uniques": [
+                    "[+1 Happiness] from every [Temple]",
+                    "[+1 Happiness] from every [Armory]",
+                ],
+                "requires": ["Organized Religion","Mandate of Heaven"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Reformation",
+                "uniques": [
+                    "[+3 Science] from every [Armory]",
+                    "[+3 Science] from every [Holy site]",
+                ],
+                "requires": ["Mandate of Heaven"],
+                "row": 2,
+                "column": 3
+            },
+            {
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-                    "[+3 Science] from every [Holy site]",
+                    "[Faith] cost of purchasing [Great Prophet] units [-20]%",
                     "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
