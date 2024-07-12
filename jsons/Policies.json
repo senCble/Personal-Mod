@@ -237,7 +237,7 @@
                 "name": "Organized Religion",
                 "uniques": [
                     "[+100]% Production when constructing [Temple] buildings [in all cities]",
-                    "[+2 Faith] from every [Temple]",
+                    "[+2 Culture] from every [Temple]",
                 ],
                 "row": 1,
                 "column": 2
@@ -256,7 +256,7 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+2 Culture] from every [Armory]",
+                    "[+2 Faith] from every [Armory]",
                 ],
                 "row": 1,
                 "column": 4
