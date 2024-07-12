@@ -328,7 +328,7 @@
 		"innerColor": [184, 0, 0],
 		"favoredReligion": "Shinto",
 		"uniqueName": "Bushido",
-		"uniques": ["No damage penalty for wounded units <for [non-[Air]] units>", "Free [Great Artist] appears <upon gaining a [Great General] unit>"],
+		"uniques": ["No damage penalty for wounded units <for [non-[Air]] units>", "Free [Great Artist] appears <upon expending a [Great General] unit>"],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
