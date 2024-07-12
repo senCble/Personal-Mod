@@ -240,7 +240,7 @@
                     "[Faith] cost of purchasing [All] buildings [-20]%"  
                 ],
                 "row": 1,
-                "column": 2
+                "column": 3
             },
             {
                 "name": "Theocracy",
@@ -258,8 +258,8 @@
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
                     "[+2 Faith] from every [Armory]",
                 ],
-                "row": 1,
-                "column": 4
+                "row": 2,
+                "column": 5
             },
             {
                 "name": "Free Religion",
@@ -267,19 +267,19 @@
                     "[+1 Happiness] from every [Temple]",
                     "[+1 Happiness] from every [Armory]",
                 ],
-                "requires": ["Organized Religion","Mandate Of Heaven"],
+                "requires": ["Organized Religion", "Mandate Of Heaven"],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Reformation",
-                "uniques": [
+                "uniques": [                    
                     "[+3 Science] from every [Armory]",
                     "[+3 Science] from every [Holy site]",
                 ],
                 "requires": ["Mandate Of Heaven"],
                 "row": 2,
-                "column": 3
+                "column": 5
             },
             {
                 "name": "Piety Complete",
