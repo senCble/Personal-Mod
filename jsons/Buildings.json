@@ -574,8 +574,9 @@
 	},
 	{
 		"name": "University",
-		"cost": 175,
+		"cost": 150,
 		"maintenance": 2,
+		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Library",
@@ -586,8 +587,9 @@
 		"name": "Wat",
 		"replaces": "University",
 		"uniqueTo": "Siam",
-		"cost": 175,
+		"cost": 150,
 		"maintenance": 2,
+		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"culture": 3,
@@ -743,7 +745,7 @@
 	},
     	{
         	"name": "Constabulary",
-        	"cost": 175,
+        	"cost": 150,
         	"maintenance": 1,
         	"uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
         	"requiredTech": "Banking"
@@ -966,7 +968,7 @@
 	// Column 10
 	{
 		"name": "Hospital",
-		"cost": 375,
+		"cost": 400,
 		"food": 5,
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
@@ -976,7 +978,7 @@
 	},
 	{
 		"name": "Stock Exchange",
-		"cost": 375,
+		"cost": 400,
 		"gold": 3,
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 2},
@@ -986,7 +988,7 @@
 	},
 	{
 		"name": "Hydro Plant",
-		"cost": 375,
+		"cost": 400,
 		"requiredResource": "Aluminum",
 		"hurryCostModifier": 0,
 		"maintenance": 3,
@@ -995,7 +997,7 @@
 	},
     	{
         	"name": "Police Station",
-        	"cost": 300,
+        	"cost": 250,
         	"maintenance": 1,
         	"uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
         	"requiredBuilding": "Constabulary",
@@ -1041,7 +1043,7 @@
             		"New spies start with [1] level(s)",
             		"Promotes all spies [1] time(s)",
             		"Gain an extra spy", // Order is significant here
-			"[-15]% enemy spy effectiveness [in all cities]",
+			"[-15]% enemy spy effectiveness [in this city]",
 			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [25] per owned city"],
         	"requiredTech": "Radio"
@@ -1051,6 +1053,7 @@
 		"cityStrength": 12,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
+		"cost": 400,
 		"requiredBuilding": "Arsenal",
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["Destroyed when the city is captured"]
@@ -1219,7 +1222,7 @@
 		"name": "Spaceship Factory",
 		"production": 3,
 		"requiredResource": "Aluminum",
-		"cost": 375,
+		"cost": 400,
 		"requiredBuilding": "Factory",
 		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]"],
 		"requiredTech": "Robotics"
