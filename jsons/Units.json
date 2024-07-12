@@ -57,10 +57,10 @@
 		"movement": 2,
 		"strength": 9,
 		"cost": 40,
-		"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
 		"obsoleteTech": "Gunpowder",
 		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Swordsman",
+		"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -72,9 +72,9 @@
 		"strength": 9,
 		"cost": 40,
 		"obsoleteTech": "Gunpowder",
-		"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
 		"promotions": ["[Jaguar] ability","Woodsman"],
 		"upgradesTo": "Swordsman",
+		"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -301,10 +301,10 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+250]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
 			"[-33]% Strength <vs [Military] units>","[-33]% Strength <vs [Military] units> <when attacking>",
 			"[-1] Sight"]
-		"promotions":  ["Cover I"],
+		"promotions":  ["Cover I","Volley"],
 		"attackSound": "throw"
 	},
 	/* Classical Era */
