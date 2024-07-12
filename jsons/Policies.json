@@ -190,7 +190,7 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "[+1 Happiness] [in annexed cities]",
+                    "[+1 Happiness] <in [non-[Capital]] cities>",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
                     "[-25]% maintenance costs <for [Land] units>",
                 ],
