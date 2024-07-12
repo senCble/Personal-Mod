@@ -274,10 +274,10 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "[+2 Science] from every [Armory]",
-                    "Gain a free [Enhancer] belief <after founding a religion>",
+                    "[+3 Science] from every [Armory]",
+                    "[+3 Science] from every [Holy site]",
                 ],
-                "requires": ["Free Religion",],
+                "requires": ["Free Religion"],
                 "row": 3,
                 "column": 3
             },
@@ -285,7 +285,7 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-                    "[+3 Science] from every [Holy site]",
+                    "Gain a free [Enhancer] belief <after founding a religion>",
                     "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
