@@ -745,7 +745,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Viking Fury",
-		"uniques": ["[Land] units gain the [Seafarer] promotion", "[Melee] units gain the [Raider] promotion", "[+1 Happiness] [in all cities] <when at war>"],
+		"uniques": ["[Land] units gain the [Seafarer] promotion", "[Melee] units gain the [Pillager] promotion", "[+1 Happiness] [in all cities] <when at war>"],
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
