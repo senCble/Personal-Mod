@@ -909,7 +909,7 @@
 	},
 	{
 		"name": "Factory",
-		"cost": 350,
+		"cost": 400,
 		"production": 4,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 2},
@@ -976,7 +976,7 @@
 	},
     	{
         	"name": "Police Station",
-        	"cost": 350,
+        	"cost": 300,
         	"maintenance": 1,
         	"uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
         	"requiredBuilding": "Constabulary",
