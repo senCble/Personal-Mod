@@ -9,7 +9,6 @@
 		"movement": 2,
 	    	"cost": 65,
 		"uniques": ["Can build [Land] improvements on tiles", 
-              		"Can build [Water] improvements on tiles", 
               		"Automation is a primary action"],
   	},
 	{
@@ -134,12 +133,11 @@
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
-		"cost": 25,
+		"cost": 40,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>",
             		"May create improvements on water resources",
-            		"Uncapturable",
-            		"Automation is a primary action"]
+            		"Uncapturable","Automation is a primary action"]
   	},
 	{
 		"name": "Galley",
