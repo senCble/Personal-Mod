@@ -278,13 +278,13 @@
 		"replaces": "Spearman",
 		"uniqueTo": "Celts",
 		"movement": 2,
-		"strength": 12,
+		"strength": 11,
 		"cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
-		"promotions": ["Pictish Courage"],
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
+		"promotions": ["Foreign Lands Bonus","Pillager"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -296,8 +296,8 @@
 		"strength": 11,
 		"cost": 75,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Pikeman",
+		"obsoleteTech": "Chemistry",
+		"upgradesTo": "Trebuchet",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
 			"[-33]% Strength <vs [Military] units>","[-33]% Strength <vs [Military] units> <when attacking>",
 			"[-1] Sight"]
@@ -388,7 +388,7 @@
 		"uniqueTo": "Byzantium",
 		"replaces": "Horseman",
 		"movement": 3,
-		"strength": 14,
+		"strength": 15,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
@@ -462,7 +462,7 @@
 	},
 	{
 		"name": "Swordsman",
-		"unitType": "Sword",
+		"unitType": "Siege",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
@@ -485,7 +485,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"promotions": ["[Legion] ability"],
+		"promotions": ["Cover I","[Legion] ability"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -564,7 +564,7 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units>", "Can move immediately once bought"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"promotions": ["Raider"],
+		"promotions": ["Formation I"],
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW
 	},
@@ -608,8 +608,8 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Railroads",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", 
-			"Founds a new city <on foreign continents>","[+1] Sight"],
-		"promotions": ["Seafarer","War Canoe"],
+			"Founds a new city <on foreign continents>","Defense bonus when embarked"],
+		"promotions": ["Seafarer","Sentry"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
 		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
@@ -643,7 +643,7 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"promotions": ["Raider"],
+		"promotions": ["Pillager"],
 		"attackSound": "horse"
 	},
 	{
@@ -996,7 +996,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["[+33]% Strength <vs [Mounted] units>","Can move after attacking","No defensive terrain bonus"],
-		"promotions": ["[Sipahi] ability"],
+		"promotions": ["Pillager","Sentry"],
 		"attackSound": "horse"
 	},
 	{
@@ -1127,7 +1127,7 @@
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Great War Infantry",
 		"uniques": ["Unbuildable","Cannot be purchased"],
-		"promotions": ["[Foreign Legion] ability"],
+		"promotions": ["Foreign Lands Bonus"],
 		"attackSound": "shot"
 	},
 	{
