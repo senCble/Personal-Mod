@@ -422,7 +422,7 @@
 		"era": "Modern era",
 		"techCost": 3100,
 		"buildingCost": 500,
-		"wonderCost": 1060,
+		"wonderCost": 1050,
 		"techs": [
 			{
 				"name": "Refrigeration",
