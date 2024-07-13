@@ -768,6 +768,10 @@
 		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles","Can build [Moai] improvements on tiles"]
 	},
 	{
+		"name": "Coastal Builders", // only for Maori Warrior and subsequent upgrades
+		"uniques": ["Can build [Water] improvements on tiles","Can build [Moai] improvements on tiles"]
+	},
+	{
 		"name": "[Jaguar] ability",
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", 
 			"Heals [25] damage if it kills a unit"]
