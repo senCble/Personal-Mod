@@ -36,7 +36,6 @@
 	{
 		"name": "Granary",
 		"food": 2,
-		"cost": 55,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
@@ -65,7 +64,6 @@
 	},
 	{
 		"name": "Temple of Artemis",
-		"cost": 175,
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -93,7 +91,6 @@
 	},
 	{
 		"name": "Stonehenge",
-		"cost": 175,
 		"faith": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -118,7 +115,6 @@
 	},
 	{
 		"name": "The Great Library",
-		"cost": 175,
 		"science": 3,
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -176,7 +172,6 @@
 	},
 	{
 		"name": "The Pyramids",
-		"cost": 175,
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
@@ -186,7 +181,6 @@
 	},
 	{
 		"name": "Mausoleum of Halicarnassus",
-		"cost": 175,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
@@ -213,7 +207,6 @@
 	},
 	{
 		"name": "Statue of Zeus",
-		"cost": 175,
 		"culture": 3,
 		"isWonder": true,
                 "greatPersonPoints": {"Great Engineer": 1},
@@ -224,7 +217,6 @@
 	},
 	{
 		"name": "Colossus",
-		"cost": 175,
 		"culture": 1,
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
@@ -458,7 +450,6 @@
 	// Column 5
 	{
 		"name": "Garden",
-		"cost": 125,
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -530,7 +521,6 @@
 	},
 	{
 		"name": "Workshop",
-		"cost": 125,
 		"maintenance": 2,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
@@ -553,7 +543,6 @@
 	},
 	{
 		"name": "Forge",
-		"cost": 125,
 		"maintenance": 1,
 		"production": 1,
 		"hurryCostModifier": 25,
@@ -573,7 +562,6 @@
 	},
 	{
 		"name": "University",
-		"cost": 150,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 33},
@@ -586,7 +574,6 @@
 		"name": "Wat",
 		"replaces": "University",
 		"uniqueTo": "Siam",
-		"cost": 150,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 33},
@@ -617,7 +604,6 @@
 	},
 	{
 		"name": "Castle",
-		"cost": 150,
 		"cityStrength": 8,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
@@ -627,7 +613,6 @@
 	},
 	{
 		"name": "Mughal Fort",
-		"cost": 150,
 		"replaces": "Castle",
 		"uniqueTo": "India",
 		"cityStrength": 8,
@@ -669,7 +654,6 @@
 	},
 	{
 		"name": "Armory",
-		"cost": 150,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
@@ -860,7 +844,6 @@
 	},
 	{
 		"name": "Arsenal",
-		"cost": 250,
 		"cityStrength": 10,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
@@ -870,10 +853,10 @@
 	},
 	{
 		"name": "Krepost",
-		"cost": 200,
 		"replaces": "Arsenal",
 		"uniqueTo": "Russia",
-		"cityStrength": 10,
+		"cost": 200,
+		"cityStrength": 12,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Castle",
@@ -926,7 +909,7 @@
 	},
 	{
 		"name": "Factory",
-		"cost": 375,
+		"cost": 350,
 		"production": 4,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 2},
@@ -967,7 +950,6 @@
 	// Column 10
 	{
 		"name": "Hospital",
-		"cost": 400,
 		"food": 5,
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
@@ -977,7 +959,6 @@
 	},
 	{
 		"name": "Stock Exchange",
-		"cost": 400,
 		"gold": 3,
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 2},
@@ -987,7 +968,6 @@
 	},
 	{
 		"name": "Hydro Plant",
-		"cost": 400,
 		"requiredResource": "Aluminum",
 		"hurryCostModifier": 0,
 		"maintenance": 3,
@@ -996,7 +976,7 @@
 	},
     	{
         	"name": "Police Station",
-        	"cost": 250,
+        	"cost": 350,
         	"maintenance": 1,
         	"uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
         	"requiredBuilding": "Constabulary",
@@ -1049,17 +1029,16 @@
     	},
 	{
 		"name": "Military Base",
+		"cost": 400,
 		"cityStrength": 12,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
-		"cost": 400,
 		"requiredBuilding": "Arsenal",
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
 		"name": "Statue of Liberty",
-		"cost": 1050,
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -1069,7 +1048,6 @@
 	},
 	{
 		"name": "Neuschwanstein",
-		"cost": 1050,
 		"happiness": 2,
 		"culture": 4,
 		"gold": 6,
