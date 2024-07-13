@@ -324,7 +324,7 @@
 		"name": "Temple",
 		"faith": 2,
 		"requiredBuilding": "Shrine",
-		"maintenance": 1,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled"]
@@ -334,7 +334,7 @@
 		"replaces": "Temple",
 		"uniqueTo": "Egypt",
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
-		"culture": 3,
+		"happiness": 2,
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
@@ -345,7 +345,7 @@
 		"replaces": "Temple",
 		"uniqueTo": "Songhai",
 		"hurryCostModifier": 25,
-		"happiness": 2,
+		"culture": 2,
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy"
