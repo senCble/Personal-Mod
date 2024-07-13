@@ -610,8 +610,8 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Railroads",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", 
-			"Founds a new city <on foreign continents>","[+2] Sight"],
-		"promotions": ["Seafarer"],
+			"Founds a new city <on foreign continents>"],
+		"promotions": ["Seafarer","Sentry"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
 		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
