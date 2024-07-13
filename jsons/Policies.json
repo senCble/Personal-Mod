@@ -255,7 +255,7 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+3 Faith] from every [Armory]",
+                    "[+2 Faith] from every [Armory]",
                 ],
                 "row": 1,
                 "column": 4
