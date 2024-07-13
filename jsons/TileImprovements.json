@@ -11,6 +11,7 @@
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
             		"Pillaging this improvement yields approximately [+18 Gold]",
+			"Cannot be built on [{non-[Wheat]} {resource}] tiles"
 		],
 		"shortcutKey": "F"
 	},
@@ -20,7 +21,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
-		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]","Cannot be built on [Bonus resource] tiles"],
+		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]","Cannot be built on [resource] tiles"],
 		"shortcutKey": "L"
 	},
 	{
@@ -38,7 +39,7 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Currency",
-		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]","Cannot be built on [Bonus resource] tiles"],
+		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]","Cannot be built on [resource] tiles"],
 		"shortcutKey": "T"
 	},
 
@@ -169,12 +170,12 @@
 	// These are unique and have unique in-game checks related to them
 	{
 		"name": "Remove Road",
-		"turnsToBuild": 2,
+		"turnsToBuild": 1,
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
 		"name": "Remove Railroad",
-		"turnsToBuild": 2,
+		"turnsToBuild": 1,
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
@@ -269,7 +270,7 @@
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
 			"[+1 Gold] from [non-[River]] tiles <after adopting [Constitution]>",
-			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
             		"Pillaging this improvement yields approximately [+18 Gold]"
                 ],
 		"techRequired": "Construction",
