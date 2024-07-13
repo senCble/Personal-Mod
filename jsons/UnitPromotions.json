@@ -769,7 +769,7 @@
 	},
 	{
 		"name": "Coastal Builders", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["Can build [Water] improvements on tiles","Can build [Moai] improvements on tiles"]
+		"uniques": ["[+1] Sight <for [Embarked] units>","Can build [Water] improvements on tiles","Can build [Moai] improvements on tiles"]
 	},
 	{
 		"name": "[Jaguar] ability",
