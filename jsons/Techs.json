@@ -4,7 +4,7 @@
 		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 40,
-		"wonderCost": 185,
+		"wonderCost": 175,
 		"techs": [
 			{
 				"name": "Agriculture",
@@ -18,8 +18,8 @@
 		"columnNumber": 1,
 		"era": "Ancient era",
 		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"buildingCost": 55,
+		"wonderCost": 175,
 		"techs": [
 			{
 				"name": "Pottery",
@@ -53,12 +53,13 @@
 		"era": "Ancient era",
 		"techCost": 55,
 		"buildingCost": 75,
-		"wonderCost": 185,
+		"wonderCost": 175,
 		"techs": [
 			{
 				"name": "Sailing",
 				"row": 1,
 				"prerequisites": ["Pottery"],
+				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
@@ -102,16 +103,15 @@
 	{
 		"columnNumber": 3,
 		"era": "Classical era",
-		"techCost": 105,
+		"techCost": 100,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
 			{
 				"name": "Optics",
-				"cost": 85,
+				"cost": 75,
 				"row": 1,
 				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
@@ -178,7 +178,7 @@
 		"columnNumber": 5,
 		"era": "Medieval era",
 		"techCost": 275,
-		"buildingCost": 120,
+		"buildingCost": 125,
 		"wonderCost": 300,
 		"techs": [
 			{
@@ -212,8 +212,8 @@
 	{
 		"columnNumber": 6,
 		"era": "Medieval era",
-		"techCost": 485,
-		"buildingCost": 160,
+		"techCost": 475,
+		"buildingCost": 150,
 		"wonderCost": 400,
 		"techs": [
 			{
@@ -261,7 +261,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Renaissance era",
-		"techCost": 780,
+		"techCost": 775,
 		"buildingCost": 200,
 		"wonderCost": 500,
 		"techs": [
@@ -387,7 +387,7 @@
 		"columnNumber": 10,
 		"era": "Industrial era",
 		"techCost": 2350,
-		"buildingCost": 360,
+		"buildingCost": 400,
 		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
 		"techs": [
 			{
