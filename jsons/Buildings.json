@@ -615,12 +615,13 @@
 		"name": "Mughal Fort",
 		"replaces": "Castle",
 		"uniqueTo": "India",
-		"cityStrength": 8,
+		"cost": 125,
+		"cityStrength": 10,
 		"cityHealth": 25,
 		"culture": 2,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
-		"uniques": ["[5]% of excess happiness converted to [Gold] <in this city> <after discovering [Flight]>", "Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
 	},
 	{
