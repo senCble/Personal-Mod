@@ -11,7 +11,6 @@
 		"uniques": ["Can build [Land] improvements on tiles", 
               		"Can build [Water] improvements on tiles", 
               		"Automation is a primary action"],
-	    	"hurryCostModifier": 10
   	},
 	{
 		"name": "Settler",
@@ -145,14 +144,14 @@
 	{
 		"name": "Galley",
 		"unitType": "Ranged Water",
-		"movement": 4,
-		"strength": 6,
-		"rangedStrength": 6,
+		"movement": 3,
+		"strength": 7,
+		"rangedStrength": 7,
 		"cost": 40,
 		"requiredTech": "Sailing",
 		"upgradesTo": "Galleass",
 		"obsoleteTech": "Compass",
-		"uniques": ["Cannot enter ocean tiles","[+33]% Strength <vs [Barbarian] units>"],
+		"uniques": ["Cannot enter ocean tiles","[+33]% Strength <vs [Barbarian] units>","unable to pillage tiles <for [Barbarians]>"],
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
@@ -318,6 +317,7 @@
 		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
+		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -333,6 +333,7 @@
 		"promotions": ["Besiege"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Navigation",
+		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
 	{
