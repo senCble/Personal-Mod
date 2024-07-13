@@ -242,16 +242,17 @@
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 1,
+		"production": 1,
 		"turnsToBuild": 4,
 		"uniques": [
                         "Can only be built on [Coastal] tiles",
 			"Can be built outside your borders",
-                        "[+1 Gold] for each adjacent [Moai]",
-			"[+1 Gold] for each adjacent [City center]",
-			"[+1 Faith] <after discovering [Theology]>",
-                        "[+2 Culture] <after discovering [Flight]>",
+                        "[+1 Culture] for each adjacent [Moai]",
+			"[+1 Culture] for each adjacent [City center]",
+			"[+1 Culture] for each adjacent [{Coastal} {resource}]",
+                        "[+2 Gold] <after discovering [Flight]>",
 			"[+20]% Strength bonus for [Military] units within [3] tiles",
+			"Cannot be built on [resource] tiles",
                         "Pillaging this improvement yields approximately [+10 Gold]"
                 ],
 		"techRequired": "Construction",
@@ -269,6 +270,7 @@
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
 			"[+1 Gold] from [non-[River]] tiles <after adopting [Constitution]>",
+			"Cannot be built on [Bonus resource] tiles",
             		"Pillaging this improvement yields approximately [+18 Gold]"
                 ],
 		"techRequired": "Construction",
@@ -283,6 +285,7 @@
 		"uniques": [
                         "[+1 Production, +1 Gold] <after discovering [Economics]>",
 			"Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
+			"Cannot be built on [resource] tiles",
 			"Pillaging this improvement yields approximately [+18 Gold]"
                 ],
 		"techRequired": "Guilds",
@@ -300,8 +303,8 @@
                     "Gives a defensive bonus of [50]%",
                     "[+2 Culture] <after discovering [Flight]>",
                     "Must be next to [Luxury resource]",
-                    "Cannot be built on [resource] tiles",
                     "Only available <with [0] to [0] neighboring [Chateau] tiles>",
+		    "Cannot be built on [resource] tiles",
                     "Pillaging this improvement yields approximately [+20 Gold]"
                 ]
         },
