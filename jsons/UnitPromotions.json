@@ -768,8 +768,8 @@
 		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
-		"name": "Coastal Builders", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[+1] Sight <for [Embarked] units>","Can build [Moai] improvements on tiles","Can build [Water] improvements on tiles"]
+		"name": "Coastal Settlers", // only for Maori Warrior and subsequent upgrades
+		"uniques": ["[+20]% Strength <within [3] tiles of a [Moai]>", "[+1] Sight <for [Embarked] units>", "Can build [Coastal] improvements on tiles"]
 	},
 	{
 		"name": "[Jaguar] ability",
