@@ -182,7 +182,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
-                    "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
+                    "[-25]% maintenance costs <for [Land] units>",
                 ],
                 "row": 1,
                 "column": 2
@@ -190,9 +190,9 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "[+1 Happiness] <in [non-[Capital]] cities>",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
-                    "[-25]% maintenance costs <for [Land] units>",
+                    "[+1 Happiness] <in annexed cities>",
+                    "[+1 Happiness] <in puppeted cities>",
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
