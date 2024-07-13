@@ -537,7 +537,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Wayfinding",
 		"uniques": ["Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", 
-			"Starts with [Sailing]", "[All] units gain the [Coastal Settlers] promotion"],
+			"Starts with [Sailing]", "[Military] units gain the [Pacific Islander] promotion"],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
