@@ -1029,10 +1029,9 @@
     	},
 	{
 		"name": "Military Base",
-		"cost": 400,
+		"cost": 500,
 		"cityStrength": 12,
 		"cityHealth": 50,
-		"hurryCostModifier": 25,
 		"requiredBuilding": "Arsenal",
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["Destroyed when the city is captured"]
