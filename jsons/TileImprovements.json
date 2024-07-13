@@ -242,7 +242,7 @@
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 1,
+		"gold": 1,
 		"turnsToBuild": 4,
 		"uniques": [
                         "Can only be built on [Coastal] tiles",
@@ -251,7 +251,6 @@
 			"[+1 Culture] for each adjacent [City center]",
 			"[+1 Culture] for each adjacent [{Coastal} {resource}]",
                         "[+2 Gold] <after discovering [Flight]>",
-			"[+20]% Strength bonus for [Military] units within [3] tiles",
 			"Cannot be built on [resource] tiles",
                         "Pillaging this improvement yields approximately [+10 Gold]"
                 ],
