@@ -58,8 +58,7 @@
 			{
 				"name": "Sailing",
 				"row": 1,
-				"prerequisites": ["Pottery"],
-				"uniques": ["Enables embarkation for land units"],
+				"prerequisites": ["Pottery"],			
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
@@ -112,6 +111,7 @@
 				"cost": 75,
 				"row": 1,
 				"prerequisites": ["Sailing"],
+				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
