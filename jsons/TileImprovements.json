@@ -204,7 +204,7 @@
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
-		"uniques": ["Great Improvement", "[+2 Culture] <after discovering [Flight]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Manufactory",
@@ -242,15 +242,16 @@
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"gold": 1,
+		"culture": 1,
 		"turnsToBuild": 4,
 		"uniques": [
                         "Can only be built on [Coastal] tiles",
 			"Can be built outside your borders",
-                        "[+1 Culture] for each adjacent [Moai]",
-			"[+1 Culture] for each adjacent [City center]",
+                        "[+1 Gold] for each adjacent [Moai]",
+			"[+1 Gold] for each adjacent [City center]",
 			"[+1 Faith] <after discovering [Theology]>",
-                        "[+2 Gold] <after discovering [Flight]>", 
+                        "[+2 Culture] <after discovering [Flight]>",
+			"[+20]% Strength bonus for [Military] units within [3] tiles",
                         "Pillaging this improvement yields approximately [+10 Gold]"
                 ],
 		"techRequired": "Construction",
@@ -276,8 +277,7 @@
 	{
 		"name": "Polder",
 		"uniqueTo": "The Netherlands",
-		"food": 2,
-		"gold": 1,
+		"food": 3,
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains", "Coast", "Lakes"],
 		"turnsToBuild": 7,
 		"uniques": [
@@ -293,13 +293,12 @@
                 "uniqueTo": "France",
                 "terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
-		"culture": 1,
-		"gold": 1,
+		"gold": 2,
                 "turnsToBuild": 7,
                 "techRequired": "Chivalry",
                 "uniques": [
                     "Gives a defensive bonus of [50]%",
-                    "[+2 Gold] <after discovering [Flight]>",
+                    "[+2 Culture] <after discovering [Flight]>",
                     "Must be next to [Luxury resource]",
                     "Cannot be built on [resource] tiles",
                     "Only available <with [0] to [0] neighboring [Chateau] tiles>",
