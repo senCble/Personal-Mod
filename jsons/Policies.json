@@ -228,16 +228,16 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "[+2 Culture] from every [Temple]",
+            "[-20]% Faith cost of generating Great Prophet equivalents",
+            "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
+            "[Faith] cost of purchasing [All] buildings [-20]%"  
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[-20]% Faith cost of generating Great Prophet equivalents",
-                    "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
-                    "[Faith] cost of purchasing [All] buildings [-20]%"  
+                    "[+100]% Production when constructing [Temple] buildings [in all cities]",
+                    "[+2 Culture] from every [Temple]",
                 ],
                 "row": 1,
                 "column": 2
@@ -273,9 +273,9 @@
             },
             {
                 "name": "Reformation",
-                "uniques": [                    
-                    "[+3 Science] from every [Armory]",
-                    "[+3 Science] from every [Holy site]",
+                "uniques": [                   
+                    "[+2 Science] from every [Armory]",
+                    "Gain a free [Enhancer] belief <after founding a religion>",
                 ],
                 "requires": ["Mandate Of Heaven"],
                 "row": 2,
@@ -285,7 +285,7 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "Free [Great Prophet] appears",
-                    "Gain a free [Enhancer] belief <after founding a religion>",
+                    "[+3 Science] from every [Holy site]",
                     "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>",
                 ]
             }
