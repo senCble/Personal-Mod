@@ -149,7 +149,7 @@
 		"requiredTech": "Sailing",
 		"upgradesTo": "Galleass",
 		"obsoleteTech": "Compass",
-		"uniques": ["Cannot enter ocean tiles","[+33]% Strength <vs [Barbarian] units>","unable to pillage tiles"],
+		"uniques": ["Cannot enter ocean tiles","[+33]% Strength <vs [Barbarian] units>","Unable to pillage tiles"],
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
