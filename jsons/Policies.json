@@ -191,8 +191,8 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[-33]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness] <in annexed cities>",
-                    "[+1 Happiness] <in puppeted cities>",
+                    "[+1 Happiness] [in annexed cities]",
+                    "[+1 Happiness] [in puppeted cities]",
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
@@ -211,7 +211,8 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+                    "Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
+                    "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
