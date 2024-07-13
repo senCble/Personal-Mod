@@ -240,7 +240,7 @@
                     "[Faith] cost of purchasing [All] buildings [-20]%"  
                 ],
                 "row": 1,
-                "column": 3
+                "column": 2
             },
             {
                 "name": "Theocracy",
@@ -258,8 +258,8 @@
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
                     "[+2 Faith] from every [Armory]",
                 ],
-                "row": 2,
-                "column": 5
+                "row": 1,
+                "column": 4
             },
             {
                 "name": "Free Religion",
