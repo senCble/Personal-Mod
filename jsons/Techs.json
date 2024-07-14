@@ -212,7 +212,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Medieval era",
-		"techCost": 475,
+		"techCost": 500,
 		"buildingCost": 150,
 		"wonderCost": 400,
 		"techs": [
