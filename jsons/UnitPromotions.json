@@ -856,7 +856,7 @@
 	},
 	{
 		"name": "War Canoe",
-		"uniques": ["Defense bonus when embarked","[+1] Sight <for [Embarked] units>"]
+		"uniques": ["Defense bonus when embarked","[+1] Sight <for [Embarked] units>","[+1] Movement <when [Embarked]>"]
 	},
 	{	// For barbarian water units
 		"name": "Unable to pillage tiles",
