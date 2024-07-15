@@ -288,7 +288,7 @@
 	// Water melee
 	{
 		"name": "Boarding Party I",
-		"uniques": ["[+5]% Strength","[+10]% Strength <vs [Water] units>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"],
         "column": 11,
         "row": 1
@@ -296,7 +296,7 @@
 	{
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
-		"uniques": ["[+5]% Strength","[+10]% Strength <vs [Water] units>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"],
         "column": 11,
         "row": 2
@@ -304,7 +304,7 @@
 	{
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
-		"uniques": ["[+5]% Strength","[+10]% Strength <vs [Water] units>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"],
         "column": 11,
         "row": 3
@@ -769,7 +769,7 @@
 	},
 	{
 		"name": "Pacific Islander", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[+20]% Strength <within [3] tiles of a [Moai]>", "[+1] Sight <for [Embarked] units>", "Can build [Coastal] improvements on tiles"]
+		"uniques": ["[+15]% Strength <within [3] tiles of a [Moai]>", "[+1] Sight <for [Embarked] units>", "Can build [Coastal] improvements on tiles"]
 	},
 	{
 		"name": "[Jaguar] ability",
