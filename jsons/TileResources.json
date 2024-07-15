@@ -17,7 +17,7 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [12] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 			"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
 	},
 	{
@@ -31,7 +31,7 @@
 					"Generated on every [10] tiles <in [{Featureless} {Tundra}] tiles>",
 					"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
 					"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
-					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
+					"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
 					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
 	},
 	{
@@ -63,7 +63,7 @@
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
-					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [13] tiles <in [{Featureless} {Tundra}] tiles>",
 					"Generated on every [20] tiles <in [{Featureless} {Desert}] tiles>"]
 	},
 	{
