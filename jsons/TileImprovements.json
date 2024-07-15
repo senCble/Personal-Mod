@@ -205,7 +205,7 @@
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+2 Culture] <after discovering [Flight]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Manufactory",
@@ -301,7 +301,7 @@
                 "techRequired": "Chivalry",
                 "uniques": [
                     "Gives a defensive bonus of [50]%",
-                    "[+1 Culture, +1 Gold] <after discovering [Flight]>",
+                    "[+2 Culture] <after discovering [Flight]>",
                     "Must be next to [Luxury resource]",
                     "Only available <with [0] to [0] neighboring [Chateau] tiles>",
 		    "Cannot be built on [resource] tiles",
