@@ -796,10 +796,6 @@
         	"uniques": ["[+10]% Strength <when adjacent to a [{Military} {Land}] unit>"]
     	},
 	{
-		"name": "[Mohawk Warrior] ability",
-		"uniques": ["Invisible to non-adjacent units <in [{Friendly Land} {Forest}] tiles>", "Invisible to non-adjacent units <in [{Friendly Land} {Jungle}] tiles>"]
-	},
-	{
         	"name": "[Legion] ability",
         	"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can build [Repair] improvements on tiles"]
     	},
