@@ -769,7 +769,7 @@
 	},
 	{
 		"name": "Pacific Islander", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[+15]% Strength <within [3] tiles of a [Moai]>", "[+3] Sight <when [Embarked]>", "[+3] Movement <when [Embarked]>", "Can build [Coastal] improvements on tiles"]
+		"uniques": ["[+15]% Strength <within [3] tiles of a [Moai]>", "[+1] Sight <when [Embarked]>", "Can build [Coastal] improvements on tiles"]
 	},
 	{
 		"name": "[Jaguar] ability",
