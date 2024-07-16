@@ -773,8 +773,7 @@
 	},
 	{
 		"name": "[Jaguar] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", 
-			"Heals [25] damage if it kills a unit"]
+		"uniques": ["Heals [25] damage if it kills a unit"]
 	},
 	{
 		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
@@ -798,8 +797,7 @@
     	},
 	{
 		"name": "[Mohawk Warrior] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>",
-			"[+10] HP when healing <in [Friendly Land] tiles>"]
+		"uniques": ["Invisible to non-adjacent units <in [{Friendly Land} {Forest}] tiles>", "Invisible to non-adjacent units <in [{Friendly Land} {Jungle}] tiles>"]
 	},
 	{
         	"name": "[Legion] ability",
@@ -837,6 +835,10 @@
 	{
 		"name": "[Zero] ability",
 		"uniques": ["[+33]% Strength <vs [Air] units>"]
+	},
+	{
+		"name": "Bonus in Forest/Jungle",
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"]
 	},
 	{
         	"name": "Pillager",
