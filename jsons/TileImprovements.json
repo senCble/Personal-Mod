@@ -74,7 +74,7 @@
 	},
 	{
 		"name": "Plantation",
-		"turnsToBuild": 6,
+		"turnsToBuild": 8,
 		"gold": 1,
 		"techRequired": "Calendar",
 		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
@@ -249,6 +249,7 @@
                         "Can only be built on [Coastal] tiles",
 			"Can be built outside your borders",
                         "[+1 Culture] for each adjacent [Moai]",
+			"[+1 Culture] for each adjacent [City Center]",
 			"[+1 Culture] for each adjacent [{Coastal} {Land} {resource}]",
                         "[+2 Gold] <after discovering [Flight]>",
 			"Cannot be built on [resource] tiles",
