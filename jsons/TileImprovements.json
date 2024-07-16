@@ -250,9 +250,8 @@
 			"Can be built outside your borders",
                         "[+1 Culture] for each adjacent [Moai]",
 			"[+1 Culture] for each adjacent [City Center]",
-			"[+1 Culture] for each adjacent [{Coastal} {Land} {resource}]",
-                        "[+2 Gold] <after discovering [Flight]>",
-			"Cannot be built on [resource] tiles",
+			"[+2 Gold] <after discovering [Flight]>",
+			"Cannot be built on [Luxury resource] tiles",
                         "Pillaging this improvement yields approximately [+10 Gold]"
                 ],
 		"techRequired": "Construction",
