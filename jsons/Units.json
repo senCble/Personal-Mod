@@ -70,7 +70,7 @@
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Gunpowder",
-		"promotions": ["[Jaguar] ability","Woodsman"],
+		"promotions": ["Bonus in Forest/Jungle","[Jaguar] ability","Woodsman"],
 		"upgradesTo": "Swordsman",
 		"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
@@ -478,7 +478,7 @@
 		"uniqueTo": "Rome",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 16,
+		"strength": 17,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
@@ -500,7 +500,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
-		"promotions": ["[Mohawk Warrior] ability"],
+		"promotions": ["Bonus in Forest/Jungle", "[Mohawk Warrior] ability"],
 		"attackSound": "metalhit"
 	},
 	/*
