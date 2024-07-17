@@ -190,7 +190,7 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "[+50]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "[+1 Happiness] [in annexed cities]",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
                     "[-25]% maintenance costs <for [Land] units>",
                 ],
@@ -774,8 +774,8 @@
             {
                 "name": "Police State",
                 "uniques": [
-                    "[Gold] cost of purchasing [Courthouse] buildings [-33]%",
                     "[+3 Happiness] from every [Courthouse]",
+                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[-25]% enemy spy effectiveness [in all cities]"
                 ],
                 "requires": ["Populism"],
