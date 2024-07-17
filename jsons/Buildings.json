@@ -604,7 +604,7 @@
 	},
 	{
 		"name": "Castle",
-		"cityStrength": 8,
+		"cityStrength": 9,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
@@ -616,7 +616,7 @@
 		"replaces": "Castle",
 		"uniqueTo": "India",
 		"cost": 125,
-		"cityStrength": 10,
+		"cityStrength": 9,
 		"cityHealth": 25,
 		"culture": 2,
 		"hurryCostModifier": 25,
@@ -660,6 +660,18 @@
 		"requiredBuilding": "Barracks",
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
+	},
+	{
+		"name": "Krepost",
+		"replaces": "Armory",
+		"uniqueTo": "Russia",
+		"hurryCostModifier": 25,
+		"cost": 125,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]","Destroyed when the city is captured",
+			"[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]"],
+		"requiredTech": "Metal Casting",
 	},
 
 	// Renaissance Era
@@ -845,24 +857,12 @@
 	},
 	{
 		"name": "Arsenal",
-		"cityStrength": 10,
+		"cityStrength": 12,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Castle",
 		"requiredTech": "Metallurgy",
 		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
-		"name": "Krepost",
-		"replaces": "Arsenal",
-		"uniqueTo": "Russia",
-		"cost": 200,
-		"cityStrength": 12,
-		"cityHealth": 25,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Castle",
-		"requiredTech": "Printing Press",
-		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Kremlin",
@@ -1031,7 +1031,7 @@
 	{
 		"name": "Military Base",
 		"cost": 500,
-		"cityStrength": 12,
+		"cityStrength": 15,
 		"cityHealth": 50,
 		"requiredBuilding": "Arsenal",
 		"requiredTech": "Replaceable Parts",
