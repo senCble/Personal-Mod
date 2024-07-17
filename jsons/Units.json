@@ -297,9 +297,9 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+250]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
-			"[-33]% Strength <vs [Military] units>", "[-33]% Strength <vs [Military] units> <when attacking>", "[-1] Sight"]
-		"promotions":  ["Cover I"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-1] Sight", 
+			"[-33]% Strength <vs [Military] units>", "[-33]% Strength <vs [Military] units> <when attacking>"]
+		"promotions":  ["Cover I","Volley"],
 		"attackSound": "throw"
 	},
 	/* Classical Era */
@@ -374,7 +374,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Military Science",
-		"promotions": ["Shock I", "Great Generals I"],
+		"promotions": ["Shock I"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"hurryCostModifier": 20,
