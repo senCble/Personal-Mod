@@ -182,7 +182,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
-                    "[-25]% maintenance costs <for [Land] units>",
+                    "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
                 ],
                 "row": 1,
                 "column": 2
@@ -191,8 +191,8 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[-33]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness] [in annexed cities]",
-                    "[+1 Happiness] [in puppeted cities]",
+                    "[-25]% maintenance costs <for [Land] units>",
+                    "[+1 Happiness] <in [{Your} {non-[Capital]}] cities>",
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
@@ -211,8 +211,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
-                    "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                 ]
             }
