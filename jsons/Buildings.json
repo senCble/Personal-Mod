@@ -909,7 +909,7 @@
 		"requiredBuilding": "University",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]", "[+1 Science] from [{Featureless} {Tundra}] tiles without [resource] [in this city]", "[+1 Science] from [Tundra] tiles without [Features] [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]", "[+1 Science] from [{resourceless} {Tundra}] tiles without [Rough Terrain] [in this city]", "[+1 Science] from [Tundra] tiles without [Rough Terrain] [in this city]"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
