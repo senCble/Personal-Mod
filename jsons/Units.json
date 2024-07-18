@@ -835,7 +835,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Steam Power",
-		"uniques": ["[+3] Movement <in [Coast] tiles>"],
+		"uniques": ["[+3] Movement <in [Coastal] tiles>"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
