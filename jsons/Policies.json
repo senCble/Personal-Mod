@@ -675,7 +675,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
                     "[+100]% Production when constructing [Hospital] buildings [in all cities]",
-                    "[+30]% Strength for cities <in cities with a [Hospital]>"
+                    "[+33]% Strength for cities <in cities with a [Hospital]>"
                 ],
                 "row": 1,
                 "column": 3
