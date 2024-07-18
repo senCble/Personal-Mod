@@ -998,10 +998,11 @@
 	},
 	{
 		"name": "Refinery",
-		"cost": 500,
+		"cost": 400,
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["Provides [1] [Iron]","Provides [1] [Coal]","Provides [1] [Oil]","Limited to [4] per Civilization"]
+		"uniques": ["Provides [1] [Iron]","Provides [1] [Oil]","Limited to [4] per Civilization"]
+		"requiredResource": "Coal",
 		"requiredTech": "Refrigeration"
 	},
 	{
@@ -1030,7 +1031,7 @@
     	},
 	{
 		"name": "Military Base",
-		"cost": 500,
+		"cost": 400,
 		"cityStrength": 15,
 		"cityHealth": 50,
 		"requiredBuilding": "Arsenal",
