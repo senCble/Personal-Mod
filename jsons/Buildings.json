@@ -840,7 +840,8 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]","[+15]% Production when constructing [All] buildings [in this city]"],
+		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]",
+			"[+15]% Production when constructing [All] buildings [in this city]"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -852,7 +853,8 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]","[+25]% Great Person generation [in this city]"],
+		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]",
+			"[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -998,8 +1000,8 @@
 	},
 	{
 		"name": "Refinery",
-		"cost": 400,
 		"maintenance": 3,
+		"production": 2,
 		"hurryCostModifier": 0,
 		"uniques": ["Provides [1] [Iron]","Provides [1] [Oil]","Limited to [4] per Civilization"]
 		"requiredResource": "Coal",
