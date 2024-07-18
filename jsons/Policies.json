@@ -603,7 +603,7 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-                    "[+1 Science] from every [{non-[resource]} {Mine}]",
+                    "[+1 Science] from [Mine] tiles without [resource] [in all cities]",
                     "[+1 Science] from every [Lumber mill]",
                     "[+17]% [Science] from every [University]"
                 ],
