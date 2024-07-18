@@ -913,8 +913,8 @@
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
-		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Steam Power",
+		"upgradesTo": "Ironclad",
 		"promotions": ["Coastal Raider I"],
 		"uniques": ["[+1] Sight"]
 		"attackSound": "cannon"
@@ -929,8 +929,7 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
-		"uniques": ["May capture killed [Water] units"],
+		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply", "Prize Ships"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1176,15 +1175,15 @@
 	{
 		"name": "Ironclad",
 		"unitType": "Melee Water",
-		"movement": 3,
-		"strength": 45,
+		"movement": 5,
+		"strength": 40,
 		"cost": 250,
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Electronics",
 		"promotions": ["Coastal Raider I"],
-		"uniques": ["[+3] Movement <in [Coast] tiles>","Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 	{
