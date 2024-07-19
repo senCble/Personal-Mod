@@ -326,7 +326,7 @@
 		"replaces": "Temple",
 		"uniqueTo": "Egypt",
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
-		"culture": 2,
+		"culture": 3,
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
