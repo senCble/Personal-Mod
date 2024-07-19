@@ -345,10 +345,10 @@
 	{
 		"name": "National College",
 		"cost": 125,
-		"science": 3,
+		"science": 1,
 		"culture": 1,
 		"isNationalWonder": true,
-		"percentStatBonus": {"science": 33},
+		"percentStatBonus": {"science": 50},
 		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [25] per owned city"],
 		"requiredTech": "Philosophy"
 	},
@@ -590,7 +590,6 @@
 		"cost": 125,
 		"science": 1,
 		"culture": 1,
-		"percentStatBonus": {"science": 17},
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [University] is constructed in all [non-[Puppeted]] cities>", "Free Technology", "Cost increases by [25] per owned city"],
 		"requiredTech": "Education"
