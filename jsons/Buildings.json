@@ -345,7 +345,7 @@
 	{
 		"name": "National College",
 		"cost": 125,
-		"science": 1,
+		"science": 3,
 		"culture": 1,
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 33},
