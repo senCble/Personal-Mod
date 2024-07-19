@@ -1035,7 +1035,7 @@
     	},
 	{
 		"name": "Military Base",
-		"cost": 400,
+		"cost": 500,
 		"cityStrength": 15,
 		"cityHealth": 50,
 		"requiredBuilding": "Arsenal",
