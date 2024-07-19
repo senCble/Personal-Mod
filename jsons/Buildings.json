@@ -210,7 +210,7 @@
 		"culture": 3,
 		"isWonder": true,
                 "greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["[+25]% Strength <for [All] units> <vs cities> <when attacking>", "Gain a free [Forge] [in this city]", "Only available <after adopting [Honor]>"],
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>", "Gain a free [Forge] [in this city]", "Only available <after adopting [Honor]>"],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
 		// "Requires [Honor]" in BNW
