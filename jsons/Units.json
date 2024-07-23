@@ -27,7 +27,6 @@
 		"strength": 5,
 		"cost": 25,
     		"upgradesTo": "Marauder"
-		"obsoleteTech": "Compass",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects",
             		"Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
