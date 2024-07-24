@@ -412,8 +412,8 @@
                     "[+2 Production, +2 Science] [in all coastal cities]",
                     "Free [Great General] appears",
                 ],
-                "requires": ["Mercantilism"],
-                "row": 3,
+                "requires": ["Naval Tradition"],
+                "row": 2,
                 "column": 4
             },
             {
