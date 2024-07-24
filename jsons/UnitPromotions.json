@@ -862,7 +862,7 @@
     	},
 	{
 		"name": "Great Admiral",
-		"uniques": ["[+2] Movement <when [Embarked]>","[1] Movement point cost to disembark", "[1] Movement point cost to embark"]
+		"uniques": ["[+3] Movement <when [Embarked]>","[1] Movement point cost to disembark", "[1] Movement point cost to embark"]
 	},
 	{
 		"name": "Prize Ships",
