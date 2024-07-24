@@ -228,13 +228,12 @@
         },
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "[+100]% Production when constructing [Amphitheater] buildings [in all cities]",
+            "[+2 Faith] from every [Temple]",
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[Faith] cost of purchasing [Great Prophet] units [-20]%",
                     "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
                     "[Faith] cost of purchasing [All] buildings [-20]%"  
                 ],
@@ -245,6 +244,7 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[50]% of excess happiness converted to [Culture]",
+                    "[+1 Happiness] from every [Temple]",
                 ],
                 "row": 1,
                 "column": 5
@@ -262,8 +262,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [                   
-                    "[+1 Happiness] from every [Amphitheater]",
-                    "[+1 Happiness] from every [Temple]",
+                    "[-10]% Culture cost of adopting new Policies"
                 ],
                 "requires": ["Reformation","Mandate Of Heaven"],
                 "row": 3,
@@ -284,7 +283,7 @@
                 "uniques": [
                     "Free [Great Prophet] appears",
                     "[+3 Culture] from every [Holy site]",
-                    "[-10]% Culture cost of adopting new Policies"
+                    "[Faith] cost of purchasing [Great Prophet] units [-20]%"
                 ]
             }
         ]
@@ -410,7 +409,7 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+3 Production] [in all coastal cities]",
+                    "[+2 Production, +2 Science] [in all coastal cities]",
                     "Free [Great General] appears",
                 ],
                 "requires": ["Mercantilism"],
