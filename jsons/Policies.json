@@ -350,6 +350,7 @@
             {
                 "name": "Patronage Complete",
                 "uniques": [
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
                     "Influence of all other civilizations with all city-states degrades [33]% faster",
                     "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
                 ]
@@ -368,7 +369,6 @@
         },
         "uniques": [
             "[+25]% [Gold] [in capital]",
-            "[+2 Culture] [in all cities connected to capital]",
         ],
         "policies": [
             {
@@ -381,11 +381,11 @@
                 "column": 2
             },
             {
-                "name": "Mercantilism",
+                "name": "Naval Tradition",
                 "uniques": [
-                    "[+2 Science] from every [Market]",
-                    "[+2 Science] from every [Bank]",
-                    "[+2 Science] from every [Stock Exchange]",
+                    "[+1] Movement <for [{Military} {Water}] units>",
+                    "[+1] Sight <for [{Military} {Water}] units>",
+                    "[Great General] units gain the [Great Admiral] promotion",
                 ],
                 "row": 1,
                 "column": 4
@@ -394,7 +394,8 @@
                 "name": "Mercenary Army",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+                    "[+2 Science] from every [Market]",
+                    "[+2 Science] from every [Bank]",
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
@@ -403,16 +404,14 @@
             {
                 "name": "Protectionism",
                 "uniques": ["[+2] Happiness from each type of luxury resource"],
-                "requires": ["Mercenary Army","Mercantilism"],
+                "requires": ["Mercenary Army"],
                 "row": 3,
                 "column": 2
             },
             {
-                "name": "Naval Tradition",
+                "name": "Merchant Navy",
                 "uniques": [
-                    "[+1] Movement <for [{Military} {Water}] units>",
-                    "[+1] Sight <for [{Military} {Water}] units>",
-                    "[Great General] units gain the [Great Admiral] promotion",
+                    "[+3 Production] [in all coastal cities]",
                     "Free [Great General] appears",
                 ],
                 "requires": ["Mercantilism"],
@@ -479,8 +478,8 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness] from every [University]",
-                    "[+1 Happiness] from every [Public School]"
+                    "[+1 Happiness] from every [Public School]",
+                    "[+1 Happiness] from every [Research Lab]"
                 ],
                 "requires": ["Sovereignty"],
                 "row": 2,
@@ -585,7 +584,7 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-                    "[+1 Production, +1 Science] from every [Strategic resource]",
+                    "[+2 Science] from every [Strategic resource]",
                     "Quantity of strategic resources produced by the empire +[100]%"
                 ],
                 "row": 1,
@@ -681,7 +680,6 @@
                     "[+3 Science] [in all cities]",
                     "[+1 Production] from every [Lumber mill]",
                     "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]"
                 ],
                 "row": 2,
                 "column": 3
@@ -699,7 +697,7 @@
             {
                 "name": "Nationalism",
                 "uniques": [
-                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
                 ],
                 "row": 1,
                 "column": 5
