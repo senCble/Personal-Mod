@@ -48,7 +48,7 @@
 		"name": "Camp",
 		"turnsToBuild": 8,
 		"techRequired": "Trapping",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+2 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "C"
 	},
 	{
@@ -268,7 +268,6 @@
 			"[+1 Food] for each adjacent [Mountain]",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-			"[+1 Gold] from [non-[River]] tiles <after adopting [Constitution]>",
 			"Cannot be built on [resource] tiles",
             		"Pillaging this improvement yields approximately [+18 Gold]"
                 ],
