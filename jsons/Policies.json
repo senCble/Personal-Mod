@@ -367,14 +367,14 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+10]% [Gold] [in capital]",
-            "[+2 Gold] [in all cities connected to capital]",
+            "[+25]% [Gold] [in capital]",
+            "[+2 Culture] [in all cities connected to capital]",
         ],
         "policies": [
             {
                 "name": "Trade Unions",
                 "uniques": [
-                    "[+2 Culture] from each Trade Route",
+                    "[+2 Gold] from each Trade Route",
                     "[-50]% maintenance on road & railroads"
                 ],
                 "row": 1,
@@ -408,7 +408,7 @@
                 "column": 2
             },
             {
-                "name": "Entrepreneurship",
+                "name": "Naval Tradition",
                 "uniques": [
                     "[+1] Movement <for [{Military} {Water}] units>",
                     "[+1] Sight <for [{Military} {Water}] units>",
@@ -416,7 +416,7 @@
                     "Free [Great General] appears",
                 ],
                 "requires": ["Mercantilism"],
-                "row": 2,
+                "row": 3,
                 "column": 4
             },
             {
