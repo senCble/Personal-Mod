@@ -20,7 +20,7 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
-	  	{
+	{
 		"name": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
@@ -296,9 +296,9 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-1] Sight", 
+		"uniques": ["[+250]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-1] Sight", 
 			"[-33]% Strength <vs [Military] units>", "[-33]% Strength <vs [Military] units> <when attacking>"]
-		"promotions":  ["Cover I","Volley"],
+		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
 	/* Classical Era */
