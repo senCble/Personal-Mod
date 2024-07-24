@@ -350,7 +350,6 @@
             {
                 "name": "Patronage Complete",
                 "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
                     "Influence of all other civilizations with all city-states degrades [33]% faster",
                     "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
                 ]
@@ -593,7 +592,7 @@
             {
                 "name": "Militarism",
                 "uniques": [
-                     "[Gold] cost of purchasing [Military] units [-33]%",
+                     "[Gold] cost of purchasing [All] units [-33]%",
                 ],
                 "row": 1,
                 "column": 2
@@ -624,7 +623,6 @@
                 "uniques": [
                     "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[+3 Happiness] from every [Courthouse]",
-                    "[-25]% enemy spy effectiveness [in all cities]"
                 ],
                 "requires": ["Populism"],
                 "row": 2,
@@ -659,7 +657,8 @@
             {
                 "name": "United Front",
                 "uniques": [
-                    "[Gold] cost of purchasing [All] buildings [-33]%",
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+                    "[-25]% enemy spy effectiveness [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -677,19 +676,18 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[+3 Science] [in all cities]",
-                    "[+1 Production] from every [Lumber mill]",
-                    "[+1 Production] from every [Mine]",
+                    "[-15]% maintenance cost for buildings [in all cities]"
                 ],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Communism",
-                "requires": ["United Front","Socialism"],
+                "requires": ["Socialism"],
                 "uniques": [
-                    "Free [Great Scientist] appears",
-                    "Free [Great Engineer] appears",
+                    "[+3 Science] [in all cities]",
+                    "[+1 Production] from every [Lumber mill]",
+                    "[+1 Production] from every [Mine]",
                 ],
                 "row": 3,
                 "column": 3
