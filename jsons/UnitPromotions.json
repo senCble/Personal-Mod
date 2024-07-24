@@ -140,7 +140,7 @@
 	},
 	{
 		"name": "Coup de Grace",
-		"prerequisites": ["Accuracy III","Barrage III","Mobility II","Anti-Armor II"],
+		"prerequisites": ["Accuracy III","Barrage III","Mobility III","Anti-Armor III"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>","[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Ranged Mounted","Helicopter"],
         	"column": 27,
@@ -653,6 +653,14 @@
         "row": 2
 	},
 	{
+		"name": "Mobility III",
+		"prerequisites": ["Mobility II"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Helicopter"],
+        "column": 22,
+        "row": 2
+	},
+	{
 		"name": "Anti-Armor I",
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Helicopter"],
@@ -662,6 +670,14 @@
 	{
 		"name": "Anti-Armor II",
 		"prerequisites": ["Anti-Armor I"],
+		"uniques": ["[+25]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Helicopter"],
+        "column": 23,
+        "row": 2
+	},
+	{
+		"name": "Anti-Armor III",
+		"prerequisites": ["Anti-Armor II"],
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Helicopter"],
         "column": 23,
@@ -688,7 +704,7 @@
 
 	{
 		"name": "March",
-		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III", "Mobility II", "Anti-Armor II"],
+		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III", "Mobility III", "Anti-Armor III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted","Armored","Ranged Mounted","Helicopter"],
         "column": 10,
@@ -714,7 +730,7 @@
 	{
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
-			"Bombardment III", "Mobility II", "Anti-Armor II"],
+			"Bombardment III", "Mobility III", "Anti-Armor III"],
 		"uniques": ["[-10]% Strength <when attacking>","[1] additional attacks per turn", "Can move after attacking"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine","Ranged Mounted","Helicopter"],
         "column": 24,
@@ -830,7 +846,7 @@
 	},
 	{
 		"name": "[Zero] ability",
-		"uniques": ["[+33]% Strength <vs [Air] units>"]
+		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
 	},
 	{
 		"name": "Bonus in Forest/Jungle",
