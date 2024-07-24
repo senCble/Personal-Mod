@@ -1255,11 +1255,11 @@
 		"rangedStrength": 40,
 		"range": 5,
 		"interceptRange": 5,
-		"cost": 300,
+		"cost": 325,
 		"requiredTech": "Flight",
 		"upgradesTo": "Fighter",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>","[+50]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
-		"promotions": ["[Zero] ability", "Operational Range"],
+		"promotions": ["[Zero] ability", "Dogfighting I"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1509,7 +1509,7 @@
 		"strength": 45,
 		"rangedStrength": 60,
 		"range": 3,
-		"cost": 450,
+		"cost": 425,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Iron",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[+50]% Strength <vs cities> <when defending>","No defensive terrain bonus",
