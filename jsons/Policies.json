@@ -622,6 +622,7 @@
                 "name": "Police State",
                 "uniques": [
                     "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "[Gold] cost of purchasing [Courthouse] buildings [-25]%",
                     "[+3 Happiness] from every [Courthouse]",
                 ],
                 "requires": ["Populism"],
@@ -658,7 +659,7 @@
                 "name": "United Front",
                 "uniques": [
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-                    "[-25]% enemy spy effectiveness [in all cities]"
+                    "[-50]% enemy spy effectiveness [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
