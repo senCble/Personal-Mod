@@ -162,8 +162,8 @@
 	{
 		"name": "Walls of Babylon",
 		"replaces": "Walls",
-		"cost": 55,
 		"uniqueTo": "Babylon",
+		"cost": 55,
 		"cityStrength": 6,
 		"cityHealth": 100,
 		"hurryCostModifier": 25,
@@ -197,13 +197,14 @@
 		"requiredTech": "Bronze Working"
 	},
 	{
-		"name": "Dojo",
+		"name": "Krepost",
 		"replaces": "Barracks",
-		"uniqueTo": "Japan",
+		"uniqueTo": "Russia",
+		"cost": 55,
 		"hurryCostModifier": 25,
-		"science": 2,
-		"uniques": ["New [Military] units start with [25] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Bronze Working"
+		"uniques": ["New [Military] units start with [15] Experience [in this city]","Destroyed when the city is captured",
+			"[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]"],
+		"requiredTech": "Metal Casting",
 	},
 	{
 		"name": "Statue of Zeus",
@@ -661,18 +662,6 @@
 		"requiredBuilding": "Barracks",
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
-	},
-	{
-		"name": "Krepost",
-		"replaces": "Armory",
-		"uniqueTo": "Russia",
-		"hurryCostModifier": 25,
-		"cost": 125,
-		"maintenance": 1,
-		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]","Destroyed when the city is captured",
-			"[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]"],
-		"requiredTech": "Metal Casting",
 	},
 
 	// Renaissance Era
