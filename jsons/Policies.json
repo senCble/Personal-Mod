@@ -635,7 +635,7 @@
                 "name": "Autocracy Complete",
                 "uniques": [
                     "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
-                    "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <after the [Industrial era]>"
+                    "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>"
                 ]
             }
         ]
