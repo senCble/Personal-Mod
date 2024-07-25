@@ -401,7 +401,8 @@
                 "uniques": [
                     "[+1] Movement <for [{Military} {Water}] units>",
                     "[+1] Sight <for [{Military} {Water}] units>",
-                    "[+3] Movement <for [Great General] units> <when [Embarked]>"
+                    "[+3] Movement <for [Great General] units> <when [Embarked]>",
+                    "Free [Great General] appears"
                 ],
                 "row": 1,
                 "column": 4
@@ -411,7 +412,6 @@
                 "uniques": [
                     "[+2 Production] [in all coastal cities]",
                     "[+2 Science, +2 Gold] from every [Citadel]",
-                    "Free [Great General] appears",
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 2,
