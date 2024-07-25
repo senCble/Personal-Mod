@@ -379,16 +379,6 @@
                 "column": 2
             },
             {
-                "name": "Naval Tradition",
-                "uniques": [
-                    "[+1] Movement <for [{Military} {Water}] units>",
-                    "[+1] Sight <for [{Military} {Water}] units>",
-                    "[Great General] units gain the [Great Admiral] promotion",
-                ],
-                "row": 1,
-                "column": 4
-            },
-            {
                 "name": "Mercenary Army",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
@@ -405,6 +395,16 @@
                 "requires": ["Mercenary Army"],
                 "row": 3,
                 "column": 2
+            },
+            {
+                "name": "Naval Tradition",
+                "uniques": [
+                    "[+1] Movement <for [{Military} {Water}] units>",
+                    "[+1] Sight <for [{Military} {Water}] units>",
+                    "[+3] Movement <for [Great General] units> <when [Embarked]>"
+                ],
+                "row": 1,
+                "column": 4
             },
             {
                 "name": "Merchant Navy",
