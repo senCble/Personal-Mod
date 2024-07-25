@@ -409,7 +409,8 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+2 Production, +2 Science] [in all coastal cities]",
+                    "[+2 Production] [in all coastal cities]",
+                    "[+2 Science, +2 Gold] from every [Citadel]",
                     "Free [Great General] appears",
                 ],
                 "requires": ["Naval Tradition"],
