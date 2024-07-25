@@ -529,7 +529,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
-		"uniques": ["[+1 Production] from [Forest] tiles without [Camp] [in this city]"],
+		"uniques": ["[+1 Production] from [Lumber mill] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -897,7 +897,7 @@
 		"requiredBuilding": "University",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]", "[+1 Science] from [Tundra] tiles without [Rough terrain] [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]", "[+1 Science] from [Tundra] tiles without [Forest] [in this city]"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
