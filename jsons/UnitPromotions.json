@@ -797,7 +797,7 @@
 	},
 	{
         	"name": "[Bowman] ability",
-        	"uniques": ["[+10]% Strength <vs [Melee] units> <when defending>", "[+10]% Strength <vs [Mounted] units> <when defending>"]
+        	"uniques": ["[+10]% Strength <vs [non-[Ranged]] units> <when defending>"]
     	},
 	{
 		"name": "[Dromon] ability",
@@ -860,10 +860,6 @@
         	"name": "Devout",
         	"uniques": ["Can Spread Religion <[1] additional time(s)>"]
     	},
-	{
-		"name": "Great Admiral",
-		"uniques": ["[+3] Movement <when [Embarked]>","[1] Movement point cost to disembark", "[1] Movement point cost to embark"]
-	},
 	{
 		"name": "Prize Ships",
 		"uniques": ["May capture killed [Water] units"]
