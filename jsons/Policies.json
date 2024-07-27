@@ -305,7 +305,7 @@
             {
                 "name": "Philantropy",
                 "uniques": [
-                    "Gifts of Gold to City-States generate [25]% more Influence"
+                    "Gifts of Gold to City-States generate [33]% more Influence"
                 ],
                 "row": 1,
                 "column": 2
@@ -363,7 +363,7 @@
             "Cultural": 10,
             "Diplomatic": 10,
             "Domination": 20,
-            "Scientific": 10
+            "Scientific": 0
         },
         "uniques": [
             "[+25]% [Gold] [in capital]",
@@ -432,13 +432,14 @@
         "era": "Renaissance era",
         "priorities": {
             "Neutral": 10,
-            "Cultural": 20,
+            "Cultural": 0,
             "Diplomatic": 10,
             "Domination": 10,
             "Scientific": 50
         },
         "uniques": [
-            "[+10]% [Science] <when not at war>"
+            "[+10]% [Science] <while the empire is happy>",
+            "Only available <before adopting [Piety]>"
         ],
         "policies": [
             {
@@ -461,7 +462,7 @@
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+33]%"],
+                "uniques": ["Science gained from research agreements [+25]%"],
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
@@ -592,7 +593,7 @@
             {
                 "name": "Militarism",
                 "uniques": [
-                     "[Gold] cost of purchasing [All] units [-33]%",
+                     "[Gold] cost of purchasing [All] units [-33]%"
                 ],
                 "row": 1,
                 "column": 2
@@ -656,15 +657,6 @@
         ],
         "policies": [
             {
-                "name": "United Front",
-                "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-                    "[-50]% enemy spy effectiveness [in all cities]"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
                 "name": "Planned Economy",
                 "uniques": [
                     "[+25]% [Science] from every [Factory]",
@@ -677,7 +669,7 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[-15]% maintenance cost for buildings [in all cities]"
+                    "[Gold] cost of purchasing [All] buildings [-33]%"
                 ],
                 "row": 2,
                 "column": 3
@@ -692,6 +684,15 @@
                 ],
                 "row": 3,
                 "column": 3
+            },
+            {
+                "name": "United Front",
+                "uniques": [
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+                    "[-25]% enemy spy effectiveness [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
             },
             {
                 "name": "Nationalism",
