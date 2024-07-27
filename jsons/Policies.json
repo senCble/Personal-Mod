@@ -411,7 +411,7 @@
                 "name": "Merchant Navy",
                 "uniques": [
                     "[+3 Production] [in all coastal cities]",
-                    "[+3 Gold] from every [Citadel]",
+                    "[+1 Gold, +1 Science] from every [Citadel]",
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 2,
