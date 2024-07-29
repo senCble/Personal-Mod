@@ -390,7 +390,7 @@
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
+		"obsoleteTech": "Military Science",
 		"requiredResource": "Horses",
 		"promotions": ["Shock I"],
 		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
