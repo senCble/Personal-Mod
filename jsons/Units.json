@@ -107,6 +107,7 @@
 		"cost": 40,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
+		"promotions": ["Bowman"],
 		"replaces": "Archer",
 		"uniqueTo": "Babylon",
 		"upgradesTo": "Composite Bowman",
@@ -391,7 +392,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
-		"promotions": ["Cover I"],
+		"promotions": ["Shock I"],
 		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -482,7 +483,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"promotions": ["Shock I", "[Legion] ability"],
+		"promotions": ["Cover I", "[Legion] ability"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
