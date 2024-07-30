@@ -1258,7 +1258,7 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"upgradesTo": "Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>","[+50]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Water] units>"],
 		"promotions": ["[Zero] ability", "Dogfighting I"],
 		"attackSound": "machinegun"
 	},
@@ -1555,9 +1555,9 @@
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+50]% Strength <vs [Armored] units>", "No defensive terrain bonus", 
-			"Can move after attacking","May travel on Water tiles without embarking",
-			"All tiles cost 1 movement","[-33]% Strength <vs cities> <when attacking>",
-			"Cannot attack <in [Ocean] tiles>","Never appears as a Barbarian unit"],
+			"Can move after attacking", "May travel on Water tiles without embarking",
+			"All tiles cost 1 movement", "[-33]% Strength <vs cities> <when attacking>",
+			"Cannot attack <in [Ocean] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 
@@ -1610,9 +1610,9 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Lasers",
 		"uniques": ["[100]% chance to intercept air attacks","Can carry [3] [Missile] units",
-			"Can see invisible [Submarine] units", "[+150]% Strength <vs [Submarine] units>",
+			"Can see invisible [Submarine] units", "[+100]% Strength <vs [Submarine] units>",
 			"Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
+		"promotions": ["Armor Plating I", "Indirect Fire"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1650,7 +1650,6 @@
 		"cost": 450,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
-			"[+25]% Strength <when attacking>",
 			"No movement cost to pillage",
 			"May Paradrop up to [40] tiles from inside friendly territory",
 			"Never appears as a Barbarian unit"
@@ -1661,18 +1660,13 @@
 	{
 		"name": "Giant Death Robot",
 		"unitType": "Armored",
-		"movement": 5,
+		"movement": 6,
 		"strength": 150,
-		"interceptRange": 2,
 		"cost": 450,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
-		"uniques": [
-			"Can move after attacking", 
-			"No defensive terrain bonus", 
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": ["Armor Plating I","Amphibious"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"promotions": ["Armor Plating I", "Amphibious"],
 		"attackSound": "gdrAttack"
 	},
 	{
