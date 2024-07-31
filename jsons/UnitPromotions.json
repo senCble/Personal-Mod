@@ -834,7 +834,7 @@
 	},
 	{
         	"name": "Foreign Lands Bonus",
-        	"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+        	"uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles>"]
     	},
 	{
 		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
