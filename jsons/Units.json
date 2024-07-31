@@ -188,7 +188,7 @@
 		"uniqueTo": "Egypt",
 		"replaces": "Chariot Archer",
 		"movement": 4,
-		"strength": 6,
+		"strength": 7,
 		"rangedStrength": 10,
 		"cost": 55,
 		"requiredTech": "The Wheel",
