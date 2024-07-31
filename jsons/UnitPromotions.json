@@ -191,7 +191,7 @@
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]","[+10]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
+		"uniques": ["Double movement in [Forest]", "Double movement in [Jungle]", "[+10]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder"],
         "column": 6,
         "row": 5
@@ -502,7 +502,7 @@
 	// Bomber
 	{
 		"name": "Siege I",
-		"uniques": ["[+50]% Strength <vs cities>"],
+		"uniques": ["[+5]% Strength", "[+25]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 1
@@ -510,7 +510,7 @@
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
-		"uniques": ["[+50]% Strength <vs cities>"],
+		"uniques": ["[+5]% Strength", "[+25]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 2
@@ -518,7 +518,7 @@
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["[+50]% Strength <vs cities>"],
+		"uniques": ["[+5]% Strength", "[+25]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 3
