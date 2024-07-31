@@ -187,7 +187,7 @@
 		"unitType": "Ranged Mounted",
 		"uniqueTo": "Egypt",
 		"replaces": "Chariot Archer",
-		"movement": 4,
+		"movement": 5,
 		"strength": 7,
 		"rangedStrength": 10,
 		"cost": 55,
@@ -195,7 +195,6 @@
 		"upgradesTo": "Skirmisher",
 		"obsoleteTech": "Metallurgy",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
-		"promotions": ["Mobility"],
 		"attackSound": "arrow"
 	},
 	{
