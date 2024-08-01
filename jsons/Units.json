@@ -173,7 +173,7 @@
 		"unitType": "Ranged Mounted",
 		"movement": 4,
 		"strength": 6,
-		"rangedStrength": 10,
+		"rangedStrength": 9,
 		"cost": 55,
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
