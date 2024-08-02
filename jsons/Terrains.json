@@ -334,7 +334,7 @@
 	{
 		"name": "Great Barrier Reef",
 		"type": "NaturalWonder",
-		"food": 2,
+		"food": 1,
 		"production": 1,
 		"gold": 1,
 		"science": 2,
@@ -368,7 +368,6 @@
 		"name": "El Dorado",
 		"type": "NaturalWonder",
 		"culture": 5,
-		"gold": 2,
 		"overrideStats": true,
 		"occursOn": ["Plains"],
 		"turnsInto": "Plains",
@@ -382,7 +381,7 @@
 	{ // This will count as "Fresh water" in civ 6
 		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
-		"happiness": 6,
+		"happiness": 5,
 		"overrideStats": true,
 		"occursOn": ["Plains"],
 		"turnsInto": "Plains",
@@ -550,7 +549,7 @@
 	{
 		"name": "King Solomon's Mines",
 		"type": "NaturalWonder",
-		"production": 6,
+		"production": 4,
 		"overrideStats": true,
 		"occursOn": ["Plains","Desert"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
