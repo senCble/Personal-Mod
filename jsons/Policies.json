@@ -229,6 +229,7 @@
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+2 Faith] from every [Temple]",
+            "Only available <before adopting [Rationalism]>"
         ],
         "policies": [
             {
