@@ -334,7 +334,7 @@
 	{
 		"name": "Great Barrier Reef",
 		"type": "NaturalWonder",
-		"food": 1,
+		"food": 2,
 		"production": 1,
 		"gold": 1,
 		"science": 2,
@@ -343,7 +343,7 @@
 			"Must be adjacent to [6] [Water] tiles",
 			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
 			"Occurs in groups of [2] to [2] tiles"],
-		"turnsInto": "Coast",
+		"turnsInto": "Ocean",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
@@ -368,6 +368,7 @@
 		"name": "El Dorado",
 		"type": "NaturalWonder",
 		"culture": 5,
+		"gold": 2,
 		"overrideStats": true,
 		"occursOn": ["Plains"],
 		"turnsInto": "Plains",
@@ -381,7 +382,7 @@
 	{ // This will count as "Fresh water" in civ 6
 		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
-		"happiness": 5,
+		"happiness": 6,
 		"overrideStats": true,
 		"occursOn": ["Plains"],
 		"turnsInto": "Plains",
@@ -430,7 +431,7 @@
 		"name": "Krakatoa",
 		"type": "NaturalWonder",
 		"science": 5,
-		"culture": 3,
+		"culture": 2,
 		"occursOn": ["Ocean"],
 		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
 			"Must be adjacent to [0] [Ice] tiles",
@@ -469,7 +470,7 @@
 	{
 		"name": "Barringer Crater",
 		"type": "NaturalWonder",
-		"gold": 4,
+		"gold": 3,
 		"science": 4,
 		"occursOn": ["Desert","Tundra"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
@@ -544,12 +545,10 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-/*
-	// BNW wonders
 	{
 		"name": "King Solomon's Mines",
 		"type": "NaturalWonder",
-		"production": 4,
+		"production": 6,
 		"overrideStats": true,
 		"occursOn": ["Plains","Desert"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
@@ -559,10 +558,10 @@
 		"unbuildable": true,
 		"weight": 4
 	},
-	{// Will be introduced in Brave New World. Despite being a lake, it cannot be sailed on and it blocks line of sight like a mountain.
+	{
 		"name": "Lake Victoria",
 		"type": "NaturalWonder",
-		"food": 3,
+		"food": 5,
 		"occursOn": ["Plains","Tundra"],
 		"turnsInto": "Grassland",
 		"impassable": true,
@@ -574,7 +573,7 @@
 		"name": "Mount Kilimanjaro",
 		"type": "NaturalWonder",
 		"food": 3,
-		"culture": 3,
+		"culture": 2,
 		"occursOn": ["Plains","Grassland","Tundra"],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -585,5 +584,4 @@
 			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
 		"weight": 10
 	}
-*/
 ]
