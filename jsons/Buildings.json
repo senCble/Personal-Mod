@@ -669,7 +669,7 @@
 	// Column 7
 	{
 		"name": "Observatory",
-		"maintenance": 0,
+		"maintenance": 1,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 50},
 		"requiredBuilding": "Library",
