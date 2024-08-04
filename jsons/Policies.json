@@ -162,7 +162,7 @@
                 "uniques": [
                     "[+15]% Production when constructing [{Military} {Land}] units [in all cities]",
                     "[+100]% Production when constructing [Barracks] buildings [in all cities]",
-                    "[+100]% Production when constructing [Walls] buildings [in all cities]",
+                    "[+1 Happiness] from every [Barracks]",
                 ],
                 "row": 1,
                 "column": 4
@@ -190,8 +190,8 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[-33]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness] from every [Barracks]",
-                    "[+1 Happiness] from every [Walls]",
+                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
+                    "[+1 Happiness] from every [Armory]",
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
