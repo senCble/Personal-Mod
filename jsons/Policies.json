@@ -162,7 +162,7 @@
                 "uniques": [
                     "[+15]% Production when constructing [{Military} {Land}] units [in all cities]",
                     "[+100]% Production when constructing [Barracks] buildings [in all cities]",
-                    "[+1 Happiness] from every [Barracks]",
+                    "Free [Great General] appears",
                 ],
                 "row": 1,
                 "column": 4
@@ -171,37 +171,35 @@
                 "name": "Military Caste",
                 "uniques": [
                     "[+1 Happiness, +2 Culture] [in all cities with a garrison]",
-                    "Units in cities cost no Maintenance",
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
                 "column": 4
             },
             {
-                "name": "Discipline",
-                "uniques": [
-                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
-                    "Free [Great General] appears",
-                ],
-                "row": 1,
-                "column": 2
-            },
-            {
                 "name": "Professional Army",
                 "uniques": [
+                    "[+1 Happiness] from every [Barracks]",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
-                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+1 Happiness] from every [Armory]",
+                    "Units in cities cost no Maintenance",
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
                 "column": 4
             },
             {
+                "name": "Discipline",
+                "uniques": [
+                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
+                    "[Great General] is earned [50]% faster",
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-                    "[Great General] is earned [50]% faster",
                 ],
                 "requires": ["Discipline"],
                 "row": 2,
