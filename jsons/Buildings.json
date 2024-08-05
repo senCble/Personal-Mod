@@ -597,7 +597,7 @@
 	},
 	{
 		"name": "Angkor Wat",
-		"culture": 3,
+		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]", "[-25]% Gold cost of acquiring tiles [in all cities]", "Gain a free [Pagoda] [in this city]"],
