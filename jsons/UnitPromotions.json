@@ -813,7 +813,7 @@
     	},
 	{
         	"name": "[Legion] ability",
-        	"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can build [Repair] improvements on tiles"]
+        	"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"]
     	},
     	{
         	"name": "[Chu-Ko-Nu] ability",
