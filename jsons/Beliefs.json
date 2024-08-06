@@ -61,7 +61,7 @@
     {
         "name": "God of War",
         "type": "Pantheon",
-        "uniques": ["Earn [100]% of [Military] unit's [Cost] as [Faith] when killed within 4 tiles of a city following this religion"]
+        "uniques": ["Earn [50]% of [Military] unit's [Cost] as [Faith] when killed within 4 tiles of a city following this religion"]
     },
     {
         "name": "Goddess of Festivals",
@@ -213,7 +213,7 @@
     {
         "name": "Peace Gardens",
         "type": "Follower",
-        "uniques": ["[+2 Culture, +2 Happiness] from every [Garden]"]
+        "uniques": ["[+1 Culture, +2 Happiness] from every [Garden]"]
     },
     {
         "name": "Religious Art",
