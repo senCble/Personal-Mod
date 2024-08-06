@@ -226,12 +226,12 @@
 		"name": "Marsh",
 		"type": "TerrainFeature",
 		"food": -1,
+		"gold": 1,
 		"movementCost": 2,
 		"unbuildable": true,
 		"defenceBonus": -0.15,
 		"occursOn": ["Grassland"],
 		"uniques": ["Rare feature", "Rough terrain", "Fresh water",
-			"[-1] to Fertility for Map Generation",
 			"Every [15] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
 	},
