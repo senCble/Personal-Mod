@@ -228,7 +228,7 @@
     {
         "name": "Religious Community",
         "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
+        "uniques": ["[+1]% [Production] from every follower, up to [10]%"]
     },
     {
         "name": "Swords into Ploughshares",
@@ -255,7 +255,7 @@
     {
         "name": "Interfaith Dialogue",
         "type": "Founder",
-        "uniques": ["[+1 Science] from every [6] global followers [in all cities]"]
+        "uniques": ["[+1 Science] from every [5] global followers [in all cities]"]
     }
     {
         "name": "Papal Primacy",
@@ -315,7 +315,7 @@
     {
         "name": "Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+30]% Spread Religion Strength <for [Missionary] units>", "[+1] Movement <for [Missionary] units>"]
+        "uniques": ["[+30]% Spread Religion Strength <for [Missionary] units>", "[+2] Movement <for [Missionary] units>"]
     },
     {
         "name": "Religious Texts",
