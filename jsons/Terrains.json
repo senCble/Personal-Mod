@@ -232,8 +232,8 @@
 		"defenceBonus": -0.15,
 		"occursOn": ["Grassland"],
 		"uniques": ["Rare feature", 
-			"Becomes [Lakes] when adjacent to [Hill]",
-			"Becomes [Lakes] when adjacent to [Mountain]",
+			"Becomes [Fresh water] when adjacent to [Hill]",
+			"Becomes [Fresh water] when adjacent to [Mountain]",
 			"[-2] to Fertility for Map Generation",
 			"Every [15] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
