@@ -317,7 +317,7 @@
 		"name": "Temple",
 		"faith": 2,
 		"requiredBuilding": "Shrine",
-		"maintenance": 1,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled"]
@@ -327,7 +327,7 @@
 		"replaces": "Temple",
 		"uniqueTo": "Egypt",
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
-		"culture": 3,
+		"happiness": 2,
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
@@ -338,7 +338,7 @@
 		"replaces": "Temple",
 		"uniqueTo": "Songhai",
 		"hurryCostModifier": 25,
-		"happiness": 2,
+		"culture": 2,
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy"
@@ -460,7 +460,7 @@
 	},
 	{
 		"name": "Hagia Sophia",
-		"faith": 1,
+		"faith": 3,
 		"isWonder": true,
 		"uniques": ["Gain a free [Cathedral] [in this city]", "Free [Great Prophet] appears", "Hidden when religion is disabled"],
 		"requiredTech": "Theology",
@@ -1226,7 +1226,7 @@
 	{
 		"name": "Cathedral",
 		"cost": 0,
-		"culture": 2,
+		"culture": 3,
 		"faith": 1,
 		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
