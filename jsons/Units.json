@@ -277,7 +277,7 @@
 		"replaces": "Spearman",
 		"uniqueTo": "Celts",
 		"movement": 2,
-		"strength": 12,
+		"strength": 11,
 		"cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Gunpowder",
