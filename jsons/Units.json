@@ -1116,6 +1116,17 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Foreign Legion",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 35,
+		"cost": 225,
+		"upgradesTo": "Great War Infantry",
+		"uniques": ["Unbuildable","Cannot be purchased"],
+		"promotions": ["Foreign Lands Bonus"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Lancer",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -1216,17 +1227,6 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Combined Arms",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Foreign Legion",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 50,
-		"cost": 325,
-		"upgradesTo": "Infantry",
-		"uniques": ["Unbuildable","Cannot be purchased"],
-		"promotions": ["Foreign Lands Bonus"],
 		"attackSound": "shot"
 	},
 	{
