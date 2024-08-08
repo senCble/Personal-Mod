@@ -620,7 +620,7 @@
 	{
 		"name": "Mobility III",
 		"prerequisites": ["Mobility II"],
-		"uniques": ["[+1] Movement"],
+		"uniques": ["[+1] Sight", "[+1] Movement"],
 		"unitTypes": ["Helicopter"],
         "column": 22,
         "row": 3
@@ -677,8 +677,7 @@
 	},
 	{
 		"name": "Mobility",
-		"prerequisites": ["Shock II","Drill II","Targeting I",
-			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
+		"prerequisites": ["Shock II","Drill II","Targeting I","Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine"],
         "column": 24,
