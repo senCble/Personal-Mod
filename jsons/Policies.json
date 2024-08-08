@@ -9,7 +9,7 @@
             "Cultural": 20,
             "Diplomatic": 20,
             "Domination": 0,
-            "Scientific": 10
+            "Scientific": 0
         },
         "uniques": [
             "[+3 Culture] [in capital]",
@@ -171,7 +171,7 @@
                 "name": "Military Caste",
                 "uniques": [
                     "[+1 Happiness, +2 Culture] [in all cities with a garrison]",
-                    "[5] Unit Supply"
+                    "[2] Unit Supply per city"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -305,7 +305,7 @@
             {
                 "name": "Philantropy",
                 "uniques": [
-                    "Gifts of Gold to City-States generate [33]% more Influence"
+                    "Gifts of Gold to City-States generate [25]% more Influence"
                 ],
                 "row": 1,
                 "column": 2
@@ -363,7 +363,7 @@
             "Cultural": 10,
             "Diplomatic": 10,
             "Domination": 20,
-            "Scientific": 0
+            "Scientific": 10
         },
         "uniques": [
             "[+25]% [Gold] [in capital]",
@@ -438,7 +438,7 @@
             "Scientific": 50
         },
         "uniques": [
-            "[+10]% [Science] <while the empire is happy>",
+            "[+15]% [Science] <while the empire is happy>",
             "Only available <before adopting [Piety]>"
         ],
         "policies": [
@@ -462,7 +462,7 @@
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+25]%"],
+                "uniques": ["Science gained from research agreements [+50]%"],
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
@@ -478,8 +478,8 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness] from every [Public School]",
-                    "[+1 Happiness] from every [Research Lab]"
+                    "[+1 Happiness] from every [University]",
+                    "[+1 Happiness] from every [Public School]"
                 ],
                 "requires": ["Sovereignty"],
                 "row": 2,
@@ -521,8 +521,8 @@
             {
                 "name": "Universal Suffrage",
                 "uniques": [
-                    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
-                    "[+30]% Strength for cities <in cities with a [Hospital]>"
+                    "[+50]% spy effectiveness [in City-State cities]",
+                    "[+30]% Strength for cities"
                 ],
                 "row": 1,
                 "column": 3
@@ -585,7 +585,7 @@
                 "name": "Populism",
                 "uniques": [		    
                     "[+2 Science] from every [Strategic resource]",
-                    "Quantity of strategic resources produced by the empire +[100]%"
+                    "Quantity of strategic resources produced by the empire +[100]%",
                 ],
                 "row": 1,
                 "column": 4
@@ -623,8 +623,8 @@
                 "name": "Police State",
                 "uniques": [
                     "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "[Gold] cost of purchasing [Courthouse] buildings [-25]%",
                     "[+3 Happiness] from every [Courthouse]",
+                    "[+50]% spy effectiveness [in foreign cities]"
                 ],
                 "requires": ["Populism"],
                 "row": 2,
@@ -678,7 +678,7 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[+3 Science] [in all cities]",
+                    "[+4 Science] [in all cities]",
                     "[+1 Production] from every [Lumber mill]",
                     "[+1 Production] from every [Mine]",
                 ],
@@ -689,7 +689,7 @@
                 "name": "United Front",
                 "uniques": [
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-                    "[-25]% enemy spy effectiveness [in all cities]"
+                    "[-50]% enemy spy effectiveness [in your cities]",
                 ],
                 "row": 1,
                 "column": 1
