@@ -366,6 +366,7 @@
             "Scientific": 10
         },
         "uniques": [
+            "[+100]% Production when constructing [Armory] buildings [in all cities]",
             "[+25]% [Gold] [in capital]",
         ],
         "policies": [
@@ -521,8 +522,8 @@
             {
                 "name": "Universal Suffrage",
                 "uniques": [
-                    "[+50]% spy effectiveness [in City-State cities]",
-                    "[+30]% Strength for cities"
+                    "[+33]% Strength for cities",
+                    "[+50]% spy effectiveness [in City-State cities]"
                 ],
                 "row": 1,
                 "column": 3
