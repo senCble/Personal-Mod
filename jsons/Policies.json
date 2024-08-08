@@ -178,6 +178,15 @@
                 "column": 4
             },
             {
+                "name": "Discipline",
+                "uniques": [
+                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
+                    "[Great General] is earned [50]% faster",
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
                 "name": "Professional Army",
                 "uniques": [
                     "[+1 Happiness] from every [Barracks]",
@@ -187,15 +196,6 @@
                 "requires": ["Military Caste"],
                 "row": 3,
                 "column": 4
-            },
-            {
-                "name": "Discipline",
-                "uniques": [
-                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
-                    "[Great General] is earned [50]% faster",
-                ],
-                "row": 1,
-                "column": 2
             },
             {
                 "name": "Military Tradition",
