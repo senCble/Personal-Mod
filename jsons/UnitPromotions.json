@@ -761,10 +761,6 @@
 		"uniques": ["Withdraws before melee combat <with [75]% chance>"]
 	},
 	{
-        	"name": "[Bowman] ability",
-        	"uniques": ["[+10]% Strength <vs [non-[Ranged]] units> <when defending>"]
-    	},
-	{
 		"name": "[Dromon] ability",
 		"uniques": ["[+33]% Strength <vs [Water] units> <when attacking>"]
 	},
