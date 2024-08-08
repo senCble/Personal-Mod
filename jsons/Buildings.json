@@ -460,7 +460,6 @@
 	},
 	{
 		"name": "Hagia Sophia",
-		"culture": 1,
 		"faith": 3,
 		"isWonder": true,
 		"uniques": ["Gain a free [Cathedral] [in this city]", "Free [Great Prophet] appears", "Hidden when religion is disabled"],
