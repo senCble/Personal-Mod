@@ -425,7 +425,7 @@
 		"name": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]","[+1 Food] from [Marsh] tiles [in this city]"],
+		"uniques": ["[40]% Food is carried over after population increases [in this city]","[+1 Food, +1 Gold] from [Marsh] tiles [in this city]"],
 		"requiredTech": "Engineering"
 	},
 	{
@@ -460,6 +460,7 @@
 	},
 	{
 		"name": "Hagia Sophia",
+		"culture": 1,
 		"faith": 3,
 		"isWonder": true,
 		"uniques": ["Gain a free [Cathedral] [in this city]", "Free [Great Prophet] appears", "Hidden when religion is disabled"],
@@ -469,12 +470,12 @@
 	{
 		"name": "Great Mosque of Djenne",
 		"culture": 1,
-		"faith": 1,
+		"faith": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Gain a free [Mosque] [in this city]", "Hidden when religion is disabled",
-            	"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
-            	"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"],
+            		"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
+            		"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"],
 		"requiredTech": "Theology",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
@@ -1103,7 +1104,6 @@
 		"cost": 500,
 		"happiness": 2,
 		"requiredBuilding": "Theatre",
-		"uniques": ["[10]% of excess happiness converted to [Culture] <in this city>"],
 		"maintenance": 3,
 		"requiredTech": "Radar"
 	},
