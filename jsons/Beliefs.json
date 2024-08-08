@@ -310,7 +310,7 @@
     {
         "name": "Messiah",
         "type": "Enhancer",
-        "uniques": ["[+30]% Spread Religion Strength <for [Great Prophet] units>", "[Faith] cost of purchasing [Great Prophet] units [-30]%", ]
+        "uniques": ["[+30]% Spread Religion Strength <for [Great Prophet] units>", "[Faith] cost of purchasing [Great Prophet] units [-30]%"]
     },
     {
         "name": "Missionary Zeal",
