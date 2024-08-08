@@ -101,15 +101,14 @@
 	{
 		"name": "Bowman",
 		"unitType": "Archery",
+		"uniqueTo": "Babylon",
+		"replaces": "Archer",
 		"movement": 2,
 		"strength": 6,
 		"rangedStrength": 9,
 		"cost": 40,
 		"requiredTech": "Archery",
-		"obsoleteTech": "Machinery",
-		"promotions": ["[Bowman] ability"],
-		"replaces": "Archer",
-		"uniqueTo": "Babylon",
+		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
