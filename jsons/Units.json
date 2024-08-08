@@ -680,7 +680,7 @@
 		"replaces": "Skirmisher",
 		"uniqueTo": "Mongolia",
 		"movement": 4,
-		"strength": 12,
+		"strength": 11,
 		"rangedStrength": 16,
 		"cost": 125,
 		"requiredTech": "Chivalry",
