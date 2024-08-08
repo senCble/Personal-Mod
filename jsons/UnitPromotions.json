@@ -355,7 +355,6 @@
 		"name": "Targeting I",
 		"uniques": [
 			"[+15]% Strength <vs [Water] units> <when attacking>",
-			"[+15]% Strength <vs [Land] units> <when attacking>"
 		],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
@@ -366,7 +365,6 @@
 		"prerequisites": ["Targeting I"],
 		"uniques": [
 			"[+15]% Strength <vs [Water] units> <when attacking>",
-			"[+15]% Strength <vs [Land] units> <when attacking>"
 		],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
@@ -377,7 +375,6 @@
 		"prerequisites": ["Targeting II"],
 		"uniques": [
 			"[+15]% Strength <vs [Water] units> <when attacking>",
-			"[+15]% Strength <vs [Land] units> <when attacking>"
 		],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
@@ -386,8 +383,7 @@
 	{
 		"name": "Bombardment I",
 		"uniques": [
-			"[+10]% Strength <when attacking>",
-			"[+5]% Strength <vs cities> <when attacking>",
+			"[+15]% Strength <vs [Land] units> <when attacking>"
 		],
 		"unitTypes": ["Ranged Water"],
         "column": 26,
@@ -397,8 +393,7 @@
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
 		"uniques": [
-			"[+10]% Strength <when attacking>",
-			"[+5]% Strength <vs cities> <when attacking>",
+			"[+15]% Strength <vs [Land] units> <when attacking>"
 		],
 		"unitTypes": ["Ranged Water"],
         "column": 26,
@@ -408,8 +403,7 @@
 		"name": "Bombardment III",
 		"prerequisites": ["Bombardment II"],
 		"uniques": [
-			"[+10]% Strength <when attacking>",
-			"[+5]% Strength <vs cities> <when attacking>",
+			"[+15]% Strength <vs [Land] units> <when attacking>"
 		],
 		"unitTypes": ["Ranged Water"],
         "column": 26,
