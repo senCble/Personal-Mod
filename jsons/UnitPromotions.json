@@ -313,7 +313,7 @@
 		"name": "Coastal Raider I",
 		"uniques": [
 			"[+25]% Strength <vs cities>", 
-			"Earn [25]% of the damage done to [City] units as [Gold]"
+			"Earn [30]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
         "column": 12,
@@ -324,7 +324,7 @@
 		"prerequisites": ["Coastal Raider I"],
 		"uniques": [
 			"[+25]% Strength <vs cities>", 
-			"Earn [25]% of the damage done to [City] units as [Gold]"
+			"Earn [30]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
         "column": 12,
@@ -334,8 +334,8 @@
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
 		"uniques": [
-			"[+25]% Strength <vs cities>", 
-			"Earn [50]% of the damage done to [City] units as [Gold]"
+			"[+30]% Strength <vs cities>", 
+			"Earn [40]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
         "column": 12,
@@ -343,7 +343,7 @@
 	},
 	{
 		"name": "Landing Party",
-		"uniques": ["Eliminates combat penalty for attacking across a coast","[+33]% Strength <vs [Land] units> <when attacking>"],
+		"uniques": ["Eliminates combat penalty for attacking across a coast", "[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Melee Water"],
         "column": 12,
         "row": 5
