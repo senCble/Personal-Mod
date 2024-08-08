@@ -227,7 +227,7 @@
         },
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "[+2 Faith] from every [Temple]",
+            "[+1 Happiness] from every [Temple]",
             "Only available <before adopting [Rationalism]>"
         ],
         "policies": [
@@ -244,7 +244,6 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[50]% of excess happiness converted to [Culture]",
-                    "[+1 Happiness] from every [Temple]",
                 ],
                 "row": 1,
                 "column": 5
@@ -520,6 +519,14 @@
                 "column": 1
             },
             {
+                "name": "Civil Society",
+                "uniques": [
+                    "[-50]% Food consumption by specialists [in all cities]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
                 "name": "Universal Suffrage",
                 "uniques": [
                     "[+33]% Strength for cities",
@@ -538,14 +545,6 @@
                 "row": 2,
                 "column": 1
             },
-            {
-                "name": "Civil Society",
-                "uniques": [
-                    "[-50]% Food consumption by specialists [in all cities]",
-                ],
-                "row": 1,
-                "column": 5
-            }, 
             {
                 "name": "Democracy",
                 "uniques": [
