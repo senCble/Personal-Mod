@@ -1119,7 +1119,7 @@
 		"name": "Foreign Legion",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 38,
+		"strength": 35,
 		"cost": 225,
 		"upgradesTo": "Great War Infantry",
 		"uniques": ["Unbuildable","Cannot be purchased"],
