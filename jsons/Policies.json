@@ -227,7 +227,7 @@
         },
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "[+1 Happiness] from every [Temple]",
+            "[+1 Faith] from every [Temple]",
             "Only available <before adopting [Rationalism]>"
         ],
         "policies": [
@@ -244,6 +244,7 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[50]% of excess happiness converted to [Culture]",
+                    "[+1 Happiness] from every [Temple]"
                 ],
                 "row": 1,
                 "column": 5
