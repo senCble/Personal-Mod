@@ -223,7 +223,7 @@
 		"leaderName": "Augustus Caesar",
 		"adjective": ["Roman"],
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
 
 
         "startIntroPart1": "Ave Caesar Augustus, Emperor of Rome and Dominus of the Roman Empire! Your empire was the most powerful and feared of all in Western civilization. The Roman people crafted so brilliantly its culture, law, art, and warfare, that no one could contest the supremacy of Rome. Force and Honor led to glorious conquests, a domination of all the lands from Spain in the west to Syria in the east, even reaching the remote barbarian lands of England and Germany. Roman art and architecture have been praised for millenia and have been envied by all lesser civilizations who have followed.",
@@ -240,7 +240,7 @@
 		"innerColor": [240, 199, 0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "All Roads Lead to Rome",
-		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital","[-25]% construction time for [All] improvements"],
+		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital", "[-25]% construction time for [All] improvements"],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -327,7 +327,7 @@
 		"innerColor": [184, 0, 0],
 		"favoredReligion": "Shinto",
 		"uniqueName": "Bushido",
-		"uniques": ["No damage penalty for wounded units <for [non-[Air]] units>", "Free [Great Artist] appears <upon expending a [Great General] unit>"],
+		"uniques": ["No damage penalty for wounded units <for [non-[Air]] units>", "[+2 Culture] from every [Barracks]", "[+2 Culture] from every [Citadel]"],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
@@ -487,7 +487,7 @@
 		"name": "Persia",
 		"leaderName": "Darius I",
 		"adjective": ["Persian"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Cultural",
 
         "startIntroPart1": "Great King Darius of Persia, the heaven casts its light upon you! Persian people are strong and wise, as their leader. In old ages, the great Persian king Cyrus fought back the mighty Median empire and finally destroyed the Medes in 550 BC. Cunning diplomacy and military achievements helped then to conquer the wealthy Lydia and the powerful Babylon, Cyrus' son conquering the eternal Egypt some years later. At the height of its power, the Persian Empire reached the shores of Macedonia, at the very door of the upstart Greek city-states. Persia would have prospered for centuries if Alexander of Macedon hadn't brutally destroyed the great empire in one violent strike.",
         "startIntroPart2": "King Darius, the people of Persia await, longing for its past glory and power! Persia of the Immortals must reborn, to punish its foes and rebuild the gleaming Persepolis! Will your new empire shine through the ages of history?",
@@ -550,7 +550,7 @@
 		"leaderName": "Ramkhamhaeng",
 		"adjective": ["Siamese"],
 		"startBias": ["Avoid [Forest]","Avoid [Tundra]"],
-		"preferredVictoryType":"Diplomatic",
+		"preferredVictoryType": "Diplomatic",
 
         "startIntroPart1": "O Great King Ramkhamhaeng, the Siamese people obey you with respect and fear! The beautiful and mysterious land of Siam is an ancient country in the heart of Southeast Asia, which was besieged by many foes, plagued by bloody war and great poverty, but eventually the smart and loyal Siamese people have endured and triumphed. Siam was a part of the Khmer Empire until the 13th century AD, before its brave people took arms and led a revolution to form the small Sukhothai kingdom. After many battles and diplomacy prowess, this tiny kingdom became a mighty empire, which would dominate South East Asia for more than a century.",
         "startIntroPart2": "Wise and powerful King Ramkhamhaeng, your people want to revive these days of glory! Can you make a new dawn break on Siam? Will your new empire shine through the ages of history?",
@@ -918,7 +918,7 @@
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion", "Gain enough Faith for [100]% of a Great Prophet <upon discovering [Theology] technology>"],
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion", "Gain enough Faith for [50]% of a Great Prophet <upon founding a Pantheon>"],
 
 		"cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
