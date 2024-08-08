@@ -11,7 +11,7 @@
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",
-		"uniques": ["[+5]% Strength <when attacking>", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 1,
         "row": 1
@@ -19,7 +19,7 @@
 	{
 		"name": "Accuracy II",
 		"prerequisites": ["Accuracy I"],
-		"uniques": ["[+5]% Strength <when attacking>", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 1,
         "row": 2
@@ -27,7 +27,7 @@
 	{
 		"name": "Accuracy III",
 		"prerequisites": ["Accuracy II"],
-		"uniques": ["[+5]% Strength <when attacking>", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 1,
         "row": 3
@@ -35,7 +35,7 @@
 
 	{
 		"name": "Barrage I",
-		"uniques": ["[+5]% Strength <when attacking>", "[+10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 2,
         "row": 1
@@ -43,7 +43,7 @@
 	{
 		"name": "Barrage II",
 		"prerequisites": ["Barrage I"],
-		"uniques": ["[+5]% Strength <when attacking>", "[+10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 2,
         "row": 2
@@ -51,7 +51,7 @@
 	{
 		"name": "Barrage III",
 		"prerequisites": ["Barrage II"],
-		"uniques": ["[+5]% Strength <when attacking>", "[+10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 2,
         "row": 3
@@ -68,7 +68,7 @@
 	{
 		"name": "Extended Range",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
-		"uniques": ["[-5]% Strength <when attacking>", "[+1] Range"],
+		"uniques": ["[-10]% Strength <when attacking>", "[+1] Range"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"],
         "column": 3,
         "row": 3
@@ -85,7 +85,7 @@
 	// Melee, Mounted+Armor
 	{
 		"name": "Shock I",
-		"uniques": ["[+5]% Strength","[+10]% Strength <when fighting in [Open terrain] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 4,
         "row": 1
@@ -93,7 +93,7 @@
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
-		"uniques": ["[+5]% Strength","[+10]% Strength <when fighting in [Open terrain] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 4,
         "row": 2
@@ -101,7 +101,7 @@
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
-		"uniques": ["[+5]% Strength","[+10]% Strength <when fighting in [Open terrain] tiles>"],
+		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 4,
         "row": 3
@@ -109,7 +109,7 @@
 
 	{
 		"name": "Drill I",
-		"uniques": ["[+5]% Strength","[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 5,
         "row": 1
@@ -117,7 +117,7 @@
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
-		"uniques": ["[+5]% Strength","[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 5,
         "row": 2
@@ -125,7 +125,7 @@
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
-		"uniques": ["[+5]% Strength","[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["[+20]% Strength","[+10]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 5,
         "row": 3
@@ -141,7 +141,7 @@
 	{
 		"name": "Coup de Grace",
 		"prerequisites": ["Accuracy III","Barrage III","Mobility III","Anti-Armor III"],
-		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>","[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>","[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Ranged Mounted","Helicopter"],
         	"column": 27,
         	"row": 3
@@ -166,7 +166,7 @@
 		"name": "Formation I",
 		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
 		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Ranged Mounted] units>", 
-			"[+10]% Strength <when fighting in [Open terrain] tiles> <when defending>"],
+			"[+15]% Strength <when fighting in [Open terrain] tiles> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted"],
         "column": 7,
         "row": 2
@@ -175,23 +175,23 @@
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
 		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Ranged Mounted] units>", 
-			"[+10]% Strength <when fighting in [Open terrain] tiles> <when defending>"],
+			"[+15]% Strength <when fighting in [Open terrain] tiles> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted"],
         "column": 7,
         "row": 3
 	},
 	{
 		"name": "Blitz",
-		"prerequisites": ["Shock III","Drill III","Coastal Raider III","Boarding Party III","Air Targeting III","Siege III"],
+		"prerequisites": ["Shock III","Drill III","Coastal Raider III","Boarding Party III"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Water","Bomber"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Water"],
         "column": 6,
         "row": 4
 	},
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["Double movement in [Forest]", "Double movement in [Jungle]", "[+10]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
+		"uniques": ["Double movement in [Forest]", "Double movement in [Jungle]", "[+15]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder"],
         "column": 6,
         "row": 5
@@ -304,17 +304,16 @@
 	{
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
-		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"],
         "column": 11,
         "row": 3
 	},
-
 	{
 		"name": "Coastal Raider I",
 		"uniques": [
-			"[+5]% Strength", "[+15]% Strength <vs cities>", 
-			"Earn [33]% of the damage done to [City] units as [Gold]"
+			"[+25]% Strength <vs cities>", 
+			"Earn [25]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
         "column": 12,
@@ -324,8 +323,8 @@
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
 		"uniques": [
-			"[+5]% Strength", "[+15]% Strength <vs cities>", 
-			"Earn [33]% of the damage done to [City] units as [Gold]"
+			"[+25]% Strength <vs cities>", 
+			"Earn [25]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
         "column": 12,
@@ -335,8 +334,8 @@
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
 		"uniques": [
-			"[+5]% Strength", "[+15]% Strength <vs cities>", 
-			"Earn [34]% of the damage done to [City] units as [Gold]"
+			"[+25]% Strength <vs cities>", 
+			"Earn [50]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
         "column": 12,
@@ -353,9 +352,7 @@
 	// Water Ranged
 	{
 		"name": "Targeting I",
-		"uniques": [
-			"[+15]% Strength <vs [Water] units> <when attacking>",
-		],
+		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>",],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
         "row": 1
@@ -363,9 +360,7 @@
 	{
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
-		"uniques": [
-			"[+15]% Strength <vs [Water] units> <when attacking>",
-		],
+		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>",],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
         "row": 2
@@ -373,39 +368,31 @@
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
-		"uniques": [
-			"[+15]% Strength <vs [Water] units> <when attacking>",
-		],
+		"uniques": ["[+20]% Strength <vs [Water] units> <when attacking>",],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
         "row": 3
 	},
 	{
 		"name": "Bombardment I",
-		"uniques": [
-			"[+15]% Strength <vs [Land] units> <when attacking>"
-		],
-		"unitTypes": ["Ranged Water"],
+		"uniques": ["[+15]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber"],
         "column": 26,
         "row": 1
 	},
 	{
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
-		"uniques": [
-			"[+15]% Strength <vs [Land] units> <when attacking>"
-		],
-		"unitTypes": ["Ranged Water"],
+		"uniques": ["[+15]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber"],
         "column": 26,
         "row": 2
 	},
 	{
 		"name": "Bombardment III",
 		"prerequisites": ["Bombardment II"],
-		"uniques": [
-			"[+15]% Strength <vs [Land] units> <when attacking>"
-		],
-		"unitTypes": ["Ranged Water"],
+		"uniques": ["[+20]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber"],
         "column": 26,
         "row": 3
 	},
@@ -496,7 +483,7 @@
 	// Bomber
 	{
 		"name": "Siege I",
-		"uniques": ["[+5]% Strength", "[+25]% Strength <vs cities>"],
+		"uniques": ["[+30]% Strength <vs cities> <when attacking>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 1
@@ -504,7 +491,7 @@
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
-		"uniques": ["[+5]% Strength", "[+25]% Strength <vs cities>"],
+		"uniques": ["[+30]% Strength <vs cities> <when attacking>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 2
@@ -512,46 +499,14 @@
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["[+5]% Strength", "[+25]% Strength <vs cities>"],
+		"uniques": ["[+40]% Strength <vs cities> <when attacking>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 3
 	},
-		{
-		"name": "Air Targeting I",
-		"uniques": [
-			"[+15]% Strength <vs [Water] units>",
-			"[+15]% Strength <vs [Land] units>"
-		],
-		"unitTypes": ["Bomber"],
-        "column": 20,
-        "row": 1
-	},
-	{
-		"name": "Air Targeting II",
-		"prerequisites": ["Air Targeting I"],
-		"uniques": [
-			"[+15]% Strength <vs [Water] units>",
-			"[+15]% Strength <vs [Land] units>"
-		],
-		"unitTypes": ["Bomber"],
-        "column": 20,
-        "row": 2
-	},
-	{
-		"name": "Air Targeting III",
-		"prerequisites": ["Air Targeting II", "Interception II", "Dogfighting II"],
-		"uniques": [
-			"[+15]% Strength <vs [Water] units>",
-			"[+15]% Strength <vs [Land] units>"
-		],
-		"unitTypes": ["Bomber","Fighter"],
-        "column": 20,
-        "row": 3
-	},
 	{
 		"name": "Evasion",
-		"prerequisites": ["Siege II", "Air Targeting II"],
+		"prerequisites": ["Siege II", "Bombardment II"],
 		"uniques": ["Damage taken from interception reduced by [50]%"],
 		"unitTypes": ["Bomber"],
         "column": 17,
@@ -561,7 +516,7 @@
 	// Aircraft
 	{
 		"name": "Interception I",
-		"uniques": ["[+33]% Damage when intercepting"],
+		"uniques": ["[+30]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 1
@@ -569,7 +524,7 @@
 	{
 		"name": "Interception II",
 		"prerequisites": ["Interception I"],
-		"uniques": ["[+33]% Damage when intercepting"],
+		"uniques": ["[+30]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 2
@@ -577,14 +532,14 @@
 	{
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
-		"uniques": ["[+34]% Damage when intercepting"],
+		"uniques": ["[+40]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 3
 	},
 	{
 		"name": "Dogfighting I",
-		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"uniques": ["[+30]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 1
@@ -592,7 +547,7 @@
 	{
 		"name": "Dogfighting II",
 		"prerequisites": ["Dogfighting I"],
-		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"uniques": ["[+30]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 2
@@ -600,10 +555,26 @@
 	{
 		"name": "Dogfighting III",
 		"prerequisites": ["Dogfighting II"],
-		"uniques": ["[+34]% Strength when performing Air Sweep"],
+		"uniques": ["[+40]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 3
+	},
+	{
+		"name": "Air Targeting I",
+		"prerequisites": ["Interception I","Siege I","Bombardment I","Dogfighting I"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Fighter","Bomber"],
+        "column": 20,
+        "row": 1
+	},
+	{
+		"name": "Air Targeting II",
+		"prerequisites": ["Air Targeting I"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Fighter", "Bomber"],
+        "column": 20,
+        "row": 2
 	},
 	{
 		"name": "Sortie",
@@ -615,7 +586,7 @@
 	},
 	{
 		"name": "Operational Range",
-		"prerequisites": ["Interception I", "Dogfighting I", "Siege I", "Air Targeting I"],
+		"prerequisites": ["Interception I", "Dogfighting I", "Siege I", "Bombardment I"],
 		"uniques": ["[+2] Range"],
 		"unitTypes": ["Fighter","Bomber"],
         "column": 21,
@@ -623,7 +594,7 @@
 	},
 	{
 		"name": "Air Repair",
-		"prerequisites": ["Interception II", "Dogfighting II", "Siege II", "Air Targeting II"],
+		"prerequisites": ["Interception II", "Dogfighting II", "Siege II", "Bombardment II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter", "Bomber"],
         "column": 21,
@@ -656,7 +627,7 @@
 	},
 	{
 		"name": "Anti-Armor I",
-		"uniques": ["[+33]% Strength <vs [Armored] units>"],
+		"uniques": ["[+30]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Helicopter"],
         "column": 23,
         "row": 1
@@ -664,7 +635,7 @@
 	{
 		"name": "Anti-Armor II",
 		"prerequisites": ["Anti-Armor I"],
-		"uniques": ["[+33]% Strength <vs [Armored] units>"],
+		"uniques": ["[+30]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Helicopter"],
         "column": 23,
         "row": 2
@@ -672,7 +643,7 @@
 	{
 		"name": "Anti-Armor III",
 		"prerequisites": ["Anti-Armor II"],
-		"uniques": ["[+34]% Strength <vs [Armored] units>"],
+		"uniques": ["[+40]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Helicopter"],
         "column": 23,
         "row": 3
@@ -724,16 +695,16 @@
 	{
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
-			"Bombardment III", "Mobility III", "Anti-Armor III"],
-		"uniques": ["[-10]% Strength <when attacking>","[1] additional attacks per turn"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine","Ranged Mounted","Helicopter"],
+			"Bombardment III", "Siege III", "Mobility III", "Anti-Armor III"],
+		"uniques": ["[-15]% Strength <when attacking>","[1] additional attacks per turn"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine","Ranged Mounted","Fighter","Bomber","Helicopter"],
         "column": 24,
         "row": 5
 	},
 
 	{
 		"name": "Ambush I",
-		"uniques": ["[+33]% Strength <vs [Armored] units>","[+10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Armored] units>","[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
         "column": 25,
         "row": 1
@@ -741,7 +712,7 @@
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["[+33]% Strength <vs [Armored] units>","[+10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Armored] units>","[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
         "column": 25,
         "row": 2
