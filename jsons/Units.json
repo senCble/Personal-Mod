@@ -559,10 +559,10 @@
 		"strength": 16,
 		"cost": 55,
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units>", "Can move immediately once bought"],
+		"uniques": ["[+100]% Strength <vs [Mounted] units>", "[+100]% Strength <vs [Ranged Mounted] units>", "Can move immediately once bought"],
 		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"promotions": ["Formation I","Pillager"],
+		"obsoleteTech": "Rifling",
+		"promotions": ["Pillager"],
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW
 	},
