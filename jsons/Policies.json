@@ -670,7 +670,8 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[Gold] cost of purchasing [All] buildings [-33]%"
+                    "[-15]% maintenance cost for buildings [in all cities]",
+                    "[-50]% enemy spy effectiveness [in your cities]"
                 ],
                 "row": 2,
                 "column": 3
@@ -689,8 +690,7 @@
             {
                 "name": "United Front",
                 "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-                    "[-50]% enemy spy effectiveness [in your cities]",
+                    "[Gold] cost of purchasing [All] buildings [-33]%"
                 ],
                 "row": 1,
                 "column": 1
@@ -699,6 +699,7 @@
                 "name": "Nationalism",
                 "uniques": [
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
                 ],
                 "row": 1,
                 "column": 5
