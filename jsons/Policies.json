@@ -341,7 +341,7 @@
                 "name": "Educated Elite",
                 "requires": ["Scholasticism","Aesthetics"],
                 "uniques": [
-                    "Allied City-States will occasionally gift Great People"
+                    "Allied City-States will occasionally gift Great People",
                 ],
                 "row": 3,
                 "column": 4
@@ -587,6 +587,7 @@
                 "uniques": [		    
                     "[+2 Science] from every [Strategic resource]",
                     "Quantity of strategic resources produced by the empire +[100]%",
+                    "[+50]% spy effectiveness [in foreign cities]"
                 ],
                 "row": 1,
                 "column": 4
@@ -624,8 +625,8 @@
                 "name": "Police State",
                 "uniques": [
                     "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "[Gold] cost of purchasing [Courthouse] buildings [-25]%",
                     "[+3 Happiness] from every [Courthouse]",
-                    "[+50]% spy effectiveness [in foreign cities]"
                 ],
                 "requires": ["Populism"],
                 "row": 2,
@@ -667,6 +668,14 @@
                 "column": 3
             },
             {
+                "name": "United Front",
+                "uniques": [
+                    "[Gold] cost of purchasing [All] buildings [-33]%"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
@@ -680,7 +689,7 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[+4 Science] [in all cities]",
+                    "[+3 Science] [in all cities]",
                     "[+1 Production] from every [Lumber mill]",
                     "[+1 Production] from every [Mine]",
                 ],
@@ -688,17 +697,10 @@
                 "column": 3
             },
             {
-                "name": "United Front",
-                "uniques": [
-                    "[Gold] cost of purchasing [All] buildings [-33]%"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
                 "name": "Nationalism",
                 "uniques": [
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
                 ],
                 "row": 1,
                 "column": 5
