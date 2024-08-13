@@ -27,7 +27,7 @@
 	{
 		"name": "Accuracy III",
 		"prerequisites": ["Accuracy II"],
-		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+5]% Strength", "[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 1,
         "row": 3
@@ -51,7 +51,7 @@
 	{
 		"name": "Barrage III",
 		"prerequisites": ["Barrage II"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"uniques": ["[+5]% Strength", "[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Mounted", "Helicopter"],
         "column": 2,
         "row": 3
@@ -101,7 +101,7 @@
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
-		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>"],
+		"uniques": ["[+5]% Strength", "[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 4,
         "row": 3
@@ -125,7 +125,7 @@
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
-		"uniques": ["[+20]% Strength","[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["[+5]% Strength","[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 5,
         "row": 3
@@ -304,7 +304,7 @@
 	{
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
-		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"uniques": ["[+5]% Strength", "[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"],
         "column": 11,
         "row": 3
@@ -334,7 +334,7 @@
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
 		"uniques": [
-			"[+30]% Strength <vs cities>", 
+			"[+10]% Strength", "[+20]% Strength <vs cities>", 
 			"Earn [34]% of the damage done to [City] units as [Gold]"
 		],
 		"unitTypes": ["Melee Water"],
@@ -368,7 +368,7 @@
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
-		"uniques": ["[+20]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+5]% Strength", "[+15]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
         "row": 3
@@ -391,7 +391,7 @@
 	{
 		"name": "Bombardment III",
 		"prerequisites": ["Bombardment II"],
-		"uniques": ["[+20]% Strength <vs [Land] units> <when attacking>"],
+		"uniques": ["[+5]% Strength", "[+15]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"],
         "column": 26,
         "row": 3
@@ -499,7 +499,7 @@
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["[+40]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[+10]% Strength", "[+30]% Strength <vs cities> <when attacking>"],
 		"unitTypes": ["Bomber"],
         "column": 17,
         "row": 3
@@ -532,7 +532,7 @@
 	{
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
-		"uniques": ["[+40]% Damage when intercepting"],
+		"uniques": ["[+10]% Strength", "[+30]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
         "row": 3
@@ -555,7 +555,7 @@
 	{
 		"name": "Dogfighting III",
 		"prerequisites": ["Dogfighting II"],
-		"uniques": ["[+40]% Strength when performing Air Sweep"],
+		"uniques": ["[+10]% Strength", "[+30]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
         "row": 3
@@ -643,7 +643,7 @@
 	{
 		"name": "Anti-Armor III",
 		"prerequisites": ["Anti-Armor II"],
-		"uniques": ["[+40]% Strength <vs [Armored] units>"],
+		"uniques": ["[+10]% Strength", "[+30]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Helicopter"],
         "column": 23,
         "row": 3
@@ -789,8 +789,8 @@
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>","[+25]% Strength <when fighting in [Tundra] tiles>","[+25]% Strength <when fighting in [Hill] tiles>",
-			"Double movement in [Snow]","Double movement in [Tundra]","Double movement in [Hill]"]
+		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>", "[+25]% Strength <when fighting in [Tundra] tiles>", "[+25]% Strength <when fighting in [Hill] tiles>",
+			"Double movement in [Snow]", "Double movement in [Tundra]", "Double movement in [Hill]"]
 	},
 	{
         	"name": "Foreign Lands Bonus",
