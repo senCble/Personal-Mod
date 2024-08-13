@@ -473,7 +473,6 @@
 	{
 		"name": "Great Mosque of Djenne",
 		"culture": 1,
-		"faith": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Gain a free [Mosque] [in this city]", "Hidden when religion is disabled",
