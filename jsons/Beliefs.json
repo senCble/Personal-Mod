@@ -173,7 +173,7 @@
     {
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+1 Faith] from every [Wonder]","[+1 Faith] from every [World Wonder]"]
+        "uniques": ["[+1 Faith] from every [National Wonder]", "[+2 Faith] from every [World Wonder]"]
     },
     {
         "name": "Feed the World",
@@ -228,7 +228,7 @@
     {
         "name": "Religious Community",
         "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [10]%"]
+        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
     },
     {
         "name": "Swords into Ploughshares",
