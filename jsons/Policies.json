@@ -699,7 +699,6 @@
                 "name": "Nationalism",
                 "uniques": [
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
                 ],
                 "row": 1,
                 "column": 5
