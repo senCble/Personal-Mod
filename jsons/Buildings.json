@@ -420,7 +420,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production] from [{Featureless} {Desert}] tiles [in this city]",
-			"[+1 Gold] from [Oasis] tiles [in this city]", "[+1 Gold] from [{Desert} {Hill}] tiles [in this city]",
+			"[+1 Food] from [Oasis] tiles [in this city]", "[+1 Food] from [{Desert} {Hill}] tiles [in this city]",
 			"Gain a free [Market] [in this city]", "[+6 Culture] [in this city] <after discovering [Archaeology]>"],
 		"requiredTech": "Currency",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
