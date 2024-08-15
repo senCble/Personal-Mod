@@ -499,7 +499,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 2,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 2},
+		"improvementStats": {"gold": 3},
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
