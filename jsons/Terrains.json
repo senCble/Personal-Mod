@@ -256,6 +256,7 @@
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
 		"uniques": ["Fresh water", "Rare feature",
+					"[+1 Gold] <after discovering [Economics]>",
 					"Only [All Road] improvements may be built on this tile",
 					"Always Fertility [4] for Map Generation",
 					"Considered [Food] when determining start locations",
