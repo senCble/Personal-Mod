@@ -994,12 +994,11 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Refinery",
+		"name": "Stadium",
+		"cost": 500,
+		"happiness": 2,
+		"requiredBuilding": "Theatre",
 		"maintenance": 3,
-		"production": 2,
-		"hurryCostModifier": 0,
-		"uniques": ["Provides [1] [Iron]","Provides [1] [Oil]","Limited to [4] per Civilization"]
-		"requiredResource": "Coal",
 		"requiredTech": "Refrigeration"
 	},
 	{
@@ -1068,6 +1067,15 @@
 		"requiredTech": "Plastics"
 	},
 	{
+		"name": "Refinery",
+		"maintenance": 3,
+		"production": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["Provides [1] [Iron]","Provides [1] [Oil]","Limited to [4] per Civilization"]
+		"requiredResource": "Coal",
+		"requiredTech": "Plastics"
+	},
+	{
 		"name": "Cristo Redentor",
 		"culture": 5,
 		"isWonder": true,
@@ -1099,18 +1107,13 @@
 		"isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", "[-33]% maintenance costs <for [All] units>", "Gain a free [Military Base] [in this city]"],
-		"requiredTech": "Combined Arms",
+		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", 
+			"[+15]% Production when constructing [Air] units [in this city]", 
+			"New [Air] units start with [15] Experience [in this city]"],
+		"requiredTech": "Radar",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
-	{
-		"name": "Stadium",
-		"cost": 500,
-		"happiness": 2,
-		"requiredBuilding": "Theatre",
-		"maintenance": 3,
-		"requiredTech": "Radar"
-	},
+
 	// Column 14
 	{
 		"name": "Solar Plant",
