@@ -585,7 +585,7 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-                    "[+1 Food, +2 Science] from every [Strategic resource]",
+                    "[+1 Production, +2 Science] from every [Strategic resource]",
                     "Quantity of strategic resources produced by the empire +[100]%",
                 ],
                 "row": 1,
@@ -607,7 +607,7 @@
                     "[+15]% Strength <for [Armored] units>"
                 ],
                 "requires": ["Populism", "Militarism"],
-                "row": 3,
+                "row": 2,
                 "column": 2
             },
             {
@@ -617,7 +617,7 @@
                     "New [Military] units start with [15] Experience [in all cities]"
                 ],
                 "requires": ["Fascism"],
-                "row": 2,
+                "row": 3,
                 "column": 2
             },
             {
