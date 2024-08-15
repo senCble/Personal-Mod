@@ -439,7 +439,7 @@
             "Scientific": 50
         },
         "uniques": [
-            "[+15]% [Science] <while the empire is happy>",
+            "[+10]% [Science] <while the empire is happy>",
             "Only available <before adopting [Piety]>"
         ],
         "policies": [
@@ -585,9 +585,8 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-                    "[+2 Science] from every [Strategic resource]",
+                    "[+1 Food, +2 Science] from every [Strategic resource]",
                     "Quantity of strategic resources produced by the empire +[100]%",
-                    "[+50]% spy effectiveness [in foreign cities]"
                 ],
                 "row": 1,
                 "column": 4
@@ -608,7 +607,7 @@
                     "[+15]% Strength <for [Armored] units>"
                 ],
                 "requires": ["Populism", "Militarism"],
-                "row": 2,
+                "row": 3,
                 "column": 2
             },
             {
@@ -618,15 +617,15 @@
                     "New [Military] units start with [15] Experience [in all cities]"
                 ],
                 "requires": ["Fascism"],
-                "row": 3,
+                "row": 2,
                 "column": 2
             },
             {
                 "name": "Police State",
                 "uniques": [
                     "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "[Gold] cost of purchasing [Courthouse] buildings [-25]%",
                     "[+3 Happiness] from every [Courthouse]",
+                    "[+50]% spy effectiveness [in foreign cities]"
                 ],
                 "requires": ["Populism"],
                 "row": 2,
@@ -689,7 +688,7 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[+3 Science] [in all cities]",
+                    "[+4 Science] [in all cities]",
                     "[+1 Production] from every [Lumber mill]",
                     "[+1 Production] from every [Mine]",
                 ],
@@ -700,7 +699,7 @@
                 "name": "Nationalism",
                 "uniques": [
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
                 ],
                 "row": 1,
                 "column": 5
