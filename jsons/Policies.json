@@ -401,7 +401,7 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+3 Production] [in all coastal cities]",
+                    "[+2 Production] [in all coastal cities]",
                     "[+2 Production] from every [Citadel]",
                 ],
                 "row": 1,
