@@ -160,7 +160,7 @@
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "[+15]% Production when constructing [{Military} {Land}] units [in all cities]",
+                    "[+25]% Production when constructing [Melee] units [in all cities]",
                     "[+100]% Production when constructing [Barracks] buildings [in all cities]",
                     "Free [Great General] appears",
                 ],
@@ -171,7 +171,7 @@
                 "name": "Military Caste",
                 "uniques": [
                     "[+1 Happiness, +2 Culture] [in all cities with a garrison]",
-                    "[1] Unit Supply per city"
+                    "[2] Unit Supply per city"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -374,9 +374,8 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-50]% maintenance on road & railroads",
-                    "[+1 Gold] from every [Lighthouse]",
-                    "[+1 Gold] from every [Harbor]",
-                    "[+1 Gold] from every [Seaport]"
+                    "[+1 Production] from every [Lighthouse]",
+                    "[+1 Production] from every [Harbor]",
                 ],
                 "row": 1,
                 "column": 2
@@ -403,8 +402,9 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+3 Production] [in all coastal cities]",
-                    "[+2 Science] from every [Citadel]",
+                    "[+1 Gold, +1 Science] from every [Barracks]",
+                    "[+1 Gold, +1 Science] from every [Armory]",
+                    "[+1 Gold, +1 Science] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
