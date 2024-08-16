@@ -350,7 +350,6 @@
                 "name": "Patronage Complete",
                 "uniques": [
                     "Influence of all other civilizations with all city-states degrades [33]% faster",
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
                     "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
                 ]
             }
@@ -435,9 +434,9 @@
         "priorities": {
             "Neutral": 10,
             "Cultural": 0,
-            "Diplomatic": 40,
+            "Diplomatic": 50,
             "Domination": 20,
-            "Scientific": 40
+            "Scientific": 50
         },
         "uniques": [
             "[+10]% [Science] <while the empire is happy>",
@@ -595,7 +594,8 @@
             {
                 "name": "Militarism",
                 "uniques": [
-                     "[Gold] cost of purchasing [All] units [-33]%"
+                    "[Gold] cost of purchasing [All] units [-33]%",
+                    "[+50]% spy effectiveness [in foreign cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -625,8 +625,8 @@
                 "name": "Police State",
                 "uniques": [
                     "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "[+3 Happiness] from every [Courthouse]",
-                    "[+50]% spy effectiveness [in foreign cities]"
+                    "[Gold] cost of purchasing [Courthouse] buildings [-25]%",
+                    "[+3 Happiness] from every [Courthouse]"
                 ],
                 "requires": ["Populism"],
                 "row": 2,
@@ -670,7 +670,8 @@
             {
                 "name": "United Front",
                 "uniques": [
-                    "[Gold] cost of purchasing [All] buildings [-33]%"
+                    "[Gold] cost of purchasing [All] buildings [-33]%",
+                    "[-50]% enemy spy effectiveness [in your cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -680,7 +681,7 @@
                 "requires": ["Planned Economy"],
                 "uniques": [
                     "[-15]% maintenance cost for buildings [in all cities]",
-                    "[-50]% enemy spy effectiveness [in your cities]"
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
                 ],
                 "row": 2,
                 "column": 3
