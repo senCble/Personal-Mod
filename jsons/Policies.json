@@ -402,7 +402,7 @@
                 "name": "Merchant Navy",
                 "uniques": [
                     "[+3 Production] [in all coastal cities]",
-                    "[+1 Gold, +1 Science] from every [Citadel]",
+                    "[+2 Production] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
