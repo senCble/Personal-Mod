@@ -69,14 +69,14 @@
 		"greatPersonPoints": {"Great Engineer": 1},
                 "uniques": [
                         "[+10]% [Food] [in all cities]", 
-                        "[+15]% Production when constructing [Archery] units [in this city]",
-			"[+15]% Production when constructing [Ranged Mounted] units [in this city]",
-                        "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"
+                        "[+15]% Production when constructing [{Ranged} {Land}] units [in this city]",
                 ],
 		"requiredTech": "Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
+	
 	// Column 2
+	
 	{
 		"name": "Stone Works",
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
@@ -212,7 +212,7 @@
 		"culture": 3,
 		"isWonder": true,
                 "greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>", "Gain a free [Forge] [in this city]", "Only available <after adopting [Honor]>"],
+		"uniques": ["[+25]% Strength <for [All] units> <vs cities> <when attacking>", "Gain a free [Forge] [in this city]", "Only available <after adopting [Honor]>"],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
 		// "Requires [Honor]" in BNW
@@ -1093,7 +1093,8 @@
 		"requiredBuilding": "Hospital",
 		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[30]% Food is carried over after population increases [in this city]", "[+1 Science] from every specialist [in this city]"]
+		"uniques": ["[30]% Food is carried over after population increases [in this city]", "[+1 Science] from every specialist [in this city]"],
+		"requiredResource": "Horses",
 	},
 	{
 		"name": "Manhattan Project",
