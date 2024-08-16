@@ -399,6 +399,15 @@
                 "column": 2
             },
             {
+                "name": "Merchant Navy",
+                "uniques": [
+                    "[+3 Production] [in all coastal cities]",
+                    "[+1 Gold, +1 Science] from every [Citadel]",
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
                 "name": "Naval Tradition",
                 "uniques": [
                     "[+1] Movement <for [{Military} {Water}] units>",
@@ -406,16 +415,7 @@
                     "[+3] Movement <for [Great General] units> <when [Embarked]>",
                     "Free [Great General] appears"
                 ],
-                "row": 1,
-                "column": 4
-            },
-            {
-                "name": "Merchant Navy",
-                "uniques": [
-                    "[+3 Production] [in all coastal cities]",
-                    "[+1 Gold, +1 Science] from every [Citadel]",
-                ],
-                "requires": ["Naval Tradition"],
+                "requires": ["Merchant Navy"],
                 "row": 2,
                 "column": 4
             },
