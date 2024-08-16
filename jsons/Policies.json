@@ -373,7 +373,7 @@
             {
                 "name": "Trade Unions",
                 "uniques": [
-                    "[+1 Gold] from each Trade Route",
+                    "[+2 Science] from each Trade Route",
                     "[-50]% maintenance on road & railroads"
                 ],
                 "row": 1,
@@ -383,8 +383,10 @@
                 "name": "Mercenary Army",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
-                    "[+2 Science] from every [Market]",
-                    "[+2 Science] from every [Bank]",
+                    "[+1 Science] from every [Mint]",
+                    "[+1 Science] from every [Market]",
+                    "[+1 Science] from every [Bank]",
+                    "[+1 Science] from every [Stock Exchange]"
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
