@@ -171,7 +171,7 @@
                 "name": "Military Caste",
                 "uniques": [
                     "[+1 Happiness, +2 Culture] [in all cities with a garrison]",
-                    "[2] Unit Supply per city"
+                    "[1] Unit Supply per city"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
