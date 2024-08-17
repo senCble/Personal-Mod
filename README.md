@@ -1,4 +1,3 @@
-# Policy-mod
+# Personal Overhaul mod
 
-Forked from EmperorPinguin Policy v2 Mod.
-A mod for G&K, updates the social policy trees, reworked Scout and Ranged Mounted line.
+A mod for G&K, updated Social Policies, reworked Scout and Ranged Mounted unit lines. 
