@@ -4,7 +4,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-PolicyBranchIcons/Aestheticism
+PolicyBranchIcons/Aesthetic
   rotate: false
   xy: 1212, 1236
   size: 578, 578
