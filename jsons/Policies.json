@@ -160,7 +160,7 @@
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "[+25]% Production when constructing [Melee] units [in all cities]",
+                    "[+15]% Production when constructing [Melee] units [in all cities]",
                     "[+100]% Production when constructing [Barracks] buildings [in all cities]",
                     "Free [Great General] appears",
                 ],
@@ -271,8 +271,8 @@
             {
                 "name": "Theocracy",
                 "uniques": [
-                    "[+10]% [Gold] from every [Temple]",
-                    "[+3 Gold] from every [Holy site]"
+                    "[+3 Gold] from every [Holy site]",
+                    "[+10]% [Gold] from every [Temple]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -403,10 +403,10 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
+                    "[+3 Science] from every [Citadel]",
                     "[+1 Production] from every [Barracks]",
                     "[+1 Production] from every [Armory]",
-                    "[+1 Production] from every [Military Academy]",
-                    "[+3 Science] from every [Citadel]",
+                    "[+1 Production] from every [Military Academy]"
                 ],
                 "row": 1,
                 "column": 4
