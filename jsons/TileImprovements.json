@@ -204,8 +204,8 @@
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 4,
-		"uniques": ["Great Improvement", "[+2 Culture] <after discovering [Acoustics]>", "[+2 Culture] <after discovering [Flight]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"culture": 6,
+		"uniques": ["Great Improvement", "[+3 Culture] <after discovering [Flight]>", "[+3 Culture] <after discovering [Globalization]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Manufactory",
