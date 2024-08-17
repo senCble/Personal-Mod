@@ -440,7 +440,6 @@
 	{
 		"name": "Great Wall",
 		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Dynamite]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
 			"Gain a free [Walls] [in this city]"],
