@@ -394,7 +394,7 @@
             {
                 "name": "Protectionism",
                 "uniques": ["[+2] Happiness from each type of luxury resource"],
-                "requires": ["Mercenary Army"],
+                "requires": ["Mercantilism"],
                 "row": 3,
                 "column": 2
             },
@@ -437,9 +437,9 @@
         "priorities": {
             "Neutral": 10,
             "Cultural": 0,
-            "Diplomatic": 50,
+            "Diplomatic": 40,
             "Domination": 20,
-            "Scientific": 50
+            "Scientific": 40
         },
         "uniques": [
             "[+10]% [Science] <while the empire is happy>",
