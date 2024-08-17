@@ -276,7 +276,6 @@
 				"name": "Acoustics",
 				"row": 4,
 				"prerequisites": ["Education"],
-				"uniques": ["Enables conversion of city production to [Culture]"],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
 			},
 			{
