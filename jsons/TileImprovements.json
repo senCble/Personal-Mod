@@ -198,14 +198,14 @@
 	{
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"science": 8,
-		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"science": 6,
+		"uniques": ["Great Improvement", "[+3 Science] <after discovering [Scientific Theory]>", "[+3 Science] <after discovering [Atomic Theory]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
-		"uniques": ["Great Improvement", "[+2 Culture] <after discovering [Flight]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+3 Culture] <after discovering [Flight]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Manufactory",
@@ -217,7 +217,7 @@
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 6,
-		"uniques": ["Great Improvement", "[+2 Gold] <after discovering [Economics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+3 Gold] <after discovering [Economics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Holy site",
@@ -231,7 +231,7 @@
 		"production": 2,
 		"uniques": [
 			"Great Improvement",
-			"[+2 Science] <after discovering [Military Science]>", 
+			"[+3 Science] <after discovering [Military Science]>", 
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
