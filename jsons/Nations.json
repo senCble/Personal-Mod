@@ -327,7 +327,7 @@
 		"innerColor": [184, 0, 0],
 		"favoredReligion": "Shinto",
 		"uniqueName": "Bushido",
-		"uniques": ["No damage penalty for wounded units <for [non-[Air]] units>", "[+1 Culture, +1 Faith] from every [Barracks]", "[+2 Culture] from every [Citadel]"],
+		"uniques": ["No damage penalty for wounded units <for [non-[Air]] units>", "[+1 Culture, +1 Faith] from every [Barracks]", "[+3 Culture] from every [Citadel]"],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
