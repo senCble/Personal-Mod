@@ -92,6 +92,7 @@
 	{
 		"name": "Desert",
 		"type": "Land",
+		"production": 1,
 		"movementCost": 1,
 		"RGB": [230, 172, 0],
 		"uniques": ["Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
@@ -226,13 +227,14 @@
 		"name": "Marsh",
 		"type": "TerrainFeature",
 		"food": -1,
+		"gold": 1,
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.15,
 		"occursOn": ["Grassland"],
 		"uniques": ["Rare feature", "Fresh water",
 			"[-1] to Fertility for Map Generation",
-			"Every [15] tiles with this terrain will receive a major deposit of a strategic resource."],
+			"Every [10] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
 	},
 	{
