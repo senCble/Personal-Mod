@@ -228,7 +228,7 @@
 	{
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 2,
+		"gold": 3,
 		"uniques": [
 			"Great Improvement",
 			"[+3 Science] <after discovering [Military Science]>", 
