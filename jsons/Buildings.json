@@ -391,7 +391,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+1 Production, +1 Gold] from [{Featureless} {Desert}] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [{Featureless} {Desert}] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
 	{
@@ -403,7 +403,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
-			"[+1 Production, +1 Gold] from [{Featureless} {Desert}] tiles [in this city]",
+			"[+1 Production] from [{Featureless} {Desert}] tiles [in this city]",
 			"[+2 Gold] from [Oil] tiles [in this city]", 
 			"[+2 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Currency"
@@ -433,12 +433,11 @@
 		"name": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]","[+1 Food, +1 Gold] from [Marsh] tiles [in this city]"],
+		"uniques": ["[40]% Food is carried over after population increases [in this city]","[+1 Food] from [Marsh] tiles [in this city]"],
 		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Great Wall",
-		"culture": 1,
 		"isWonder": true,
 		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Dynamite]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
 			"Gain a free [Walls] [in this city]"],
