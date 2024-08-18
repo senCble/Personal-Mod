@@ -253,6 +253,7 @@
 		"type": "TerrainFeature",
 		"food": 3,
 		"gold": 1,
+		"overrideStats": true,
 		"movementCost": 1,
 		"unbuildable": true,
 		"defenceBonus": -0.1,
