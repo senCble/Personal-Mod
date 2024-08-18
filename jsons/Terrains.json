@@ -276,6 +276,7 @@
 		"name": "Flood plains",
 		"type": "TerrainFeature",
 		"food": 2,
+		"overrideStats": true,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
