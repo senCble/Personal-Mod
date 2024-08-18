@@ -1107,9 +1107,9 @@
 		"isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"uniques": ["[-50]% Gold cost of upgrading <for [Military] units>", 
+		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", 
 			"[+25]% Production when constructing [Air] units [in this city]",
-			"Gain a free [Military Base] [in this city]"],
+			"Free [Jet Fighter] Appears"],
 		"requiredTech": "Radar",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
@@ -1163,7 +1163,7 @@
         	"isWonder": true,
 		"culture": 1,
         	"uniques": ["Hidden when espionage is disabled", "[-75]% enemy spy effectiveness [in this city]",
-            		"[-50]% enemy spy effectiveness [in all cities]","Gain an extra spy",],
+            		"[-50]% enemy spy effectiveness [in all cities]", "Gain an extra spy",],
         	"requiredTech": "Computers"
     	},
 
@@ -1175,7 +1175,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "[+15]% [Culture] from every [Stadium]", "Gain a free [Stadium] [in this city]"],
+		"uniques": ["[+1] population [in all cities]", "Gain a free [Stadium] [in all cities]", "[+15]% [Culture] from every [Stadium]"],
 		"requiredTech": "Telecommunications",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
@@ -1184,7 +1184,7 @@
 		"cost": 300,
 		"maintenance": 1,
 		"requiredTech": "Telecommunications",
-		"uniques": ["Population loss from nuclear attacks [-99]% [in this city]","Damage to garrison from nuclear attacks [-99]% [in this city]"
+		"uniques": ["Population loss from nuclear attacks [-90]% [in this city]","Damage to garrison from nuclear attacks [-90]% [in this city]"
 	]
 	},
 	{
