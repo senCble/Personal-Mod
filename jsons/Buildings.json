@@ -1107,8 +1107,9 @@
 		"isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", 
-			"[+15]% Production when constructing [Air] units [in this city]", 
+		"uniques": ["[-50]% Gold cost of upgrading <for [Military] units>", 
+			"[+25]% Production when constructing [Air] units [in this city]", 
+			"New [Air] units start with [15] Experience [in this city]",
 			"Gain a free [Military Base] [in this city]"],
 		"requiredTech": "Radar",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
@@ -1185,7 +1186,7 @@
 		"maintenance": 1,
 		"requiredTech": "Telecommunications",
 		"uniques": ["Population loss from nuclear attacks [-99]% [in this city]","Damage to garrison from nuclear attacks [-99]% [in this city]"
-		]
+	]
 	},
 	{
 		"name": "Hubble Space Telescope",
