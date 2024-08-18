@@ -215,8 +215,7 @@
 		"isWonder": true,
                 "greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["[+25]% Strength <for [All] units> <vs cities> <when attacking>", 
-			"[+15]% Production when constructing [Siege] units [in this city]", 
-			"Gain a free [Barracks] [in this city]", "Only available <after adopting [Honor]>"],
+			"Gain a free [Forge] [in this city]", "Only available <after adopting [Honor]>"],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
 		// "Requires [Honor]" in BNW
@@ -391,7 +390,6 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+1 Production] from [{Featureless} {Desert}] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
 	{
@@ -403,7 +401,6 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
-			"[+1 Production] from [{Featureless} {Desert}] tiles [in this city]",
 			"[+2 Gold] from [Oil] tiles [in this city]", 
 			"[+2 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Currency"
@@ -433,7 +430,7 @@
 		"name": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]","[+1 Food] from [Marsh] tiles [in this city]"],
+		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Engineering"
 	},
 	{
@@ -850,7 +847,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]",
+		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Production, +1 Gold] from [{unimproved} {Marsh}] tiles [in this city]",
 			"[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Economics"
 	},
