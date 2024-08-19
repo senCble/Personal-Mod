@@ -1554,7 +1554,7 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["[+50]% Strength <vs [Armored] units>", "No defensive terrain bonus", 
 			"Can move after attacking", "May travel on Water tiles without embarking",
-			"All tiles cost 1 movement", "[-33]% Strength <vs cities> <when attacking>",
+			"All tiles cost 1 movement", "Can see over obstacles", 
 			"Cannot attack <in [Ocean] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
