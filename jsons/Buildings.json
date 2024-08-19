@@ -1107,9 +1107,9 @@
 		"isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", 
+		"uniques": ["[2] free [Jet Fighter] units appear",
 			"[+25]% Production when constructing [Air] units [in this city]",
-			"Free [Jet Fighter] Appears"],
+			"[-33]% Gold cost of upgrading <for [Military] units>"],
 		"requiredTech": "Radar",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
