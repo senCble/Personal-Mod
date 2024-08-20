@@ -133,7 +133,7 @@
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>", "[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Mounted","Armored"],
         "column": 6,
         "row": 2
@@ -141,14 +141,14 @@
 	{
 		"name": "Coup de Grace",
 		"prerequisites": ["Accuracy III","Barrage III","Mobility II","Anti-Armor II"],
-		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>","[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>"],
 		"unitTypes": ["Ranged Mounted","Helicopter"],
         	"column": 27,
         	"row": 3
 	},
 	{
 		"name": "Lightning Warfare",
-		"prerequisites": ["Accuracy III","Barrage III"],
+		"prerequisites": ["Accuracy III","Barrage III","Mobility II","Anti-Armor II"],
 		"uniques": ["[+1] Movement", "Ignores Zone of Control", "Can move after attacking"],
 		"unitTypes": ["Ranged Mounted","Helicopter"],
 		"column": 27,
@@ -206,7 +206,7 @@
 	},
 	{
 		"name": "Medic",
-		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II","Accuracy I","Barrage I","Mobility I", "Anti-Armor I"],
+		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II", "Accuracy I", "Barrage I", "Mobility I", "Anti-Armor I"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Ranged Mounted","Helicopter"],
         "column": 10, // after scout base
@@ -645,7 +645,7 @@
 
 	{
 		"name": "March",
-		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III", "Mobility II", "Anti-Armor II"],
+		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III","Mobility II","Anti-Armor II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted","Armored","Ranged Mounted","Helicopter"],
         "column": 10,
@@ -653,7 +653,7 @@
 	},
 	{
 		"name": "Mobility",
-		"prerequisites": ["Shock II","Drill II","Targeting I","Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
+		"prerequisites": ["Shock II","Drill II","Targeting I","Bombardment I","Boarding Party I","Coastal Raider I","Wolfpack I"],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine"],
         "column": 24,
