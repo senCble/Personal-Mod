@@ -1566,7 +1566,7 @@
 		"strength": 50,
 		"rangedStrength": 85,
 		"range": 3,
-		"cost": 450,
+		"cost": 425,
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", 
@@ -1590,7 +1590,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 90,
-		"cost": 425,
+		"cost": 450,
 		"requiredTech": "Mobile Tactics",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
