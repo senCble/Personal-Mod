@@ -834,7 +834,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Electronics",
-		"uniques": ["[+3] Movement <in [Coastal] tiles>"],
+		"uniques": ["[+1] Sight", "[+3] Movement <in [Coastal] tiles>"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
@@ -1181,7 +1181,7 @@
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Electronics",
 		"promotions": ["Coastal Raider I"],
-		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit"],],
+		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 	{
