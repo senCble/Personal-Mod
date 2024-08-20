@@ -618,12 +618,12 @@
 		"uniqueTo": "Songhai",
 		"movement": 4,
 		"strength": 20,
-		"cost": 100,
+		"cost": 110,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
 		"promotions": ["Pillager"],
 		"attackSound": "horse"
 	},
@@ -798,7 +798,7 @@
 		"replaces": "Longswordsman",
 		"uniqueTo": "Japan",
 		"movement": 2,
-		"strength": 26,
+		"strength": 25,
 		"cost": 125,
 		"requiredTech": "Steel",
 		"upgradesTo": "Rifleman",
@@ -833,7 +833,7 @@
 		"cost": 125,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Steam Power",
+		"obsoleteTech": "Electronics",
 		"uniques": ["[+3] Movement <in [Coastal] tiles>"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
@@ -913,7 +913,7 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Steam Power",
-		"upgradesTo": "Ironclad",
+		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I"],
 		"uniques": ["[+1] Sight"]
 		"attackSound": "cannon"
@@ -1173,14 +1173,15 @@
 	{
 		"name": "Ironclad",
 		"unitType": "Melee Water",
-		"movement": 5,
-		"strength": 40,
+		"movement": 3,
+		"strength": 45,
 		"cost": 250,
 		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Electronics",
 		"promotions": ["Coastal Raider I"],
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit"],],
 		"attackSound": "shipguns"
 	},
 	{
