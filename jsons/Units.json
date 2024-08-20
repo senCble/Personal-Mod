@@ -321,7 +321,7 @@
 		"uniqueTo": "Carthage",
 		"replaces": "Trireme",
 		"movement": 4,
-		"strength": 15,
+		"strength": 16,
 		"cost": 75,
 		"requiredTech": "Optics",
 		"uniques": ["Cannot enter ocean tiles"],
