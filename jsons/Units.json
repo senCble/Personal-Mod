@@ -556,12 +556,12 @@
 		"uniqueTo": "Germany",
 		"movement": 2,
 		"strength": 16,
-		"cost": 55,
+		"cost": 75,
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+100]% Strength <vs [Mounted] units>", "[+100]% Strength <vs [Ranged Mounted] units>", "Can move immediately once bought"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged Mounted] units>", "Can move immediately once bought"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Rifling",
-		"promotions": ["Pillager"],
+		"promotions": ["Pillager", "Formation I"],
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW
 	},
