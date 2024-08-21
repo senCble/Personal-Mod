@@ -148,7 +148,7 @@
 		"upgradesTo": "Galleass",
 		"obsoleteTech": "Compass",
 		"uniques": ["Cannot enter ocean tiles","[+33]% Strength <vs [Barbarian] units>", "Can only attack [Coastal] tiles", "Unable to pillage tiles"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "arrow"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
 	{
@@ -1383,7 +1383,7 @@
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": ["[+50]% Strength <vs [Armored] units>", "Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Battleship",
@@ -1555,7 +1555,7 @@
 			"Can move after attacking", "May travel on Water tiles without embarking",
 			"All tiles cost 1 movement", "Can see over obstacles", 
 			"Cannot attack <in [Ocean] tiles>", "Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
+		"attackSound": "missile"
 	},
 
 	// Information Era
