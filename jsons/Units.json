@@ -912,7 +912,7 @@
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
-		"obsoleteTech": "Steam Power",
+		"obsoleteTech": "Electronics",
 		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I"],
 		"uniques": ["[+1] Sight"]
