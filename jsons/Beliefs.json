@@ -8,7 +8,7 @@
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
+        "uniques": ["[+1 Faith] from [Tundra] tiles [in this city]"]
     },
     {
         "name": "Desert Folklore",
@@ -265,7 +265,7 @@
     {
         "name": "Peace Loving",
         "type": "Founder",
-        "uniques": ["[+1 Happiness] from every [10] global followers [in foreign cities]"]
+        "uniques": ["[+1 Happiness] from every [8] global followers [in foreign cities]"]
     },
     {
         "name": "Pilgrimage",
