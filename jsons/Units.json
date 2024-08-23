@@ -418,7 +418,7 @@
 		"uniqueTo": "Rome",
 		"movement": 2,
 		"strength": 7,
-		"rangedStrength": 11,
+		"rangedStrength": 10,
 		"cost": 75,
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
