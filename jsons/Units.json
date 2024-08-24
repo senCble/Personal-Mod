@@ -147,7 +147,7 @@
 		"requiredTech": "Sailing",
 		"upgradesTo": "Galleass",
 		"obsoleteTech": "Compass",
-		"uniques": ["Cannot enter ocean tiles","[+33]% Strength <vs [Barbarian] units>", "Can only attack [Coastal] tiles", "Unable to pillage tiles"],
+		"uniques": ["Cannot enter ocean tiles", "[+33]% Strength <vs [Barbarian] units>", "Can only attack [Coastal] tiles", "Unable to pillage tiles"],
 		"attackSound": "arrow"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
@@ -598,14 +598,15 @@
 		"replaces": "Knight",
 		"uniqueTo": "Spain",
 		"movement": 4,
-		"strength": 22,
+		"strength": 20,
 		"cost": 125,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Railroads",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", 
-			"Founds a new city <on foreign continents>","[+1] Sight"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", 
+			"Founds a new city <on foreign continents>", 
+			"[+33]% Strength <vs [Barbarian] units>", "[+1] Sight"],
 		"promotions": ["War Canoe"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
