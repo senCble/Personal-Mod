@@ -598,7 +598,7 @@
 		"replaces": "Knight",
 		"uniqueTo": "Spain",
 		"movement": 4,
-		"strength": 20,
+		"strength": 22,
 		"cost": 125,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
@@ -606,7 +606,7 @@
 		"obsoleteTech": "Railroads",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", 
 			"Founds a new city <on foreign continents>", 
-			"[+33]% Strength <vs [Barbarian] units>", "[+1] Sight"],
+			"[+1] Movement <when [Embarked]>", "[+1] Sight"],
 		"promotions": ["War Canoe"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
