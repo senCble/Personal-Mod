@@ -214,8 +214,8 @@
 	{
 		"name": "Statue of Zeus",
 		"culture": 3,
+		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-                "greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["[+25]% Strength <for [All] units> <vs cities> <when attacking>", 
 			"Gain a free [Forge] [in this city]", "Only available <after adopting [Honor]>"],
 		"requiredTech": "Bronze Working",
@@ -287,7 +287,7 @@
 	},
 	{
 		"name": "Hanging Gardens",
-		"greatPersonPoints": {"Great Scientist": 1},
+		"greatPersonPoints": {"Great Artist": 1},
 		"food": 6,
 		"culture": 1,
 		"isWonder": true,
@@ -635,7 +635,7 @@
 	{
 		"name": "Alhambra",
 		"culture": 1,
-		"greatPersonPoints": {"Great Artist": 2},
+		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"percentStatBonus": {"culture": 15},
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
@@ -710,7 +710,7 @@
 		"name": "Sistine Chapel",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": ["[+20]% [Culture] [in all cities]"],
 		"requiredTech": "Acoustics",
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
@@ -760,7 +760,7 @@
 		"name": "Forbidden Palace",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Scientist": 1},
+		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[-10]% Unhappiness from [Population] [in all non-occupied cities]"],
 		"requiredTech": "Banking",
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
@@ -892,7 +892,6 @@
 		"culture": 1,
 		"happiness": 4,
 		"isWonder": true,
-                "greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[2] free [Great Artist] units appear"],
 		"requiredTech": "Archaeology",
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
@@ -1163,6 +1162,7 @@
         	"name": "Great Firewall",
         	"isWonder": true,
 		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
         	"uniques": ["Hidden when espionage is disabled", "[-75]% enemy spy effectiveness [in this city]",
             		"[-50]% enemy spy effectiveness [in all cities]", "Gain an extra spy",],
         	"requiredTech": "Computers"
