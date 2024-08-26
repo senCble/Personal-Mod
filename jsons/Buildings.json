@@ -1108,7 +1108,7 @@
 		"isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"uniques": ["[2] free [Jet Fighter] units appear",
+		"uniques": ["Free [Jet Fighter] units appear",
 			"[+25]% Production when constructing [Air] units [in this city]",
 			"[-33]% Gold cost of upgrading <for [Military] units>"],
 		"requiredTech": "Radar",
