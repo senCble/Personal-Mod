@@ -14,7 +14,7 @@
     {
         "name": "a stash of gold",
         "notification": "We found a stash of Gold", // trigger notification only
-        "uniques": ["Gain [90] [Gold] <(modified by game speed)>"],
+        "uniques": ["Gain [75] [Gold] <(modified by game speed)>"],
         "color": "#ffeb7f"
     },
     {
@@ -31,7 +31,7 @@
     {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
-        "uniques": ["This Unit gains [15] XP", "Only available <after turn number [20]>"]
+        "uniques": ["[This Unit] gains [15] XP", "Only available <after turn number [20]>"]
     },
     {
         "name": "find a crudely-drawn map",
