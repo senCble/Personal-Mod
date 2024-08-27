@@ -1496,7 +1496,7 @@
 		"movement": 3,
 		"interceptRange": 4,
 		"strength": 65,
-		"cost": 450,
+		"cost": 425,
 		"requiredTech": "Rocketry",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>","[+50]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
@@ -1591,7 +1591,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 90,
-		"cost": 450,
+		"cost": 425,
 		"requiredTech": "Mobile Tactics",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
