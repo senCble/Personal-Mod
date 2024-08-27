@@ -374,7 +374,7 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-50]% maintenance on road & railroads",
-                    "[+3 Gold] from every [Citadel]",
+                    "[+3 Science] from every [Citadel]"
                 ],
                 "row": 1,
                 "column": 2
@@ -404,7 +404,7 @@
                     "[+1 Production] from every [Barracks]",
                     "[+1 Production] from every [Armory]",
                     "[+1 Production] from every [Military Academy]",
-                    "[+3 Science] from every [Citadel]"
+                    "[+3 Gold] from every [Citadel]",
                 ],
                 "row": 1,
                 "column": 4
