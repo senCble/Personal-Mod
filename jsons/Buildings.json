@@ -816,7 +816,7 @@
 	{
 		"name": "Taj Mahal",
 		"culture": 1,
-		"happiness": 3,
+		"happiness": 5,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"uniques": ["Empire enters golden age"],
