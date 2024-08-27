@@ -1164,7 +1164,7 @@
         	"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
-        	"uniques": ["Hidden when espionage is disabled", "[-75]% enemy spy effectiveness [in this city]",
+        	"uniques": ["Hidden when espionage is disabled", "[-50]% enemy spy effectiveness [in this city]",
             		"[-50]% enemy spy effectiveness [in all cities]", "Gain an extra spy",],
         	"requiredTech": "Computers"
     	},
