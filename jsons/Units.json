@@ -8,7 +8,8 @@
 		"unitType": "Civilian",
 		"movement": 2,
 	    	"cost": 75,
-		"uniques": ["Can build [Land] improvements on tiles", 
+		"uniques": ["Can build [Land] improvements on tiles",
+			"Can build [Lake] improvements on tiles", 
               		"Automation is a primary action"],
   	},
 	{
