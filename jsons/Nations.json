@@ -918,7 +918,7 @@
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion", "Gain enough Faith for [25]% of a Great Prophet <upon founding a Pantheon>"],
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion", "Gain enough Faith for [50]% of a Great Prophet <upon founding a Pantheon>"],
 
 		"cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
