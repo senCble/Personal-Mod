@@ -782,7 +782,7 @@
 	},
 	{
 		"name": "[Zero] ability",
-		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
+		"uniques": ["[+33]% Strength <vs [Air] units>"]
 	},
 	{
 		"name": "Bonus in Forest/Jungle",
