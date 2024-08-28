@@ -1261,7 +1261,7 @@
 		"requiredTech": "Flight",
 		"upgradesTo": "Fighter",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Helicopter] units>"],
-		"promotions": ["[Zero] ability", "Dogfighting I"],
+		"promotions": ["[Zero] ability"],
 		"attackSound": "machinegun"
 	},
 	{
