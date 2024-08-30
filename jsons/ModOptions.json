@@ -1,1 +1,6 @@
-{"modUrl":"https://github.com/senCble/Personal-Mod","defaultBranch":"main","author":"senCble","lastUpdated":"2024-02-09T12:36:51Z","modSize":754,"topics":["unciv-mod"]}
+{
+    "constants": {
+      "minimalCityDistance": 4,
+      "minimalCityDistanceOnDifferentContinents": 3
+    }
+}
