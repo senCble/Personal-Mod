@@ -230,8 +230,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
-			"[+3 Science] <after discovering [Military Science]>", 
-			"[+3 Gold] <after discovering [Combined Arms]>", 			
+			"[+3 Science] <after discovering [Military Science]>", 		
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
