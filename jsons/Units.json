@@ -606,8 +606,7 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Railroads",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", 
-			"Founds a new city <on foreign continents>", 
-			"[+1] Movement <when [Embarked]>", "[+1] Sight"],
+			"Founds a new city <on foreign continents>", "[+1] Sight"],
 		"promotions": ["War Canoe"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
