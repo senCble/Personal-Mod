@@ -438,7 +438,7 @@
             "Neutral": 10,
             "Cultural": 0,
             "Diplomatic": 40,
-            "Domination": 20,
+            "Domination": 40,
             "Scientific": 40
         },
         "uniques": [
@@ -447,9 +447,10 @@
         ],
         "policies": [
             {
-                "name": "Secularism",
+                "name": "Humanism",
                 "uniques": [
-                    "[+2 Science] from every specialist [in all cities]",
+                    "[+1 Happiness] from every [University]",
+                    "[+1 Happiness] from every [Public School]"
                 ],
                 "row": 1,
                 "column": 2
@@ -460,22 +461,21 @@
                     "[+1 Science] from every [Trading post]",
                     "[+17]% [Science] from every [University]"
                 ],
-                "requires": ["Secularism"],
+                "requires": ["Humanism"],
                 "row": 2,
                 "column": 2
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+33]%"],
+                "uniques": ["Science gained from research agreements [+50]%"],
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
             },
             {
-                "name": "Humanism",
+                "name": "Secularism",
                 "uniques": [
-                    "[+1 Happiness] from every [University]",
-                    "[+1 Happiness] from every [Public School]"
+                    "[+2 Science] from every specialist [in all cities]",
                 ],
                 "row": 1,
                 "column": 4
@@ -485,7 +485,7 @@
                 "uniques": [
                     "[+1 Gold] from all [Science] buildings",
                 ],
-                "requires": ["Humanism"],
+                "requires": ["Secularism"],
                 "row": 2,
                 "column": 4
             },
@@ -588,7 +588,7 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-                    "[+2 Science] from every [Strategic resource]",
+                    "[+1 Production, +2 Science] from every [Strategic resource]",
                     "Quantity of strategic resources produced by the empire +[100]%",
                 ],
                 "row": 1,
@@ -631,7 +631,6 @@
                     "[Gold] cost of purchasing [Courthouse] buildings [-25]%",
                     "[+3 Happiness] from every [Courthouse]",
                 ],
-                "requires": ["Populism"],
                 "row": 2,
                 "column": 4
             },
@@ -655,8 +654,7 @@
             "Scientific": 60
         },
         "uniques": [
-            "[+1 Happiness] from every [Monument]",
-            "Gain a free [Monument] [in all cities]",
+            "[+2 Happiness] [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
         ],
@@ -692,7 +690,7 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[+3 Science] [in all cities]",
+                    "[+4 Science] [in all cities]",
                     "[+1 Production] from every [Lumber mill]",
                     "[+1 Production] from every [Mine]",
                 ],
