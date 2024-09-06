@@ -598,7 +598,6 @@
                 "name": "Militarism",
                 "uniques": [
                     "[Gold] cost of purchasing [All] units [-33]%",
-                    "[+50]% spy effectiveness [in foreign cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -615,6 +614,17 @@
                 "column": 2
             },
             {
+                "name": "Police State",
+                "uniques": [
+                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "[+3 Happiness] from every [Courthouse]",
+                    "[+50]% spy effectiveness [in foreign cities]",
+                ],
+                "requires": ["Populism"],
+                "row": 2,
+                "column": 4
+            },
+            {
                 "name": "Total War",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities]",
@@ -623,17 +633,6 @@
                 "requires": ["Fascism"],
                 "row": 3,
                 "column": 2
-            },
-            {
-                "name": "Police State",
-                "uniques": [
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "[Gold] cost of purchasing [Courthouse] buildings [-25]%",
-                    "[+3 Happiness] from every [Courthouse]"
-                ],
-                "requires": ["Populism"],
-                "row": 2,
-                "column": 4
             },
             {
                 "name": "Autocracy Complete",
@@ -674,7 +673,6 @@
                 "name": "United Front",
                 "uniques": [
                     "[Gold] cost of purchasing [All] buildings [-33]%",
-                    "[-25]% enemy spy effectiveness [in your cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -684,7 +682,7 @@
                 "requires": ["Planned Economy"],
                 "uniques": [
                     "[-15]% maintenance cost for buildings [in all cities]",
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
+                    "[-25]% enemy spy effectiveness [in your cities]"
                 ],
                 "row": 2,
                 "column": 3
@@ -704,6 +702,7 @@
                 "name": "Nationalism",
                 "uniques": [
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
                 ],
                 "row": 1,
                 "column": 5
