@@ -588,8 +588,8 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-                    "[+1 Production, +1 Science] from every [Strategic resource]",
-                    "Quantity of strategic resources produced by the empire +[100]%",
+                    "[+2 Science] from every [Strategic resource]",
+                    "Quantity of strategic resources produced by the empire +[50]%",
                     "[+50]% spy effectiveness [in foreign cities]",
                 ],
                 "row": 1,
