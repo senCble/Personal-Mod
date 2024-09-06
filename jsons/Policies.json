@@ -466,7 +466,7 @@
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+50]%"],
+                "uniques": ["Science gained from research agreements [+33]%"],
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
@@ -674,7 +674,7 @@
                 "name": "United Front",
                 "uniques": [
                     "[Gold] cost of purchasing [All] buildings [-33]%",
-                    "[-50]% enemy spy effectiveness [in your cities]"
+                    "[-25]% enemy spy effectiveness [in your cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -693,7 +693,7 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[+4 Science] [in all cities]",
+                    "[+3 Science] [in all cities]",
                     "[+1 Production] from every [Lumber mill]",
                     "[+1 Production] from every [Mine]",
                 ],
