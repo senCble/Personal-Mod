@@ -588,8 +588,9 @@
             {
                 "name": "Populism",
                 "uniques": [		    
-                    "[+2 Science] from every [Strategic resource]",
+                    "[+1 Production, +1 Science] from every [Strategic resource]",
                     "Quantity of strategic resources produced by the empire +[100]%",
+                    "[+50]% spy effectiveness [in foreign cities]",
                 ],
                 "row": 1,
                 "column": 4
@@ -614,17 +615,6 @@
                 "column": 2
             },
             {
-                "name": "Police State",
-                "uniques": [
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "[+3 Happiness] from every [Courthouse]",
-                    "[+50]% spy effectiveness [in foreign cities]",
-                ],
-                "requires": ["Populism"],
-                "row": 2,
-                "column": 4
-            },
-            {
                 "name": "Total War",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities]",
@@ -633,6 +623,17 @@
                 "requires": ["Fascism"],
                 "row": 3,
                 "column": 2
+            },
+            {
+                "name": "Police State",
+                "uniques": [
+                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "[Gold] cost of purchasing [Courthouse] buildings [-25]%",
+                    "[+3 Happiness] from every [Courthouse]",
+                ],
+                "requires": ["Populism"],
+                "row": 2,
+                "column": 4
             },
             {
                 "name": "Autocracy Complete",
