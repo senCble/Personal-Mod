@@ -401,9 +401,9 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+1 Production] from every [Barracks]",
-                    "[+1 Production] from every [Armory]",
-                    "[+1 Production] from every [Military Academy]",
+                    "[+1 Science] from every [Barracks]",
+                    "[+1 Science] from every [Armory]",
+                    "[+1 Science] from every [Military Academy]",
                     "[+3 Gold] from every [Citadel]",
                 ],
                 "row": 1,
@@ -437,15 +437,41 @@
         "priorities": {
             "Neutral": 10,
             "Cultural": 0,
-            "Diplomatic": 40,
-            "Domination": 40,
-            "Scientific": 40
+            "Diplomatic": 50,
+            "Domination": 20,
+            "Scientific": 50
         },
         "uniques": [
             "[+10]% [Science] <while the empire is happy>",
             "Only available <before adopting [Piety]>"
         ],
         "policies": [
+            {
+                "name": "Free Thought",
+                "uniques": [
+                    "[+1 Science] from every [Trading post]",
+                    "[+17]% [Science] from every [University]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Secularism",
+                "uniques": [
+                    "[+2 Science] from every [Scientist]",
+                    "[+2 Science] from every [Engineer]"
+                ],
+                "requires": ["Free Thought"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Scientific Revolution",
+                "uniques": ["Science gained from research agreements [+50]%"],
+                "requires": ["Secularism"],
+                "row": 3,
+                "column": 2
+            },
             {
                 "name": "Humanism",
                 "uniques": [
@@ -456,36 +482,11 @@
                 "column": 2
             },
             {
-                "name": "Free Thought",
-                "uniques": [
-                    "[+1 Science] from every [Trading post]",
-                    "[+17]% [Science] from every [University]"
-                ],
-                "requires": ["Humanism"],
-                "row": 2,
-                "column": 2
-            },
-            {
-                "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+50]%"],
-                "requires": ["Free Thought"],
-                "row": 3,
-                "column": 2
-            },
-            {
-                "name": "Secularism",
-                "uniques": [
-                    "[+2 Science] from every specialist [in all cities]",
-                ],
-                "row": 1,
-                "column": 4
-            },
-            {
                 "name": "Sovereignty",
                 "uniques": [
                     "[+1 Gold] from all [Science] buildings",
                 ],
-                "requires": ["Secularism"],
+                "requires": ["Humanism"],
                 "row": 2,
                 "column": 4
             },
@@ -517,7 +518,8 @@
             {
                 "name": "Constitution",
                 "uniques": [
-                    "[+2 Culture] from every specialist [in all cities]",
+                    "[+1 Culture] from every specialist [in all cities]",
+                    "[+2 Culture] from every [World Wonder]",
                 ],
                 "row": 1,
                 "column": 1
@@ -586,10 +588,11 @@
         ],
         "policies": [
             {
-                "name": "Populism",
-                "uniques": [		    
-                    "[+1 Production, +2 Science] from every [Strategic resource]",
-                    "Quantity of strategic resources produced by the empire +[100]%",
+                "name": "Police State",
+                "uniques": [
+                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "[+3 Happiness] from every [Courthouse]",
+                    "[+50]% spy effectiveness [in foreign cities]"
                 ],
                 "row": 1,
                 "column": 4
@@ -598,7 +601,6 @@
                 "name": "Militarism",
                 "uniques": [
                     "[Gold] cost of purchasing [All] units [-33]%",
-                    "[+50]% spy effectiveness [in foreign cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -610,7 +612,7 @@
                     "[Armored] units gain the [Lightning Warfare] promotion",
                     "[+15]% Strength <for [Armored] units>"
                 ],
-                "requires": ["Populism", "Militarism"],
+                "requires": ["Police State", "Militarism"],
                 "row": 2,
                 "column": 2
             },
@@ -625,12 +627,12 @@
                 "column": 2
             },
             {
-                "name": "Police State",
-                "uniques": [
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "[Gold] cost of purchasing [Courthouse] buildings [-25]%",
-                    "[+3 Happiness] from every [Courthouse]",
+                "name": "Populism",
+                "uniques": [		    
+                    "[+1 Production, +2 Science] from every [Strategic resource]",
+                    "Quantity of strategic resources produced by the empire +[100]%",
                 ],
+                "requires": ["Police State"],
                 "row": 2,
                 "column": 4
             },
@@ -672,7 +674,6 @@
                 "name": "United Front",
                 "uniques": [
                     "[Gold] cost of purchasing [All] buildings [-33]%",
-                    "[-25]% enemy spy effectiveness [in your cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -682,6 +683,7 @@
                 "requires": ["Planned Economy"],
                 "uniques": [
                     "[-15]% maintenance cost for buildings [in all cities]",
+                    "[-25]% enemy spy effectiveness [in your cities]"
                 ],
                 "row": 2,
                 "column": 3
