@@ -311,14 +311,6 @@
                 "column": 2
             },
             {
-                "name": "Aesthetics",
-                "uniques": [
-                    "Resting point for Influence with City-States is increased by [20]"
-                ],
-                "row": 1,
-                "column": 4
-            },
-            {
                 "name": "Scholasticism",
                 "uniques": [
                     "Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
@@ -326,6 +318,14 @@
                 "requires": ["Philantropy"],
                 "row": 2,
                 "column": 2
+            },
+            {
+                "name": "Aesthetics",
+                "uniques": [
+                    "Resting point for Influence with City-States is increased by [20]"
+                ],
+                "row": 1,
+                "column": 4
             },
             {
                 "name": "Cultural Diplomacy",
@@ -374,7 +374,9 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-50]% maintenance on road & railroads",
-                    "[+3 Science] from every [Citadel]"
+                    "[+1 Gold] from every [Lighthouse]",
+                    "[+1 Gold] from every [Harbor]",
+                    "[+1 Gold] from every [Seaport]",
                 ],
                 "row": 1,
                 "column": 2
@@ -401,10 +403,9 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+1 Science] from every [Barracks]",
-                    "[+1 Science] from every [Armory]",
-                    "[+1 Science] from every [Military Academy]",
-                    "[+3 Gold] from every [Citadel]",
+                    "[+2 Science] from every [Barracks]",
+                    "[+2 Science] from every [Armory]",
+                    "[+2 Science] from every [Military Academy]",
                 ],
                 "row": 1,
                 "column": 4
@@ -424,8 +425,8 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+1 Gold] from every [Trading post]",
                     "[+100]% Gold from Great Merchant trade missions",
+                    "[+2 Gold] from every [Trading post]",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -458,7 +459,8 @@
             {
                 "name": "Secularism",
                 "uniques": [
-                    "[+2 Science] from every [Scientist]"
+                    "[+2 Science] from every [Scientist]",
+                    "[+2 Science] from every [Engineer]"
                 ],
                 "requires": ["Free Thought"],
                 "row": 2,
@@ -609,7 +611,7 @@
                 "uniques": [
                     "[+3] Movement <for [Great General] units> <when [non-[Embarked]]>",
                     "[Armored] units gain the [Lightning Warfare] promotion",
-                    "[+15]% Strength <for [Armored] units>"
+                    "[+15]% Strength <for [Armored] units> <when attacking>"
                 ],
                 "requires": ["Police State", "Militarism"],
                 "row": 2,
