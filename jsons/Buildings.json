@@ -194,7 +194,6 @@
 	{
 		"name": "Barracks",
 		"hurryCostModifier": 25,
-		"science": 1,
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
@@ -205,7 +204,6 @@
 		"uniqueTo": "Russia",
 		"cost": 55,
 		"hurryCostModifier": 25,
-		"science": 1,
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]","Destroyed when the city is captured",
 			"[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]"],
@@ -665,7 +663,6 @@
 	{
 		"name": "Armory",
 		"hurryCostModifier": 25,
-		"science": 2,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
@@ -931,7 +928,6 @@
 	},
 	{
 		"name": "Military Academy",
-		"science": 3,
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
