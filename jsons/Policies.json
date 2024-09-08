@@ -403,10 +403,9 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+1 Science] from every [Barracks]",
-                    "[+1 Science] from every [Armory]",
-                    "[+1 Science] from every [Military Academy]",
-                    "[+1 Science] from every [Trading post]",
+                    "[+1 Science, +1 Gold] from every [Barracks]",
+                    "[+1 Science, +1 Gold] from every [Armory]",
+                    "[+1 Science, +1 Gold] from every [Military Academy]",
                 ],
                 "row": 1,
                 "column": 4
@@ -427,7 +426,7 @@
                 "name": "Commerce Complete",
                 "uniques": [
                     "[+100]% Gold from Great Merchant trade missions",
-                    "[+1 Gold] from every [Trading post]",
+                    "[+2 Gold] from every [Trading post]",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -451,8 +450,7 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-                    "[+1 Science] from every [Lumber mill]",
-                    "[+1 Science] from [Mine] tiles without [resource] [in all cities]",
+                    "[+1 Science] from every [Trading post]",
                     "[+17]% [Science] from every [University]"
                 ],
                 "row": 1,
