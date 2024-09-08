@@ -374,9 +374,9 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-50]% maintenance on road & railroads",
-                    "[+1 Production] from every [Lighthouse]",
-                    "[+1 Production] from every [Harbor]",
-                    "[+1 Production] from every [Seaport]",
+                    "[+1 Gold] from every [Lighthouse]",
+                    "[+1 Gold] from every [Harbor]",
+                    "[+1 Gold] from every [Seaport]",
                 ],
                 "row": 1,
                 "column": 2
@@ -403,9 +403,9 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+1 Science, +1 Gold] from every [Barracks]",
-                    "[+1 Science, +1 Gold] from every [Armory]",
-                    "[+1 Science, +1 Gold] from every [Military Academy]",
+                    "[+1 Production, +1 Science] from every [Barracks]",
+                    "[+1 Production, +1 Science] from every [Armory]",
+                    "[+1 Production, +1 Science] from every [Military Academy]",
                 ],
                 "row": 1,
                 "column": 4
@@ -480,7 +480,7 @@
                     "[+1 Happiness] from every [Public School]"
                 ],
                 "row": 1,
-                "column": 2
+                "column": 4
             },
             {
                 "name": "Sovereignty",
