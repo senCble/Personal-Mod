@@ -450,7 +450,7 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-                    "[+1 Science] from every [{non-[resource]} {Mine}]",
+                    "[+1 Science] from [Mine] tiles without [resource] [in all cities]",
                     "[+1 Science] from every [Lumber mill]",
                     "[+17]% [Science] from every [University]"
                 ],
@@ -520,8 +520,8 @@
             {
                 "name": "Constitution",
                 "uniques": [
-                    "[+1 Culture] from every specialist [in all cities]",
                     "[+1 Culture] from every [World Wonder]",
+                    "[+1 Culture] from every specialist [in all cities]",
                 ],
                 "row": 1,
                 "column": 1
@@ -535,10 +535,19 @@
                 "column": 5
             },
             {
+                "name": "Democracy",
+                "uniques": [
+                    "[-50]% Unhappiness from [Specialists] [in all cities]",
+                ],
+                "requires": ["Civil Society"],
+                "row": 2,
+                "column": 5
+            },
+            {
                 "name": "Universal Suffrage",
                 "uniques": [
                     "[+33]% Strength for cities",
-                    "[+100]% spy effectiveness [in City-State cities]"
+                    "[+50]% spy effectiveness [in City-State cities]"
                 ],
                 "row": 1,
                 "column": 3
@@ -552,15 +561,6 @@
                 "requires": ["Constitution", "Universal Suffrage"],
                 "row": 2,
                 "column": 1
-            },
-            {
-                "name": "Democracy",
-                "uniques": [
-                    "[-50]% Unhappiness from [Specialists] [in all cities]",
-                ],
-                "requires": ["Civil Society"],
-                "row": 2,
-                "column": 5
             },
             {
                 "name": "Freedom Complete",
@@ -594,7 +594,7 @@
                 "uniques": [		    
                     "[+1 Food, +1 Science] from every [Strategic resource]",
                     "Quantity of strategic resources produced by the empire +[100]%",
-                    "[+100]% spy effectiveness [in foreign cities]"
+                    "[+50]% spy effectiveness [in foreign cities]"
                 ],
                 "row": 1,
                 "column": 4
@@ -659,7 +659,7 @@
             "Scientific": 60
         },
         "uniques": [
-            "[+2 Happiness] [in all non-occupied cities]",
+            "[+1 Happiness] [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
         ],
@@ -686,7 +686,7 @@
                 "requires": ["Planned Economy"],
                 "uniques": [
                     "[-15]% maintenance cost for buildings [in all cities]",
-                    "[-50]% enemy spy effectiveness [in your cities]"
+                    "[-25]% enemy spy effectiveness [in your cities]"
                 ],
                 "row": 2,
                 "column": 3
