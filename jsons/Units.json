@@ -1256,11 +1256,11 @@
 		"rangedStrength": 40,
 		"range": 5,
 		"interceptRange": 5,
-		"cost": 275,
+		"cost": 300,
 		"requiredTech": "Flight",
 		"upgradesTo": "Fighter",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Helicopter] units>"],
-		"promotions": ["[Zero] ability"],
+		"promotions": ["[Zero] ability", "Operational Range"],
 		"attackSound": "machinegun"
 	},
 	{
