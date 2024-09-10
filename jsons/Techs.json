@@ -629,13 +629,13 @@
 			{
 				"name": "Nanotechnology",
 				"row": 7,
-				"prerequisites": ["Robotics","Lasers"],
+				"prerequisites": ["Robotics"],
 				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
 			},
 			{
 				"name": "Stealth",
 				"row": 8,
-				"prerequisites": ["Lasers"],
+				"prerequisites": ["Robotics", "Lasers"],
 				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
 			}
 		]
