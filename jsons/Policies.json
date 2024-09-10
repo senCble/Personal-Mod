@@ -226,8 +226,8 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+1 Faith] from every [Temple]",
+            "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "Only available <before adopting [Rationalism]>"
         ],
         "policies": [
@@ -366,8 +366,8 @@
             "Scientific": 10
         },
         "uniques": [
+            "[+25]% [Gold] [in capital]",
             "[+100]% Production when constructing [Armory] buildings [in all cities]",
-            "[+25]% [Gold] [in capital]"
         ],
         "policies": [
             {
@@ -396,8 +396,7 @@
             {
                 "name": "Protectionism",
                 "uniques": [
-                    "[+2] Happiness from each type of luxury resource",            
-                    "[+1 Gold] from every [Trading post]"
+                    "[+2] Happiness from each type of luxury resource",
                 ],
                 "requires": ["Mercantilism"],
                 "row": 3,
@@ -406,9 +405,10 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+1 Production, +1 Science] from every [Barracks]",
-                    "[+1 Production, +1 Science] from every [Armory]",
-                    "[+1 Production, +1 Science] from every [Military Academy]",
+                    "[+1 Gold] from every [Trading post]",
+                    "[+1 Science] from every [Barracks]",
+                    "[+1 Science] from every [Armory]",
+                    "[+1 Science] from every [Military Academy]",
                 ],
                 "row": 1,
                 "column": 4
@@ -537,15 +537,6 @@
                 "column": 5
             },
             {
-                "name": "Democracy",
-                "uniques": [
-                    "[-50]% Unhappiness from [Specialists] [in all cities]",
-                ],
-                "requires": ["Civil Society"],
-                "row": 2,
-                "column": 5
-            },
-            {
                 "name": "Universal Suffrage",
                 "uniques": [
                     "[+33]% Strength for cities",
@@ -563,6 +554,15 @@
                 "requires": ["Constitution", "Universal Suffrage"],
                 "row": 2,
                 "column": 1
+            },
+            {
+                "name": "Democracy",
+                "uniques": [
+                    "[-50]% Unhappiness from [Specialists] [in all cities]",
+                ],
+                "requires": ["Civil Society"],
+                "row": 2,
+                "column": 5
             },
             {
                 "name": "Freedom Complete",
