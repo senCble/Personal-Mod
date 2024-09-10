@@ -68,7 +68,7 @@
 	{
 		"name": "Extended Range",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
-		"uniques": ["[-5]% Strength <when attacking>", "[+1] Range"],
+		"uniques": ["[-10]% Strength <when attacking>", "[+1] Range"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"],
         "column": 3,
         "row": 3
@@ -591,6 +591,14 @@
         "column": 21,
         "row": 3
 	},
+	{
+		"name": "Air Logistics",
+		"prerequisites": ["Bombardment III", "Siege III"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Fighter","Bomber"],
+        "column": 26,
+        "row": 4
+	},
 
 	// Helicopter
 	{
@@ -671,7 +679,7 @@
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
 			"Bombardment III", "Siege III", "Mobility II", "Anti-Armor II"],
-		"uniques": ["[-10]% Strength <when attacking>", "[1] additional attacks per turn"],
+		"uniques": ["[-15]% Strength <when attacking>", "[1] additional attacks per turn"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine","Ranged Mounted","Fighter","Bomber","Helicopter"],
         "column": 24,
         "row": 5
