@@ -1610,7 +1610,7 @@
 		"uniques": ["[100]% chance to intercept air attacks","Can carry [3] [Missile] units",
 			"Can see invisible [Submarine] units", "[+100]% Strength <vs [Submarine] units>",
 			"Never appears as a Barbarian unit"],
-		"promotions": ["Armor Plating I", "Indirect Fire"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
 	{
