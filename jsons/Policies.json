@@ -226,8 +226,8 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+1 Faith] from every [Temple]",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
+            "[+1 Faith] from every [Temple]",
             "Only available <before adopting [Rationalism]>"
         ],
         "policies": [
@@ -367,7 +367,7 @@
         },
         "uniques": [
             "[+25]% [Gold] [in capital]",
-            "[+100]% Production when constructing [Armory] buildings [in all cities]",
+            "[+100]% Gold from Great Merchant trade missions",
         ],
         "policies": [
             {
@@ -405,10 +405,9 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+1 Gold] from every [Trading post]",
-                    "[+1 Science] from every [Barracks]",
-                    "[+1 Science] from every [Armory]",
-                    "[+1 Science] from every [Military Academy]",
+                    "[+1 Production, +1 Culture] from every [Barracks]",
+                    "[+1 Production, +1 Culture] from every [Armory]",
+                    "[+1 Production, +1 Culture] from every [Military Academy]",
                 ],
                 "row": 1,
                 "column": 4
@@ -427,9 +426,9 @@
             },
             {
                 "name": "Commerce Complete",
-                "uniques": [
+                "uniques": [ 
+                    "[+1 Gold] from every [Trading post]",
                     "Free [Great Merchant] appears",
-                    "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
