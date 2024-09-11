@@ -227,7 +227,7 @@
         },
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "[+1 Faith] from every [Temple]",
+            "[+1 Happiness] from every [Temple]",
             "Only available <before adopting [Rationalism]>"
         ],
         "policies": [
@@ -244,7 +244,6 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[50]% of excess happiness converted to [Culture]",
-                    "[+1 Happiness] from every [Temple]"
                 ],
                 "row": 1,
                 "column": 5
@@ -367,7 +366,6 @@
         },
         "uniques": [
             "[+25]% [Gold] [in capital]",
-            "[+100]% Gold from Great Merchant trade missions",
         ],
         "policies": [
             {
@@ -405,9 +403,10 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+1 Production, +1 Culture] from every [Barracks]",
-                    "[+1 Production, +1 Culture] from every [Armory]",
-                    "[+1 Production, +1 Culture] from every [Military Academy]",
+                    "[+1 Gold] from every [Trading post]",
+                    "[+1 Production] from every [Barracks]",
+                    "[+1 Production] from every [Armory]",
+                    "[+1 Production] from every [Military Academy]",
                 ],
                 "row": 1,
                 "column": 4
@@ -427,7 +426,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [ 
-                    "[+1 Gold] from every [Trading post]",
+                    "[+100]% Gold from Great Merchant trade missions",
                     "Free [Great Merchant] appears",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -445,7 +444,7 @@
             "Scientific": 50
         },
         "uniques": [
-            "[+10]% [Science] <while the empire is happy>",
+            "[+10]% [Science] <while the empire is happy> <when not at war>",
             "Only available <before adopting [Piety]>"
         ],
         "policies": [
@@ -660,6 +659,7 @@
             "Scientific": 60
         },
         "uniques": [
+            "Gain a free [Monument] [in all cities]",
             "[+1 Happiness] [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
