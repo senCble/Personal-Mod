@@ -252,7 +252,7 @@
 			"Can be built outside your borders",
                         "[+1 Culture] for each adjacent [Moai]",
 			"[+1 Culture] for each adjacent [City center]",
-			"[+2 Gold] <after discovering [Flight]>",
+			"[+1 Gold] <after discovering [Flight]>",
 			"Cannot be built on [Luxury resource] tiles",
                         "Pillaging this improvement yields approximately [+10 Gold]"
                 ],
@@ -279,7 +279,7 @@
 	{
 		"name": "Polder",
 		"uniqueTo": "The Netherlands",
-		"food": 3,
+		"food": 2,
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains", "Coast", "Lakes"],
 		"turnsToBuild": 7,
 		"uniques": [
@@ -302,7 +302,7 @@
                 "techRequired": "Chivalry",
                 "uniques": [
                     "Gives a defensive bonus of [50]%",
-                    "[+2 Culture] <after discovering [Flight]>",
+                    "[+1 Culture] <after discovering [Flight]>",
                     "Must be next to [Luxury resource]",
                     "Only available <with [0] to [0] neighboring [Chateau] tiles>",
 		    "Cannot be built on [resource] tiles",
