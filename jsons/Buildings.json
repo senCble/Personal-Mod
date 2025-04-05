@@ -30,7 +30,7 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
+		"uniques": ["Destroyed when the city is captured"] //"Only available <when religion is enabled>"
 	},
 	// Column 1
 	{
@@ -49,7 +49,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Pyramid",
@@ -60,7 +60,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Temple of Artemis",
@@ -195,7 +195,7 @@
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -205,7 +205,7 @@
 		"cost": 55,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]","Destroyed when the city is captured",
+		"uniques": ["New [Military] units start with [15] XP [in this city]","Destroyed when the city is captured",
 			"[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]"],
 		"requiredTech": "Metal Casting",
 	},
@@ -324,7 +324,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Burial Tomb",
@@ -430,7 +430,7 @@
 		"name": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+1 Food, +1 Gold] from [Marsh] tiles [in this city]"],
+		"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+1 Food] from [Marsh] tiles [in this city]", "[+1 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Engineering"
 	},
 	{
@@ -467,7 +467,7 @@
 		"faith": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["Gain a free [Cathedral] [in this city]", "Free [Great Prophet] appears", "Hidden when religion is disabled"],
+		"uniques": ["Gain a free [Cathedral] [in this city]", "Free [Great Prophet] appears", "Only available <when religion is enabled>"],
 		"requiredTech": "Theology",
 		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
@@ -477,7 +477,7 @@
 		"faith": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["Gain a free [Mosque] [in this city]", "Hidden when religion is disabled",
+		"uniques": ["Gain a free [Mosque] [in this city]", "Only available <when religion is enabled>",
             		"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
             		"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"],
 		"requiredTech": "Theology",
@@ -492,7 +492,7 @@
 			"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [25] per owned city",
 			"[+100]% Natural religion spread [in this city]", 
-			"Hidden when religion is disabled", 
+			"Only available <when religion is enabled>", 
 			"Can only be built <in [Holy] cities>"
 		],
 		"requiredTech": "Theology",
@@ -665,7 +665,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
 
@@ -738,7 +738,7 @@
         	"name": "Constabulary",
         	"cost": 150,
         	"maintenance": 1,
-        	"uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
+        	"uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
         	"requiredTech": "Banking"
     	},
 	// will be introduced in BNW expansion pack
@@ -930,7 +930,7 @@
 		"name": "Military Academy",
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
 	{
@@ -938,7 +938,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] XP [in this city]"],
 		"requiredTech": "Military Science",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
@@ -973,7 +973,7 @@
         	"name": "Police Station",
         	"cost": 300,
         	"maintenance": 1,
-        	"uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
+        	"uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
         	"requiredBuilding": "Constabulary",
         	"requiredTech": "Electricity"
     	},
@@ -1012,7 +1012,7 @@
         	"cost": 125,
         	"culture": 1,
         	"isNationalWonder": true,
-        	"uniques": ["Hidden when espionage is disabled",
+        	"uniques": ["Only available <when espionage is enabled>",
             		"New spies start with [1] level(s)",
             		"Promotes all spies [1] time(s)",
             		"Gain an extra spy", // Order is significant here
@@ -1152,7 +1152,7 @@
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled", "Cannot be hurried"],
+			"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
 		"requiredTech": "Rocketry"
 	},
 	{
@@ -1160,7 +1160,7 @@
         	"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
-        	"uniques": ["Hidden when espionage is disabled", "[-50]% enemy spy effectiveness [in this city]",
+        	"uniques": ["Only available <when espionage is enabled>", "[-50]% enemy spy effectiveness [in this city]",
             		"[-50]% enemy spy effectiveness [in all cities]", "Gain an extra spy",],
         	"requiredTech": "Computers"
     	},
@@ -1212,7 +1212,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Globalization",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 
@@ -1222,8 +1222,8 @@
 		"name": "Utopia Project",
 		"cost": 1500,
 		"isNationalWonder": true,
-		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start",
-			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
+		"uniques": ["Unavailable <when number of [Completed Policy branches] is less than [5]>", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
 	},
 
 	// Religious buildings
@@ -1235,7 +1235,7 @@
 		"faith": 1,
 		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Monastery",
@@ -1245,7 +1245,7 @@
     		"happiness": 1,
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
-			"Unbuildable", "Hidden when religion is disabled"]
+			"Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Mosque",
@@ -1253,7 +1253,7 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Pagoda",
@@ -1261,6 +1261,6 @@
 		"culture": 1,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	}
 ]
