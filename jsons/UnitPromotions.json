@@ -801,6 +801,10 @@
         	"uniques": ["No movement cost to pillage"]
     	},
 	{
+        	"name": "Plunderer",
+        	"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]"]
+    	},
+	{
         	"name": "Devout",
         	"uniques": ["Can Spread Religion <[1] additional time(s)>"]
     	},
