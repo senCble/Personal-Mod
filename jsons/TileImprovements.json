@@ -302,7 +302,7 @@
                 "techRequired": "Chivalry",
                 "uniques": [
                     "Gives a defensive bonus of [50]%",
-                    "[+1 Culture, + 1 Gold] <after discovering [Flight]>",
+                    "[+1 Culture, +1 Gold] <after discovering [Flight]>",
                     "Must be next to [Luxury resource]",
                     "Only available <with [0] to [0] neighboring [Chateau] tiles>",
 		    "Cannot be built on [resource] tiles",
