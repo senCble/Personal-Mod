@@ -1173,7 +1173,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "Gain a free [Stadium] [in all cities]", "[+15]% [Culture] from every [Stadium]"],
+		"uniques": ["[+1] population [in all cities]", "Gain a free [Stadium] [in all cities]", "[+10]% [Culture] from every [Stadium]"],
 		"requiredTech": "Telecommunications",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
