@@ -405,9 +405,9 @@
                 "name": "Merchant Navy",
                 "uniques": [
                     "[+1 Gold] from every [Trading post]",
-                    "[+1 Science] from every [Barracks]",
-                    "[+1 Science] from every [Armory]",
-                    "[+1 Science] from every [Military Academy]",
+                    "[+1 Culture] from every [Barracks]",
+                    "[+1 Culture] from every [Armory]",
+                    "[+1 Culture] from every [Military Academy]",
                 ],
                 "row": 1,
                 "column": 4
@@ -623,7 +623,7 @@
                 "name": "Total War",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] Experience [in all cities]"
+                    "New [Military] units start with [15] XP [in all cities]"
                 ],
                 "requires": ["Fascism"],
                 "row": 3,
