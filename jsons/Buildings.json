@@ -700,7 +700,6 @@
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Amphitheater",
-		"maintenance": 2,
 		"requiredTech": "Acoustics",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -728,7 +727,7 @@
 		"uniqueTo": "Persia",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
-		"happiness": 2,
+		"happiness": 3,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
