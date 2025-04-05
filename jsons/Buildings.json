@@ -636,7 +636,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"percentStatBonus": {"culture": 10},
+		"percentStatBonus": {"culture": 15},
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
 			"Gain a free [Castle] [in this city]"],
 		"requiredTech": "Chivalry",
