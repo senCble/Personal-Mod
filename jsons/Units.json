@@ -883,7 +883,7 @@
 		"replaces": "Musketman",
 		"uniqueTo": "France",
 		"movement": 2,
-		"strength": 26,
+		"strength": 27,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
