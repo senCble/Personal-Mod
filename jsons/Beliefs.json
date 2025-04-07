@@ -88,7 +88,7 @@
     {
         "name": "Messenger of the Gods",
         "type": "Pantheon",
-        "uniques": ["[+2 Science, +2 Faith] from each Trade Route"]
+        "uniques": ["[+2 Science, +1 Faith] from each Trade Route"]
     },
     {
         "name": "Monument to the Gods",
