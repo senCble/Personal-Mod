@@ -307,7 +307,7 @@
 		"greatPersonPoints": {"Great Artist": 1},
 		"requiredTech": "Construction",
 		"uniques": [
-			"Free [Warrior] appears",
+			"Free [Swordsman] appears",
 			"Free [Spearman] appears",
 			"Free [Chariot Archer] appears",
 			"Free [Composite Bowman] appears",
@@ -847,7 +847,6 @@
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"maintenance": 2,
 		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]",
 			"[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Economics"
@@ -1104,9 +1103,7 @@
 		"isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"uniques": ["Free [Jet Fighter] appears",
-			"[+25]% Production when constructing [Air] units [in this city]",
-			"[-33]% Gold cost of upgrading <for [Military] units>"],
+		"uniques": ["Free [Jet Fighter] appears", "[-50]% Gold cost of upgrading <for [Military] units>"],
 		"requiredTech": "Radar",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
@@ -1173,7 +1170,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "Gain a free [Stadium] [in this city]", "[25]% of excess happiness converted to [Culture]"],
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]"],
 		"requiredTech": "Telecommunications",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
