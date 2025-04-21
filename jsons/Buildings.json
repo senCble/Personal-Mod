@@ -1103,7 +1103,7 @@
 		"isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"uniques": ["Free [Jet Fighter] appears", "[-50]% Gold cost of upgrading <for [Military] units>"],
+		"uniques": ["Free [Jet Fighter] appears", "[+25]% Production when constructing [Air] units [in this city]", "[-50]% Gold cost of upgrading <for [Military] units>"],
 		"requiredTech": "Radar",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
@@ -1170,7 +1170,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "Gain a free [Stadium] [in all cities]", "[+17]% [Culture] <from every [Broadcast Tower]>",],
+		"uniques": ["[+1] population [in all cities]", "Gain a free [Stadium] [in all cities]", "[+17]% [Culture] from every [Broadcast Tower]",],
 		"requiredTech": "Telecommunications",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
