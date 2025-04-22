@@ -390,6 +390,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
+		"uniques": ["[+1 Gold] from [Oasis] tiles [in this city]", "[+1 Gold] from [Marsh] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
 	{
@@ -401,7 +402,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
-			"[+2 Gold] from [Oil] tiles [in this city]", 
+			"[+2 Gold] from [Marsh] tiles [in this city]", 
 			"[+2 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
