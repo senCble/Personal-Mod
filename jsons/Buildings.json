@@ -430,7 +430,7 @@
 		"name": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+1 Food] from [Marsh] tiles [in this city]", "[+1 Gold] from [Oasis] tiles [in this city]"],
+		"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+1 Food] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food] from [Marsh] tiles [in this city]"],
 		"requiredTech": "Engineering"
 	},
 	{
@@ -835,7 +835,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]",
+		"uniques": ["[+1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]",
 			"[+15]% Production when constructing [All] buildings [in this city]"],
 		"requiredTech": "Economics"
 	},
@@ -847,7 +847,7 @@
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food, +1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]",
+		"uniques": ["[+1 Production] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food, +1 Production] from [{unimproved} {Marsh}] tiles [in this city]",
 			"[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Economics"
 	},
