@@ -802,7 +802,7 @@
     	},
 	{
         	"name": "Plunderer",
-        	"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]"]
+        	"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]"]
     	},
 	{
         	"name": "Devout",
