@@ -240,7 +240,7 @@
 	{
 		"name": "Scouting III",
 		"prerequisites": ["Scouting II"],
-		"uniques": ["[+1] Movement", "Can move after attacking", "[+25]% Strength <when attacking>"],
+		"uniques": ["[+1] Movement", "Can move after attacking"],
 		"unitTypes": ["Scout"],
         "column": 8,
         "row": 3
@@ -263,7 +263,7 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "[+25]% Strength <when attacking>"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Scout"],
         "column": 9,
         "row": 3
