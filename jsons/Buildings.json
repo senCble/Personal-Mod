@@ -142,18 +142,6 @@
 		"requiredTech": "The Wheel"
 	},
 	{
-		"name": "Floating Gardens",
-		"replaces": "Water Mill",
-		"uniqueTo": "Aztecs",
-		"maintenance": 1,
-		"food": 2,
-		"production": 2,
-		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]", "[+1 Food] from [Marsh] tiles [in this city]", "Must be next to [Fresh water]"],
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"food": 15},
-		"requiredTech": "The Wheel"
-	},
-	{
 		"name": "Walls",
 		"cityStrength": 5,
 		"cityHealth": 50,
@@ -433,6 +421,16 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+1 Food] from [{unimproved} {Lakes}] tiles [in this city]","[+1 Food] from [Marsh] tiles [in this city]"],
 		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Floating Gardens",
+		"replaces": "Aqueduct",
+		"uniqueTo": "Aztecs",
+		"maintenance": 1,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+2 Food] from [{unimproved} {Lakes}] tiles [in this city]", "[+2 Food] from [Marsh] tiles [in this city]"],
+		"hurryCostModifier": 0,
+		"percentStatBonus": {"food": 20},
+		"requiredTech": "The Wheel"
 	},
 	{
 		"name": "Great Wall",
