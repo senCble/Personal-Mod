@@ -1647,6 +1647,7 @@
 		"cost": 450,
 		"requiredTech": "Nanotechnology",
 		"uniques": ["No movement cost to pillage",
+			"[+25]% Strength <when attacking>",
 			"May Paradrop up to [40] tiles from inside friendly territory",
 			"Never appears as a Barbarian unit"],
 		"promotions": ["Amphibious", "Ignore terrain cost"],
