@@ -635,7 +635,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"percentStatBonus": {"culture": 17},
+		"percentStatBonus": {"culture": 20},
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
 			"Gain a free [Castle] [in this city]"],
 		"requiredTech": "Chivalry",
@@ -705,10 +705,10 @@
 	},
 	{
 		"name": "Sistine Chapel",
-		"culture": 3,
+		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[+17]% [Culture] [in all cities]"],
+		"uniques": ["[+25]% [Culture] [in all cities]"],
 		"requiredTech": "Acoustics",
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
 	},
@@ -740,19 +740,6 @@
         	"uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
         	"requiredTech": "Banking"
     	},
-	// will be introduced in BNW expansion pack
-//	{
-//		"name": "Hanse",
-//		"replaces": "Bank",
-//		"uniqueTo": "Germany",
-//		"gold": 2,
-//		"specialistSlots": {"Merchant": 1},
-//		"hurryCostModifier": 15,
-//		"percentStatBonus": {"gold": 25},
-//		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
-//		"requiredBuilding": "Market",
-//		"requiredTech": "Banking"
-//	},
 	{
 		"name": "Forbidden Palace",
 		"culture": 1,
