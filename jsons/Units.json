@@ -1397,6 +1397,7 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Cruiser",
 		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
 
