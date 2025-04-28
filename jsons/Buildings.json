@@ -430,7 +430,7 @@
 		"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+2 Food] from [{unimproved} {Lakes}] tiles [in this city]", "[+2 Food] from [Marsh] tiles [in this city]"],
 		"hurryCostModifier": 0,
 		"percentStatBonus": {"food": 20},
-		"requiredTech": "The Wheel"
+		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Great Wall",
@@ -1128,8 +1128,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Artist": 1},
-		"percentStatBonus": {"culture": 50},
-		"uniques": ["Free Social Policy","Must be next to [Coast]"],
+		"uniques": ["Must be next to [Coast]", "[+1] population [in all cities]", "Gain a free [Stadium] [in all cities]", "[25]% of excess happiness converted to [Culture]"],
 		"requiredTech": "Ecology",
 		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
 	},
@@ -1169,7 +1168,8 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "Gain a free [Stadium] [in all cities]", "[+17]% [Culture] from every [Broadcast Tower]",],
+		"percentStatBonus": {"culture": 50},
+		"uniques": ["Free Social Policy"],
 		"requiredTech": "Telecommunications",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
