@@ -139,9 +139,9 @@
         "row": 2
 	},
 	{
-		"name": "Coup de Grace",
-		"prerequisites": ["Accuracy III","Barrage III","Mobility II","Anti-Armor II"],
-		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>"],
+		"name": "Salvo",
+		"prerequisites": ["Accuracy II","Barrage II","Mobility I","Anti-Armor I"],
+		"uniques": ["[+50]% Strength <vs [non-[Wounded]] units> <when attacking>", "[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Ranged Mounted","Helicopter"],
         	"column": 27,
         	"row": 3
@@ -638,7 +638,7 @@
 		"name": "Cover I",
 		"prerequisites": ["Accuracy I","Barrage I","Drill I","Shock I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Ranged Mounted"],
         "column": 24,
         "row": 1
 	},
@@ -646,7 +646,7 @@
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Ranged Mounted"],
         "column": 24,
         "row": 2
 	},
