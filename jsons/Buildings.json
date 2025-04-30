@@ -541,6 +541,8 @@
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
 		"cost": 100,
+		"maintenance": 2,
+		"food": 2,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
