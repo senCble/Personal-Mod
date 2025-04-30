@@ -141,7 +141,7 @@
 	{
 		"name": "Salvo",
 		"prerequisites": ["Accuracy III","Barrage III","Mobility II","Anti-Armor II"],
-		"uniques": ["[+50]% Strength <vs [non-[Wounded]] units> <when attacking>", "[+25]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [non-[Wounded]] units> <when attacking>", "[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Ranged Mounted","Helicopter"],
         	"column": 27,
         	"row": 3
@@ -191,7 +191,7 @@
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["Double movement in [Forest]", "Double movement in [Jungle]", "[+25]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
+		"uniques": ["Double movement in [Forest]", "Double movement in [Jungle]", "[+15]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder"],
         "column": 6,
         "row": 5
